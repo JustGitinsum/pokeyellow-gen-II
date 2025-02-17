@@ -51,7 +51,7 @@ ItemPrices::
 	bcd3 10000 ; NUGGET
 	bcd3 9800  ; ITEM_32
 	bcd3 1000  ; POKE_DOLL
-	bcd3 250   ; FULL_HEAL
+	bcd3 200   ; FULL_HEAL
 	bcd3 1500  ; REVIVE
 	bcd3 4000  ; MAX_REVIVE
 	bcd3 700   ; GUARD_SPEC

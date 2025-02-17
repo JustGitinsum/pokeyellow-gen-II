@@ -701,9 +701,6 @@ _ViridianBlackboardSleepText::
 	para "#MON will stay"
 	line "asleep even after"
 	cont "battles."
-
-	para "Use AWAKENING to"
-	line "wake them up!"
 	prompt
 
 _ViridianBlackboardPoisonText::
@@ -713,9 +710,6 @@ _ViridianBlackboardPoisonText::
 
 	para "Poison lingers"
 	line "after battles."
-
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
 	prompt
 
 _ViridianBlackboardPrlzText::
@@ -725,9 +719,6 @@ _ViridianBlackboardPrlzText::
 
 	para "Paralysis remains"
 	line "after battles."
-
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
 	prompt
 
 _ViridianBlackboardBurnText::
@@ -738,9 +729,6 @@ _ViridianBlackboardBurnText::
 
 	para "Burns remain"
 	line "after battles."
-
-	para "Use BURN HEAL to"
-	line "cure a burn!"
 	prompt
 
 _ViridianBlackboardFrozenText::
@@ -751,9 +739,6 @@ _ViridianBlackboardFrozenText::
 	para "It stays frozen"
 	line "even after the"
 	cont "battle ends."
-
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
 	prompt
 
 _VermilionGymTrashText::

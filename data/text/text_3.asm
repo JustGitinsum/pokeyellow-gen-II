@@ -120,36 +120,6 @@ _PotionText::
 	text "!"
 	done
 
-_AntidoteText::
-	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
-	done
-
-_ParlyzHealText::
-	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
-	done
-
-_BurnHealText::
-	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
-	done
-
-_IceHealText::
-	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
-	done
-
-_AwakeningText::
-	text_ram wNameBuffer
-	text_start
-	line "woke up!"
-	done
-
 _FullHealText::
 	text_ram wNameBuffer
 	text "'s"

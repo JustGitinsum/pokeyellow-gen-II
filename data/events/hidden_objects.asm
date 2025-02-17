@@ -106,11 +106,11 @@ SilphCo11FHiddenObjects:
 	db -1 ; end
 
 SilphCo5FHiddenObjects:
-	hidden_object 12,  3, ELIXER, HiddenItems
+	hidden_object 12,  3, RARE_CANDY, HiddenItems
 	db -1 ; end
 
 SilphCo9FHiddenObjects:
-	hidden_object  2, 15, MAX_POTION, HiddenItems
+	hidden_object  2, 15, PP_UP, HiddenItems
 	db -1 ; end
 
 Mansion2HiddenObjects:
@@ -158,12 +158,12 @@ SeafoamIslands5HiddenObjects:
 
 ViridianForestHiddenObjects:
 	hidden_object  1, 18, POTION, HiddenItems
-	hidden_object 16, 42, ANTIDOTE, HiddenItems
+	hidden_object 16, 42, LEAF_STONE, HiddenItems
 	db -1 ; end
 
 MtMoon3HiddenObjects:
 	hidden_object 18, 12, MOON_STONE, HiddenItems
-	hidden_object 33,  9, ETHER, HiddenItems
+	hidden_object 33,  9, CALCIUM, HiddenItems
 	db -1 ; end
 
 SSAnne10HiddenObjects:
@@ -183,7 +183,7 @@ UndergroundPathNsHiddenObjects:
 
 UndergroundPathWeHiddenObjects:
 	hidden_object 12,  2, NUGGET, HiddenItems
-	hidden_object 21,  5, ELIXER, HiddenItems
+	hidden_object 21,  5, CARBOS, HiddenItems
 	db -1 ; end
 
 RocketHideout1HiddenObjects:
@@ -250,8 +250,8 @@ VictoryRoad2HiddenObjects:
 	db -1 ; end
 
 Route25HiddenObjects:
-	hidden_object 38,  3, ETHER, HiddenItems
-	hidden_object 10,  1, ELIXER, HiddenItems
+	hidden_object 38,  3, NUGGET, HiddenItems
+	hidden_object 10,  1, PROTEIN, HiddenItems
 	db -1 ; end
 
 BillsHouseHiddenObjects:
@@ -268,7 +268,7 @@ MtMoonPokecenterHiddenObjects:
 	db -1 ; end
 
 Route9HiddenObjects:
-	hidden_object 14,  7, ETHER, HiddenItems
+	hidden_object 14,  7, CALCIUM, HiddenItems
 	db -1 ; end
 
 TradeCenterHiddenObjects:
@@ -395,7 +395,7 @@ LavenderPokecenterHiddenObjects:
 	db -1 ; end
 
 Pokemontower5HiddenObjects:
-	hidden_object  4, 12, ELIXER, HiddenItems
+	hidden_object  4, 12, MAX_ELIXER, HiddenItems
 	db -1 ; end
 
 LavenderHouse1HiddenObjects:

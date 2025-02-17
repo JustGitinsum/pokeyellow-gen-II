@@ -7,13 +7,13 @@ ViridianForestPrintTrainerTips1Text::
 	text_far _ViridianForestTrainerTips1Text
 	text_end
 
-ViridianForestPrintUseAntidoteSignText::
+ViridianForestPrintUseFullHealSignText::
 	ld hl, .text
 	call PrintText
 	ret
 
 .text
-	text_far _ViridianForestUseAntidoteSignText
+	text_far _ViridianForestUseFullHealSignText
 	text_end
 
 ViridianForestPrintTrainerTips2Text::

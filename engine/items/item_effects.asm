@@ -969,21 +969,6 @@ ItemUseMedicine:
 	ld bc, wPartyMon1Status - wPartyMon1
 	add hl, bc ; hl now points to status
 	ld a, [wCurItem]
-	lb bc, ANTIDOTE_MSG, 1 << PSN
-	cp ANTIDOTE
-	jr z, .checkMonStatus
-	lb bc, BURN_HEAL_MSG, 1 << BRN
-	cp BURN_HEAL
-	jr z, .checkMonStatus
-	lb bc, ICE_HEAL_MSG, 1 << FRZ
-	cp ICE_HEAL
-	jr z, .checkMonStatus
-	lb bc, AWAKENING_MSG, SLP_MASK
-	cp AWAKENING
-	jr z, .checkMonStatus
-	lb bc, PARALYZ_HEAL_MSG, 1 << PAR
-	cp PARLYZ_HEAL
-	jr z, .checkMonStatus
 	lb bc, FULL_HEAL_MSG, $ff ; Full Heal
 .checkMonStatus
 	ld a, [hl] ; pokemon's status
