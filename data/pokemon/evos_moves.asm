@@ -308,7 +308,7 @@ IvysaurEvosMoves:
 	db 30, RAZOR_LEAF
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
-	db 54, SOLARBEAM
+	db 54, ENERGY_BALL
 	db 0
 
 ExeggutorEvosMoves:
@@ -338,7 +338,7 @@ ExeggcuteEvosMoves:
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
-	db 42, SOLARBEAM
+	db 42, ENERGY_BALL
 	db 48, SLEEP_POWDER
 	db 0
 
@@ -545,7 +545,7 @@ TangelaEvosMoves:
 	db 0
 ; Learnset
 	db 24, BIND
-	db 27, ABSORB
+	db 27, MEGA_DRAIN
 	db 29, VINE_WHIP
 	db 32, POISONPOWDER
 	db 36, STUN_SPORE
@@ -607,7 +607,7 @@ PidgeyEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 19, WHIRLWIND
+	db 19, TWISTER
 	db 28, WING_ATTACK
 	db 36, AGILITY
 	db 44, MIRROR_MOVE
@@ -1150,7 +1150,7 @@ KabutoEvosMoves:
 	db EVOLVE_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, ABSORB
+	db 34, MEGA_DRAIN
 	db 39, SLASH
 	db 44, LEER
 	db 49, HYDRO_PUMP
@@ -1160,7 +1160,7 @@ KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
+	db 34, MEGA_DRAIN
 	db 39, SLASH
 	db 46, LEER
 	db 53, HYDRO_PUMP
@@ -1520,7 +1520,7 @@ ButterfreeEvosMoves:
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
-	db 23, WHIRLWIND
+	db 23, TWISTER
 	db 28, GUST
 	db 34, PSYBEAM
 	db 0
@@ -1753,7 +1753,7 @@ PidgeottoEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
+	db 21, TWISTER
 	db 31, WING_ATTACK
 	db 40, AGILITY
 	db 49, MIRROR_MOVE
@@ -1765,7 +1765,7 @@ PidgeotEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
+	db 21, TWISTER
 	db 31, WING_ATTACK
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
@@ -1788,7 +1788,7 @@ BulbasaurEvosMoves:
 	db 27, RAZOR_LEAF
 	db 34, GROWTH
 	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 48, ENERGY_BALL
 	db 0
 
 VenusaurEvosMoves:
@@ -1801,7 +1801,7 @@ VenusaurEvosMoves:
 	db 30, RAZOR_LEAF
 	db 43, GROWTH
 	db 55, SLEEP_POWDER
-	db 65, SOLARBEAM
+	db 65, ENERGY_BALL
 	db 0
 
 TentacruelEvosMoves:
@@ -2107,7 +2107,7 @@ OddishEvosMoves:
 	db 19, SLEEP_POWDER
 	db 24, ACID
 	db 33, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 46, ENERGY_BALL
 	db 0
 
 GloomEvosMoves:
@@ -2120,7 +2120,7 @@ GloomEvosMoves:
 	db 19, SLEEP_POWDER
 	db 28, ACID
 	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
+	db 52, ENERGY_BALL
 	db 0
 
 VileplumeEvosMoves:

@@ -30,7 +30,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db ERIKA, 1
-	db 1, 3, MEGA_DRAIN
+	db 1, 3, GIGA_DRAIN
 	db 2, 1, RAZOR_LEAF
 	db 3, 1, PETAL_DANCE
 	db 0
@@ -103,7 +103,7 @@ SpecialTrainerMoves:
 	db AGATHA, 1
 	db 1, 2, SUBSTITUTE
 	db 1, 3, LICK
-	db 1, 4, MEGA_DRAIN
+	db 1, 4, GIGA_DRAIN
 	db 2, 2, TOXIC
 	db 2, 4, LEECH_LIFE
 	db 3, 2, LICK

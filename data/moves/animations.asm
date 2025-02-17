@@ -17,7 +17,7 @@ AttackAnimationPointers:
 	dw CutAnim
 	dw GustAnim
 	dw WingAttackAnim
-	dw WhirlwindAnim
+	dw TwisterAnim
 	dw FlyAnim
 	dw BindAnim
 	dw SlamAnim
@@ -70,12 +70,12 @@ AttackAnimationPointers:
 	dw CounterAnim
 	dw SeismicTossAnim
 	dw StrengthAnim
-	dw AbsorbAnim
 	dw MegaDrainAnim
+	dw GigaDrainAnim
 	dw LeechSeedAnim
 	dw GrowthAnim
 	dw RazorLeafAnim
-	dw SolarBeamAnim
+	dw EnergyBallAnim
 	dw PoisonPowderAnim
 	dw StunSporeAnim
 	dw SleepPowderAnim
@@ -100,7 +100,7 @@ AttackAnimationPointers:
 	dw QuickAttackAnim
 	dw RageAnim
 	dw TeleportAnim
-	dw NightShadeAnim
+	dw OminousWindAnim
 	dw MimicAnim
 	dw ScreechAnim
 	dw DoubleTeamAnim
@@ -308,8 +308,8 @@ WingAttackAnim:
 	battle_anim WING_ATTACK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-WhirlwindAnim:
-	battle_anim WHIRLWIND, SUBANIM_1_TORNADO, 1, 6
+TwisterAnim:
+	battle_anim TWISTER, SUBANIM_1_TORNADO, 1, 6
 	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF
 	db -1 ; end
 
@@ -601,15 +601,15 @@ StrengthAnim:
 	battle_anim FIRE_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-AbsorbAnim:
-	battle_anim ABSORB, SE_LIGHT_SCREEN_PALETTE
+MegaDrainAnim:
+	battle_anim MEGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
-MegaDrainAnim:
-	battle_anim MEGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
+GigaDrainAnim:
+	battle_anim GIGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
@@ -634,8 +634,8 @@ RazorLeafAnim:
 	battle_anim RAZOR_WIND, SUBANIM_0_SLICE, 0, 1
 	db -1 ; end
 
-SolarBeamAnim:
-	battle_anim SOLARBEAM, SUBANIM_0_BEAM, 0, 6
+EnergyBallAnim:
+	battle_anim ENERGY_BALL, SUBANIM_0_BEAM, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 6
 	db -1 ; end
 
@@ -764,7 +764,7 @@ TeleportAnim:
 	battle_anim NO_MOVE, SE_SHOOT_BALLS_UPWARD
 	db -1 ; end
 
-NightShadeAnim:
+OminousWindAnim:
 	battle_anim CONFUSION, SE_FLASH_SCREEN_LONG
 	battle_anim NO_MOVE, SE_WAVY_SCREEN
 	db -1 ; end

@@ -18,7 +18,7 @@ MoveSoundTable:
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; CUT
 	db SFX_BATTLE_12,          $00, $c0 ; GUST
 	db SFX_BATTLE_12,          $10, $a0 ; WING_ATTACK
-	db SFX_BATTLE_13,          $00, $e0 ; WHIRLWIND
+	db SFX_BATTLE_13,          $00, $e0 ; TWISTER
 	db SFX_NOT_VERY_EFFECTIVE, $20, $c0 ; FLY
 	db SFX_BATTLE_14,          $00, $80 ; BIND
 	db SFX_BATTLE_22,          $00, $80 ; SLAM
@@ -71,12 +71,12 @@ MoveSoundTable:
 	db SFX_SUPER_EFFECTIVE,    $00, $e0 ; COUNTER
 	db SFX_BATTLE_26,          $01, $60 ; SEISMIC_TOSS
 	db SFX_BATTLE_26,          $20, $40 ; STRENGTH
-	db SFX_BATTLE_24,          $00, $80 ; ABSORB
-	db SFX_BATTLE_24,          $40, $c0 ; MEGA_DRAIN
+	db SFX_BATTLE_24,          $00, $80 ; MEGA_DRAIN
+	db SFX_BATTLE_24,          $40, $c0 ; GIGA_DRAIN
 	db SFX_BATTLE_1B,          $03, $60 ; LEECH_SEED
 	db SFX_BATTLE_25,          $11, $e0 ; GROWTH
 	db SFX_BATTLE_12,          $20, $e0 ; RAZOR_LEAF
-	db SFX_BATTLE_2E,          $00, $80 ; SOLARBEAM
+	db SFX_BATTLE_2E,          $00, $80 ; ENERGY_BALL
 	db SFX_BATTLE_1C,          $00, $80 ; POISONPOWDER
 	db SFX_BATTLE_1C,          $11, $a0 ; STUN_SPORE
 	db SFX_BATTLE_1C,          $01, $c0 ; SLEEP_POWDER
@@ -101,7 +101,7 @@ MoveSoundTable:
 	db SFX_BATTLE_25,          $00, $10 ; QUICK_ATTACK
 	db SFX_BATTLE_26,          $f0, $20 ; RAGE
 	db SFX_BATTLE_33,          $f0, $c0 ; TELEPORT
-	db SFX_NOT_VERY_EFFECTIVE, $f0, $e0 ; NIGHT_SHADE
+	db SFX_NOT_VERY_EFFECTIVE, $f0, $e0 ; OMINOUS_WIND
 	db SFX_BATTLE_09,          $f0, $40 ; MIMIC
 	db SFX_BATTLE_31,          $00, $80 ; SCREECH
 	db SFX_BATTLE_33,          $80, $40 ; DOUBLE_TEAM

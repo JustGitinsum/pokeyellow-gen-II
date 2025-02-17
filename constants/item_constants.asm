@@ -161,7 +161,7 @@ DEF TM01 EQU const_value
 	add_tm MEGA_PUNCH   ; $C9
 	add_tm RAZOR_WIND   ; $CA
 	add_tm SWORDS_DANCE ; $CB
-	add_tm WHIRLWIND    ; $CC
+	add_tm TWISTER    ; $CC
 	add_tm MEGA_KICK    ; $CD
 	add_tm TOXIC        ; $CE
 	add_tm HORN_DRILL   ; $CF
@@ -178,8 +178,8 @@ DEF TM01 EQU const_value
 	add_tm COUNTER      ; $DA
 	add_tm SEISMIC_TOSS ; $DB
 	add_tm RAGE         ; $DC
-	add_tm MEGA_DRAIN   ; $DD
-	add_tm SOLARBEAM    ; $DE
+	add_tm GIGA_DRAIN   ; $DD
+	add_tm ENERGY_BALL  ; $DE
 	add_tm DRAGON_RAGE  ; $DF
 	add_tm THUNDERBOLT  ; $E0
 	add_tm THUNDER      ; $E1

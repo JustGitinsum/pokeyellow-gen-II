@@ -4,6 +4,8 @@ PhysicalToSpecialMoves:
 ; Poison
         db ACID
         db SLUDGE
+; GHOST
+        db OMINOUS_WIND
 ; Normal
         db HYPER_BEAM
         db RAZOR_WIND

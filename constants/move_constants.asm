@@ -23,7 +23,7 @@
 	const CUT          ; 0f
 	const GUST         ; 10
 	const WING_ATTACK  ; 11
-	const WHIRLWIND    ; 12
+	const TWISTER    ; 12
 	const FLY          ; 13
 	const BIND         ; 14
 	const SLAM         ; 15
@@ -76,12 +76,12 @@
 	const COUNTER      ; 44
 	const SEISMIC_TOSS ; 45
 	const STRENGTH     ; 46
-	const ABSORB       ; 47
-	const MEGA_DRAIN   ; 48
+	const MEGA_DRAIN       ; 47
+	const GIGA_DRAIN   ; 48
 	const LEECH_SEED   ; 49
 	const GROWTH       ; 4a
 	const RAZOR_LEAF   ; 4b
-	const SOLARBEAM    ; 4c
+	const ENERGY_BALL    ; 4c
 	const POISONPOWDER ; 4d
 	const STUN_SPORE   ; 4e
 	const SLEEP_POWDER ; 4f
@@ -106,7 +106,7 @@
 	const QUICK_ATTACK ; 62
 	const RAGE         ; 63
 	const TELEPORT     ; 64
-	const NIGHT_SHADE  ; 65
+	const OMINOUS_WIND  ; 65
 	const MIMIC        ; 66
 	const SCREECH      ; 67
 	const DOUBLE_TEAM  ; 68
