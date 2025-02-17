@@ -1,7 +1,8 @@
 ; rst vectors (unused)
 
 SECTION "rst0", ROM0[$0000]
-	rst $38
+	rst $38_Bankswitch::
+    jp Bankswitch
 
 	ds $08 - @, 0 ; unused
 
