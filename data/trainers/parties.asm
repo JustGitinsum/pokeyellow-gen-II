@@ -110,7 +110,7 @@ BugCatcherData:
 LassData:
 ; Route 3
 	db 9, PIDGEY, PIDGEY, 0
-	db 10, RATTATA, NIDORAN_M, 0
+	db 10, PONYTA, NIDORAN_M, 0
 	db 14, JIGGLYPUFF, 0
 ; Route 4
 	db 31, PARAS, PARAS, PARASECT, 0
