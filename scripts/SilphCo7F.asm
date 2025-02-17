@@ -187,6 +187,8 @@ SilphCo7FRivalStartBattleScript:
 	ld a, [wRivalStarter]
 	add 4
 	ld [wTrainerNo], a
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, SCRIPT_SILPHCO7F_RIVAL_AFTER_BATTLE
 	call SilphCo7FSetCurScript
 	ret
@@ -195,6 +197,8 @@ SilphCo7FRivalAfterBattleScript:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, SilphCo7FSetDefaultScript
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 	SetEvent EVENT_BEAT_SILPH_CO_RIVAL

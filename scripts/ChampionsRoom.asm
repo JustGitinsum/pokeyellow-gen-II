@@ -84,6 +84,8 @@ ChampionsRoomRivalDefeatedScript:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, ResetRivalScript
+	xor a
+	ld [wIsTrainerBattle], a
 	call UpdateSprites
 	SetEvent EVENT_BEAT_CHAMPION_RIVAL
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
