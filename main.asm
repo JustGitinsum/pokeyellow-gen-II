@@ -695,8 +695,17 @@ MewtwoPicFront::      INCBIN "gfx/pokemon/front/mewtwo.pic"
 MewtwoPicBack::       INCBIN "gfx/pokemon/back/mewtwob.pic"
 MewPicFront::         INCBIN "gfx/pokemon/front/mew.pic"
 MewPicBack::          INCBIN "gfx/pokemon/back/mewb.pic"
-
+RioluPicFront::        INCBIN "gfx/pokemon/front/riolu.pic"
+RioluPicBack::         INCBIN "gfx/pokemon/back/riolub.pic"
+LucarioPicFront::      INCBIN "gfx/pokemon/front/lucario.pic"
+LucarioPicBack::       INCBIN "gfx/pokemon/back/lucariob.pic"
+MimikyuPicFront::      INCBIN "gfx/pokemon/front/mimikyu.pic"
+MimikyuPicBack::       INCBIN "gfx/pokemon/back/mimikyub.pic"
+ZoruaHPicFront::      INCBIN "gfx/pokemon/front/zorua_h.pic"
+ZoruaHPicBack::       INCBIN "gfx/pokemon/back/zorua_hb.pic"
 
 SECTION "bank42", ROMX, BANK[$42]
+
+
 
 INCLUDE "data/sgb/sgb_palettes.asm"

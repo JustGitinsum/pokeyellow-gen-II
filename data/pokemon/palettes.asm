@@ -152,6 +152,10 @@ MonsterPalettes:
 	db PAL_DRAGONITE
 	db PAL_MEWTWO
 	db PAL_MEW
+	db PAL_RIOLU
+	db PAL_LUCARIO
+	db PAL_MIMIKYU
+	db PAL_ZORUA_H
 	assert_table_length NUM_POKEMON + 1
 
 TrainerPalettes:

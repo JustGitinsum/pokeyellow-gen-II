@@ -151,4 +151,9 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
+	nybble ICON_MON       ; Riolu
+	nybble ICON_MON       ; Lucario
+	nybble ICON_PIKACHU   ; Mimikyu
+	nybble ICON_QUADRUPED ; Zorua H
+
 	end_nybble_array NUM_POKEMON

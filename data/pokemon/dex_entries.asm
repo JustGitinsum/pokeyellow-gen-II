@@ -30,8 +30,8 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw RioluDexEntry
+	dw LucarioDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -49,9 +49,9 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw MimikyuDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw ZoruaHDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
@@ -1252,6 +1252,34 @@ MewDexEntry:
 	db 1,4
 	dw 90
 	text_far _MewDexEntry
+	text_end
+
+RioluDexEntry:
+	db "EMANATION@"
+	db 2,4
+	dw 202
+	text_far _RioluDexEntry
+	text_end
+
+LucarioDexEntry:
+	db "AURA@"
+	db 3,11
+	dw 1190
+	text_far _LucarioDexEntry
+	text_end
+
+MimikyuDexEntry:
+	db "DISGUISE@"
+	db 0,8
+	dw 15
+	text_far _MimikyuDexEntry
+	text_end
+
+ZoruaHDexEntry:
+	db "Tricky@"
+	db 2,4
+	dw 27
+	text_far _ZoruaHDexEntry
 	text_end
 
 MissingNoDexEntry:

@@ -1506,3 +1506,44 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_RioluDexEntry::
+	text "The aura that"
+	next "emanates from its"
+	next "body intensifies"
+
+	page "to alert others"
+	next "if it is"
+	next "afraid or sad."
+	dex
+
+_LucarioDexEntry::
+	text "It has the"
+	next "ability to sense"
+	next "the auras of all"
+
+	page "things. It"
+	next "understands"
+	next "human speech."
+	dex
+
+_MimikyuDexEntry::
+	text "If you try to"
+	next "look at whats"
+	next "under its rag"
+
+	page "it will become"
+	next "agitated and"
+	next "resist violently"
+	dex
+
+_ZoruaHDexEntry::
+	text "A once-departed"
+	next "soul, returned"
+	next "to life in Hisui."
+
+	page "Derives power from"
+	next "resentment, which"
+	next "rises us its head"
+	dex
+

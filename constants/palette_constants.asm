@@ -228,6 +228,10 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_DRAGONITE  ; $BC
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
+	const PAL_RIOLU
+	const PAL_LUCARIO
+	const PAL_MIMIKYU
+	const PAL_ZORUA_H
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1
