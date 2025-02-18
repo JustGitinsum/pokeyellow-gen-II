@@ -153,6 +153,8 @@ MonPartyData:
 	nybble ICON_MON       ; Mew
 	nybble ICON_MON       ; Riolu
 	nybble ICON_MON       ; Lucario
+	nybble ICON_MON       ; Tyrunt
+	nybble ICON_MON       ; Tyantrum
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H

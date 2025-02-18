@@ -230,6 +230,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_MEW        ; $BE
 	const PAL_RIOLU
 	const PAL_LUCARIO
+	const PAL_TYRUNT
+	const PAL_TYRANTRUM
 	const PAL_MIMIKYU
 	const PAL_ZORUA_H
 	const PAL_ZOROARK_H

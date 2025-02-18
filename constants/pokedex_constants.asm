@@ -157,6 +157,8 @@
 	const DEX_MEW        ; 151
 	const DEX_RIOLU
 	const DEX_LUCARIO
+	const DEX_TYRUNT
+	const DEX_TYRANTRUM
 	const DEX_MIMIKYU
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H

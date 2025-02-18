@@ -1527,6 +1527,26 @@ _LucarioDexEntry::
 	next "human speech."
 	dex
 
+_TyruntDexEntry::
+	text "Its large jaw"
+	next "has incredible"
+	next "destructive power"
+
+	page "It can inflict"
+	next "grievous wounds"
+	next "by playing around"
+	dex
+
+_TyrantrumDexEntry::
+	text "Nothing could stop"
+	next "this #MON 100"
+	next "million years ago"
+
+	page "It has the"
+	next "presence of a king"
+	next "vicious but regal."
+	dex
+
 _MimikyuDexEntry::
 	text "If you try to"
 	next "look at whats"

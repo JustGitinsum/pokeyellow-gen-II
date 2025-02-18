@@ -40,8 +40,8 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
-	dw MissingNo20EvosMoves
+	dw RioluEvosMoves
+	dw LucarioEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -59,13 +59,13 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw MimikyuEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw ZoruaHEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
-	dw MissingNo38EvosMoves
+	dw ZoroarkHEvosMoves
 	dw MankeyEvosMoves
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
@@ -95,8 +95,8 @@ EvosMovesPointerTable:
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
 	dw RaichuEvosMoves
-	dw MissingNo56EvosMoves
-	dw MissingNo57EvosMoves
+	dw TyruntEvosMoves
+	dw TyrantrumEvosMoves
 	dw DratiniEvosMoves
 	dw DragonairEvosMoves
 	dw KabutoEvosMoves
@@ -554,16 +554,25 @@ TangelaEvosMoves:
 	db 48, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+RioluEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 28, LUCARIO
 	db 0
 ; Learnset
+	db 08, KARATE_CHOP
+	db 12, DOUBLE_TEAM
+	db 24, BONE_CLUB
+	db 36, SLASH
 	db 0
 
-MissingNo20EvosMoves:
+LucarioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 08, KARATE_CHOP
+	db 12, DOUBLE_TEAM
+	db 24, BONE_CLUB
+	db 36, SLASH
 	db 0
 
 GrowlitheEvosMoves:
@@ -769,10 +778,14 @@ GolemEvosMoves:
 	db 43, EXPLOSION
 	db 0
 
-MissingNo32EvosMoves:
+MimikyuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 06, OMINOUS_WIND
+	db 12, DOUBLE_TEAM
+	db 24, MIMIC
+	db 36, SLASH
 	db 0
 
 MagmarEvosMoves:
@@ -787,10 +800,13 @@ MagmarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
-MissingNo34EvosMoves:
+ZoruaHEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 30, ZOROARK_H
 	db 0
 ; Learnset
+	db 27, HYPNOSIS
+	db 35, DREAM_EATER
 	db 0
 
 ElectabuzzEvosMoves:
@@ -828,10 +844,12 @@ KoffingEvosMoves:
 	db 48, EXPLOSION
 	db 0
 
-MissingNo38EvosMoves:
+ZoroarkHEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 27, HYPNOSIS
+	db 35, DREAM_EATER
 	db 0
 
 MankeyEvosMoves:
@@ -1109,16 +1127,26 @@ RaichuEvosMoves:
 ; Learnset
 	db 0
 
-MissingNo56EvosMoves:
+TyruntEvosMoves:
 ; Evolutions
-	db 0
+	db EVOLVE_LEVEL, 39, TYRANTRUM
 ; Learnset
+	db 16, BITE
+	db 20, DRAGON_RAGE
+	db 24, STOMP
+	db 28, ROCK_SLIDE
+	db 44, EARTHQUAKE
 	db 0
 
-MissingNo57EvosMoves:
+TyrantrumEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, BITE
+	db 20, DRAGON_RAGE
+	db 24, STOMP
+	db 28, ROCK_SLIDE
+	db 48, EARTHQUAKE
 	db 0
 
 DratiniEvosMoves:

@@ -154,6 +154,8 @@ MonsterPalettes:
 	db PAL_MEW
 	db PAL_RIOLU
 	db PAL_LUCARIO
+	db PAL_TYRUNT
+	db PAL_TYRANTRUM
 	db PAL_MIMIKYU
 	db PAL_ZORUA_H
 	db PAL_ZOROARK_H
