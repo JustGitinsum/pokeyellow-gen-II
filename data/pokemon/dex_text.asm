@@ -1547,3 +1547,13 @@ _ZoruaHDexEntry::
 	next "rises us its head"
 	dex
 
+_ZoroarkHDexEntry::
+	text "Zoroark looks like"
+	next "an embodiment of"
+	next "death. It attacks"
+
+	page "its nemeses with a"
+	next "bitter energy, it"
+	next "lacerates itself"
+	dex
+

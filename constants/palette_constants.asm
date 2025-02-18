@@ -232,6 +232,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_LUCARIO
 	const PAL_MIMIKYU
 	const PAL_ZORUA_H
+	const PAL_ZOROARK_H
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1

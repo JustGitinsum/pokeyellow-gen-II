@@ -155,4 +155,5 @@ INCLUDE "data/pokemon/base_stats/riolu.asm"
 INCLUDE "data/pokemon/base_stats/lucario.asm"
 INCLUDE "data/pokemon/base_stats/mimikyu.asm"
 INCLUDE "data/pokemon/base_stats/zorua_h.asm"
+INCLUDE "data/pokemon/base_stats/zoroark_h.asm"
 	assert_table_length NUM_POKEMON

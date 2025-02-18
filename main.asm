@@ -703,6 +703,8 @@ MimikyuPicFront::      INCBIN "gfx/pokemon/front/mimikyu.pic"
 MimikyuPicBack::       INCBIN "gfx/pokemon/back/mimikyub.pic"
 ZoruaHPicFront::      INCBIN "gfx/pokemon/front/zorua_h.pic"
 ZoruaHPicBack::       INCBIN "gfx/pokemon/back/zorua_hb.pic"
+ZoroarkHPicFront::      INCBIN "gfx/pokemon/front/zoroark_h.pic"
+ZoroarkHPicBack::       INCBIN "gfx/pokemon/back/zoroark_hb.pic"
 
 SECTION "bank42", ROMX, BANK[$42]
 

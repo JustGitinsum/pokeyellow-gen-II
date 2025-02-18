@@ -159,5 +159,6 @@
 	const DEX_LUCARIO
 	const DEX_MIMIKYU
 	const DEX_ZORUA_H
+	const DEX_ZOROARK_H
 
 DEF NUM_POKEMON EQU const_value - 1

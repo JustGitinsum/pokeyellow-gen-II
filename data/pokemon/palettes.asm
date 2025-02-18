@@ -156,6 +156,7 @@ MonsterPalettes:
 	db PAL_LUCARIO
 	db PAL_MIMIKYU
 	db PAL_ZORUA_H
+	db PAL_ZOROARK_H
 	assert_table_length NUM_POKEMON + 1
 
 TrainerPalettes:

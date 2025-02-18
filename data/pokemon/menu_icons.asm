@@ -155,5 +155,7 @@ MonPartyData:
 	nybble ICON_MON       ; Lucario
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_QUADRUPED ; Zorua H
+	nybble ICON_QUADRUPED ; Zoroark H
+
 
 	end_nybble_array NUM_POKEMON

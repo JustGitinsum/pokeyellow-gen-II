@@ -55,7 +55,7 @@ PokedexEntryPointers:
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw ZoroarkHDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
@@ -1280,6 +1280,13 @@ ZoruaHDexEntry:
 	db 2,4
 	dw 27
 	text_far _ZoruaHDexEntry
+	text_end
+
+ZoroarkHDexEntry:
+	db "Illusion@"
+	db 5,3
+	dw 1609
+	text_far _ZoroarkHDexEntry
 	text_end
 
 MissingNoDexEntry:
