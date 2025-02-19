@@ -160,6 +160,7 @@
 	const DEX_GARDEVOIR
 	const DEX_RIOLU
 	const DEX_LUCARIO
+	const DEX_GALLADE
 	const DEX_TYRUNT
 	const DEX_TYRANTRUM
 	const DEX_AMAURA

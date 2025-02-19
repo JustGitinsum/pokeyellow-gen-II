@@ -124,7 +124,7 @@ EvosMovesPointerTable:
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
-	dw MissingNo73EvosMoves
+	dw GalladeEvosMoves
 	dw DodrioEvosMoves
 	dw PrimeapeEvosMoves
 	dw DugtrioEvosMoves
@@ -920,6 +920,7 @@ RaltsEvosMoves:
 KirliaEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 30, GARDEVOIR
+	db EVOLVE_ITEM, MOON_STONE, 1, GALLADE
 	db 0
 ; Learnset
 	db 38, PSYCHIC_M
@@ -1473,11 +1474,13 @@ BeedrillEvosMoves:
 	db 35, AGILITY
 	db 0
 
-MissingNo73EvosMoves:
+GalladeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 15, TELEPORT
+	db 35, SWORDS_DANCE
+	db 42, PSYCHO_CUT
 
 DodrioEvosMoves:
 ; Evolutions

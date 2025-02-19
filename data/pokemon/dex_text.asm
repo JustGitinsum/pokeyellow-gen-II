@@ -1557,6 +1557,16 @@ _LucarioDexEntry::
 	next "human speech."
 	dex
 
+_GalladeDexEntry::
+	text "The blades at its"
+	next "elbows are sharper"
+	next "the auras of all"
+
+	page "Its swordsmanship,"
+	next "albeit self-taught"
+	next "than finest swords"
+	dex
+
 _TyruntDexEntry::
 	text "Its large jaw"
 	next "has incredible"

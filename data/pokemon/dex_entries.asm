@@ -114,7 +114,7 @@ PokedexEntryPointers:
 	dw WeedleDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
-	dw MissingNoDexEntry
+	dw GalladeDexEntry
 	dw DodrioDexEntry
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
@@ -1300,6 +1300,13 @@ LucarioDexEntry:
 	db "AURA@"
 	db 3,11
 	dw 1190
+	text_far _LucarioDexEntry
+	text_end
+
+GalladeDexEntry:
+	db "BLADE@"
+	db 5,03
+	dw 1146
 	text_far _LucarioDexEntry
 	text_end
 
