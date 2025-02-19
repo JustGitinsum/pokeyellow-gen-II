@@ -60,9 +60,9 @@ PokedexEntryPointers:
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw RaltsDexEntry
+	dw KirliaDexEntry
+	dw GardevoirDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
@@ -93,8 +93,8 @@ PokedexEntryPointers:
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw AmauraDexEntry
+	dw AurorusDexEntry
 	dw SandshrewDexEntry
 	dw SandslashDexEntry
 	dw OmanyteDexEntry
@@ -1268,6 +1268,27 @@ MewDexEntry:
 	text_far _MewDexEntry
 	text_end
 
+RaltsDexEntry:
+	db "FEELING@"
+	db 1,04
+	dw 146
+	text_far _RaltsDexEntry
+	text_end
+
+KirliaDexEntry:
+	db "EMOTION@"
+	db 2,07
+	dw 445
+	text_far _KirliaDexEntry
+	text_end
+
+GardevoirDexEntry:
+	db "EMBRACE@"
+	db 5,03
+	dw 1067
+	text_far _GardevoirDexEntry
+	text_end
+
 RioluDexEntry:
 	db "EMANATION@"
 	db 2,4
@@ -1280,6 +1301,20 @@ LucarioDexEntry:
 	db 3,11
 	dw 1190
 	text_far _LucarioDexEntry
+	text_end
+
+AmauraDexEntry:
+	db "TUNDRA@"
+	db 4,03
+	dw 556
+	text_far _AmauraDexEntry
+	text_end
+
+AurorusDexEntry:
+	db "TUNDRA@"
+	db 8,10
+	dw 4960
+	text_far _AurorusDexEntry
 	text_end
 
 MimikyuDexEntry:

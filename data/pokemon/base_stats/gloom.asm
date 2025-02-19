@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     GIGA_DRAIN,   ENERGY_BALL,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         SUBSTITUTE,   CUT
+	     REST,         SUBSTITUTE,   CUT
 	; end
 
 	db BANK(GloomPicFront)

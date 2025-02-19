@@ -116,7 +116,7 @@ AttackAnimationPointers:
 	dw HazeAnim
 	dw ReflectAnim
 	dw FocusEnergyAnim
-	dw BideAnim
+	dw AccelerockAnim
 	dw MetronomeAnim
 	dw MirrorMoveAnim
 	dw SelfdestructAnim
@@ -917,8 +917,10 @@ FocusEnergyAnim:
 	battle_anim FOCUS_ENERGY, SE_SPIRAL_BALLS_INWARD
 	db -1 ; end
 
-BideAnim:
-	battle_anim BIDE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+AccelerockAnim:
+	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
+	battle_anim ROCK_THROW, SUBANIM_0_ROCKS_FALL_ENEMY, 0, 4
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
 MetronomeAnim:

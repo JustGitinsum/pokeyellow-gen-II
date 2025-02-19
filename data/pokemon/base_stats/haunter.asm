@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        RAGE,         GIGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, \
 	     DREAM_EATER,  REST,         PSYCHO_CUT,      EXPLOSION,    SUBSTITUTE
 	; end
 

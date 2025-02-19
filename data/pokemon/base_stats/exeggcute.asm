@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     SELFDESTRUCT, EGG_BOMB,     REST,         PSYCHO_CUT,      EXPLOSION,    \
 	     SUBSTITUTE
 	; end

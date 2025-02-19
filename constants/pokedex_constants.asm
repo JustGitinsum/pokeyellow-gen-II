@@ -155,10 +155,15 @@
 	const DEX_DRAGONITE  ; 149
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
+	const DEX_RALTS
+	const DEX_KIRLIA
+	const DEX_GARDEVOIR
 	const DEX_RIOLU
 	const DEX_LUCARIO
 	const DEX_TYRUNT
 	const DEX_TYRANTRUM
+	const DEX_AMAURA
+	const DEX_AURORUS
 	const DEX_MIMIKYU
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H

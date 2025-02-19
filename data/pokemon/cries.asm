@@ -66,9 +66,9 @@ CryData::
 	mon_cry SFX_CRY_0C, $88, $C0 ; Seel
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_1C, $C0, $01 ; Ralts
+	mon_cry SFX_CRY_1C, $A8, $C0 ; Kirlia
+	mon_cry SFX_CRY_1C, $98, $FF ; Gardevoir
 	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
 	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
@@ -99,8 +99,8 @@ CryData::
 	mon_cry SFX_CRY_18, $EE, $01 ; Kabutops
 	mon_cry SFX_CRY_19, $99, $10 ; Horsea
 	mon_cry SFX_CRY_19, $3C, $01 ; Seadra
-	mon_cry SFX_CRY_0F, $40, $C0 ; MissingNo.
-	mon_cry SFX_CRY_0F, $20, $C0 ; MissingNo.
+	mon_cry SFX_CRY_1B, $00, $80 ; Amaura
+	mon_cry SFX_CRY_1B, $00, $80 ; Aurorus
 	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte

@@ -15,7 +15,7 @@ SpecialTrainerMoves:
 
 	db BROCK, 1
 	db 2, 3, BIND
-	db 2, 4, BIDE
+	db 2, 4, ACCELEROCK
 	db 0
 
 	db MISTY, 1

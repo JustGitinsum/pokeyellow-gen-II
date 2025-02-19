@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         GIGA_DRAIN,   ENERGY_BALL,    PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     SWIFT,        REST,         PSYCHO_CUT,      SUBSTITUTE,   FLASH
 	; end
 

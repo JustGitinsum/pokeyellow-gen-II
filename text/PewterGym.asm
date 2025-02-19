@@ -64,13 +64,15 @@ _TM34ExplanationText::
 	cont "carefully!"
 
 	para "TM34 contains"
-	line "BIDE!"
+	line "ACCELEROCK!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "A Rock type attack"
+	line "that always goes"
+	cont "before your"
+	cont "opponent!"
 	done
+
+   
 
 _PewterGymTM34NoRoomText::
 	text "You don't have"

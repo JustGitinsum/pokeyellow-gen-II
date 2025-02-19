@@ -28,7 +28,7 @@ SpecialToPhysicalMoves:
         db VINE_WHIP
 ; Electric
         db THUNDERPUNCH
-        db THUNDERFANG
+        db THUNDER_FANG
 ; FAIRY
         db PLAY_ROUGH
 ; Ice

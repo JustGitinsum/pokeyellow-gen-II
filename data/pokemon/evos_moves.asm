@@ -70,9 +70,9 @@ EvosMovesPointerTable:
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
-	dw MissingNo3EEvosMoves
-	dw MissingNo3FEvosMoves
+	dw RaltsEvosMoves
+	dw KirliaEvosMoves
+	dw GardevoirEvosMoves
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
@@ -103,8 +103,8 @@ EvosMovesPointerTable:
 	dw KabutopsEvosMoves
 	dw HorseaEvosMoves
 	dw SeadraEvosMoves
-	dw MissingNo5EEvosMoves
-	dw MissingNo5FEvosMoves
+	dw AmauraEvosMoves
+	dw AurorusEvosMoves
 	dw SandshrewEvosMoves
 	dw SandslashEvosMoves
 	dw OmanyteEvosMoves
@@ -904,22 +904,33 @@ TaurosEvosMoves:
 	db 51, TAKE_DOWN
 	db 0
 
-MissingNo3DEvosMoves:
+RaltsEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 20, KIRLIA
 	db 0
 ; Learnset
+	db 3, DOUBLE_TEAM
+	db 6, CONFUSION
+	db 9, HYPNOSIS
+	db 12, DRAIN_KISS
+	db 15, TELEPORT
+	db 18, PSYBEAM
 	db 0
 
-MissingNo3EEvosMoves:
+KirliaEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 30, GARDEVOIR
 	db 0
 ; Learnset
+	db 38, PSYCHIC_M
 	db 0
 
-MissingNo3FEvosMoves:
+GardevoirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 42, PSYCHIC_M
+	db 49, MOONBLAST
 	db 0
 
 FarfetchdEvosMoves:
@@ -1221,17 +1232,27 @@ SeadraEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-MissingNo5EEvosMoves:
+AmauraEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 39, AURORUS
 	db 0
 ; Learnset
 	db 0
+	db 16, HEADBUTT
+	db 20, MIST
+	db 24, AURORA_BEAM
+	db 28, THUNDER_WAVE 
+	db 40, ICE_BEAM
 
-MissingNo5FEvosMoves:
+AurorusEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
+	db 42, ICE_BEAM
+	db 48, REFLECT
+	db 60, BLIZZARD
+	db 66, HYPER_BEAM
 
 SandshrewEvosMoves:
 ; Evolutions

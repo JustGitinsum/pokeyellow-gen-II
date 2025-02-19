@@ -16,7 +16,7 @@ ExclamationPointMoveSets:
 	db TELEPORT
 	db MIMIC
 	db DOUBLE_TEAM
-	db BIDE ; corrected JP grammar: moved from set 1 in pokered
+	db ACCELEROCK ; corrected JP grammar: moved from set 1 in pokered
 	db BARRAGE
 	db 0 ; end set
 

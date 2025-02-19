@@ -1507,6 +1507,36 @@ _MewDexEntry::
 	next "hair can be seen"
 	dex
 
+_RaltsDexEntry::
+	text "It is highly attun"
+	next "to the emotions of"
+	next "people and #MON"
+
+	page "it overflows with"
+	next "energy, dancing"
+	next "joyously about"
+	dex 
+
+_KirliaDexEntry::
+	text "it overflows with"
+	next "energy, dancing"
+	next "joyously about"
+
+	page "It is said that it"
+	next "Likes to be near"
+	next "DAWN STONEs"
+	dex 
+
+ _GardevoirDexEntry::
+	text "It will dedicate"
+	next "itself to defendin"
+	next "a master it has"
+
+	page "reminiscent of "
+	next "ladies of nobility"
+	next "to risk their life"
+	dex 
+	
 _RioluDexEntry::
 	text "The aura that"
 	next "emanates from its"
@@ -1544,7 +1574,27 @@ _TyrantrumDexEntry::
 
 	page "It has the"
 	next "presence of a king"
-	next "vicious but regal."
+	next "vicious but regal"
+	dex
+
+_AmauraDexEntry::
+	text "This calm #MON"
+	next "lived in a cold"
+	next "land where there"
+
+	page "were no violent"
+	next "predators like"
+	next "Tyrantrum"
+	dex
+
+_AurorusDexEntry::
+	text "This usually quiet"
+	next "and kindly #MON"
+	next "has a surface"
+
+	page "temperature of"
+	next "around -240"
+	next "degrees Fahrenheit"
 	dex
 
 _MimikyuDexEntry::
@@ -1560,7 +1610,7 @@ _MimikyuDexEntry::
 _ZoruaHDexEntry::
 	text "A once-departed"
 	next "soul, returned"
-	next "to life in Hisui."
+	next "to life in Hisui"
 
 	page "Derives power from"
 	next "resentment, which"

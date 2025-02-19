@@ -151,10 +151,15 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
+	nybble ICON_MON       ; Ralts
+	nybble ICON_MON       ; Kirlia
+	nybble ICON_MON       ; Gardevoir
 	nybble ICON_MON       ; Riolu
 	nybble ICON_MON       ; Lucario
 	nybble ICON_MON       ; Tyrunt
 	nybble ICON_MON       ; Tyantrum
+	nybble ICON_QUADRUPED ; Amaura
+	nybble ICON_QUADRUPED ; Aurorus
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H

@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         GIGA_DRAIN,   \
 	     ENERGY_BALL,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         PSYCHO_CUT,      SUBSTITUTE,   FLASH
+	     REST,         PSYCHO_CUT,      SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(VenonatPicFront)
