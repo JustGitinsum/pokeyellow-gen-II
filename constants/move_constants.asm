@@ -45,7 +45,7 @@
 	const THRASH       ; 25
 	const DOUBLE_EDGE  ; 26
 	const TAIL_WHIP    ; 27
-	const POISON_STING ; 28
+	const POISON_FANG ; 28
 	const TWINEEDLE    ; 29
 	const PIN_MISSILE  ; 2a
 	const LEER         ; 2b
@@ -154,7 +154,7 @@
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
-	const PSYWAVE      ; 95
+	const PSYCHO_CUT      ; 95
 	const SPLASH       ; 96
 	const ACID_ARMOR   ; 97
 	const CRABHAMMER   ; 98
@@ -170,6 +170,19 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	const BUG_BITE
+	const X_SCISSOR
+	const METAL_CLAW
+	const STEEL_WING
+	const IRON_TAIL
+	const DRAGON_PULSE
+	const SHADOW_CLAW
+	const FIRE_FANG
+	const ICE_FANG
+	const THUNDER_FANG
+	const DRAIN_KISS
+	const PLAY_ROUGH
+	const MOONBLAST
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

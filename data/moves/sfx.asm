@@ -40,7 +40,7 @@ MoveSoundTable:
 	db SFX_BATTLE_22,          $11, $c0 ; THRASH
 	db SFX_SUPER_EFFECTIVE,    $20, $c0 ; DOUBLE_EDGE
 	db SFX_BATTLE_21,          $00, $80 ; TAIL_WHIP
-	db SFX_BATTLE_1B,          $00, $80 ; POISON_STING
+	db SFX_BATTLE_1B,          $00, $80 ; POISON_FANG
 	db SFX_BATTLE_1B,          $20, $c0 ; TWINEEDLE
 	db SFX_BATTLE_19,          $00, $80 ; PIN_MISSILE
 	db SFX_BATTLE_31,          $ff, $40 ; LEER
@@ -149,7 +149,7 @@ MoveSoundTable:
 	db SFX_FAINT_FALL,         $ff, $04 ; DIZZY_PUNCH
 	db SFX_BATTLE_1C,          $01, $ff ; SPORE
 	db SFX_BATTLE_13,          $f8, $ff ; FLASH
-	db SFX_BATTLE_0C,          $f0, $f0 ; PSYWAVE
+	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; PSYCHO_CUT
 	db SFX_BATTLE_0F,          $08, $10 ; SPLASH
 	db SFX_BATTLE_0D,          $f0, $ff ; ACID_ARMOR
 	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; CRABHAMMER
@@ -165,6 +165,19 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
-	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
+	db SFX_BATTLE_1E,          $12, $ff ; BUG_BITE
+	db SFX_BATTLE_0F,          $00, $80 ; X_SCISSOR
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; METAL_CLAW
+	db SFX_BATTLE_12,          $10, $a0 ; STEEL_WING
+	db SFX_BATTLE_21,          $00, $80 ; IRON_TAIL
+	db SFX_BATTLE_36,          $00, $80 ; DRAGON_PULSE
+	db SFX_BATTLE_31,          $ff, $40 ; SHADOW_CLAW
+	db SFX_BATTLE_0D,          $10, $60 ; FIRE_FANG
+	db SFX_BATTLE_1E,          $00, $80 ; ICE_FANG
+	db SFX_BATTLE_0D,          $20, $80 ; THUNDER_FANG
+	db SFX_BATTLE_09,          $88, $10 ; DrainKissAnim
+	db SFX_HORN_DRILL,         $00, $a0 ; PlayRoughAnim
+	db SFX_BATTLE_36,          $00, $80 ; MoonblastAnim
+	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

@@ -59,8 +59,8 @@ SpecialTrainerMoves:
 	db SABRINA, 1
 	db 1, 1, FLASH
 	db 2, 1, KINESIS
-	db 2, 4, PSYWAVE
-	db 3, 1, PSYWAVE
+	db 2, 4, PSYCHO_CUT
+	db 3, 1, PSYCHO_CUT
 	db 0
 
 	db GIOVANNI, 3

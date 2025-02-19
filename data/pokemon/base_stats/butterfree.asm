@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         GIGA_DRAIN,   ENERGY_BALL,    PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	     SWIFT,        REST,         PSYCHO_CUT,      SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(ButterfreePicFront)

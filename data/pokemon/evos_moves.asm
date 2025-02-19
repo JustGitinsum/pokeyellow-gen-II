@@ -232,7 +232,7 @@ NidoranMEvosMoves:
 ; Learnset
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
-	db 17, POISON_STING
+	db 17, POISON_FANG
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
 	db 38, HORN_DRILL
@@ -370,7 +370,7 @@ NidoranFEvosMoves:
 ; Learnset
 	db 8, SCRATCH
 	db 12, DOUBLE_KICK
-	db 17, POISON_STING
+	db 17, POISON_FANG
 	db 23, TAIL_WHIP
 	db 30, BITE
 	db 38, FURY_SWIPES
@@ -471,7 +471,7 @@ TentacoolEvosMoves:
 ; Learnset
 	db 7, SUPERSONIC
 	db 13, WRAP
-	db 18, POISON_STING
+	db 18, POISON_FANG
 	db 22, WATER_GUN
 	db 27, CONSTRICT
 	db 33, BARRIER
@@ -559,6 +559,7 @@ RioluEvosMoves:
 	db EVOLVE_LEVEL, 28, LUCARIO
 	db 0
 ; Learnset
+	db 06, METAL_CLAW
 	db 08, KARATE_CHOP
 	db 12, DOUBLE_TEAM
 	db 24, BONE_CLUB
@@ -723,7 +724,7 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
+	db 10, POISON_FANG
 	db 17, BITE
 	db 27, GLARE
 	db 36, SCREECH
@@ -734,11 +735,13 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 30, SPORE
-	db 39, SLASH
-	db 48, GROWTH
+	db 6, STUN_SPORE
+	db 11, MEGA_DRAIN
+	db 22, SPORE
+	db 27, SLASH
+	db 33, GROWTH
+	db 38, GIGA_DRAIN
+	db 54, X_SCISSOR
 	db 0
 
 PsyduckEvosMoves:
@@ -935,14 +938,14 @@ VenonatEvosMoves:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 19, CONFUSION
-	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 35, PSYBEAM
-	db 38, SLEEP_POWDER
-	db 43, PSYCHIC_M
+	db 5, SUPERSONIC
+	db 11, CONFUSION
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 23, STUN_SPORE
+	db 29, SLEEP_POWDER
+	db 35, LEECH_LIFE
+	db 47, PSYCHIC_M
 	db 0
 
 DragoniteEvosMoves:
@@ -1110,13 +1113,14 @@ PikachuEvosMoves:
 	db EVOLVE_ITEM, THUNDER_STONE, 1, RAICHU
 	db 0
 ; Learnset
-	db 6, TAIL_WHIP
+	db 6, QUICK_ATTACK
 	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
+	db 11, DOUBLE_KICK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
+	db 37, IRON_TAIL
 	db 41, THUNDER
 	db 50, LIGHT_SCREEN
 	db 0
@@ -1236,7 +1240,7 @@ SandshrewEvosMoves:
 ; Learnset
 	db 10, SAND_ATTACK
 	db 17, SLASH
-	db 24, POISON_STING
+	db 24, POISON_FANG
 	db 31, SWIFT
 	db 38, FURY_SWIPES
 	db 0
@@ -1247,7 +1251,7 @@ SandslashEvosMoves:
 ; Learnset
 	db 10, SAND_ATTACK
 	db 17, SLASH
-	db 27, POISON_STING
+	db 27, POISON_FANG
 	db 36, SWIFT
 	db 47, FURY_SWIPES
 	db 0
@@ -1368,11 +1372,11 @@ ZubatEvosMoves:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 15, POISON_FANG
+	db 25, WING_ATTACK
+	db 30, BITE
+	db 45, CONFUSE_RAY
+	db 55, LEECH_LIFE
 	db 0
 
 EkansEvosMoves:
@@ -1380,7 +1384,7 @@ EkansEvosMoves:
 	db EVOLVE_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
+	db 10, POISON_FANG
 	db 17, BITE
 	db 24, GLARE
 	db 31, SCREECH
@@ -1392,11 +1396,13 @@ ParasEvosMoves:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 27, SPORE
-	db 34, SLASH
-	db 41, GROWTH
+	db 6, STUN_SPORE
+	db 11, MEGA_DRAIN
+	db 22, SPORE
+	db 27, SLASH
+	db 33, GROWTH
+	db 38, GIGA_DRAIN
+	db 54, X_SCISSOR
 	db 0
 
 PoliwhirlEvosMoves:
@@ -1493,12 +1499,12 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 23, STUN_SPORE
+	db 29, SLEEP_POWDER
+	db 37, LEECH_LIFE
+	db 47, PSYCHIC_M
 	db 0
 
 DewgongEvosMoves:
@@ -1597,11 +1603,11 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 15, POISON_FANG
+	db 27, WING_ATTACK
+	db 34, BITE
+	db 55, CONFUSE_RAY
+	db 69, LEECH_LIFE
 	db 0
 
 MewtwoEvosMoves:
@@ -1838,7 +1844,7 @@ TentacruelEvosMoves:
 ; Learnset
 	db 7, SUPERSONIC
 	db 13, WRAP
-	db 18, POISON_STING
+	db 18, POISON_FANG
 	db 22, WATER_GUN
 	db 27, CONSTRICT
 	db 35, BARRIER
@@ -1954,7 +1960,7 @@ NidorinoEvosMoves:
 ; Learnset
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
-	db 19, POISON_STING
+	db 19, POISON_FANG
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
 	db 46, HORN_DRILL
@@ -1967,7 +1973,7 @@ NidorinaEvosMoves:
 ; Learnset
 	db 8, SCRATCH
 	db 12, DOUBLE_KICK
-	db 19, POISON_STING
+	db 19, POISON_FANG
 	db 27, TAIL_WHIP
 	db 36, BITE
 	db 46, FURY_SWIPES

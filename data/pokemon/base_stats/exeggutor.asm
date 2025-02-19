@@ -17,7 +17,7 @@
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         \
 	     GIGA_DRAIN,   ENERGY_BALL,    PSYCHIC_M,    TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, EGG_BOMB,     \
-	     REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   STRENGTH
+	     REST,         PSYCHO_CUT,      EXPLOSION,    SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(ExeggutorPicFront)
