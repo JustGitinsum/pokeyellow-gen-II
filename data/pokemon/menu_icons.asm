@@ -172,6 +172,7 @@ MonPartyData:
 	nybble ICON_MON       ; Tyantrum
 	nybble ICON_QUADRUPED ; Amaura
 	nybble ICON_QUADRUPED ; Aurorus
+	nybble ICON_QUADRUPED ; Sylveon
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H

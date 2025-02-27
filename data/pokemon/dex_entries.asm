@@ -199,6 +199,7 @@ PokedexEntryPointers:
 	dw MagmortarDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
+	dw SylveonDexEntry
 	dw SirfetchdDexEntry
 	dw AnnihilapeDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
@@ -1410,6 +1411,13 @@ AurorusDexEntry:
 	db 8,10
 	dw 4960
 	text_far _AurorusDexEntry
+	text_end
+
+SylveonDexEntry:
+	db "SPARKLE@"
+	db 2,11
+	dw 550
+	text_far _FlareonDexEntry
 	text_end
 
 MimikyuDexEntry:

@@ -176,6 +176,7 @@
 	const DEX_TYRANTRUM
 	const DEX_AMAURA
 	const DEX_AURORUS
+	const DEX_SYLVEON
 	const DEX_MIMIKYU
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H

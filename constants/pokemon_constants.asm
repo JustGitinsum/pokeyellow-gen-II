@@ -206,6 +206,7 @@
 	const MAGMORTAR
 	const LEAFEON
 	const GLACEON
+	const SYLVEON
 	const SIRFETCHD
 	const ANNIHILAPE
 

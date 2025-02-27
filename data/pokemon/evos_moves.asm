@@ -209,6 +209,7 @@ EvosMovesPointerTable:
 	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
+	dw SylveonEvosMoves
 	dw SirfetchdEvosMoves
 	dw AnnihilapeEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
@@ -2350,6 +2351,18 @@ LeafeonEvosMoves:
 	db 0
 
 GlaceonEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 8, SAND_ATTACK
+	db 16, GROWL
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, FOCUS_ENERGY
+	db 42, TAKE_DOWN
+	db 0
+
+SylveonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
