@@ -165,6 +165,8 @@ MonPartyData:
 	nybble ICON_MON       ; Gardevoir
 	nybble ICON_MON       ; Riolu
 	nybble ICON_MON       ; Lucario
+	nybble ICON_QUADRUPED ; Leafeon
+	nybble ICON_QUADRUPED ; Glaceon
 	nybble ICON_MON       ; Gallade
 	nybble ICON_MON       ; Tyrunt
 	nybble ICON_MON       ; Tyantrum

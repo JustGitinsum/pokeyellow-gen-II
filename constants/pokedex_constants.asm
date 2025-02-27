@@ -169,6 +169,8 @@
 	const DEX_GARDEVOIR
 	const DEX_RIOLU
 	const DEX_LUCARIO
+	const DEX_LEAFEON
+	const DEX_GLACEON
 	const DEX_GALLADE
 	const DEX_TYRUNT
 	const DEX_TYRANTRUM

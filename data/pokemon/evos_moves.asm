@@ -207,6 +207,8 @@ EvosMovesPointerTable:
 	dw ScizorEvosMoves
 	dw KingdraEvosMoves
 	dw MagmortarEvosMoves
+	dw LeafeonEvosMoves
+	dw GlaceonEvosMoves
 	dw SirfetchdEvosMoves
 	dw AnnihilapeEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
@@ -1346,6 +1348,9 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 ;	db EVOLVE_ITEM, THUNDER_STONE, 1, ESPEON
 ;	db EVOLVE_ITEM, WATER_STONE, 1, UMBREON
+;	db EVOLVE_ITEM, WATER_STONE, 1, LEAFEON
+;	db EVOLVE_ITEM, WATER_STONE, 1, GLACEON
+;	db EVOLVE_ITEM, WATER_STONE, 1, SYLVEON
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -2330,6 +2335,30 @@ MagmortarEvosMoves:
 	db 48, SMOKESCREEN
 	db 52, SMOG
 	db 55, FLAMETHROWER
+	db 0
+
+LeafeonEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 8, SAND_ATTACK
+	db 16, GROWL
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, FOCUS_ENERGY
+	db 42, TAKE_DOWN
+	db 0
+
+GlaceonEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 8, SAND_ATTACK
+	db 16, GROWL
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, FOCUS_ENERGY
+	db 42, TAKE_DOWN
 	db 0
 
 SirfetchdEvosMoves:

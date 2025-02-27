@@ -162,8 +162,6 @@ INCLUDE "engine/slots/game_corner_slots.asm"
 SECTION "Battle Engine 6", ROMX
 
 INCLUDE "data/moves/moves.asm"
-INCLUDE "data/pokemon/base_stats.asm"
-INCLUDE "data/pokemon/cries.asm"
 INCLUDE "engine/battle/trainer_ai.asm"
 INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
 INCLUDE "gfx/trade.asm"
@@ -599,6 +597,10 @@ INCLUDE "engine/math/random.asm"
 INCLUDE "engine/predefs.asm"
 
 
+SECTION "Battle Engine 10", ROMX
+INCLUDE "data/pokemon/base_stats.asm"
+INCLUDE "data/pokemon/cries.asm"
+
 SECTION "Surfing Minigame", ROMX
 
 INCLUDE "engine/minigame/surfing_pikachu.asm"
@@ -727,6 +729,10 @@ LucarioPicBack::      INCBIN "gfx/pokemon/back/lucariob.pic"
 SECTION "bank42", ROMX, BANK[$42]
 GalladePicFront::     INCBIN "gfx/pokemon/front/gallade.pic"
 GalladePicBack::      INCBIN "gfx/pokemon/back/galladeb.pic"
+LeafeonPicFront::     INCBIN "gfx/pokemon/front/leafeon.pic"
+LeafeonPicBack::      INCBIN "gfx/pokemon/back/leafeonb.pic"
+GlaceonPicFront::     INCBIN "gfx/pokemon/front/glaceon.pic"
+GlaceonPicBack::      INCBIN "gfx/pokemon/back/glaceonb.pic"
 TyruntPicFront::      INCBIN "gfx/pokemon/front/tyrunt.pic"
 TyruntPicBack::       INCBIN "gfx/pokemon/back/tyruntb.pic"
 TyrantrumPicFront::   INCBIN "gfx/pokemon/front/tyrantrum.pic"

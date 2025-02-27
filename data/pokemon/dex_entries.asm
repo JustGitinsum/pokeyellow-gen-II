@@ -197,6 +197,8 @@ PokedexEntryPointers:
 	dw ScizorDexEntry
 	dw KingdraDexEntry
 	dw MagmortarDexEntry
+	dw LeafeonDexEntry
+	dw GlaceonDexEntry
 	dw SirfetchdDexEntry
 	dw AnnihilapeDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
@@ -1373,6 +1375,20 @@ LucarioDexEntry:
 	db 3,11
 	dw 1190
 	text_far _LucarioDexEntry
+	text_end
+
+LeafeonDexEntry:
+	db "VERDANT@"
+	db 2,11
+	dw 550
+	text_far _FlareonDexEntry
+	text_end
+
+GlaceonDexEntry:
+	db "FRESHSNOW@"
+	db 2,11
+	dw 550
+	text_far _FlareonDexEntry
 	text_end
 
 GalladeDexEntry:

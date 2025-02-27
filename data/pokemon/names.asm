@@ -198,5 +198,7 @@ MonsterNames::
 	db "KINGDRA@@@"
 	db "MAGMORTAR@"
 	db "SIRFETCHD@"
+	db "LEAFEON@@@"
+	db "GLACEON@@@"
 	db "ANNIHILAPE"
 	assert_table_length NUM_POKEMON_INDEXES

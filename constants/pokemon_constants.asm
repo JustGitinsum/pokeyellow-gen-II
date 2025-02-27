@@ -204,6 +204,8 @@
 	const SCIZOR
 	const KINGDRA
 	const MAGMORTAR
+	const LEAFEON
+	const GLACEON
 	const SIRFETCHD
 	const ANNIHILAPE
 
