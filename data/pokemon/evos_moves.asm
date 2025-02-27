@@ -201,6 +201,8 @@ EvosMovesPointerTable:
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
 	dw CrobatEvosMoves
+	dw EspeonEvosMoves
+	dw UmbreonEvosMoves
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
 	dw KingdraEvosMoves
@@ -1342,6 +1344,8 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
+;	db EVOLVE_ITEM, THUNDER_STONE, 1, ESPEON
+;	db EVOLVE_ITEM, WATER_STONE, 1, UMBREON
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -2256,6 +2260,30 @@ CrobatEvosMoves:
 	db 34, BITE
 	db 55, CONFUSE_RAY
 	db 69, LEECH_LIFE
+	db 0
+
+EspeonEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 5, SAND_ATTACK
+	db 10, QUICK_ATTACK
+	db 20, SWIFT
+	db 25, PSYBEAM
+	db 36, TAKE_DOWN
+	db 40, PSYCHIC_M
+	db 0
+
+UmbreonEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 8, SAND_ATTACK
+	db 16, GROWL
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, FOCUS_ENERGY
+	db 42, TAKE_DOWN
 	db 0
 
 SteelixEvosMoves:

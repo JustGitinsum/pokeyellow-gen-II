@@ -197,6 +197,8 @@ CryData::
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
 	mon_cry SFX_CRY_1D, $FA, $80 ; CROBAT
+	mon_cry SFX_CRY_1E, $EE, $FF ; ESPEON
+	mon_cry SFX_CRY_1E, $EE, $FF ; UMBREON
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
 	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA

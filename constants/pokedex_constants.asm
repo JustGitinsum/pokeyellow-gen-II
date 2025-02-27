@@ -156,6 +156,8 @@
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
 	const DEX_CROBAT
+	const DEX_ESPEON
+	const DEX_UMBREON
 	const DEX_STEELIX
 	const DEX_SCIZOR
 	const DEX_KINGDRA

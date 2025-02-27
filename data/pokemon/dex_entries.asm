@@ -191,6 +191,8 @@ PokedexEntryPointers:
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
 	dw CrobatDexEntry
+	dw EspeonDexEntry
+	dw UmbreonDexEntry
 	dw SteelixDexEntry
 	dw ScizorDexEntry
 	dw KingdraDexEntry
@@ -1280,6 +1282,20 @@ CrobatDexEntry:
 	db 5,11
 	dw 1653
 	text_far _CrobatDexEntry
+	text_end
+
+EspeonDexEntry:
+	db "SUN@"
+	db 2,11
+	dw 550
+	text_far _FlareonDexEntry
+	text_end
+
+UmbreonDexEntry:
+	db "MOONLIGHT@"
+	db 2,11
+	dw 550
+	text_far _FlareonDexEntry
 	text_end
 
 SteelixDexEntry:

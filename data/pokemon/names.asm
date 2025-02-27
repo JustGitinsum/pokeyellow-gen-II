@@ -191,6 +191,8 @@ MonsterNames::
 	db "WEEPINBELL"
 	db "VICTREEBEL"
 	db "CROBAT@@@@"
+	db "ESPEON@@@@"
+	db "UMBREON@@@"
 	db "STEELIX@@@"
 	db "SCIZOR@@@@"
 	db "KINGDRA@@@"

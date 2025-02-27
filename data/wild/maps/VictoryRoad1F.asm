@@ -8,8 +8,8 @@ VictoryRoad1FWildMons:
 	db 41, GOLEM
 	db 43, STEELIX
 	db 45, STEELIX
-	db 41, GOLEM
-	db 47, GOLEM
+	db 41, ESPEON
+	db 47, UMBREON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

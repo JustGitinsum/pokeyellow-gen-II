@@ -198,6 +198,8 @@
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
 	const CROBAT
+	const ESPEON
+	const UMBREON
 	const STEELIX
 	const SCIZOR
 	const KINGDRA
