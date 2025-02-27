@@ -27,10 +27,10 @@ ItemUsePtrTable:
 	dw ItemUseBall       ; SAFARI_BALL
 	dw ItemUsePokedex    ; POKEDEX
 	dw ItemUseEvoStone   ; MOON_STONE
-	dw ItemUseMedicine   ; ANTIDOTE
-	dw ItemUseMedicine   ; BURN_HEAL
-	dw ItemUseMedicine   ; ICE_HEAL
-	dw ItemUseMedicine   ; AWAKENING
+	dw ItemUseEvoStone   ; ICE_STONE
+	dw ItemUseEvoStone   ; DAWN_STONE
+	dw ItemUseEvoStone   ; DUSK_STONE
+	dw ItemUseEvoStone   ; SHINY_STONE
 	dw ItemUseMedicine   ; PARLYZ_HEAL
 	dw ItemUseMedicine   ; FULL_RESTORE
 	dw ItemUseMedicine   ; MAX_POTION

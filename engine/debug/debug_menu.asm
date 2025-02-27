@@ -911,7 +911,6 @@ Text_fede2:
 Data_feded:
 	db GREAT_BALL, 99
 	db POKE_BALL, 99
-	db ANTIDOTE, 99
 	db FULL_RESTORE, 99
 	db MAX_POTION, 99
 	db HYPER_POTION, 99

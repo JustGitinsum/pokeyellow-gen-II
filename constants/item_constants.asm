@@ -17,10 +17,10 @@
 	const SAFARI_BALL   ; $08
 	const POKEDEX       ; $09
 	const MOON_STONE    ; $0A
-	const ANTIDOTE      ; $0B
-	const BURN_HEAL     ; $0C
-	const ICE_HEAL      ; $0D
-	const AWAKENING     ; $0E
+	const ICE_STONE     ; $0B
+	const DAWN_STONE    ; $0C
+	const DUSK_STONE    ; $0D
+	const SHINY_STONE   ; $0E
 	const PARLYZ_HEAL   ; $0F
 	const FULL_RESTORE  ; $10
 	const MAX_POTION    ; $11

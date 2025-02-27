@@ -10,10 +10,10 @@ ItemPrices::
 	bcd3 1000  ; SAFARI_BALL
 	bcd3 0     ; POKEDEX
 	bcd3 2100  ; MOON_STONE
-	bcd3 100   ; ANTIDOTE
-	bcd3 250   ; BURN_HEAL
-	bcd3 250   ; ICE_HEAL
-	bcd3 200   ; AWAKENING
+	bcd3 2100  ; ICE_STONE
+	bcd3 2100  ; DAWN_STONE
+	bcd3 2100  ; DUSK_STONE
+	bcd3 2100  ; SHINY_STONE
 	bcd3 200   ; PARLYZ_HEAL
 	bcd3 3000  ; FULL_RESTORE
 	bcd3 2500  ; MAX_POTION
