@@ -190,6 +190,13 @@ PokedexEntryPointers:
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw CrobatDexEntry
+	dw SteelixDexEntry
+	dw ScizorDexEntry
+	dw KingdraDexEntry
+	dw MagmortarDexEntry
+	dw SirfetchdDexEntry
+	dw AnnihilapeDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1268,6 +1275,55 @@ MewDexEntry:
 	text_far _MewDexEntry
 	text_end
 
+CrobatDexEntry:
+	db "BAT@"
+	db 5,11
+	dw 1653
+	text_far _CrobatDexEntry
+	text_end
+
+SteelixDexEntry:
+	db "IRONSNAKE@"
+	db 30,2
+	dw 8818
+	text_far _SteelixDexEntry
+	text_end
+
+ScizorDexEntry:
+	db "PINCER@"
+	db 5,11
+	dw 2601
+	text_far _ScizorDexEntry
+	text_end
+
+KingdraDexEntry:
+	db "DRAGON@"
+	db 5,11
+	dw 3351
+	text_far _KingdraDexEntry
+	text_end
+
+MagmortarDexEntry:
+	db "BLAST@"
+	db 5,4
+	dw 1499
+	text_far _MagmortarDexEntry
+	text_end
+
+SirfetchdDexEntry:
+	db "WILDDUCK@"
+	db 2,07
+	dw 2579
+	text_far _SirfetchdDexEntry
+	text_end
+
+AnnihilapeDexEntry:
+	db "RAGE@"
+	db 3,11
+	dw 1235
+	text_far _MewDexEntry
+	text_end
+
 RaltsDexEntry:
 	db "FEELING@"
 	db 1,04
@@ -1307,7 +1363,7 @@ GalladeDexEntry:
 	db "BLADE@"
 	db 5,03
 	dw 1146
-	text_far _LucarioDexEntry
+	text_far _GalladeDexEntry
 	text_end
 
 AmauraDexEntry:

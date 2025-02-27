@@ -200,6 +200,13 @@ EvosMovesPointerTable:
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+	dw CrobatEvosMoves
+	dw SteelixEvosMoves
+	dw ScizorEvosMoves
+	dw KingdraEvosMoves
+	dw MagmortarEvosMoves
+	dw SirfetchdEvosMoves
+	dw AnnihilapeEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -490,6 +497,7 @@ GastlyEvosMoves:
 
 ScytherEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, MOON_STONE, 1, SCIZOR
 	db 0
 ; Learnset
 	db 17, LEER
@@ -590,6 +598,7 @@ GrowlitheEvosMoves:
 
 OnixEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, MOON_STONE, 1, STEELIX
 	db 0
 ; Learnset
 	db 15, BIND
@@ -793,6 +802,7 @@ MimikyuEvosMoves:
 
 MagmarEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, FIRE_STONE, 1, MAGMORTAR
 	db 0
 ; Learnset
 	db 36, LEER
@@ -936,6 +946,7 @@ GardevoirEvosMoves:
 
 FarfetchdEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 30, SIRFETCHD
 	db 0
 ; Learnset
 	db 7, LEER
@@ -1150,8 +1161,11 @@ TyruntEvosMoves:
 	db 16, BITE
 	db 20, DRAGON_RAGE
 	db 24, STOMP
-	db 28, ROCK_SLIDE
-	db 44, EARTHQUAKE
+	db 30, THUNDER_FANG 
+	db 32, FIRE_FANG
+	db 34, ICE_FANG
+	db 38, ROCK_SLIDE
+	db 40, EARTHQUAKE
 	db 0
 
 TyrantrumEvosMoves:
@@ -1161,7 +1175,10 @@ TyrantrumEvosMoves:
 	db 16, BITE
 	db 20, DRAGON_RAGE
 	db 24, STOMP
-	db 28, ROCK_SLIDE
+	db 30, THUNDER_FANG 
+	db 32, FIRE_FANG
+	db 34, ICE_FANG
+	db 38, ROCK_SLIDE
 	db 48, EARTHQUAKE
 	db 0
 
@@ -1224,6 +1241,7 @@ HorseaEvosMoves:
 
 SeadraEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, WATER_STONE, 1, KINGDRA
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
@@ -1496,6 +1514,7 @@ DodrioEvosMoves:
 
 PrimeapeEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 35, ANNIHILAPE
 	db 0
 ; Learnset
 	db 9, LOW_KICK
@@ -1625,6 +1644,7 @@ HypnoEvosMoves:
 
 GolbatEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 33, CROBAT
 	db 0
 ; Learnset
 	db 15, POISON_FANG
@@ -2225,4 +2245,86 @@ VictreebelEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
+	db 0
+
+CrobatEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 15, POISON_FANG
+	db 27, WING_ATTACK
+	db 34, BITE
+	db 55, CONFUSE_RAY
+	db 69, LEECH_LIFE
+	db 0
+
+SteelixEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 15, BIND
+	db 19, ROCK_THROW
+	db 25, RAGE
+	db 33, SLAM
+	db 43, HARDEN
+	db 0
+ScizorEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 17, LEER
+	db 20, FOCUS_ENERGY
+	db 24, DOUBLE_TEAM
+	db 29, SLASH
+	db 35, SWORDS_DANCE
+	db 42, AGILITY
+	db 50, WING_ATTACK
+	db 0
+
+KingdraEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 19, SMOKESCREEN
+	db 24, LEER
+	db 30, WATER_GUN
+	db 41, AGILITY
+	db 52, HYDRO_PUMP
+	db 0
+
+MagmortarEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 36, LEER
+	db 39, CONFUSE_RAY
+	db 43, FIRE_PUNCH
+	db 48, SMOKESCREEN
+	db 52, SMOG
+	db 55, FLAMETHROWER
+	db 0
+
+SirfetchdEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 7, LEER
+	db 15, FURY_ATTACK
+	db 23, SWORDS_DANCE
+	db 31, AGILITY
+	db 39, SLASH
+	db 0
+
+AnnihilapeEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 9, LOW_KICK
+	db 15, KARATE_CHOP
+	db 21, FURY_SWIPES
+	db 27, FOCUS_ENERGY
+	db 35, SHADOW_CLAW
+	db 37, SEISMIC_TOSS
+	db 46, THRASH
+	db 45, SCREECH
 	db 0

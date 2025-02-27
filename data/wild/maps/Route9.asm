@@ -1,15 +1,15 @@
 Route9WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, NIDORAN_M
-	db 16, NIDORAN_F
-	db 18, RATTATA
-	db 18, NIDORAN_M
-	db 18, NIDORAN_F
-	db 17, SPEAROW
-	db 18, NIDORINO
-	db 18, NIDORINA
-	db 20, RATICATE
-	db 19, FEAROW
+	db 16, MACHOP
+	db 16, KRABBY
+	db 18, RALTS
+	db 18, MACHOP
+	db 18, KRABBY
+	db 17, MEOWTH
+	db 18, MEOWTH
+	db 18, SCYTHER
+	db 20, SCYTHER
+	db 19, SCYTHER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

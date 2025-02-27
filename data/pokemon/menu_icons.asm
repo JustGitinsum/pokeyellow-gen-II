@@ -151,6 +151,13 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
+	nybble ICON_MON       ; Crobat
+	nybble ICON_SNAKE     ; Steelix
+	nybble ICON_BUG       ; Scizor
+	nybble ICON_WATER     ; Kingdra
+	nybble ICON_MON       ; Magmortar
+	nybble ICON_MON       ; Sirfetchd
+	nybble ICON_MON       ; Annihilape
 	nybble ICON_MON       ; Ralts
 	nybble ICON_MON       ; Kirlia
 	nybble ICON_MON       ; Gardevoir

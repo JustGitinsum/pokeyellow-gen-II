@@ -127,7 +127,7 @@ Moves:
 	move HAZE,         HAZE_EFFECT,                  0, ICE,          100, 30
 	move REFLECT,      REFLECT_EFFECT,               0, PSYCHIC_TYPE, 100, 20
 	move FOCUS_ENERGY, FOCUS_ENERGY_EFFECT,          0, NORMAL,       100, 30
-	move ACCELEROCK,   NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 20
+	move ACCELEROCK,   NO_ADDITIONAL_EFFECT,        50, ROCK,         100, 20
 	move METRONOME,    METRONOME_EFFECT,             0, NORMAL,       100, 10
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
@@ -135,7 +135,7 @@ Moves:
 	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
-	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
+	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10

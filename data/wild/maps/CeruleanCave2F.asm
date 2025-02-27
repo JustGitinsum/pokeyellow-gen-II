@@ -1,14 +1,14 @@
 CeruleanCave2FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 52, GOLBAT
-	db 57, GOLBAT
-	db 50, GRAVELER
+	db 52, ALAKAZAM
+	db 57, TYRANTRUM
+	db 50, MACHAMP
 	db 56, SANDSLASH
-	db 50, RHYHORN
+	db 50, GARDEVOIR
 	db 60, DITTO
-	db 58, GLOOM
-	db 58, WEEPINBELL
-	db 60, RHYDON
+	db 58, LUCARIO
+	db 58, CHANSEY
+	db 60, SIRFETCHD
 	db 58, RHYDON
 	end_grass_wildmons
 

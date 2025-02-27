@@ -5,7 +5,7 @@
 
 	db PSYCHIC_TYPE, FAIRY ; type
 	db 50 ; catch rate
-	db 259 ; base exp
+	db 230 ; base exp
 
 	INCBIN "gfx/pokemon/front/gardevoir.pic", 0, 1 ; sprite dimensions
 	dw GardevoirPicFront, GardevoirPicBack

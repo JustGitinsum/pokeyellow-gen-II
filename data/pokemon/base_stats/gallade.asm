@@ -5,12 +5,12 @@
 
 	db PSYCHIC_TYPE, FIGHTING ; type
 	db 50 ; catch rate
-	db 259 ; base exp
+	db 230 ; base exp
 
 	INCBIN "gfx/pokemon/front/gallade.pic", 0, 1 ; sprite dimensions
 	dw GalladePicFront, GalladePicBack
 
-	db CONFUSION, GROWL, DOUBLE_TEAM, NO_MOVE ; level 1 learnset
+	db CONFUSION, GROWL, DOUBLE_TEAM, SLASH ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

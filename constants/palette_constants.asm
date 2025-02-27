@@ -228,6 +228,13 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_DRAGONITE  ; $BC
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
+	const PAL_CROBAT
+	const PAL_STEELIX
+	const PAL_SCIZOR
+	const PAL_KINGDRA
+	const PAL_MAGMORTAR
+	const PAL_SIRFETCHD
+	const PAL_ANNIHILAPE
 	const PAL_RALTS
 	const PAL_KIRLIA
 	const PAL_GARDEVOIR

@@ -190,4 +190,11 @@ MonsterNames::
 	db "BELLSPROUT"
 	db "WEEPINBELL"
 	db "VICTREEBEL"
+	db "CROBAT@@@@"
+	db "STEELIX@@@"
+	db "SCIZOR@@@@"
+	db "KINGDRA@@@"
+	db "MAGMORTAR@"
+	db "SIRFETCHD@"
+	db "ANNIHILAPE"
 	assert_table_length NUM_POKEMON_INDEXES

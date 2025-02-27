@@ -3,14 +3,14 @@ Route20WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	db 20, SEEL
+	db 15, GOLDEEN
+	db 15, SEEL
+	db 20, HORSEA
+	db 22, HORSEA
+	db 15, HORSEA
+	db 20, GOLDEEN
+	db 30, LAPRAS
+	db 35, SEAKING
+	db 40, SEAKING
 	end_water_wildmons

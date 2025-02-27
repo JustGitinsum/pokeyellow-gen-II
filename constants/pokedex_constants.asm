@@ -155,6 +155,13 @@
 	const DEX_DRAGONITE  ; 149
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
+	const DEX_CROBAT
+	const DEX_STEELIX
+	const DEX_SCIZOR
+	const DEX_KINGDRA
+	const DEX_MAGMORTAR
+	const DEX_SIRFETCHD
+	const DEX_ANNIHILAPE
 	const DEX_RALTS
 	const DEX_KIRLIA
 	const DEX_GARDEVOIR

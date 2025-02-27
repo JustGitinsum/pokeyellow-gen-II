@@ -196,4 +196,11 @@ CryData::
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_1D, $FA, $80 ; CROBAT
+	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
+	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
+	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA
+	mon_cry SFX_CRY_04, $FF, $30 ; MAGMORTAR
+	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
+	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
 	assert_table_length NUM_POKEMON_INDEXES
