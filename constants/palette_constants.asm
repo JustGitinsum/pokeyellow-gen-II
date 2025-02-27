@@ -84,7 +84,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_CHARMELEON ; $2C
 	const PAL_CHARIZARD  ; $2D
 	const PAL_SQUIRTLE   ; $2E
-	const PAL_WARTORTLE  ; $2F
+;	const PAL_WARTORTLE  ; $2F
 	const PAL_BLASTOISE  ; $30
 	const PAL_CATERPIE   ; $31
 	const PAL_METAPOD    ; $32
@@ -94,12 +94,12 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_BEEDRILL   ; $36
 	const PAL_PIDGEY     ; $37
 	const PAL_PIDGEOTTO  ; $38
-	const PAL_PIDGEOT    ; $39
+;	const PAL_PIDGEOT    ; $39
 	const PAL_RATTATA    ; $3A
 	const PAL_RATICATE   ; $3B
 	const PAL_SPEAROW    ; $3C
 	const PAL_FEAROW     ; $3D
-	const PAL_EKANS      ; $3E
+;	const PAL_EKANS      ; $3E
 	const PAL_ARBOK      ; $3F
 	const PAL_PIKACHU    ; $40
 	const PAL_RAICHU     ; $41
@@ -111,14 +111,14 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_NIDORAN_M  ; $47
 	const PAL_NIDORINO   ; $48
 	const PAL_NIDOKING   ; $49
-	const PAL_CLEFAIRY   ; $4A
+;	const PAL_CLEFAIRY   ; $4A
 	const PAL_CLEFABLE   ; $4B
 	const PAL_VULPIX     ; $4C
 	const PAL_NINETALES  ; $4D
 	const PAL_JIGGLYPUFF ; $4E
-	const PAL_WIGGLYTUFF ; $4F
+;	const PAL_WIGGLYTUFF ; $4F
 	const PAL_ZUBAT      ; $50
-	const PAL_GOLBAT     ; $51
+;	const PAL_GOLBAT     ; $51
 	const PAL_ODDISH     ; $52
 	const PAL_GLOOM      ; $53
 	const PAL_VILEPLUME  ; $54
@@ -127,7 +127,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_VENONAT    ; $57
 	const PAL_VENOMOTH   ; $58
 	const PAL_DIGLETT    ; $59
-	const PAL_DUGTRIO    ; $5A
+;	const PAL_DUGTRIO    ; $5A
 	const PAL_MEOWTH     ; $5B
 	const PAL_PERSIAN    ; $5C
 	const PAL_PSYDUCK    ; $5D
@@ -135,12 +135,12 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_MANKEY     ; $5F
 	const PAL_PRIMEAPE   ; $60
 	const PAL_GROWLITHE  ; $61
-	const PAL_ARCANINE   ; $62
+;	const PAL_ARCANINE   ; $62
 	const PAL_POLIWAG    ; $63
-	const PAL_POLIWHIRL  ; $64
+;	const PAL_POLIWHIRL  ; $64
 	const PAL_POLIWRATH  ; $65
-	const PAL_ABRA       ; $66
-	const PAL_KADABRA    ; $67
+;	const PAL_ABRA       ; $66
+;	const PAL_KADABRA    ; $67
 	const PAL_ALAKAZAM   ; $68
 	const PAL_MACHOP     ; $69
 	const PAL_MACHOKE    ; $6A
@@ -153,11 +153,11 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GEODUDE    ; $71
 	const PAL_GRAVELER   ; $72
 	const PAL_GOLEM      ; $73
-	const PAL_PONYTA     ; $74
+;	const PAL_PONYTA     ; $74
 	const PAL_RAPIDASH   ; $75
 	const PAL_SLOWPOKE   ; $76
 	const PAL_SLOWBRO    ; $77
-	const PAL_MAGNEMITE  ; $78
+;	const PAL_MAGNEMITE  ; $78
 	const PAL_MAGNETON   ; $79
 	const PAL_FARFETCHD  ; $7A
 	const PAL_DODUO      ; $7B
@@ -165,7 +165,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_SEEL       ; $7D
 	const PAL_DEWGONG    ; $7E
 	const PAL_GRIMER     ; $7F
-	const PAL_MUK        ; $80
+;	const PAL_MUK        ; $80
 	const PAL_SHELLDER   ; $81
 	const PAL_CLOYSTER   ; $82
 	const PAL_GASTLY     ; $83
@@ -175,9 +175,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_DROWZEE    ; $87
 	const PAL_HYPNO      ; $88
 	const PAL_KRABBY     ; $89
-	const PAL_KINGLER    ; $8A
+;	const PAL_KINGLER    ; $8A
 	const PAL_VOLTORB    ; $8B
-	const PAL_ELECTRODE  ; $8C
+;	const PAL_ELECTRODE  ; $8C
 	const PAL_EXEGGCUTE  ; $8D
 	const PAL_EXEGGUTOR  ; $8E
 	const PAL_CUBONE     ; $8F
@@ -188,7 +188,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_KOFFING    ; $94
 	const PAL_WEEZING    ; $95
 	const PAL_RHYHORN    ; $96
-	const PAL_RHYDON     ; $97
+;	const PAL_RHYDON     ; $97
 	const PAL_CHANSEY    ; $98
 	const PAL_TANGELA    ; $99
 	const PAL_KANGASKHAN ; $9A
@@ -215,9 +215,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_FLAREON    ; $AF
 	const PAL_PORYGON    ; $B0
 	const PAL_OMANYTE    ; $B1
-	const PAL_OMASTAR    ; $B2
+;	const PAL_OMASTAR    ; $B2
 	const PAL_KABUTO     ; $B3
-	const PAL_KABUTOPS   ; $B4
+;	const PAL_KABUTOPS   ; $B4
 	const PAL_AERODACTYL ; $B5
 	const PAL_SNORLAX    ; $B6
 	const PAL_ARTICUNO   ; $B7
@@ -228,26 +228,26 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_DRAGONITE  ; $BC
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
-	const PAL_CROBAT
-	const PAL_STEELIX
+;	const PAL_CROBAT
+;	const PAL_STEELIX
 	const PAL_SCIZOR
-	const PAL_KINGDRA
-	const PAL_MAGMORTAR
+;	const PAL_KINGDRA
+;	const PAL_MAGMORTAR
 	const PAL_SIRFETCHD
-	const PAL_ANNIHILAPE
-	const PAL_RALTS
-	const PAL_KIRLIA
+;	const PAL_ANNIHILAPE
+;	const PAL_RALTS
+;	const PAL_KIRLIA
 	const PAL_GARDEVOIR
-	const PAL_RIOLU
+;	const PAL_RIOLU
 	const PAL_LUCARIO
-	const PAL_GALLADE
+;	const PAL_GALLADE
 	const PAL_TYRUNT
 	const PAL_TYRANTRUM
 	const PAL_AMAURA
 	const PAL_AURORUS
-	const PAL_MIMIKYU
-	const PAL_ZORUA_H
-	const PAL_ZOROARK_H
+;	const PAL_MIMIKYU
+;	const PAL_ZORUA_H
+;	const PAL_ZOROARK_H
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1
