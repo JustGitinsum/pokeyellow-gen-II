@@ -7023,8 +7023,8 @@ HandleExplodingAnimation:
 	ret nz
 	ld a, ANIMATIONTYPE_SHAKE_SCREEN_HORIZONTALLY_LIGHT
 	ld [wAnimationType], a
-	assert ANIMATIONTYPE_SHAKE_SCREEN_HORIZONTALLY_LIGHT == MEGA_PUNCH
-	; ld a, MEGA_PUNCH
+	assert ANIMATIONTYPE_SHAKE_SCREEN_HORIZONTALLY_LIGHT == FORCE_PALM
+	; ld a, FORCE_PALM
 ; fallthrough
 PlayMoveAnimation:
 	ld [wAnimationID], a

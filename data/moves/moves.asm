@@ -15,7 +15,7 @@ Moves:
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,        95, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,        95, 15
-	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
+	move FORCE_PALM,   PARALYZE_SIDE_EFFECT1,       60, FIGHTING,     100, 10
 	move PAY_DAY,      PAY_DAY_EFFECT,              40, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT1,           75, FIRE,         100, 15
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          75, ICE,          100, 15
@@ -188,5 +188,9 @@ Moves:
 	move DRAIN_KISS,   DRAIN_HP_EFFECT,             50, FAIRY,        100, 35
 	move PLAY_ROUGH,   ATTACK_DOWN_SIDE_EFFECT,     90, FAIRY,        100, 15
 	move MOONBLAST,    SPECIAL_DOWN_SIDE_EFFECT,    95, FAIRY,        100, 10
+	move AURA_SPHERE,  SWIFT_EFFECT,                95, FIGHTING,     100, 10
+	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
+	move SLUDGE_BOMB,  DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
+	move RAGE_FIST,    NO_ADDITIONAL_EFFECT,       100, DARK,        100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

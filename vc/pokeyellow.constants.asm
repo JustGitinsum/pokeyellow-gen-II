@@ -15,7 +15,7 @@ ENDM
 	vc_const "L"
 	vc_const "S"
 	vc_const "F"
-	vc_const MEGA_PUNCH
+	vc_const FORCE_PALM
 
 ; [FPA 002 Begin]
 	vc_const "U"

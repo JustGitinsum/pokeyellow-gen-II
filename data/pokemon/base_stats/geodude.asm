@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm FORCE_PALM,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
 	     METRONOME,    LEAF_BLADE, FIRE_BLAST,   REST,         EXPLOSION,    \

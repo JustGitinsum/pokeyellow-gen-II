@@ -4,7 +4,7 @@ MoveNames::
 	li "KARATE CHOP"
 	li "DOUBLESLAP"
 	li "COMET PUNCH"
-	li "MEGA PUNCH"
+	li "FORCE PALM"
 	li "PAY DAY"
 	li "FIRE PUNCH"
 	li "ICE PUNCH"
@@ -177,5 +177,9 @@ MoveNames::
 	li "DRAIN KISS"
 	li "PLAY ROUGH"
 	li "MOONBLAST"
+	li "AURA SPHERE"
+	li "CRUNCH"
+	li "SLUDGE BOMB"
+	li "RAGE FIST"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

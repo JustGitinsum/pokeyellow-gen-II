@@ -5,7 +5,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0C,          $10, $80 ; KARATE_CHOP
 	db SFX_DOUBLESLAP,         $00, $80 ; DOUBLESLAP
 	db SFX_BATTLE_0B,          $01, $80 ; COMET_PUNCH
-	db SFX_BATTLE_0D,          $00, $40 ; MEGA_PUNCH
+	db SFX_BATTLE_0D,          $00, $40 ; FORCE_PALM
 	db SFX_SILPH_SCOPE,        $00, $ff ; PAY_DAY
 	db SFX_BATTLE_0D,          $10, $60 ; FIRE_PUNCH
 	db SFX_BATTLE_0D,          $20, $80 ; ICE_PUNCH
@@ -178,6 +178,10 @@ MoveSoundTable:
 	db SFX_BATTLE_09,          $88, $10 ; DrainKissAnim
 	db SFX_HORN_DRILL,         $00, $a0 ; PlayRoughAnim
 	db SFX_BATTLE_36,          $00, $80 ; MoonblastAnim
+	db SFX_BATTLE_2E,          $00, $80 ; Aura Sphere
+	db SFX_BATTLE_26,          $f0, $ff ; CRUNCH
+	db SFX_BATTLE_34,          $00, $40 ; SLUDGE_BOMB
+	db SFX_FAINT_FALL,         $ff, $04 ; RAGE_FIST
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

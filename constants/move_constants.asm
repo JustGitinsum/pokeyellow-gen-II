@@ -10,7 +10,7 @@
 	const KARATE_CHOP  ; 02
 	const DOUBLESLAP   ; 03
 	const COMET_PUNCH  ; 04
-	const MEGA_PUNCH   ; 05
+	const FORCE_PALM   ; 05
 	const PAY_DAY      ; 06
 	const FIRE_PUNCH   ; 07
 	const ICE_PUNCH    ; 08
@@ -125,7 +125,7 @@
 	const ACCELEROCK   ; 75
 	const METRONOME    ; 76
 	const MIRROR_MOVE  ; 77
-	const LEAF_BLADE ; 78
+	const LEAF_BLADE   ; 78
 	const EGG_BOMB     ; 79
 	const ELECTROWEB   ; 7a
 	const SMOG         ; 7b
@@ -183,6 +183,10 @@
 	const DRAIN_KISS
 	const PLAY_ROUGH
 	const MOONBLAST
+	const AURA_SPHERE
+	const CRUNCH
+	const SLUDGE_BOMB
+	const RAGE_FIST
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

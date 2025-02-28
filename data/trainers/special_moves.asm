@@ -24,7 +24,7 @@ SpecialTrainerMoves:
 
 	db LT_SURGE, 1
 	db 1, 1, THUNDERBOLT
-	db 1, 2, MEGA_PUNCH
+	db 1, 2, FORCE_PALM
 	db 1, 3, MEGA_KICK
 	db 1, 4, GROWL
 	db 0

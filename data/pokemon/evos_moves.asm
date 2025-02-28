@@ -232,7 +232,7 @@ KangaskhanEvosMoves:
 ; Learnset
 	db 26, BITE
 	db 31, TAIL_WHIP
-	db 36, MEGA_PUNCH
+	db 36, FORCE_PALM
 	db 41, LEER
 	db 46, DIZZY_PUNCH
 	db 0
@@ -359,12 +359,12 @@ GrimerEvosMoves:
 	db EVOLVE_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 4, HARDEN
+	db 15, SLUDGE
+	db 18, MINIMIZE
+	db 26, SLUDGE_BOMB
+	db 32, SCREECH
+	db 40, ACID_ARMOR
 	db 0
 
 GengarEvosMoves:
@@ -447,10 +447,12 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
-	db 30, METRONOME
-	db 40, PSYCHIC_M
+	db 5, TRANSFORM
+	db 10, FORCE_PALM
+	db 20, METRONOME
+	db 30, PSYCHIC_M
+	db 60, AMNESIA
+	db 100, AURA_SPHERE
 	db 0
 
 GyaradosEvosMoves:
@@ -458,9 +460,10 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
-	db 25, DRAGON_RAGE
-	db 32, LEER
-	db 41, HYDRO_PUMP
+	db 27, ICE_FANG
+	db 32, WATERFALL
+	db 41, CRUNCH
+	db 44, HYDRO_PUMP
 	db 52, HYPER_BEAM
 	db 0
 
@@ -586,6 +589,7 @@ LucarioEvosMoves:
 	db 08, KARATE_CHOP
 	db 12, DOUBLE_TEAM
 	db 24, BONE_CLUB
+	db 30, AURA_SPHERE
 	db 36, SLASH
 	db 0
 
@@ -730,7 +734,7 @@ HitmonchanEvosMoves:
 	db 33, FIRE_PUNCH
 	db 38, ICE_PUNCH
 	db 43, THUNDERPUNCH
-	db 48, MEGA_PUNCH
+	db 48, FORCE_PALM
 	db 53, COUNTER
 	db 0
 
@@ -855,11 +859,12 @@ KoffingEvosMoves:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 37, SMOKESCREEN
-;	db 40, EXPLOSION
-	db 45, HAZE
-	db 48, EXPLOSION
+	db  4, SMOG
+	db  7, SMOKESCREEN
+	db 18, SLUDGE
+	db 26, HAZE
+	db 34, SLUDGE_BOMB
+	db 37, EXPLOSION
 	db 0
 
 ZoroarkHEvosMoves:
@@ -955,10 +960,10 @@ FarfetchdEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEER
-	db 15, FURY_ATTACK
+	db 15, RAZOR_LEAF
 	db 23, SWORDS_DANCE
 	db 31, AGILITY
-	db 39, SLASH
+	db 39, LEAF_BLADE
 	db 0
 
 VenonatEvosMoves:
@@ -1535,7 +1540,7 @@ PrimeapeEvosMoves:
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
-	db 28, RAGE
+	db 35, RAGE_FIST
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
 	db 45, SCREECH
@@ -1674,10 +1679,10 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 50, RECOVER
+	db 57, PSYCHIC_M
 	db 63, BARRIER
-	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, MIST
+	db 75, AURA_SPHERE
 	db 81, AMNESIA
 	db 0
 
@@ -1715,12 +1720,12 @@ MukEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
+	db 4, HARDEN
+	db 15, SLUDGE
+	db 18, MINIMIZE
+	db 26, SLUDGE_BOMB
+	db 32, SCREECH
+	db 43, ACID_ARMOR
 	db 0
 
 MissingNo8AEvosMoves:
@@ -1774,11 +1779,12 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 39, SMOKESCREEN
-;	db 43, EXPLOSION
-	db 49, HAZE
-	db 53, EXPLOSION
+	db  4, SMOG
+	db  7, SMOKESCREEN
+	db 18, SLUDGE
+	db 26, HAZE
+	db 34, SLUDGE_BOMB
+	db 37, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -1997,20 +2003,25 @@ RattataEvosMoves:
 	db EVOLVE_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 4, QUICK_ATTACK	
+	db 7, FOCUS_ENERGY
+	db 10, BITE
 	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
+	db 22, CRUNCH
+	db 28, SUPER_FANG
 	db 0
 
 RaticateEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 4, QUICK_ATTACK	
+	db 7, FOCUS_ENERGY
+	db 10, BITE
 	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
-	db 41, SUPER_FANG
+	db 24, CRUNCH
+	db 34, SUPER_FANG
+	db 39, DOUBLE_EDGE
 	db 0
 
 NidorinoEvosMoves:
@@ -2384,11 +2395,12 @@ SirfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	; Learnset
 	db 7, LEER
-	db 15, FURY_ATTACK
+	db 15, RAZOR_LEAF
 	db 23, SWORDS_DANCE
 	db 31, AGILITY
-	db 39, SLASH
+	db 39, LEAF_BLADE
 	db 0
 
 AnnihilapeEvosMoves:
@@ -2399,7 +2411,7 @@ AnnihilapeEvosMoves:
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
-	db 35, SHADOW_CLAW
+	db 35, RAGE_FIST
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
 	db 45, SCREECH

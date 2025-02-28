@@ -1,9 +1,12 @@
 PhysicalToSpecialMoves:
 ; Flying
         db GUST
+; Fighting
+        db AURA_SPHERE
 ; Poison
         db ACID
         db SLUDGE
+        db SLUDGE_BOMB
 ; GHOST
         db OMINOUS_WIND
         db SHADOW_BALL
@@ -27,9 +30,13 @@ SpecialToPhysicalMoves:
 ; Grass
         db RAZOR_LEAF
         db VINE_WHIP
+        db LEAF_BLADE
 ; Electric
         db THUNDERPUNCH
         db THUNDER_FANG
+; DARK
+        db BITE
+        db CRUNCH
 ; FAIRY
         db PLAY_ROUGH
 ; Ice
