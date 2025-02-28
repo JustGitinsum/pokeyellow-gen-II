@@ -6,6 +6,7 @@ PhysicalToSpecialMoves:
         db SLUDGE
 ; GHOST
         db OMINOUS_WIND
+        db SHADOW_BALL
 ; Psychic
         db PSYCHO_CUT
 ; Normal
@@ -20,7 +21,7 @@ SpecialToPhysicalMoves:
         db FIRE_PUNCH
         db FIRE_FANG
 ; Water
-        db CLAMP
+        db RAZOR_SHELL
         db CRABHAMMER
         db WATERFALL
 ; Grass

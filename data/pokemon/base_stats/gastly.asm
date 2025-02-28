@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/gastly.pic", 0, 1 ; sprite dimensions
 	dw GastlyPicFront, GastlyPicBack
 
-	db LICK, CONFUSE_RAY, OMINOUS_WIND, NO_MOVE ; level 1 learnset
+	db CONFUSION, CONFUSE_RAY, OMINOUS_WIND, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        RAGE,         GIGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, \
-	     DREAM_EATER,  REST,         PSYCHO_CUT,      EXPLOSION,    SUBSTITUTE
+	     PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  LEAF_BLADE, \
+	     SHADOW_BALL,  REST,         PSYCHO_CUT,      EXPLOSION,    SUBSTITUTE
 	; end
 
 	db BANK(GastlyPicFront)

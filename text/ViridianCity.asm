@@ -126,7 +126,7 @@ _ViridianCityFisherReceivedTM42Text::
 
 _ViridianCityFisherTM42ExplanationText::
 	text "TM42 contains"
-	line "DREAM EATER..."
+	line "SHADOW BALL..."
 	cont "...Snore..."
 	done
 

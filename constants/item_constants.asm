@@ -188,18 +188,18 @@ DEF TM01 EQU const_value
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
 	add_tm TELEPORT     ; $E6
-	add_tm MIMIC        ; $E7
+	add_tm DARK_PULSE        ; $E7
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9
 	add_tm ACCELEROCK   ; $EA
 	add_tm METRONOME    ; $EB
-	add_tm SELFDESTRUCT ; $EC
+	add_tm LEAF_BLADE ; $EC
 	add_tm EGG_BOMB     ; $ED
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm SKULL_BASH   ; $F0
 	add_tm SOFTBOILED   ; $F1
-	add_tm DREAM_EATER  ; $F2
+	add_tm SHADOW_BALL  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4
 	add_tm THUNDER_WAVE ; $F5

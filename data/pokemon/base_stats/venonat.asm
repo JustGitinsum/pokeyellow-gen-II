@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         GIGA_DRAIN,   \
-	     ENERGY_BALL,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     ENERGY_BALL,    PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
 	     REST,         PSYCHO_CUT,      SUBSTITUTE,   FLASH
 	; end
 

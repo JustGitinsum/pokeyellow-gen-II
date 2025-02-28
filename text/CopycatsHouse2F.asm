@@ -36,8 +36,8 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM31 contains"
+	line "DARK PULSE!"
 
 	para "Use it on a good"
 	line "#MON!@"

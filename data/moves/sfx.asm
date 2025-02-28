@@ -88,7 +88,7 @@ MoveSoundTable:
 	db SFX_BATTLE_2F,          $20, $80 ; THUNDERBOLT
 	db SFX_BATTLE_2E,          $12, $60 ; THUNDER_WAVE
 	db SFX_BATTLE_26,          $00, $80 ; THUNDER
-	db SFX_BATTLE_14,          $01, $e0 ; ROCK_THROW
+	db SFX_BATTLE_14,          $01, $e0 ; ROCK_TOMB
 	db SFX_BATTLE_29,          $0f, $e0 ; EARTHQUAKE
 	db SFX_BATTLE_29,          $11, $20 ; FISSURE
 	db SFX_DAMAGE,             $10, $40 ; DIG
@@ -102,7 +102,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $20 ; RAGE
 	db SFX_BATTLE_33,          $f0, $c0 ; TELEPORT
 	db SFX_NOT_VERY_EFFECTIVE, $f0, $e0 ; OMINOUS_WIND
-	db SFX_BATTLE_09,          $f0, $40 ; MIMIC
+	db SFX_BATTLE_09,          $f0, $40 ; DARK_PULSE
 	db SFX_BATTLE_31,          $00, $80 ; SCREECH
 	db SFX_BATTLE_33,          $80, $40 ; DOUBLE_TEAM
 	db SFX_BATTLE_33,          $00, $80 ; RECOVER
@@ -120,15 +120,15 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $f0, $20 ; ACCELEROCK
 	db SFX_BATTLE_32,          $c0, $ff ; METRONOME
 	db SFX_BATTLE_09,          $f2, $20 ; MIRROR_MOVE
-	db SFX_BATTLE_34,          $00, $80 ; SELFDESTRUCT
+	db SFX_BATTLE_34,          $00, $80 ; LEAF_BLADE
 	db SFX_BATTLE_34,          $00, $40 ; EGG_BOMB
-	db SFX_BATTLE_09,          $00, $40 ; LICK
+	db SFX_BATTLE_09,          $00, $40 ; ELECTROWEB
 	db SFX_NOT_VERY_EFFECTIVE, $10, $ff ; SMOG
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE
 	db SFX_BATTLE_32,          $00, $80 ; BONE_CLUB
 	db SFX_BATTLE_29,          $1f, $20 ; FIRE_BLAST
 	db SFX_BATTLE_25,          $2f, $80 ; WATERFALL
-	db SFX_BATTLE_0F,          $1f, $ff ; CLAMP
+	db SFX_BATTLE_0F,          $1f, $ff ; RAZOR_SHELL
 	db SFX_BATTLE_2B,          $1f, $60 ; SWIFT
 	db SFX_BATTLE_26,          $1e, $20 ; SKULL_BASH
 	db SFX_BATTLE_26,          $1f, $18 ; SPIKE_CANNON
@@ -138,7 +138,7 @@ MoveSoundTable:
 	db SFX_BATTLE_32,          $08, $40 ; SOFTBOILED
 	db SFX_BATTLE_17,          $01, $e0 ; HI_JUMP_KICK
 	db SFX_NOT_VERY_EFFECTIVE, $09, $ff ; GLARE
-	db SFX_BATTLE_35,          $42, $01 ; DREAM_EATER
+	db SFX_BATTLE_35,          $42, $01 ; SHADOW_BALL
 	db SFX_BATTLE_1C,          $00, $ff ; POISON_GAS
 	db SFX_BATTLE_32,          $08, $e0 ; BARRAGE
 	db SFX_BATTLE_24,          $00, $80 ; LEECH_LIFE

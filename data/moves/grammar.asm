@@ -6,7 +6,7 @@ ExclamationPointMoveSets:
 
 ; set 1
 	db RECOVER
-	db SELFDESTRUCT
+	db LEAF_BLADE
 	db AMNESIA
 	db 0 ; end set
 
@@ -14,7 +14,7 @@ ExclamationPointMoveSets:
 	db MEDITATE
 	db AGILITY
 	db TELEPORT
-	db MIMIC
+	db DARK_PULSE
 	db DOUBLE_TEAM
 	db ACCELEROCK ; corrected JP grammar: moved from set 1 in pokered
 	db BARRAGE
@@ -53,8 +53,8 @@ ExclamationPointMoveSets:
 	db WITHDRAW
 	db DEFENSE_CURL
 	db METRONOME
-	db LICK
-	db CLAMP
+	db ELECTROWEB
+	db RAZOR_SHELL
 	db CONSTRICT
 	db POISON_GAS
 	db LEECH_LIFE

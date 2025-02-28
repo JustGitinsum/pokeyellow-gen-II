@@ -102,11 +102,11 @@ SpecialTrainerMoves:
 
 	db AGATHA, 1
 	db 1, 2, SUBSTITUTE
-	db 1, 3, LICK
+	db 1, 3, PSYCHIC_M
 	db 1, 4, GIGA_DRAIN
 	db 2, 2, TOXIC
 	db 2, 4, LEECH_LIFE
-	db 3, 2, LICK
+	db 3, 2, PSYCHIC_M
 	db 4, 1, WRAP
 	db 5, 2, PSYCHIC_M
 	db 0

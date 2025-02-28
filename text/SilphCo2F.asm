@@ -18,12 +18,12 @@ _SilphCo2FSilphWorkerFReceivedTM36Text::
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::
 	text "TM36 is"
-	line "SELFDESTRUCT!"
+	line "LEAF BLADE!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "It's powerful, and"
+	line "it has a high"
+	cont "chance to crit!"
+	cont "Enjoy."
 	done
 
 _SilphCo2FSilphWorkerFTM36NoRoomText::

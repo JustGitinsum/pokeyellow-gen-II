@@ -281,7 +281,7 @@ VoltorbEvosMoves:
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
+;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
 	db 43, EXPLOSION
@@ -372,7 +372,7 @@ GengarEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 38, SHADOW_BALL
 	db 0
 
 NidoranFEvosMoves:
@@ -470,7 +470,7 @@ ShellderEvosMoves:
 	db 0
 ; Learnset
 	db 18, SUPERSONIC
-	db 23, CLAMP
+	db 23, RAZOR_SHELL
 	db 30, AURORA_BEAM
 	db 39, LEER
 	db 50, ICE_BEAM
@@ -497,7 +497,7 @@ GastlyEvosMoves:
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 35, SHADOW_BALL
 	db 0
 
 ScytherEvosMoves:
@@ -544,7 +544,7 @@ PinsirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, BIND
+	db 21, ELECTROWEB
 	db 25, SEISMIC_TOSS
 	db 30, GUILLOTINE
 	db 36, FOCUS_ENERGY
@@ -607,7 +607,7 @@ OnixEvosMoves:
 	db 0
 ; Learnset
 	db 15, BIND
-	db 19, ROCK_THROW
+	db 19, ROCK_TOMB
 	db 25, RAGE
 	db 33, SLAM
 	db 43, HARDEN
@@ -669,8 +669,8 @@ GravelerEvosMoves:
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
+	db 16, ROCK_TOMB
+;	db 21, EXPLOSION
 	db 29, HARDEN
 	db 36, EARTHQUAKE
 	db 43, EXPLOSION
@@ -788,8 +788,8 @@ GolemEvosMoves:
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
+	db 16, ROCK_TOMB
+;	db 21, EXPLOSION
 	db 29, HARDEN
 	db 36, EARTHQUAKE
 	db 43, EXPLOSION
@@ -801,7 +801,7 @@ MimikyuEvosMoves:
 ; Learnset
 	db 06, OMINOUS_WIND
 	db 12, DOUBLE_TEAM
-	db 24, MIMIC
+	db 24, DARK_PULSE
 	db 36, SLASH
 	db 0
 
@@ -824,7 +824,7 @@ ZoruaHEvosMoves:
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 35, SHADOW_BALL
 	db 0
 
 ElectabuzzEvosMoves:
@@ -857,7 +857,7 @@ KoffingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 37, SMOKESCREEN
-	db 40, SELFDESTRUCT
+;	db 40, EXPLOSION
 	db 45, HAZE
 	db 48, EXPLOSION
 	db 0
@@ -867,7 +867,7 @@ ZoroarkHEvosMoves:
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 35, SHADOW_BALL
 	db 0
 
 MankeyEvosMoves:
@@ -967,7 +967,8 @@ VenonatEvosMoves:
 	db 0
 ; Learnset
 	db 5, SUPERSONIC
-	db 11, CONFUSION
+	db 8, CONFUSION
+	db 10, ELECTROWEB
 	db 13, POISONPOWDER
 	db 17, PSYBEAM
 	db 23, STUN_SPORE
@@ -1035,7 +1036,7 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, LICK
+	db 18, CONFUSION
 	db 23, DOUBLESLAP
 	db 31, ICE_PUNCH
 	db 39, BODY_SLAM
@@ -1446,7 +1447,7 @@ ParasEvosMoves:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0
 ; Learnset
-	db 6, STUN_SPORE
+	db 6, ELECTROWEB
 	db 11, MEGA_DRAIN
 	db 22, SPORE
 	db 27, SLASH
@@ -1481,6 +1482,7 @@ WeedleEvosMoves:
 	db EVOLVE_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
+	db 5, BUG_BITE
 	db 0
 
 KakunaEvosMoves:
@@ -1488,6 +1490,8 @@ KakunaEvosMoves:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+	db 7, HARDEN
+	db 9, ELECTROWEB
 	db 0
 
 BeedrillEvosMoves:
@@ -1588,6 +1592,7 @@ CaterpieEvosMoves:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
+	db 5, BUG_BITE
 	db 0
 
 MetapodEvosMoves:
@@ -1596,6 +1601,7 @@ MetapodEvosMoves:
 	db 0
 ; Learnset
 	db 7, HARDEN
+	db 9, ELECTROWEB
 	db 0
 
 ButterfreeEvosMoves:
@@ -1603,13 +1609,13 @@ ButterfreeEvosMoves:
 	db 0
 ; Learnset
 	db 10, CONFUSION
+	db 11, GUST
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, TWISTER
-	db 28, GUST
-	db 34, PSYBEAM
+	db 26, PSYBEAM
 	db 0
 
 MachampEvosMoves:
@@ -1752,7 +1758,7 @@ ElectrodeEvosMoves:
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
+;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
 	db 40, SWIFT
 	db 50, EXPLOSION
@@ -1770,7 +1776,7 @@ WeezingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
+;	db 43, EXPLOSION
 	db 49, HAZE
 	db 53, EXPLOSION
 	db 0
@@ -1812,7 +1818,7 @@ HaunterEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 38, SHADOW_BALL
 	db 0
 
 AbraEvosMoves:
@@ -2039,8 +2045,8 @@ GeodudeEvosMoves:
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
+	db 16, ROCK_TOMB
+;	db 21, EXPLOSION
 	db 26, HARDEN
 	db 31, EARTHQUAKE
 	db 36, EXPLOSION
@@ -2297,7 +2303,7 @@ SteelixEvosMoves:
 	db 0
 ; Learnset
 	db 15, BIND
-	db 19, ROCK_THROW
+	db 19, ROCK_TOMB
 	db 25, RAGE
 	db 33, SLAM
 	db 43, HARDEN

@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         GIGA_DRAIN,   ENERGY_BALL,    DIG,          MIMIC,        \
+	     RAGE,         GIGA_DRAIN,   ENERGY_BALL,    DIG,          DARK_PULSE,        \
 	     DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   REST,         \
 	     SUBSTITUTE,   CUT
 	; end

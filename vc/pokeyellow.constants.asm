@@ -53,7 +53,6 @@ ENDM
 	vc_const REFLECT
 
 ; [FPA 010 Begin]
-	vc_const SELFDESTRUCT
-
-; [FPA 011 Begin]
 	vc_const EXPLOSION
+
+	

@@ -11,7 +11,7 @@
 	const BURN_SIDE_EFFECT1          ; $04
 	const FREEZE_SIDE_EFFECT         ; $05
 	const PARALYZE_SIDE_EFFECT1      ; $06
-	const EXPLODE_EFFECT             ; $07 Explosion, Self Destruct
+	const EXPLODE_EFFECT             ; $07 Explosion
 	const DREAM_EATER_EFFECT         ; $08
 	const MIRROR_MOVE_EFFECT         ; $09
 	const ATTACK_UP1_EFFECT          ; $0A
@@ -86,7 +86,7 @@
 	const SUBSTITUTE_EFFECT          ; $4F
 	const HYPER_BEAM_EFFECT          ; $50
 	const RAGE_EFFECT                ; $51
-	const MIMIC_EFFECT               ; $52
+	const DARK_PULSE_EFFECT               ; $52
 	const METRONOME_EFFECT           ; $53
 	const LEECH_SEED_EFFECT          ; $54
 	const SPLASH_EFFECT              ; $55

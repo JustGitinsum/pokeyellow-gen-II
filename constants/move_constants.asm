@@ -93,7 +93,7 @@
 	const THUNDERBOLT  ; 55
 	const THUNDER_WAVE ; 56
 	const THUNDER      ; 57
-	const ROCK_THROW   ; 58
+	const ROCK_TOMB    ; 58
 	const EARTHQUAKE   ; 59
 	const FISSURE      ; 5a
 	const DIG          ; 5b
@@ -107,7 +107,7 @@
 	const RAGE         ; 63
 	const TELEPORT     ; 64
 	const OMINOUS_WIND  ; 65
-	const MIMIC        ; 66
+	const DARK_PULSE        ; 66
 	const SCREECH      ; 67
 	const DOUBLE_TEAM  ; 68
 	const RECOVER      ; 69
@@ -125,15 +125,15 @@
 	const ACCELEROCK   ; 75
 	const METRONOME    ; 76
 	const MIRROR_MOVE  ; 77
-	const SELFDESTRUCT ; 78
+	const LEAF_BLADE ; 78
 	const EGG_BOMB     ; 79
-	const LICK         ; 7a
+	const ELECTROWEB   ; 7a
 	const SMOG         ; 7b
 	const SLUDGE       ; 7c
 	const BONE_CLUB    ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const CLAMP        ; 80
+	const RAZOR_SHELL        ; 80
 	const SWIFT        ; 81
 	const SKULL_BASH   ; 82
 	const SPIKE_CANNON ; 83
@@ -143,7 +143,7 @@
 	const SOFTBOILED   ; 87
 	const HI_JUMP_KICK ; 88
 	const GLARE        ; 89
-	const DREAM_EATER  ; 8a
+	const SHADOW_BALL  ; 8a
 	const POISON_GAS   ; 8b
 	const BARRAGE      ; 8c
 	const LEECH_LIFE   ; 8d

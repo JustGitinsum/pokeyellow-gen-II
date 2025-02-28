@@ -3427,7 +3427,7 @@ MirrorMoveCheck:
 	jr z, .moveDidNotMiss
 	call PrintMoveFailureText
 	ld a, [wPlayerMoveEffect]
-	cp EXPLODE_EFFECT ; even if Explosion or Selfdestruct missed, its effect still needs to be activated
+	cp EXPLODE_EFFECT ; even if Explosion missed, its effect still needs to be activated
 	jr z, .notDone
 	jp ExecutePlayerMoveDone ; otherwise, we're done if the move missed
 .moveDidNotMiss
@@ -7004,7 +7004,7 @@ HandleExplodingAnimation:
 	ld de, wEnemyBattleStatus1
 	ld a, [wEnemyMoveNum]
 .player
-	cp SELFDESTRUCT
+	cp EXPLOSION
 	jr z, .isExplodingMove
 	cp EXPLOSION
 	ret nz

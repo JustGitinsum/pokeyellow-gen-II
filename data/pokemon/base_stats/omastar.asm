@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     SUBMISSION,   SEISMIC_TOSS, RAGE,         MIMIC,        DOUBLE_TEAM,  \
+	     SUBMISSION,   SEISMIC_TOSS, RAGE,         DARK_PULSE,        DOUBLE_TEAM,  \
 	     REFLECT,      SKULL_BASH,   REST,         SUBSTITUTE,   \
 	     SURF
 	; end

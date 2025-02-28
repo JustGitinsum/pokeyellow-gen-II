@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        \
+	     BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      DARK_PULSE,        \
 	     DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   REST,         \
 	     SUBSTITUTE
 	; end

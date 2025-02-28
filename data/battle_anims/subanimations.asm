@@ -52,7 +52,7 @@ SubanimationPointers:
 	dw Subanim_0SoundWave
 	dw Subanim_0Circle_1Square_HalfToss ; unused
 	dw Subanim_1Barrier
-	dw Subanim_1Selfdestruct
+	dw Subanim_1EXPLOSION
 	dw Subanim_0WaterBubbles
 	dw Subanim_0CirclesFalling
 	dw Subanim_0StringShot
@@ -702,7 +702,7 @@ Subanim_0Water_1Fire_Geyser:
 	db FRAMEBLOCK_3E, BASECOORD_4D, FRAMEBLOCKMODE_00
 	db FRAMEBLOCK_3F, BASECOORD_4D, FRAMEBLOCKMODE_00
 
-Subanim_1Selfdestruct:
+Subanim_1EXPLOSION:
 	subanim SUBANIMTYPE_HVFLIP, 21
 	db FRAMEBLOCK_SMALL_BLACK_CIRCLE, BASECOORD_7D, FRAMEBLOCKMODE_00
 	db FRAMEBLOCK_LARGE_BLACK_CIRCLE, BASECOORD_7D, FRAMEBLOCKMODE_00
