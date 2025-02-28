@@ -37,6 +37,8 @@ SpecialToPhysicalMoves:
 ; DARK
         db BITE
         db CRUNCH
+; DRAGON
+        db DRAGON_CLAW
 ; FAIRY
         db PLAY_ROUGH
 ; Ice

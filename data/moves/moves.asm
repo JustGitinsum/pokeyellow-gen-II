@@ -191,6 +191,7 @@ Moves:
 	move AURA_SPHERE,  SWIFT_EFFECT,                95, FIGHTING,     100, 10
 	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
 	move SLUDGE_BOMB,  DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
-	move RAGE_FIST,    NO_ADDITIONAL_EFFECT,       100, DARK,        100, 10
+	move RAGE_FIST,    NO_ADDITIONAL_EFFECT,       100, GHOST,        100, 10
+	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

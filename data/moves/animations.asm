@@ -181,6 +181,7 @@ AttackAnimationPointers:
 	dw CrunchAnim
 	dw SludgeBombAnim
 	dw RageFistAnim
+	dw DragonClawAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -300,7 +301,6 @@ VicegripAnim:
 	battle_anim VICEGRIP, SUBANIM_0_SLICE_BOTH_SIDES, 0, 8
 	db -1 ; end
 
-XScissorAnim:
 GuillotineAnim:
 	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
 	db -1 ; end
@@ -1184,6 +1184,15 @@ SlashAnim:
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
 	db -1 ; end
 
+XScissorAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION	
+	db -1 ; end
+
 ShadowClawAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
@@ -1211,6 +1220,14 @@ RageFistAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_THRICE, 0, 6
 	battle_anim CONFUSION, SE_FLASH_SCREEN_LONG
 	battle_anim NO_MOVE, SE_WAVY_SCREEN
+	db -1 ; end
+
+DragonClawAnim:
+	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
+	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
 SubstituteAnim:

@@ -187,6 +187,7 @@
 	const CRUNCH
 	const SLUDGE_BOMB
 	const RAGE_FIST
+	const DRAGON_CLAW
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

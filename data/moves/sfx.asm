@@ -182,6 +182,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; CRUNCH
 	db SFX_BATTLE_34,          $00, $40 ; SLUDGE_BOMB
 	db SFX_FAINT_FALL,         $ff, $04 ; RAGE_FIST
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; DRAGON_CLAW
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

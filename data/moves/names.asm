@@ -181,5 +181,6 @@ MoveNames::
 	li "CRUNCH"
 	li "SLUDGE BOMB"
 	li "RAGE FIST"
+	li "DRAGON CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
