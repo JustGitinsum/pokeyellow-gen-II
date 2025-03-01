@@ -182,5 +182,8 @@ MoveNames::
 	li "SLUDGE BOMB"
 	li "RAGE FIST"
 	li "DRAGON CLAW"
+	li "NIGHT SLASH"
+	li "AQUA TAIL"
+	li "POISON JAB"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/scizor.pic", 0, 1 ; sprite dimensions
 	dw ScizorPicFront, ScizorPicBack
 
-	db QUICK_ATTACK, LEER, AGILITY, WING_ATTACK ; level 1 learnset
+	db DOUBLE_TEAM, METAL_CLAW, SLASH, WING_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

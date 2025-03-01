@@ -182,6 +182,9 @@ AttackAnimationPointers:
 	dw SludgeBombAnim
 	dw RageFistAnim
 	dw DragonClawAnim
+	dw NightSlashAnim
+	dw AquaTailAnim
+	dw PoisonJabAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1228,6 +1231,29 @@ DragonClawAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	db -1 ; end
+
+NightSlashAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim CUT, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
+	battle_anim CUT, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	db -1 ; end
+
+AquaTailAnim:
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim AMNESIA, SE_RESET_MON_POSITION
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
+	db -1 ; end
+
+PoisonJabAnim:
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	battle_anim FIRE_PUNCH, SUBANIM_0_STAR_THRICE, 0, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	battle_anim CUT, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
 SubstituteAnim:

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidorina.pic", 0, 1 ; sprite dimensions
 	dw NidorinaPicFront, NidorinaPicBack
 
-	db GROWL, TACKLE, SCRATCH, NO_MOVE ; level 1 learnset
+	db LEER, POISON_FANG, HORN_ATTACK, DOUBLE_KICK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

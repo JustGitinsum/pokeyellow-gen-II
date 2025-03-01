@@ -7,4 +7,5 @@ HighCriticalMoves:
 	db SHADOW_CLAW
 	db X_SCISSOR
 	db LEAF_BLADE
+	db NIGHT_SLASH
 	db -1 ; end

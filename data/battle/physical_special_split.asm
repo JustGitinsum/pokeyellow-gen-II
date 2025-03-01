@@ -27,6 +27,7 @@ SpecialToPhysicalMoves:
         db RAZOR_SHELL
         db CRABHAMMER
         db WATERFALL
+        db AQUA_TAIL
 ; Grass
         db RAZOR_LEAF
         db VINE_WHIP
@@ -37,6 +38,7 @@ SpecialToPhysicalMoves:
 ; DARK
         db BITE
         db CRUNCH
+        db NIGHT_SLASH
 ; DRAGON
         db DRAGON_CLAW
 ; FAIRY

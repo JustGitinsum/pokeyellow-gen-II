@@ -188,6 +188,9 @@
 	const SLUDGE_BOMB
 	const RAGE_FIST
 	const DRAGON_CLAW
+	const NIGHT_SLASH
+	const AQUA_TAIL
+	const POISON_JAB
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 
