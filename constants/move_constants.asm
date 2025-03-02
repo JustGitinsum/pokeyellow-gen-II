@@ -193,6 +193,8 @@
 	const POISON_JAB
 	const BOUNCE
 	const TROP_KICK
+	const ARMOR_CANNON
+	const BITTER_BLADE
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

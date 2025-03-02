@@ -187,6 +187,8 @@ AttackAnimationPointers:
 	dw PoisonJabAnim
 	dw BounceAnim
 	dw TropKickAnim
+	dw ArmorCannonAnim
+	dw BitterBladeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1276,6 +1278,22 @@ TropKickAnim:
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	db -1 ; end
+
+ArmorCannonAnim:
+	battle_anim FIRE_SPIN, SUBANIM_0_BEAM, 0, 2
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
+	db -1 ; end
+
+BitterBladeAnim:
+	battle_anim CUT, SUBANIM_0_SLICE, 0, 4
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
+	battle_anim MEGA_DRAIN, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 0, 6
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
 	db -1 ; end
 
 SubstituteAnim:

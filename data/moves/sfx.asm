@@ -188,6 +188,8 @@ MoveSoundTable:
 	db SFX_BATTLE_0D,          $f0, $ff ; POISON_JAB
 	db SFX_DAMAGE,             $10, $40 ; BOUNCE
 	db SFX_BATTLE_23,          $00, $80 ; TROP_KICK
+	db SFX_BATTLE_36,          $00, $80 ; ARMOR_CANNON
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; BITTER_BLADE
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

@@ -198,5 +198,7 @@ Moves:
 	move POISON_JAB,   POISON_SIDE_EFFECT2,         80, POISON,       100, 20
 	move BOUNCE,       NO_ADDITIONAL_EFFECT,        80, FLYING,       100, 10
 	move TROP_KICK,    ATTACK_DOWN_SIDE_EFFECT,     70, GRASS,        100, 15
+	move ARMOR_CANNON, ATTACK_DOWN_SIDE_EFFECT,    120, FIRE,         100,  5
+	move BITTER_BLADE, DRAIN_HP_EFFECT,             90, FIRE,         100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

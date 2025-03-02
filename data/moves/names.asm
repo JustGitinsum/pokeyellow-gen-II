@@ -187,5 +187,7 @@ MoveNames::
 	li "POISON JAB"
 	li "BOUNCE"
 	li "TROP KICK"
+	li "ARMOR CANNON"
+	li "BITTER BLADE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
