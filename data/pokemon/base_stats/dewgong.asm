@@ -17,7 +17,7 @@
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     PAY_DAY,      RAGE,         DARK_PULSE,        DOUBLE_TEAM,  \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     IRON_HEAD,   REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(DewgongPicFront)

@@ -17,7 +17,7 @@
 	tmhm FORCE_PALM,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DRAGON_RAGE,  DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REFLECT,      FIRE_BLAST,   SWIFT,        IRON_HEAD,   \
 	     REST,         SUBSTITUTE,   CUT,          STRENGTH
 	; end
 

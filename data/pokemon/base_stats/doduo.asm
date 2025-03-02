@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TWISTER,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     RAGE,         DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
+	     IRON_HEAD,   SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
 	     FLY
 	; end
 

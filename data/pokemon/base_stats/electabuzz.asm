@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
 	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      METRONOME,    \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYCHO_CUT,      \
+	     SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, PSYCHO_CUT,      \
 	     SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 

@@ -129,7 +129,7 @@ AttackAnimationPointers:
 	dw WaterfallAnim
 	dw RazorShellAnim
 	dw SwiftAnim
-	dw SkullBashAnim
+	dw IronHeadAnim
 	dw SpikeCannonAnim
 	dw ConstrictAnim
 	dw AmnesiaAnim
@@ -185,6 +185,8 @@ AttackAnimationPointers:
 	dw NightSlashAnim
 	dw AquaTailAnim
 	dw PoisonJabAnim
+	dw BounceAnim
+	dw TropKickAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1001,8 +1003,8 @@ SwiftAnim:
 	battle_anim SWIFT, SUBANIM_1_STARS_SMALL_TOSS, 1, 3
 	db -1 ; end
 
-SkullBashAnim:
-	battle_anim SKULL_BASH, SUBANIM_1_STAR_BIG, 1, 6
+IronHeadAnim:
+	battle_anim IRON_HEAD, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
 SpikeCannonAnim:
@@ -1254,6 +1256,23 @@ PoisonJabAnim:
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
 	battle_anim CUT, SE_DARK_SCREEN_FLASH
+	db -1 ; end
+
+BounceAnim:
+	battle_anim SKY_ATTACK, SE_SQUISH_MON_PIC
+	battle_anim NO_MOVE, SE_SHOOT_BALLS_UPWARD
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim SEISMIC_TOSS, SUBANIM_1_SPHERE_BIG_FALL, 1, 1
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	db -1 ; end
+
+TropKickAnim:
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	battle_anim SWIFT, SUBANIM_1_LEAVES_TOSS, 1, 1
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
 SubstituteAnim:

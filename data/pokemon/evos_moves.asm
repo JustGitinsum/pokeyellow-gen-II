@@ -330,6 +330,7 @@ ExeggutorEvosMoves:
 	db 0
 ; Learnset
 	db 28, STOMP
+	db 40, TROP_KICK
 	db 0
 
 LickitungEvosMoves:
@@ -544,7 +545,7 @@ BlastoiseEvosMoves:
 	db 15, WATER_GUN
 	db 24, BITE
 	db 31, WITHDRAW
-	db 42, SKULL_BASH
+	db 42, IRON_HEAD
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -595,6 +596,7 @@ LucarioEvosMoves:
 	db 12, DOUBLE_TEAM
 	db 29, BONE_CLUB
 	db 30, AURA_SPHERE
+	db 38, TROP_KICK
 	db 52, DRAGON_PULSE
 	db 0
 
@@ -728,6 +730,7 @@ HitmonleeEvosMoves:
 ; Learnset
 	db 33, ROLLING_KICK
 	db 38, JUMP_KICK
+	db 40, TROP_KICK
 	db 43, FOCUS_ENERGY
 	db 48, HI_JUMP_KICK
 	db 53, MEGA_KICK
@@ -2007,7 +2010,8 @@ RapidashEvosMoves:
 	db 0
 ; Learnset
 	db 41, POISON_JAB
-	db 45, FIRE_BLAST
+	db 44, BOUNCE
+	db 49, FIRE_BLAST
 	db 0
 
 RattataEvosMoves:
@@ -2092,6 +2096,7 @@ AerodactylEvosMoves:
 	db 33, CRUNCH
 	db 38, ROCK_SLIDE
 	db 41, TAKE_DOWN
+	db 57, IRON_HEAD
 	db 63, HYPER_BEAM
 	db 0
 
@@ -2148,7 +2153,7 @@ SquirtleEvosMoves:
 	db 15, WATER_GUN
 	db 22, BITE
 	db 28, WITHDRAW
-	db 35, SKULL_BASH
+	db 35, IRON_HEAD
 	db 42, HYDRO_PUMP
 	db 0
 
@@ -2174,7 +2179,7 @@ WartortleEvosMoves:
 	db 17, BITE
 	db 25, WITHDRAW
 	db 33, AQUA_TAIL
-	db 39, SKULL_BASH
+	db 39, IRON_HEAD
 	db 47, HYDRO_PUMP
 	db 0
 
@@ -2341,7 +2346,8 @@ ScizorEvosMoves:
 ; Learnset
 	db 35, SWORDS_DANCE
 	db 41, X_SCISSOR
-	db 50, WING_ATTACK
+	db 45, NIGHT_SLASH
+	db 50, IRON_HEAD
 	db 0
 
 KingdraEvosMoves:

@@ -17,7 +17,7 @@
 	tmhm FORCE_PALM,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      SWIFT,        SKULL_BASH,   REST, 		 PSYCHIC_M,         \
+	     REFLECT,      SWIFT,        IRON_HEAD,   REST, 		 PSYCHIC_M,         \
 	     PSYCHO_CUT,    THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 

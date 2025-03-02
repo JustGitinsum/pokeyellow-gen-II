@@ -17,7 +17,7 @@
 	tmhm FORCE_PALM,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         PSYCHIC_M,    TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  \
-	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
+	     METRONOME,    FIRE_BLAST,   IRON_HEAD,   REST,         \
 	     PSYCHO_CUT,      SUBSTITUTE,   STRENGTH
 	; end
 

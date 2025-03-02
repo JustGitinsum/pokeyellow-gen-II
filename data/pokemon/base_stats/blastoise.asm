@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      SKULL_BASH,   REST,         SUBSTITUTE,   \
+	     REFLECT,      IRON_HEAD,   REST,         SUBSTITUTE,   \
 	     SURF,         STRENGTH
 	; end
 

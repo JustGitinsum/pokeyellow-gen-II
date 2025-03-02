@@ -130,7 +130,7 @@ MoveSoundTable:
 	db SFX_BATTLE_25,          $2f, $80 ; WATERFALL
 	db SFX_BATTLE_0F,          $1f, $ff ; RAZOR_SHELL
 	db SFX_BATTLE_2B,          $1f, $60 ; SWIFT
-	db SFX_BATTLE_26,          $1e, $20 ; SKULL_BASH
+	db SFX_BATTLE_26,          $1e, $20 ; IRON_HEAD
 	db SFX_BATTLE_26,          $1f, $18 ; SPIKE_CANNON
 	db SFX_BATTLE_14,          $0f, $80 ; CONSTRICT
 	db SFX_BATTLE_09,          $f8, $10 ; AMNESIA
@@ -186,6 +186,8 @@ MoveSoundTable:
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; NIGHT_SLASH
 	db SFX_BATTLE_21,          $00, $80 ; AQUA_TAIL
 	db SFX_BATTLE_0D,          $f0, $ff ; POISON_JAB
+	db SFX_DAMAGE,             $10, $40 ; BOUNCE
+	db SFX_BATTLE_23,          $00, $80 ; TROP_KICK
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

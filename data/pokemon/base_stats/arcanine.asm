@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         DRAGON_RAGE,  DIG,          TELEPORT,     DARK_PULSE,        \
 	     DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	     IRON_HEAD,   REST,         SUBSTITUTE
 	; end
 
 	db BANK(ArcaninePicFront)

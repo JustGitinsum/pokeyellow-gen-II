@@ -133,9 +133,9 @@
 	const BONE_CLUB    ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const RAZOR_SHELL        ; 80
+	const RAZOR_SHELL  ; 80
 	const SWIFT        ; 81
-	const SKULL_BASH   ; 82
+	const IRON_HEAD    ; 82
 	const SPIKE_CANNON ; 83
 	const CONSTRICT    ; 84
 	const AMNESIA      ; 85
@@ -191,6 +191,8 @@
 	const NIGHT_SLASH
 	const AQUA_TAIL
 	const POISON_JAB
+	const BOUNCE
+	const TROP_KICK
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

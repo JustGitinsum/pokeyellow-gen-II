@@ -21,7 +21,7 @@
 	     GIGA_DRAIN,   ENERGY_BALL,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
 	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      ACCELEROCK,         METRONOME,    \
-	     LEAF_BLADE, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     LEAF_BLADE, EGG_BOMB,     FIRE_BLAST,   SWIFT,        IRON_HEAD,   \
 	     SOFTBOILED,   SHADOW_BALL,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYCHO_CUT,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH,     FLASH

@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
 	     THUNDER,      TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     LEAF_BLADE, SWIFT,        SKULL_BASH,   REST,         \
+	     LEAF_BLADE, SWIFT,        IRON_HEAD,   REST,         \
 	     THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 

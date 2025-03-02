@@ -18,7 +18,7 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     DARK_PULSE,        DOUBLE_TEAM,  FIRE_BLAST,   SKULL_BASH,   \
+	     DARK_PULSE,        DOUBLE_TEAM,  FIRE_BLAST,   IRON_HEAD,   \
 	     REST,         SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 

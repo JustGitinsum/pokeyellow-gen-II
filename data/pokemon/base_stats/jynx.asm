@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     PSYCHIC_M,    TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     METRONOME,    SKULL_BASH,   REST,         PSYCHO_CUT,      \
+	     METRONOME,    IRON_HEAD,   REST,         PSYCHO_CUT,      \
 	     SUBSTITUTE
 	; end
 

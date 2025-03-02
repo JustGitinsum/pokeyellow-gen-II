@@ -129,7 +129,7 @@ MoveNames::
 	li "WATERFALL"
 	li "RAZOR SHELL"
 	li "SWIFT"
-	li "SKULL BASH"
+	li "IRON HEAD"
 	li "SPIKE CANNON"
 	li "CONSTRICT"
 	li "AMNESIA"
@@ -185,5 +185,7 @@ MoveNames::
 	li "NIGHT SLASH"
 	li "AQUA TAIL"
 	li "POISON JAB"
+	li "BOUNCE"
+	li "TROP KICK"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
