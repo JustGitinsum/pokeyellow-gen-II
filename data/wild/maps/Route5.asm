@@ -8,8 +8,8 @@ Route5WildMons:
 	db 17, RIOLU
 	db 17, PIDGEOTTO
 	db  3, VOLTORB
-	db  5, VOLTORB
-	db  7, VOLTORB
+	db  5, CHARCADET
+	db  7, CHARCADET
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

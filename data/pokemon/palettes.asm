@@ -177,6 +177,10 @@ MonsterPalettes:
 	db PAL_PIKACHU				;MIMIKYU
 	db PAL_GASTLY				;ZORUA_H
 	db PAL_GASTLY				;ZOROARK_H
+	db PAL_RAPIDASH				;CHARCADET
+	db PAL_RAPIDASH				;ARMAROUGE
+	db PAL_GASTLY				;CERULEDGE
+
 	assert_table_length NUM_POKEMON + 1
 
 TrainerPalettes:

@@ -180,5 +180,8 @@
 	const DEX_MIMIKYU
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H
+	const DEX_CHARCADET
+	const DEX_ARMAROUGE
+	const DEX_CERULEDGE
 
 DEF NUM_POKEMON EQU const_value - 1

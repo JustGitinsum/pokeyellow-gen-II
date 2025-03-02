@@ -176,6 +176,9 @@ MonPartyData:
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H
+	nybble ICON_MON       ; Charcadet
+	nybble ICON_MON       ; Armarouge
+	nybble ICON_MON       ; Ceruledge
 
 
 	end_nybble_array NUM_POKEMON

@@ -88,9 +88,9 @@ EvosMovesPointerTable:
 	dw DittoEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
-	dw MissingNo4FEvosMoves
-	dw MissingNo50EvosMoves
-	dw MissingNo51EvosMoves
+	dw CharcadetEvosMoves
+	dw ArmarougeEvosMoves
+	dw CeruledgeEvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
@@ -1118,22 +1118,39 @@ KrabbyEvosMoves:
 	db 35, CRABHAMMER
 	db 0
 
-MissingNo4FEvosMoves:
+CharcadetEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, DAWN_STONE, 1, ARMAROUGE
+	db EVOLVE_ITEM, DUSK_STONE, 1, CERULEDGE
 	db 0
 ; Learnset
+	db 16, COMET_PUNCH
+	db 20, OMINOUS_WIND
+	db 32, FIRE_PUNCH
+	db 48, FLAMETHROWER
 	db 0
 
-MissingNo50EvosMoves:
+ArmarougeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, COMET_PUNCH
+	db 20, OMINOUS_WIND
+	db 32, FIRE_PUNCH
+	db 48, FLAMETHROWER
+	db 62, ARMOR_CANNON
 	db 0
 
-MissingNo51EvosMoves:
+CeruledgeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, FURY_ATTACK
+	db 20, OMINOUS_WIND
+	db 32, FLAMETHROWER
+	db 37, SWORDS_DANCE
+	db 48, BITTER_BLADE
+	db 56, PSYCHO_CUT
 	db 0
 
 VulpixEvosMoves:

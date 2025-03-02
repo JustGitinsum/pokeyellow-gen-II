@@ -749,6 +749,10 @@ ZoruaHPicFront::      INCBIN "gfx/pokemon/front/zorua_h.pic"
 ZoruaHPicBack::       INCBIN "gfx/pokemon/back/zorua_hb.pic"
 ZoroarkHPicFront::    INCBIN "gfx/pokemon/front/zoroark_h.pic"
 ZoroarkHPicBack::     INCBIN "gfx/pokemon/back/zoroark_hb.pic"
-
-
+CharcadetPicFront::    INCBIN "gfx/pokemon/front/charcadet.pic"
+CharcadetPicBack::     INCBIN "gfx/pokemon/back/charcadetb.pic"
+ArmarougePicFront::    INCBIN "gfx/pokemon/front/armarouge.pic"
+ArmarougePicBack::     INCBIN "gfx/pokemon/back/armarougeb.pic"
+CeruledgePicFront::    INCBIN "gfx/pokemon/front/ceruledge.pic"
+CeruledgePicBack::     INCBIN "gfx/pokemon/back/ceruledgeb.pic"
 INCLUDE "data/sgb/sgb_palettes.asm"

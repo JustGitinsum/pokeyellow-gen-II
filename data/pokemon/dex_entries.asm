@@ -78,9 +78,9 @@ PokedexEntryPointers:
 	dw DittoDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw CharcadetDexEntry
+	dw ArmarougeDexEntry
+	dw CeruledgeDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
@@ -1428,16 +1428,37 @@ MimikyuDexEntry:
 	text_end
 
 ZoruaHDexEntry:
-	db "Tricky@"
+	db "TRICKY@"
 	db 2,4
 	dw 27
 	text_far _ZoruaHDexEntry
 	text_end
 
 ZoroarkHDexEntry:
-	db "Illusion@"
+	db "ILLUSION@"
 	db 5,3
 	dw 1609
+	text_far _ZoroarkHDexEntry
+	text_end
+
+CharcadetDexEntry:
+	db "FIRECHILD@"
+	db 5,3
+	dw 1609
+	text_far _ZoroarkHDexEntry
+	text_end
+
+ArmarougeDexEntry:
+	db "FIREWARRIOR@"
+	db 2,1
+	dw 231
+	text_far _ZoroarkHDexEntry
+	text_end
+
+CeruledgeDexEntry:
+	db "FIREBLADE@"
+	db 4,11
+	dw 1874
 	text_far _ZoroarkHDexEntry
 	text_end
 

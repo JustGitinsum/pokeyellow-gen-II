@@ -253,6 +253,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_MIMIKYU
 ;	const PAL_ZORUA_H
 ;	const PAL_ZOROARK_H
+;   const PAL_CHARCADET
+;   const PAL_ARMAROUGE
+;   const PAL_CERULEDGE
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1

@@ -85,9 +85,9 @@
 	const DITTO              ; $4C
 	const MEOWTH             ; $4D
 	const KRABBY             ; $4E
-	const_skip               ; $4F
-	const_skip               ; $50
-	const_skip               ; $51
+	const CHARCADET          ; $4F
+	const ARMAROUGE          ; $50
+	const CERULEDGE          ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53
 	const PIKACHU            ; $54
