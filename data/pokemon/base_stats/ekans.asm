@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     GIGA_DRAIN,   EARTHQUAKE,   FISSURE,      DIG,          DARK_PULSE,        \
+	     GIGA_DRAIN,   EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
 	     DOUBLE_TEAM,  ACCELEROCK,         IRON_HEAD,   REST,         ROCK_SLIDE,   \
 	     SUBSTITUTE,   STRENGTH
 	; end

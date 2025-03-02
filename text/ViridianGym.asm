@@ -69,7 +69,7 @@ _ViridianGymGiovanniReceivedTM27Text::
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
+	para "TM27 is EARTH_POWER!"
 	line "It will take out"
 	cont "#MON with just"
 	cont "one hit!"

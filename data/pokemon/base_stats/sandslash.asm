@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
+	     EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
 	     SWIFT,        IRON_HEAD,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          STRENGTH
 	; end

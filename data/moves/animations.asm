@@ -12,7 +12,7 @@ AttackAnimationPointers:
 	dw ScratchAnim
 	dw VicegripAnim
 	dw GuillotineAnim
-	dw RazorWindAnim
+	dw AirSlashAnim
 	dw SwordsDanceAnim
 	dw CutAnim
 	dw GustAnim
@@ -31,7 +31,7 @@ AttackAnimationPointers:
 	dw HeadbuttAnim
 	dw HornAttackAnim
 	dw FuryAttackAnim
-	dw HornDrillAnim
+	dw MegahornAnim
 	dw TackleAnim
 	dw BodySlamAnim
 	dw WrapAnim
@@ -89,7 +89,7 @@ AttackAnimationPointers:
 	dw ThunderAnim
 	dw RockTombAnim
 	dw EarthquakeAnim
-	dw FissureAnim
+	dw EarthPowerAnim
 	dw DigAnim
 	dw ToxicAnim
 	dw ConfusionAnim
@@ -310,8 +310,9 @@ GuillotineAnim:
 	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
 	db -1 ; end
 
-RazorWindAnim:
-	battle_anim RAZOR_WIND, SUBANIM_0_SLICE, 0, 4
+AirSlashAnim:
+	battle_anim TWISTER, SUBANIM_1_TORNADO, 1, 6
+	battle_anim AIR_SLASH, SUBANIM_0_SLICE, 0, 4
 	db -1 ; end
 
 SwordsDanceAnim:
@@ -399,8 +400,8 @@ FuryAttackAnim:
 	battle_anim NO_MOVE, SUBANIM_0_HORN_JAB_THRICE, 0, 2
 	db -1 ; end
 
-HornDrillAnim:
-	battle_anim HORN_DRILL, SUBANIM_1_STAR_BIG, 1, 2
+MegahornAnim:
+	battle_anim MEGAHORN, SUBANIM_1_STAR_BIG, 1, 2
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
@@ -679,7 +680,7 @@ GrowthAnim:
 RazorLeafAnim:
 	battle_anim RAZOR_LEAF, SE_LEAVES_FALLING
 	battle_anim SWIFT, SUBANIM_1_LEAVES_TOSS, 1, 1
-	battle_anim RAZOR_WIND, SUBANIM_0_SLICE, 0, 1
+	battle_anim AIR_SLASH, SUBANIM_0_SLICE, 0, 1
 	db -1 ; end
 
 EnergyBallAnim:
@@ -755,10 +756,10 @@ EarthquakeAnim:
 	battle_anim EARTHQUAKE, SE_SHAKE_SCREEN
 	db -1 ; end
 
-FissureAnim:
-	battle_anim FISSURE, SE_DARK_SCREEN_FLASH
+EarthPowerAnim:
+	battle_anim EARTH_POWER, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
-	battle_anim FISSURE, SE_DARK_SCREEN_FLASH
+	battle_anim EARTH_POWER, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
@@ -1004,7 +1005,9 @@ SwiftAnim:
 	db -1 ; end
 
 IronHeadAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim IRON_HEAD, SUBANIM_1_STAR_BIG, 1, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
 SpikeCannonAnim:

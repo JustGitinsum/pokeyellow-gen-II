@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm FORCE_PALM,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
+	     EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
 	     METRONOME,    LEAF_BLADE, FIRE_BLAST,   REST,         EXPLOSION,    \
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end

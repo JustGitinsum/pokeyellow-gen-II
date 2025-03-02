@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      DARK_PULSE,        \
 	     DOUBLE_TEAM,  REFLECT,      IRON_HEAD,   REST,         \
 	     SUBSTITUTE

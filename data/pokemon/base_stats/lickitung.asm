@@ -17,7 +17,7 @@
 	tmhm FORCE_PALM,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
+	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   EARTH_POWER,      \
 	     DARK_PULSE,        DOUBLE_TEAM,  FIRE_BLAST,   IRON_HEAD,   \
 	     REST,         SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end

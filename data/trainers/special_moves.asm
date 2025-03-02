@@ -10,7 +10,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db YOUNGSTER, 14
-	db 1, 4, FISSURE
+	db 1, 4, EARTH_POWER
 	db 0
 
 	db BROCK, 1
@@ -64,7 +64,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db GIOVANNI, 3
-	db 1, 3, FISSURE
+	db 1, 3, EARTH_POWER
 	db 2, 2, DOUBLE_TEAM
 	db 3, 1, EARTHQUAKE
 	db 3, 3, THUNDER

@@ -13,7 +13,7 @@ MoveSoundTable:
 	db SFX_DAMAGE,             $00, $80 ; SCRATCH
 	db SFX_BATTLE_0F,          $20, $40 ; VICEGRIP
 	db SFX_BATTLE_0F,          $00, $80 ; GUILLOTINE
-	db SFX_BATTLE_0E,          $00, $a0 ; RAZOR_WIND
+	db SFX_BATTLE_0E,          $00, $a0 ; AIR_SLASH
 	db SFX_NOT_VERY_EFFECTIVE, $10, $c0 ; SWORDS_DANCE
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; CUT
 	db SFX_BATTLE_12,          $00, $c0 ; GUST
@@ -32,7 +32,7 @@ MoveSoundTable:
 	db SFX_BATTLE_18,          $00, $80 ; HEADBUTT
 	db SFX_BATTLE_1E,          $00, $60 ; HORN_ATTACK
 	db SFX_BATTLE_1E,          $01, $40 ; FURY_ATTACK
-	db SFX_HORN_DRILL,         $00, $a0 ; HORN_DRILL
+	db SFX_HORN_DRILL,         $00, $a0 ; MEGAHORN
 	db SFX_SUPER_EFFECTIVE,    $10, $a0 ; TACKLE
 	db SFX_BATTLE_20,          $00, $c0 ; BODY_SLAM
 	db SFX_BATTLE_14,          $10, $60 ; WRAP
@@ -90,7 +90,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $00, $80 ; THUNDER
 	db SFX_BATTLE_14,          $01, $e0 ; ROCK_TOMB
 	db SFX_BATTLE_29,          $0f, $e0 ; EARTHQUAKE
-	db SFX_BATTLE_29,          $11, $20 ; FISSURE
+	db SFX_BATTLE_29,          $11, $20 ; EARTH_POWER
 	db SFX_DAMAGE,             $10, $40 ; DIG
 	db SFX_BATTLE_0F,          $10, $c0 ; TOXIC
 	db SFX_BATTLE_14,          $00, $20 ; CONFUSION

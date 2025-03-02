@@ -17,7 +17,7 @@
 	tmhm FORCE_PALM,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  \
+	     EARTHQUAKE,   EARTH_POWER,      PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  \
 	     METRONOME,    IRON_HEAD,   REST,         PSYCHO_CUT,      \
 	     SUBSTITUTE,   SURF,         STRENGTH
 	; end

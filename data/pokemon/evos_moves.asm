@@ -221,7 +221,7 @@ RhydonEvosMoves:
 	db 30, STOMP
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
-	db 48, HORN_DRILL
+	db 48, MEGAHORN
 	db 55, LEER
 	db 64, TAKE_DOWN
 	db 0
@@ -247,7 +247,7 @@ NidoranMEvosMoves:
 	db 17, POISON_FANG
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
-	db 38, HORN_DRILL
+	db 38, MEGAHORN
 	db 0
 
 ClefairyEvosMoves:
@@ -424,7 +424,7 @@ RhyhornEvosMoves:
 	db 30, STOMP
 	db 35, TAIL_WHIP
 	db 40, FURY_ATTACK
-	db 45, HORN_DRILL
+	db 45, MEGAHORN
 	db 50, LEER
 	db 55, TAKE_DOWN
 	db 0
@@ -1954,7 +1954,7 @@ GoldeenEvosMoves:
 	db 24, HORN_ATTACK
 	db 30, FURY_ATTACK
 	db 37, WATERFALL
-	db 45, HORN_DRILL
+	db 45, MEGAHORN
 	db 54, AGILITY
 	db 0
 
@@ -1965,7 +1965,7 @@ SeakingEvosMoves:
 	db 30, FURY_ATTACK
 	db 34, POISON_JAB
 	db 39, WATERFALL
-	db 48, HORN_DRILL
+	db 48, MEGAHORN
 	db 54, AGILITY
 	db 0
 
@@ -2050,7 +2050,7 @@ NidorinoEvosMoves:
 	db 19, TOXIC
 	db 27, FURY_ATTACK
 	db 36, POISON_JAB
-	db 46, HORN_DRILL
+	db 46, MEGAHORN
 	db 0
 
 NidorinaEvosMoves:
@@ -2063,7 +2063,7 @@ NidorinaEvosMoves:
 	db 19, TOXIC
 	db 27, FURY_ATTACK
 	db 36, POISON_JAB
-	db 46, HORN_DRILL
+	db 46, MEGAHORN
 	db 0
 
 GeodudeEvosMoves:

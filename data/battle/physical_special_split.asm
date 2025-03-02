@@ -1,6 +1,7 @@
 PhysicalToSpecialMoves:
 ; Flying
         db GUST
+        db AIR_SLASH
 ; Fighting
         db AURA_SPHERE
 ; Poison
@@ -14,7 +15,7 @@ PhysicalToSpecialMoves:
         db PSYCHO_CUT
 ; Normal
         db HYPER_BEAM
-        db RAZOR_WIND
+        db AIR_SLASH
         db SWIFT
         db TRI_ATTACK
         db -1 ; end
@@ -32,6 +33,7 @@ SpecialToPhysicalMoves:
         db RAZOR_LEAF
         db VINE_WHIP
         db LEAF_BLADE
+        db TROP_KICK
 ; Electric
         db THUNDERPUNCH
         db THUNDER_FANG
