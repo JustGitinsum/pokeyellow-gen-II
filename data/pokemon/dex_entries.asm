@@ -120,8 +120,8 @@ PokedexEntryPointers:
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
 	dw DewgongDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw BunearyDexEntry
+	dw LopunnyDexEntry
 	dw CaterpieDexEntry
 	dw MetapodDexEntry
 	dw ButterfreeDexEntry
@@ -1362,6 +1362,20 @@ GardevoirDexEntry:
 	db 5,03
 	dw 1067
 	text_far _GardevoirDexEntry
+	text_end
+
+BunearyDexEntry:
+	db "RABBIT@"
+	db 1,04
+	dw 121
+	text_far _MewDexEntry
+	text_end
+
+LopunnyDexEntry:
+	db "RABBIT@"
+	db 3,11
+	dw 734
+	text_far _MewDexEntry
 	text_end
 
 RioluDexEntry:

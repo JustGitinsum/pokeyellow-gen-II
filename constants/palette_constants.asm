@@ -240,6 +240,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_RALTS
 ;	const PAL_KIRLIA
 	const PAL_GARDEVOIR
+;	const PAL_BUNEARY
+;	const PAL_LOPUNNY
 ;	const PAL_RIOLU
 	const PAL_LUCARIO
 ;	const PAL_LEAFEON

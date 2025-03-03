@@ -167,6 +167,8 @@
 	const DEX_RALTS
 	const DEX_KIRLIA
 	const DEX_GARDEVOIR
+	const DEX_BUNEARY
+	const DEX_LOPUNNY
 	const DEX_RIOLU
 	const DEX_LUCARIO
 	const DEX_LEAFEON

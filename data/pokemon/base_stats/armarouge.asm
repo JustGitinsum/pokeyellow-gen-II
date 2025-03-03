@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/armarouge.pic", 0, 1 ; sprite dimensions
 	dw ArmarougePicFront, ArmarougePicBack
 
-	db TELEPORT, KINESIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db LEER, EMBER, POUND, SMOG ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

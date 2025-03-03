@@ -721,12 +721,16 @@ KirliaPicFront::     INCBIN "gfx/pokemon/front/kirlia.pic"
 KirliaPicBack::      INCBIN "gfx/pokemon/back/kirliab.pic"
 GardevoirPicFront::      INCBIN "gfx/pokemon/front/gardevoir.pic"
 GardevoirPicBack::       INCBIN "gfx/pokemon/back/gardevoirb.pic"
+BunearyPicFront::     INCBIN "gfx/pokemon/front/buneary.pic"
+BunearyPicBack::      INCBIN "gfx/pokemon/back/bunearyb.pic"
+LopunnyPicFront::      INCBIN "gfx/pokemon/front/lopunny.pic"
+LopunnyPicBack::       INCBIN "gfx/pokemon/back/lopunnyb.pic"
+
+SECTION "bank42", ROMX, BANK[$42]
 RioluPicFront::       INCBIN "gfx/pokemon/front/riolu.pic"
 RioluPicBack::        INCBIN "gfx/pokemon/back/riolub.pic"
 LucarioPicFront::     INCBIN "gfx/pokemon/front/lucario.pic"
 LucarioPicBack::      INCBIN "gfx/pokemon/back/lucariob.pic"
-
-SECTION "bank42", ROMX, BANK[$42]
 GalladePicFront::     INCBIN "gfx/pokemon/front/gallade.pic"
 GalladePicBack::      INCBIN "gfx/pokemon/back/galladeb.pic"
 LeafeonPicFront::     INCBIN "gfx/pokemon/front/leafeon.pic"

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ceruledge.pic", 0, 1 ; sprite dimensions
 	dw CeruledgePicFront, CeruledgePicBack
 
-	db CONFUSION, CONFUSE_RAY, OMINOUS_WIND, NO_MOVE ; level 1 learnset
+	db LEER, EMBER, POUND, SMOG ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

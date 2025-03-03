@@ -130,8 +130,8 @@ EvosMovesPointerTable:
 	dw DugtrioEvosMoves
 	dw VenomothEvosMoves
 	dw DewgongEvosMoves
-	dw MissingNo79EvosMoves
-	dw MissingNo7AEvosMoves
+	dw BunearyEvosMoves
+	dw LopunnyEvosMoves
 	dw CaterpieEvosMoves
 	dw MetapodEvosMoves
 	dw ButterfreeEvosMoves
@@ -1136,7 +1136,8 @@ ArmarougeEvosMoves:
 ; Learnset
 	db 16, COMET_PUNCH
 	db 20, OMINOUS_WIND
-	db 32, FIRE_PUNCH
+	db 32, ENERGY_BALL
+	db 38, PSYCHIC_M
 	db 48, FLAMETHROWER
 	db 62, ARMOR_CANNON
 	db 0
@@ -1149,6 +1150,7 @@ CeruledgeEvosMoves:
 	db 20, OMINOUS_WIND
 	db 32, FLAMETHROWER
 	db 37, SWORDS_DANCE
+	db 43, NIGHT_SLASH
 	db 48, BITTER_BLADE
 	db 56, PSYCHO_CUT
 	db 0
@@ -1614,16 +1616,29 @@ DewgongEvosMoves:
 	db 56, ICE_BEAM
 	db 0
 
-MissingNo79EvosMoves:
+BunearyEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 20, LOPUNNY
 	db 0
 ; Learnset
+	db  8, QUICK_ATTACK
+	db 13, DOUBLE_KICK
+	db 18, BITE
+	db 23, DIG
+	db 28, HEADBUTT
+	db 36, AGILITY
+	db 48, BOUNCE
 	db 0
 
-MissingNo7AEvosMoves:
+LopunnyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 21, LOVELY_KISS
+	db 23, DIG
+	db 28, HEADBUTT
+	db 36, AGILITY
+	db 48, BOUNCE
 	db 0
 
 CaterpieEvosMoves:
