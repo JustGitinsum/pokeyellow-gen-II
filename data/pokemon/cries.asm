@@ -139,8 +139,8 @@ CryData::
 	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
 	mon_cry SFX_CRY_05, $55, $01 ; Snorlax
 	mon_cry SFX_CRY_17, $80, $00 ; Magikarp
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_25, $00, $80 ; Ponyta_G
+	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash_G
 	mon_cry SFX_CRY_07, $EF, $FF ; Muk
 	mon_cry SFX_CRY_0F, $40, $80 ; MissingNo.
 	mon_cry SFX_CRY_20, $EE, $E0 ; Kingler

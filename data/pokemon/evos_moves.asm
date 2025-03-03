@@ -143,8 +143,8 @@ EvosMovesPointerTable:
 	dw MewtwoEvosMoves
 	dw SnorlaxEvosMoves
 	dw MagikarpEvosMoves
-	dw MissingNo86EvosMoves
-	dw MissingNo87EvosMoves
+	dw Ponyta_GEvosMoves
+	dw Rapidash_GEvosMoves
 	dw MukEvosMoves
 	dw MissingNo8AEvosMoves
 	dw KinglerEvosMoves
@@ -1771,16 +1771,27 @@ MagikarpEvosMoves:
 	db 15, WATER_GUN
 	db 0
 
-MissingNo86EvosMoves:
+Ponyta_GEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 40, RAPIDASH_G
 	db 0
 ; Learnset
+	db 15, DRAIN_KISS
+	db 20, AGILITY
+	db 25, PSYBEAM
+	db 30, STOMP
+	db 40, TAKE_DOWN
+	db 45, MOONBLAST
+	db 50, PSYCHIC_M
 	db 0
 
-MissingNo87EvosMoves:
+Rapidash_GEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 40, TAKE_DOWN
+	db 45, MOONBLAST
+	db 50, PSYCHIC_M
 	db 0
 
 MukEvosMoves:

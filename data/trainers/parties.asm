@@ -118,13 +118,13 @@ LassData:
 	db 11, ODDISH, BELLSPROUT, 0
 	db 14, CLEFAIRY, 0
 ; Route 24
-	db 16, PIDGEY, VULPIX_A, 0
+	db 16, PONYTA_G, VULPIX_A, 0
 	db 14, PIDGEY, NIDORAN_F, 0
 ; Route 25
 	db 15, NIDORAN_M, NIDORAN_F, 0
 	db 13, ODDISH, PIDGEY, RALTS, 0
 ; SS Anne 1F Rooms
-	db 18, PIDGEY, RALTS, 0
+	db 18, PONYTA_G, RALTS, 0
 ; SS Anne 2F Rooms
 	db 20, JIGGLYPUFF, 0
 ; Route 8
@@ -412,7 +412,7 @@ PsychicData:
 	db 31, KADABRA, SLOWPOKE, MR_MIME, RAICHU, 0
 	db 34, GARDEVOIR, GALLADE, 0
 	db 33, ESPEON, KIRLIA, SLOWBRO, 0
-	db 38, GARDEVOIR, 0
+	db 40, RAPIDASH_G, 0
 
 RockerData:
 ; Vermilion Gym

@@ -258,6 +258,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_ZIGZAGOON
 ;	const PAL_LINOONE
 ;	const PAL_OBSTAGOON
+;	const PAL_PONYTA_G
+;	const PAL_RAPIDASH_G
 ;	const PAL_ZORUA_H
 ;	const PAL_ZOROARK_H
 ;   const PAL_CHARCADET

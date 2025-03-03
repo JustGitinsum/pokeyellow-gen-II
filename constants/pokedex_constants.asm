@@ -185,6 +185,8 @@
 	const DEX_ZIGZAGOON
 	const DEX_LINOONE
 	const DEX_OBSTAGOON
+	const DEX_PONYTA_G
+	const DEX_RAPIDASH_G
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H
 	const DEX_CHARCADET

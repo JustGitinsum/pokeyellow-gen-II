@@ -140,8 +140,8 @@
 	const MEWTWO             ; $83
 	const SNORLAX            ; $84
 	const MAGIKARP           ; $85
-	const_skip               ; $86
-	const_skip               ; $87
+	const PONYTA_G           ; $86
+	const RAPIDASH_G         ; $87
 	const MUK                ; $88
 	const_skip               ; $89
 	const KINGLER            ; $8A

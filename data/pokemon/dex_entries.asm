@@ -133,8 +133,8 @@ PokedexEntryPointers:
 	dw MewtwoDexEntry
 	dw SnorlaxDexEntry
 	dw MagikarpDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw Ponyta_GDexEntry
+	dw Rapidash_GDexEntry
 	dw MukDexEntry
 	dw MissingNoDexEntry
 	dw KinglerDexEntry
@@ -1476,6 +1476,20 @@ ObstagoonDexEntry:
 	text_far _MewDexEntry
 	text_end
 
+Ponyta_GDexEntry:
+ 	db "UNIQUEHORN@"
+	db 2,7
+	dw 529
+	text_far _MewDexEntry
+	text_end
+
+Rapidash_GDexEntry:
+	db "UNIQUEHORN@"
+	db 5,7
+	dw 1764
+	text_far _MewDexEntry
+	text_end
+
 ZoruaHDexEntry:
 	db "TRICKY@"
 	db 2,4
@@ -1498,7 +1512,7 @@ CharcadetDexEntry:
 	text_end
 
 ArmarougeDexEntry:
-	db "FIREWARRIOR@"
+	db "FIREWARIOR@"
 	db 2,1
 	dw 231
 	text_far _ZoroarkHDexEntry

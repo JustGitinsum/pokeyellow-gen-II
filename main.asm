@@ -759,16 +759,20 @@ LinoonePicFront::     INCBIN "gfx/pokemon/front/linoone.pic"
 LinoonePicBack::      INCBIN "gfx/pokemon/back/linooneb.pic"
 ObstagoonPicFront::  INCBIN "gfx/pokemon/front/obstagoon.pic"
 ObstagoonPicBack::   INCBIN "gfx/pokemon/back/obstagoonb.pic"
+Ponyta_GPicFront::      INCBIN "gfx/pokemon/front/ponyta_g.pic"
+Ponyta_GPicBack::       INCBIN "gfx/pokemon/back/ponyta_gb.pic"
+Rapidash_GPicFront::    INCBIN "gfx/pokemon/front/rapidash_g.pic"
+Rapidash_GPicBack::     INCBIN "gfx/pokemon/back/rapidash_gb.pic"
 ZoruaHPicFront::      INCBIN "gfx/pokemon/front/zorua_h.pic"
 ZoruaHPicBack::       INCBIN "gfx/pokemon/back/zorua_hb.pic"
 ZoroarkHPicFront::    INCBIN "gfx/pokemon/front/zoroark_h.pic"
 ZoroarkHPicBack::     INCBIN "gfx/pokemon/back/zoroark_hb.pic"
+
+SECTION "bank43", ROMX, BANK[$43]
 CharcadetPicFront::    INCBIN "gfx/pokemon/front/charcadet.pic"
 CharcadetPicBack::     INCBIN "gfx/pokemon/back/charcadetb.pic"
 ArmarougePicFront::    INCBIN "gfx/pokemon/front/armarouge.pic"
 ArmarougePicBack::     INCBIN "gfx/pokemon/back/armarougeb.pic"
-
-SECTION "bank43", ROMX, BANK[$43]
 CeruledgePicFront::    INCBIN "gfx/pokemon/front/ceruledge.pic"
 CeruledgePicBack::     INCBIN "gfx/pokemon/back/ceruledgeb.pic"
 INCLUDE "data/sgb/sgb_palettes.asm"
