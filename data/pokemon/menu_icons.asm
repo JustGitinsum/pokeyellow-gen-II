@@ -176,6 +176,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Aurorus
 	nybble ICON_QUADRUPED ; Sylveon
 	nybble ICON_PIKACHU   ; Mimikyu
+	nybble ICON_QUADRUPED ; Vulpix_A
+	nybble ICON_QUADRUPED ; Ninetales_A
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H
 	nybble ICON_MON       ; Charcadet

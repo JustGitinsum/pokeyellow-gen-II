@@ -253,6 +253,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_AURORUS
 ;	const PAL_SYLVEON	
 ;	const PAL_MIMIKYU
+;	const PAL_VULPIX_A
+;	const PAL_NINETALES_A
 ;	const PAL_ZORUA_H
 ;	const PAL_ZOROARK_H
 ;   const PAL_CHARCADET

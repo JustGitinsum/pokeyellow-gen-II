@@ -158,8 +158,8 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw Vulpix_ADexEntry
+	dw Ninetales_ADexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw PonytaDexEntry
@@ -1439,6 +1439,20 @@ MimikyuDexEntry:
 	db 0,8
 	dw 15
 	text_far _MimikyuDexEntry
+	text_end
+
+Vulpix_ADexEntry:
+	db "FOX@"
+	db 2,6
+	dw 218
+	text_far _MewDexEntry
+	text_end
+
+Ninetales_ADexEntry:
+	db "FOX@"
+	db 3,11
+	dw 439
+	text_far _MewDexEntry
 	text_end
 
 ZoruaHDexEntry:

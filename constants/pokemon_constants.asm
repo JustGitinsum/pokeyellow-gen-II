@@ -165,8 +165,8 @@
 	const_skip               ; $9C
 	const GOLDEEN            ; $9D
 	const SEAKING            ; $9E
-	const_skip               ; $9F
-	const_skip               ; $A0
+	const VULPIX_A           ; $9F
+	const NINETALES_A        ; $A0
 	const_skip               ; $A1
 	const_skip               ; $A2
 	const PONYTA             ; $A3

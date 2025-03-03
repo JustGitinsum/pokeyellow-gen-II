@@ -168,8 +168,8 @@ EvosMovesPointerTable:
 	dw MissingNo9CEvosMoves
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
-	dw MissingNo9FEvosMoves
-	dw MissingNoA0EvosMoves
+	dw Vulpix_AEvosMoves
+	dw Ninetales_AEvosMoves
 	dw MissingNoA1EvosMoves
 	dw MissingNoA2EvosMoves
 	dw PonytaEvosMoves
@@ -1627,6 +1627,7 @@ BunearyEvosMoves:
 	db 23, DIG
 	db 28, HEADBUTT
 	db 36, AGILITY
+	db 40, PLAY_ROUGH
 	db 48, BOUNCE
 	db 0
 
@@ -1638,6 +1639,7 @@ LopunnyEvosMoves:
 	db 23, DIG
 	db 28, HEADBUTT
 	db 36, AGILITY
+	db 40, PLAY_ROUGH
 	db 48, BOUNCE
 	db 0
 
@@ -2001,16 +2003,31 @@ SeakingEvosMoves:
 	db 54, AGILITY
 	db 0
 
-MissingNo9FEvosMoves:
+Vulpix_AEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, ICE_STONE, 1, NINETALES_A
 	db 0
 ; Learnset
+	db  5, QUICK_ATTACK
+	db  9, AMNESIA
+	db 15, DRAIN_KISS
+	db 21, ICE_FANG
+	db 29, MOONBLAST
+	db 37, ICE_BEAM
+	db 42, PSYCHIC_M
+	db 47, BLIZZARD
 	db 0
 
-MissingNoA0EvosMoves:
+Ninetales_AEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 15, DRAIN_KISS
+	db 21, ICE_FANG
+	db 29, MOONBLAST
+	db 37, ICE_BEAM
+	db 42, PSYCHIC_M
+	db 47, BLIZZARD
 	db 0
 
 MissingNoA1EvosMoves:

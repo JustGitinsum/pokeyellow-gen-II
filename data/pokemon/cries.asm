@@ -164,8 +164,8 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_16, $80, $40 ; Goldeen
 	mon_cry SFX_CRY_16, $10, $FF ; Seaking
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_24, $4F, $10 ; Vulpix_A
+	mon_cry SFX_CRY_24, $88, $60 ; Ninetales_A
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_25, $00, $80 ; Ponyta

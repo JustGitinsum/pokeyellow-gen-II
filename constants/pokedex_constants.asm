@@ -180,6 +180,8 @@
 	const DEX_AURORUS
 	const DEX_SYLVEON
 	const DEX_MIMIKYU
+	const DEX_VULPIX_A
+	const DEX_NINETALES_A
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H
 	const DEX_CHARCADET

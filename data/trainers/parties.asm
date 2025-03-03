@@ -118,7 +118,7 @@ LassData:
 	db 11, ODDISH, BELLSPROUT, 0
 	db 14, CLEFAIRY, 0
 ; Route 24
-	db 16, PIDGEY, NIDORAN_F, 0
+	db 16, PIDGEY, VULPIX_A, 0
 	db 14, PIDGEY, NIDORAN_F, 0
 ; Route 25
 	db 15, NIDORAN_M, NIDORAN_F, 0
@@ -157,7 +157,7 @@ JrTrainerMData:
 ; Route 24/Route 25
 	db 14, RATTATA, EKANS, 0
 ; Route 24
-	db 18, MANKEY, 0
+	db 18, CHARCADET, 0
 ; Unused
 	db 20, SQUIRTLE, 0
 ; Route 6
@@ -674,7 +674,7 @@ SabrinaData:
 
 GentlemanData:
 ; SS Anne 1F Rooms
-	db 18, GROWLITHE, GROWLITHE, 0
+	db 18, VULPIX_A, GROWLITHE, 0
 	db 19, NIDORAN_M, NIDORAN_F, 0
 ; SS Anne 2F Rooms/Vermilion Gym
 	db 22, VOLTORB, MAGNEMITE, 0
@@ -706,7 +706,7 @@ Rival3Data:
 	db $FF, 61, SANDSLASH, 59, ALAKAZAM, 61, EXEGGUTOR, 61, NINETALES, 63, MAGNETON, 65, VAPOREON, 0
 
 LoreleiData:
-	db $FF, 54, DEWGONG, 53, CLOYSTER, 54, AURORUS, 56, JYNX, 56, LAPRAS, 0
+	db $FF, 54, DEWGONG, 53, NINETALES_A, 54, AURORUS, 56, JYNX, 56, LAPRAS, 0
 
 ChannelerData:
 ; Unused
