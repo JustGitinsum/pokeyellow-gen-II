@@ -76,9 +76,9 @@ EvosMovesPointerTable:
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
-	dw MissingNo43EvosMoves
-	dw MissingNo44EvosMoves
-	dw MissingNo45EvosMoves
+	dw ZigzagoonEvosMoves
+	dw LinooneEvosMoves
+	dw ObstagoonEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -1004,22 +1004,37 @@ DragoniteEvosMoves:
 	db 60, HYPER_BEAM
 	db 0
 
-MissingNo43EvosMoves:
+ZigzagoonEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 20, LINOONE
 	db 0
 ; Learnset
+	db  6, BITE
+	db 12, FURY_SWIPES
+	db 18, PIN_MISSILE
+	db 21, REST
+	db 24, TAKE_DOWN
+	db 27, DISABLE
+	db 30, HEADBUTT
 	db 0
 
-MissingNo44EvosMoves:
+LinooneEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 31, OBSTAGOON
 	db 0
 ; Learnset
+	db 21, REST
+	db 24, TAKE_DOWN
+	db 27, DISABLE
+	db 30, HEADBUTT
 	db 0
 
-MissingNo45EvosMoves:
+ObstagoonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, HEADBUTT
+	db 38, CRUNCH
 	db 0
 
 DoduoEvosMoves:

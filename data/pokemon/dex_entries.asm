@@ -66,9 +66,9 @@ PokedexEntryPointers:
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw ZigzagoonDexEntry
+	dw LinooneDexEntry
+	dw ObstagoonDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -1452,6 +1452,27 @@ Ninetales_ADexEntry:
 	db "FOX@"
 	db 3,11
 	dw 439
+	text_far _MewDexEntry
+	text_end
+
+ZigzagoonDexEntry:
+	db "RACCOON@"
+	db 1,04
+	dw 386
+	text_far _MewDexEntry
+	text_end
+
+LinooneDexEntry:
+	db "RUSHING@"
+	db 1,08
+	dw 717
+	text_far _MewDexEntry
+	text_end
+
+ObstagoonDexEntry:
+	db "BLOCKING@"
+	db 5,03
+	dw 1014
 	text_far _MewDexEntry
 	text_end
 
