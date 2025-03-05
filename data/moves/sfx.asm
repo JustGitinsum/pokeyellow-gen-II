@@ -80,7 +80,7 @@ MoveSoundTable:
 	db SFX_BATTLE_1C,          $00, $80 ; POISONPOWDER
 	db SFX_BATTLE_1C,          $11, $a0 ; STUN_SPORE
 	db SFX_BATTLE_1C,          $01, $c0 ; SLEEP_POWDER
-	db SFX_BATTLE_13,          $14, $c0 ; PETAL_DANCE
+	db SFX_BATTLE_13,          $14, $c0 ; MAGICAL_LEAF
 	db SFX_BATTLE_1B,          $02, $a0 ; STRING_SHOT
 	db SFX_BATTLE_29,          $f0, $80 ; DRAGON_RAGE
 	db SFX_BATTLE_29,          $20, $c0 ; FIRE_SPIN
@@ -121,7 +121,7 @@ MoveSoundTable:
 	db SFX_BATTLE_32,          $c0, $ff ; METRONOME
 	db SFX_BATTLE_09,          $f2, $20 ; MIRROR_MOVE
 	db SFX_BATTLE_34,          $00, $80 ; LEAF_BLADE
-	db SFX_BATTLE_34,          $00, $40 ; EGG_BOMB
+	db SFX_BATTLE_34,          $00, $40 ; SEED_BOMB
 	db SFX_BATTLE_09,          $00, $40 ; ELECTROWEB
 	db SFX_NOT_VERY_EFFECTIVE, $10, $ff ; SMOG
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE

@@ -247,6 +247,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_LEAFEON
 ;	const PAL_GLACEON
 ;	const PAL_GALLADE
+;	const PAL_AXEW
+;	const PAL_FRAXURE
+	const PAL_HAXORUS
 	const PAL_TYRUNT
 	const PAL_TYRANTRUM
 	const PAL_AMAURA

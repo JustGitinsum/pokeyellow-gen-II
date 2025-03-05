@@ -8,8 +8,8 @@ Route1WildMons:
 	db  2, PIDGEY
 	db  5, ZIGZAGOON
 	db  4, RATTATA
-	db  6, BUNEARY
-	db  7, PIDGEY
+	db  7, BUNEARY
+	db  7, ZIGZAGOON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

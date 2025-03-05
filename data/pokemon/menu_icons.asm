@@ -170,6 +170,9 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_QUADRUPED ; Glaceon
 	nybble ICON_MON       ; Gallade
+	nybble ICON_MON       ; Axew
+	nybble ICON_MON       ; Fraxure
+	nybble ICON_MON       ; Haxorus
 	nybble ICON_MON       ; Tyrunt
 	nybble ICON_MON       ; Tyantrum
 	nybble ICON_QUADRUPED ; Amaura

@@ -199,6 +199,9 @@ PokedexEntryPointers:
 	dw MagmortarDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
+	dw AxewDexEntry
+	dw FraxureDexEntry
+	dw HaxorusDexEntry
 	dw SylveonDexEntry
 	dw SirfetchdDexEntry
 	dw AnnihilapeDexEntry
@@ -1411,6 +1414,27 @@ GalladeDexEntry:
 	db 5,03
 	dw 1146
 	text_far _GalladeDexEntry
+	text_end
+
+AxewDexEntry:
+	db "TUSK@"
+	db 2,03
+	dw 397
+	text_far _MewDexEntry
+	text_end
+
+FraxureDexEntry:
+	db "AXE JAW@"
+	db 3,03
+	dw 794
+	text_far _MewDexEntry
+	text_end
+
+HaxorusDexEntry:
+	db "AXE JAW@"
+	db 5,11
+	dw 2326
+	text_far _MewDexEntry
 	text_end
 
 AmauraDexEntry:

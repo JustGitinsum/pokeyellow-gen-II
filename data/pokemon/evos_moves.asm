@@ -209,6 +209,9 @@ EvosMovesPointerTable:
 	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
+	dw AxewEvosMoves
+	dw FraxureEvosMoves
+	dw HaxorusEvosMoves
 	dw SylveonEvosMoves
 	dw SirfetchdEvosMoves
 	dw AnnihilapeEvosMoves
@@ -285,6 +288,7 @@ VoltorbEvosMoves:
 	db 17, SONICBOOM
 ;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
+	db 34, SEED_BOMB
 	db 36, SWIFT
 	db 43, EXPLOSION
 	db 0
@@ -316,9 +320,10 @@ IvysaurEvosMoves:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
 	db 13, VINE_WHIP
-	db 22, POISONPOWDER
+	db 18, POISONPOWDER
+	db 20, SEED_BOMB
+	db 25, TAKE_DOWN
 	db 30, RAZOR_LEAF
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
@@ -1841,6 +1846,7 @@ ElectrodeEvosMoves:
 	db 17, SONICBOOM
 ;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
+	db 34, SEED_BOMB
 	db 40, SWIFT
 	db 50, EXPLOSION
 	db 0
@@ -1967,13 +1973,14 @@ BulbasaurEvosMoves:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, ENERGY_BALL
+	db  3, VINE_WHIP
+	db  9, LEECH_SEED
+	db 12, RAZOR_LEAF
+	db 15, POISONPOWDER
+	db 18, SEED_BOMB
+	db 21, TAKE_DOWN
+	db 24, SLEEP_POWDER
+	db 36, ENERGY_BALL
 	db 0
 
 VenusaurEvosMoves:
@@ -2303,7 +2310,7 @@ OddishEvosMoves:
 	db 17, STUN_SPORE
 	db 19, SLEEP_POWDER
 	db 24, ACID
-	db 33, PETAL_DANCE
+	db 33, MAGICAL_LEAF
 	db 46, ENERGY_BALL
 	db 0
 
@@ -2317,7 +2324,7 @@ GloomEvosMoves:
 	db 19, SLEEP_POWDER
 	db 28, ACID
 	db 34, MOONBLAST
-	db 38, PETAL_DANCE
+	db 38, MAGICAL_LEAF
 	db 52, ENERGY_BALL
 	db 0
 
@@ -2330,7 +2337,7 @@ VileplumeEvosMoves:
 	db 19, SLEEP_POWDER
 	db 28, ACID
 	db 34, MOONBLAST
-	db 38, PETAL_DANCE
+	db 38, MAGICAL_LEAF
 	db 52, ENERGY_BALL
 	db 0
 
@@ -2456,6 +2463,7 @@ LeafeonEvosMoves:
 	db 8, SAND_ATTACK
 	db 16, GROWL
 	db 23, QUICK_ATTACK
+	db 25, MAGICAL_LEAF
 	db 30, BITE
 	db 36, FOCUS_ENERGY
 	db 42, TAKE_DOWN
@@ -2470,6 +2478,39 @@ GlaceonEvosMoves:
 	db 29, BARRIER
 	db 36, MIST
 	db 42, BLIZZARD
+	db 0
+
+AxewEvosMoves:
+	; Evolutions
+	db EVOLVE_LEVEL, 38, FRAXURE
+	db 0
+; Learnset
+	db 15, SLASH
+	db 18, DRAGON_CLAW
+	db 21, GLARE
+	db 26, CRUNCH
+	db 33, FOCUS_ENERGY
+	db 36, AQUA_TAIL
+	db 39, SWORDS_DANCE
+	db 45, GUILLOTINE
+	db 0
+
+FraxureEvosMoves:
+	; Evolutions
+	db EVOLVE_LEVEL, 48, HAXORUS
+	db 0
+; Learnset
+	db 38, IRON_TAIL
+	db 41, SWORDS_DANCE
+	db 51, GUILLOTINE
+	db 0
+
+HaxorusEvosMoves:
+	; Evolutions
+	db 0
+; Learnset
+	db 48, X_SCISSOR
+	db 53, GUILLOTINE
 	db 0
 
 SylveonEvosMoves:

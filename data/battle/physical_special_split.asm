@@ -35,6 +35,7 @@ SpecialToPhysicalMoves:
         db VINE_WHIP
         db LEAF_BLADE
         db TROP_KICK
+        db SEED_BOMB
 ; Electric
         db THUNDERPUNCH
         db THUNDER_FANG

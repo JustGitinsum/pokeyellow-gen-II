@@ -32,7 +32,7 @@ SpecialTrainerMoves:
 	db ERIKA, 1
 	db 1, 3, GIGA_DRAIN
 	db 2, 1, RAZOR_LEAF
-	db 3, 1, PETAL_DANCE
+	db 3, 1, MAGICAL_LEAF
 	db 0
 
 	db KOGA, 1

@@ -5,8 +5,8 @@ Route23WildMons:
 	db 36, MANKEY
 	db 44, NIDOKING
 	db 44, NIDOQUEEN
-	db 40, PIDGEOT
-	db 41, MANKEY
+	db 40, RAPIDASH_G
+	db 41, RAPIDASH_G
 	db 45, PIDGEOT
 	db 41, PRIMEAPE
 	db 46, PRIMEAPE

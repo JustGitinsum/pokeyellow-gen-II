@@ -205,6 +205,9 @@ CryData::
 	mon_cry SFX_CRY_04, $FF, $30 ; MAGMORTAR
 	mon_cry SFX_CRY_0F, $20, $80 ; Leafeon
 	mon_cry SFX_CRY_0C, $23, $FF ; Glaceon
+	mon_cry SFX_CRY_0F, $60, $40 ; Axew
+	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
+	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE

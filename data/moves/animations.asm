@@ -79,7 +79,7 @@ AttackAnimationPointers:
 	dw PoisonPowderAnim
 	dw StunSporeAnim
 	dw SleepPowderAnim
-	dw PetalDanceAnim
+	dw MagicalLeafAnim
 	dw StringShotAnim
 	dw DragonRageAnim
 	dw FireSpinAnim
@@ -120,7 +120,7 @@ AttackAnimationPointers:
 	dw MetronomeAnim
 	dw MirrorMoveAnim
 	dw LeafBladeAnim
-	dw EggBombAnim
+	dw SeedBombAnim
 	dw ElectrowebAnim
 	dw SmogAnim
 	dw SludgeAnim
@@ -702,9 +702,10 @@ SleepPowderAnim:
 	battle_anim SLEEP_POWDER, SUBANIM_0_CIRCLES_FALLING, 0, 6
 	db -1 ; end
 
-PetalDanceAnim:
-	battle_anim PETAL_DANCE, SE_LIGHT_SCREEN_PALETTE
+MagicalLeafAnim:
+	battle_anim MAGICAL_LEAF, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_PETALS_FALLING
+	battle_anim SWIFT, SUBANIM_1_LEAVES_TOSS, 1, 1
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
@@ -956,9 +957,9 @@ LeafBladeAnim:
 	battle_anim STUN_SPORE, SUBANIM_1_SEED_LAND, 1, 21
 	db -1 ; end
 
-EggBombAnim:
-	battle_anim EGG_BOMB, SUBANIM_1_CIRCLE_BLACK_TOSS, 1, 4
-	battle_anim EGG_BOMB, SUBANIM_1_EXPLOSION_SMALL_ENEMY, 1, 4
+SeedBombAnim:
+	battle_anim LEECH_SEED, SUBANIM_1_SEED_TOSS, 1, 6
+	battle_anim SEED_BOMB, SUBANIM_1_EXPLOSION_SMALL_ENEMY, 1, 4
 	db -1 ; end
 
 ElectrowebAnim:
@@ -1222,7 +1223,7 @@ AuraSphereAnim:
 
 SludgeBombAnim:
 	battle_anim SLUDGE, SUBANIM_1_BLOB_TOSS, 1, 6
-	battle_anim EGG_BOMB, SUBANIM_1_EXPLOSION_SMALL_ENEMY, 1, 4
+	battle_anim SEED_BOMB, SUBANIM_1_EXPLOSION_SMALL_ENEMY, 1, 4
 	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
 	db -1 ; end
 

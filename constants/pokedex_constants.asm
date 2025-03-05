@@ -174,6 +174,9 @@
 	const DEX_LEAFEON
 	const DEX_GLACEON
 	const DEX_GALLADE
+	const DEX_AXEW
+	const DEX_FRAXURE
+	const DEX_HAXORUS
 	const DEX_TYRUNT
 	const DEX_TYRANTRUM
 	const DEX_AMAURA

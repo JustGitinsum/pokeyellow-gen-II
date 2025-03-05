@@ -85,7 +85,7 @@
 	const POISONPOWDER ; 4d
 	const STUN_SPORE   ; 4e
 	const SLEEP_POWDER ; 4f
-	const PETAL_DANCE  ; 50
+	const MAGICAL_LEAF  ; 50
 	const STRING_SHOT  ; 51
 	const DRAGON_RAGE  ; 52
 	const FIRE_SPIN    ; 53
@@ -126,7 +126,7 @@
 	const METRONOME    ; 76
 	const MIRROR_MOVE  ; 77
 	const LEAF_BLADE   ; 78
-	const EGG_BOMB     ; 79
+	const SEED_BOMB     ; 79
 	const ELECTROWEB   ; 7a
 	const SMOG         ; 7b
 	const SLUDGE       ; 7c

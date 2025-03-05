@@ -194,7 +194,7 @@ DEF TM01 EQU const_value
 	add_tm ACCELEROCK   ; $EA
 	add_tm METRONOME    ; $EB
 	add_tm LEAF_BLADE   ; $EC
-	add_tm EGG_BOMB     ; $ED
+	add_tm SEED_BOMB     ; $ED
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm IRON_HEAD   ; $F0

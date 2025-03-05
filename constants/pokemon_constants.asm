@@ -206,6 +206,9 @@
 	const MAGMORTAR
 	const LEAFEON
 	const GLACEON
+	const AXEW
+	const FRAXURE
+	const HAXORUS
 	const SYLVEON
 	const SIRFETCHD
 	const ANNIHILAPE
