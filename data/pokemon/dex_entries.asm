@@ -160,8 +160,8 @@ PokedexEntryPointers:
 	dw SeakingDexEntry
 	dw Vulpix_ADexEntry
 	dw Ninetales_ADexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw Sandshrew_ADexEntry
+	dw Sandslash_ADexEntry
 	dw PonytaDexEntry
 	dw RapidashDexEntry
 	dw RattataDexEntry
@@ -1463,6 +1463,20 @@ MimikyuDexEntry:
 	db 0,8
 	dw 15
 	text_far _MimikyuDexEntry
+	text_end
+
+Sandshrew_ADexEntry:
+	db "MOUSE@"
+	db 2,4
+	dw 882
+	text_far _MewDexEntry
+	text_end
+
+Sandslash_ADexEntry:
+	db "MOUSE@"
+	db 3,11
+	dw 1213
+	text_far _MewDexEntry
 	text_end
 
 Vulpix_ADexEntry:

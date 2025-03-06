@@ -239,7 +239,7 @@ WRAM0
 	"Main Data"
 	"Current Box Data"
 	"GBC Palette Data"
-	org $df27
+	org $df29
 	"Stack"
 VRAM $0
 	"VRAM"

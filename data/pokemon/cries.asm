@@ -166,8 +166,8 @@ CryData::
 	mon_cry SFX_CRY_16, $10, $FF ; Seaking
 	mon_cry SFX_CRY_24, $4F, $10 ; Vulpix_A
 	mon_cry SFX_CRY_24, $88, $60 ; Ninetales_A
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew_A
+	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash_A
 	mon_cry SFX_CRY_25, $00, $80 ; Ponyta
 	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
 	mon_cry SFX_CRY_22, $00, $80 ; Rattata

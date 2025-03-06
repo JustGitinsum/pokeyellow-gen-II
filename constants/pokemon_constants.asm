@@ -167,8 +167,8 @@
 	const SEAKING            ; $9E
 	const VULPIX_A           ; $9F
 	const NINETALES_A        ; $A0
-	const_skip               ; $A1
-	const_skip               ; $A2
+	const SANDSHREW_A        ; $A1
+	const SANDSLASH_A        ; $A2
 	const PONYTA             ; $A3
 	const RAPIDASH           ; $A4
 	const RATTATA            ; $A5

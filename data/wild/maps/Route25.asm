@@ -1,9 +1,9 @@
 Route25WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 12, ODDISH
+	db 12, SANDSHREW_A
 	db 12, FARFETCHD
 	db 13, ABRA
-	db 14, ODDISH
+	db 14, SANDSHREW_A
 	db 14, FARFETCHD
 	db 15, ABRA
 	db 13, VENONAT

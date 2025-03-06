@@ -170,8 +170,8 @@ EvosMovesPointerTable:
 	dw SeakingEvosMoves
 	dw Vulpix_AEvosMoves
 	dw Ninetales_AEvosMoves
-	dw MissingNoA1EvosMoves
-	dw MissingNoA2EvosMoves
+	dw Sandshrew_AEvosMoves
+	dw Sandslash_AEvosMoves
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
 	dw RattataEvosMoves
@@ -2063,16 +2063,31 @@ Ninetales_AEvosMoves:
 	db 47, BLIZZARD
 	db 0
 
-MissingNoA1EvosMoves:
+Sandshrew_AEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, ICE_STONE, 1, SANDSLASH_A
 	db 0
 ; Learnset
+	db  9, ACCELEROCK
+	db 12, PIN_MISSILE
+	db 18, METAL_CLAW
+	db 21, SWIFT
+	db 24, FURY_SWIPES
+	db 30, SLASH
+	db 33, IRON_HEAD
+	db 39, SWORDS_DANCE
+	db 45, BLIZZARD
 	db 0
 
-MissingNoA2EvosMoves:
+Sandslash_AEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 24, FURY_SWIPES
+	db 30, SLASH
+	db 33, IRON_HEAD
+	db 39, SWORDS_DANCE
+	db 45, BLIZZARD
 	db 0
 
 PonytaEvosMoves:
