@@ -178,10 +178,10 @@
 	const GEODUDE            ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB
-	const_skip               ; $AC
+	const TOGEPI             ; $AC
 	const MAGNEMITE          ; $AD
-	const_skip               ; $AE
-	const_skip               ; $AF
+	const TOGETIC            ; $AE
+	const TOGEKISS           ; $AF
 	const CHARMANDER         ; $B0
 	const SQUIRTLE           ; $B1
 	const CHARMELEON         ; $B2

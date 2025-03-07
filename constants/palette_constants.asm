@@ -229,6 +229,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
 ;	const PAL_CROBAT
+;	const PAL_TOGEPI
+;	const PAL_TOGETIC
 ;	const PAL_ESPEON
 ;	const PAL_UMBREON
 ;	const PAL_STEELIX
@@ -244,6 +246,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_LOPUNNY
 ;	const PAL_RIOLU
 	const PAL_LUCARIO
+;	const PAL_TOGEKISS
 ;	const PAL_LEAFEON
 ;	const PAL_GLACEON
 ;	const PAL_GALLADE

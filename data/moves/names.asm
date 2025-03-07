@@ -174,7 +174,7 @@ MoveNames::
 	li "FIRE FANG"
 	li "ICE FANG"
 	li "THUNDERFANG"
-	li "DRAIN KISS"
+	li "DRAINING KISS"
 	li "PLAY ROUGH"
 	li "MOONBLAST"
 	li "AURA SPHERE"

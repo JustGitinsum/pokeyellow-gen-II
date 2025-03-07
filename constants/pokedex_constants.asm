@@ -156,6 +156,8 @@
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
 	const DEX_CROBAT
+	const DEX_TOGEPI
+	const DEX_TOGETIC
 	const DEX_ESPEON
 	const DEX_UMBREON
 	const DEX_STEELIX
@@ -171,6 +173,7 @@
 	const DEX_LOPUNNY
 	const DEX_RIOLU
 	const DEX_LUCARIO
+	const DEX_TOGEKISS
 	const DEX_LEAFEON
 	const DEX_GLACEON
 	const DEX_GALLADE

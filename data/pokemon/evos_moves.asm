@@ -181,10 +181,10 @@ EvosMovesPointerTable:
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
-	dw MissingNoACEvosMoves
+	dw TogepiEvosMoves
 	dw MagnemiteEvosMoves
-	dw MissingNoAEEvosMoves
-	dw MissingNoAFEvosMoves
+	dw TogeticEvosMoves
+	dw TogekissEvosMoves
 	dw CharmanderEvosMoves
 	dw SquirtleEvosMoves
 	dw CharmeleonEvosMoves
@@ -2197,10 +2197,17 @@ AerodactylEvosMoves:
 	db 63, HYPER_BEAM
 	db 0
 
-MissingNoACEvosMoves:
+TogepiEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 22, TOGETIC
 	db 0
 ; Learnset
+	db 20, DRAIN_KISS
+	db 24, METRONOME
+	db 28, AMNESIA
+	db 32, DOUBLE_EDGE
+	db 34, PSYCHIC_M
+	db 43, MOONBLAST
 	db 0
 
 MagnemiteEvosMoves:
@@ -2208,24 +2215,36 @@ MagnemiteEvosMoves:
 	db EVOLVE_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 35, THUNDER_WAVE
-	db 41, SWIFT
-	db 47, SCREECH
+	db 24, METRONOME
+	db 26, AMNESIA
+	db 32, DOUBLE_EDGE
+	db 34, PSYCHIC_M
+	db 43, MOONBLAST
 	db 0
 
-MissingNoAEEvosMoves:
+TogeticEvosMoves:
+; Evolutions
+	db EVOLVE_ITEM, SHINY_STONE, 1, TOGEKISS
+	db 0
+; Learnset
+	db 24, METRONOME
+	db 26, AMNESIA
+	db 29, AIR_SLASH
+	db 32, DOUBLE_EDGE
+	db 34, PSYCHIC_M
+	db 43, MOONBLAST
+	db 0
+
+TogekissEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
-
-MissingNoAFEvosMoves:
-; Evolutions
-	db 0
-; Learnset
+	db 24, METRONOME
+	db 26, AMNESIA
+	db 29, AIR_SLASH
+	db 32, DOUBLE_EDGE
+	db 34, PSYCHIC_M
+	db 43, MOONBLAST
 	db 0
 
 CharmanderEvosMoves:

@@ -171,10 +171,10 @@ PokedexEntryPointers:
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
-	dw MissingNoDexEntry
+	dw TogepiDexEntry
 	dw MagnemiteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw TogeticDexEntry
+	dw TogekissDexEntry
 	dw CharmanderDexEntry
 	dw SquirtleDexEntry
 	dw CharmeleonDexEntry
@@ -1290,6 +1290,20 @@ CrobatDexEntry:
 	text_far _CrobatDexEntry
 	text_end
 
+TogepiDexEntry:
+	db "SPIKE BALL@"
+	db 1,1
+	dw 33
+	text_far _MewDexEntry
+	text_end
+
+TogeticDexEntry:
+	db "HAPPINESS@"
+	db 2,1
+	dw 71
+	text_far _MewDexEntry
+	text_end
+	
 EspeonDexEntry:
 	db "SUN@"
 	db 2,11
@@ -1393,6 +1407,13 @@ LucarioDexEntry:
 	db 3,11
 	dw 1190
 	text_far _LucarioDexEntry
+	text_end
+
+TogekissDexEntry:
+	db "JUBILEE@"
+	db 4,11
+	dw 838
+	text_far _MewDexEntry
 	text_end
 
 LeafeonDexEntry:

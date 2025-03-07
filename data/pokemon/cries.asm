@@ -177,10 +177,10 @@ CryData::
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
 	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_0E, $DF, $04 ; Togepi
 	mon_cry SFX_CRY_1C, $80, $60 ; Magnemite
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_14, $28, $C0 ; Togetic
+	mon_cry SFX_CRY_14, $11, $FF ; Togekiss
 	mon_cry SFX_CRY_04, $60, $40 ; Charmander
 	mon_cry SFX_CRY_1D, $60, $40 ; Squirtle
 	mon_cry SFX_CRY_04, $20, $40 ; Charmeleon
