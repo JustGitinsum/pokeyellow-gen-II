@@ -270,6 +270,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_RAPIDASH_G
 ;	const PAL_ZORUA_H
 ;	const PAL_ZOROARK_H
+;	const PAL_NYMBLE
+	const PAL_LOKIX
 ;   const PAL_CHARCADET
 ;   const PAL_ARMAROUGE
 ;   const PAL_CERULEDGE

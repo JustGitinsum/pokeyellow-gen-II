@@ -193,6 +193,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rapidash_G
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H
+	nybble ICON_BUG       ; Nymble
+	nybble ICON_BUG       ; Lokix
 	nybble ICON_MON       ; Charcadet
 	nybble ICON_MON       ; Armarouge
 	nybble ICON_MON       ; Ceruledge

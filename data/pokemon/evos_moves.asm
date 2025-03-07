@@ -146,10 +146,10 @@ EvosMovesPointerTable:
 	dw Ponyta_GEvosMoves
 	dw Rapidash_GEvosMoves
 	dw MukEvosMoves
-	dw MissingNo8AEvosMoves
+	dw NymbleEvosMoves
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
-	dw MissingNo8CEvosMoves
+	dw LokixEvosMoves
 	dw ElectrodeEvosMoves
 	dw ClefableEvosMoves
 	dw WeezingEvosMoves
@@ -1811,10 +1811,17 @@ MukEvosMoves:
 	db 43, ACID_ARMOR
 	db 0
 
-MissingNo8AEvosMoves:
+NymbleEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 24, LOKIX
 	db 0
 ; Learnset
+	db  9, ELECTROWEB
+	db 11, DOUBLE_KICK
+	db 14, SCREECH
+	db 18, BITE
+	db 25, BOUNCE
+	db 32, AGILITY
 	db 0
 
 KinglerEvosMoves:
@@ -1833,10 +1840,17 @@ CloysterEvosMoves:
 	db 50, SPIKE_CANNON
 	db 0
 
-MissingNo8CEvosMoves:
+LokixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db  9, ELECTROWEB
+	db 11, DOUBLE_KICK
+	db 14, SCREECH
+	db 18, BITE
+	db 32, AGILITY
+	db 36, NIGHT_SLASH
+	db 43, BOUNCE
 	db 0
 
 ElectrodeEvosMoves:

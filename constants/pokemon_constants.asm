@@ -143,10 +143,10 @@
 	const PONYTA_G           ; $86
 	const RAPIDASH_G         ; $87
 	const MUK                ; $88
-	const_skip               ; $89
+	const NYMBLE             ; $89
 	const KINGLER            ; $8A
 	const CLOYSTER           ; $8B
-	const_skip               ; $8C
+	const LOKIX              ; $8C
 	const ELECTRODE          ; $8D
 	const CLEFABLE           ; $8E
 	const WEEZING            ; $8F

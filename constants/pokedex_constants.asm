@@ -197,6 +197,8 @@
 	const DEX_RAPIDASH_G
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H
+	const DEX_NYMBLE
+	const DEX_LOKIX
 	const DEX_CHARCADET
 	const DEX_ARMAROUGE
 	const DEX_CERULEDGE

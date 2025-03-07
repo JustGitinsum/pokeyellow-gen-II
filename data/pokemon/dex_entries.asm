@@ -136,10 +136,10 @@ PokedexEntryPointers:
 	dw Ponyta_GDexEntry
 	dw Rapidash_GDexEntry
 	dw MukDexEntry
-	dw MissingNoDexEntry
+	dw NymbleDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
-	dw MissingNoDexEntry
+	dw LokixDexEntry
 	dw ElectrodeDexEntry
 	dw ClefableDexEntry
 	dw WeezingDexEntry
@@ -1561,6 +1561,20 @@ ZoroarkHDexEntry:
 	db 5,3
 	dw 1609
 	text_far _ZoroarkHDexEntry
+	text_end
+
+NymbleDexEntry:
+	db "GRASSHOPPER@"
+	db 1,8
+	dw 22
+	text_far _MewDexEntry
+	text_end
+
+LokixDexEntry:
+	db "GRASSHOPPER@"
+	db 3,03
+	dw 386
+	text_far _MewDexEntry
 	text_end
 
 CharcadetDexEntry:
