@@ -203,6 +203,9 @@ CryData::
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
 	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA
+	mon_cry SFX_CRY_0E, $DF, $04 ; Torchic
+	mon_cry SFX_CRY_14, $28, $C0 ; Combusken
+	mon_cry SFX_CRY_14, $11, $FF ; Blaziken
 	mon_cry SFX_CRY_04, $FF, $30 ; MAGMORTAR
 	mon_cry SFX_CRY_0F, $20, $80 ; Leafeon
 	mon_cry SFX_CRY_0C, $23, $FF ; Glaceon

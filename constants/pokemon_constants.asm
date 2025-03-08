@@ -204,6 +204,9 @@
 	const STEELIX
 	const SCIZOR
 	const KINGDRA
+	const TORCHIC
+	const COMBUSKEN
+	const BLAZIKEN
 	const MAGMORTAR
 	const LEAFEON
 	const GLACEON

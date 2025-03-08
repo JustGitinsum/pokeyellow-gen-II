@@ -721,12 +721,18 @@ SirfetchdPicFront::         INCBIN "gfx/pokemon/front/sirfetchd.pic"
 SirfetchdPicBack::          INCBIN "gfx/pokemon/back/sirfetchdb.pic"
 AnnihilapePicFront::         INCBIN "gfx/pokemon/front/annihilape.pic"
 AnnihilapePicBack::          INCBIN "gfx/pokemon/back/annihilapeb.pic"
+TorchicPicFront::         INCBIN "gfx/pokemon/front/torchic.pic"
+TorchicPicBack::          INCBIN "gfx/pokemon/back/torchicb.pic"	
+CombuskenPicFront::         INCBIN "gfx/pokemon/front/combusken.pic"
+CombuskenPicBack::          INCBIN "gfx/pokemon/back/combuskenb.pic"
+
+SECTION "bank42", ROMX, BANK[$42]
+BlazikenPicFront::         INCBIN "gfx/pokemon/front/blaziken.pic"
+BlazikenPicBack::          INCBIN "gfx/pokemon/back/blazikenb.pic"
 RaltsPicFront::       INCBIN "gfx/pokemon/front/ralts.pic"
 RaltsPicBack::        INCBIN "gfx/pokemon/back/raltsb.pic"
 KirliaPicFront::     INCBIN "gfx/pokemon/front/kirlia.pic"
 KirliaPicBack::      INCBIN "gfx/pokemon/back/kirliab.pic"
-
-SECTION "bank42", ROMX, BANK[$42]
 GardevoirPicFront::      INCBIN "gfx/pokemon/front/gardevoir.pic"
 GardevoirPicBack::       INCBIN "gfx/pokemon/back/gardevoirb.pic"
 BunearyPicFront::     INCBIN "gfx/pokemon/front/buneary.pic"
@@ -763,14 +769,14 @@ AurorusPicFront::     INCBIN "gfx/pokemon/front/aurorus.pic"
 AurorusPicBack::      INCBIN "gfx/pokemon/back/aurorusb.pic"
 SylveonPicFront::     INCBIN "gfx/pokemon/front/sylveon.pic"
 SylveonPicBack::      INCBIN "gfx/pokemon/back/sylveonb.pic"
+
+SECTION "bank43", ROMX, BANK[$43]
 MimikyuPicFront::     INCBIN "gfx/pokemon/front/mimikyu.pic"
 MimikyuPicBack::      INCBIN "gfx/pokemon/back/mimikyub.pic"
 Sandshrew_APicFront::     INCBIN "gfx/pokemon/front/sandshrew_a.pic"
 Sandshrew_APicBack::      INCBIN "gfx/pokemon/back/sandshrew_ab.pic"
 Sandslash_APicFront::  INCBIN "gfx/pokemon/front/sandslash_a.pic"
 Sandslash_APicBack::   INCBIN "gfx/pokemon/back/sandslash_ab.pic"
-
-SECTION "bank43", ROMX, BANK[$43]
 Vulpix_APicFront::     INCBIN "gfx/pokemon/front/vulpix_a.pic"
 Vulpix_APicBack::      INCBIN "gfx/pokemon/back/vulpix_ab.pic"
 Ninetales_APicFront::  INCBIN "gfx/pokemon/front/ninetales_a.pic"

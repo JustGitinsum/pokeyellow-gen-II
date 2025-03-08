@@ -197,6 +197,9 @@ PokedexEntryPointers:
 	dw SteelixDexEntry
 	dw ScizorDexEntry
 	dw KingdraDexEntry
+	dw TorchicDexEntry
+	dw CombuskenDexEntry
+	dw BlazikenDexEntry
 	dw MagmortarDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
@@ -1346,6 +1349,27 @@ KingdraDexEntry:
 	db 5,11
 	dw 3351
 	text_far _KingdraDexEntry
+	text_end
+
+TorchicDexEntry:
+	db "CHICK@"
+	db 5,11
+	dw 3351
+	text_far _MewDexEntry
+	text_end
+
+CombuskenDexEntry:
+	db "YOUNG FOWL@"
+	db 2,11
+	dw 430
+	text_far _MewDexEntry
+	text_end
+
+BlazikenDexEntry:
+	db "BLAZE@"
+	db 6,03
+	dw 1146
+	text_far _MewDexEntry
 	text_end
 
 MagmortarDexEntry:

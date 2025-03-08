@@ -207,6 +207,9 @@ EvosMovesPointerTable:
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
 	dw KingdraEvosMoves
+	dw TorchicEvosMoves
+	dw CombuskenEvosMoves
+	dw BlazikenEvosMoves
 	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
@@ -2508,6 +2511,43 @@ KingdraEvosMoves:
 	db 38, AGILITY
 	db 45, DRAGON_PULSE
 	db 60, HYDRO_PUMP
+	db 0
+
+TorchicEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 16, COMBUSKEN
+	db 0
+; Learnset
+	db 12, DOUBLE_KICK
+	db 15, SAND_ATTACK
+	db 18, WING_ATTACK
+	db 21, SLASH
+	db 24, BOUNCE
+	db 27, FOCUS_ENERGY
+	db 30, FLAMETHROWER
+	db 36, AXE_KICK
+	db 0
+
+
+CombuskenEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 36, BLAZIKEN
+	db 0
+; Learnset
+	db 20, WING_ATTACK
+	db 25, SLASH
+	db 30, BOUNCE
+	db 35, FOCUS_ENERGY
+	db 40, FLAMETHROWER
+	db 50, AXE_KICK
+	db 0
+
+BlazikenEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 40, FLAMETHROWER
+	db 50, AXE_KICK
 	db 0
 
 MagmortarEvosMoves:
