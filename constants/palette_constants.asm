@@ -233,6 +233,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_TOGETIC
 ;	const PAL_ESPEON
 ;	const PAL_UMBREON
+; 	const PAL_GLIGAR
 ;	const PAL_STEELIX
 	const PAL_SCIZOR
 ;	const PAL_KINGDRA
@@ -249,6 +250,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_TOGEKISS
 ;	const PAL_LEAFEON
 ;	const PAL_GLACEON
+;	const PAL_GLISCOR
 ;	const PAL_GALLADE
 ;	const PAL_AXEW
 ;	const PAL_FRAXURE

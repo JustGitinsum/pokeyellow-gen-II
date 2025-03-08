@@ -203,12 +203,14 @@ EvosMovesPointerTable:
 	dw CrobatEvosMoves
 	dw EspeonEvosMoves
 	dw UmbreonEvosMoves
+	dw GligarEvosMoves
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
 	dw KingdraEvosMoves
 	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
+	dw GliscorEvosMoves
 	dw AxewEvosMoves
 	dw FraxureEvosMoves
 	dw HaxorusEvosMoves
@@ -737,8 +739,8 @@ HitmonleeEvosMoves:
 	db 38, JUMP_KICK
 	db 40, TROP_KICK
 	db 43, FOCUS_ENERGY
-	db 48, HI_JUMP_KICK
-	db 53, MEGA_KICK
+	db 44, HI_JUMP_KICK
+	db 50, AXE_KICK
 	db 0
 
 HitmonchanEvosMoves:
@@ -1851,6 +1853,7 @@ LokixEvosMoves:
 	db 32, AGILITY
 	db 36, NIGHT_SLASH
 	db 43, BOUNCE
+	db 53, AXE_KICK
 	db 0
 
 ElectrodeEvosMoves:
@@ -2459,6 +2462,21 @@ UmbreonEvosMoves:
 	db 42, TAKE_DOWN
 	db 0
 
+GligarEvosMoves:
+; Evolutions
+	db EVOLVE_ITEM, MOON_STONE, 1, GLISCOR
+	db 0
+; Learnset
+	db 13, QUICK_ATTACK
+	db 16, BUG_BITE
+	db 19, POISON_JAB
+	db 22, WING_ATTACK
+	db 27, SLASH
+	db 40, X_SCISSOR
+	db 45, CRABHAMMER
+	db 50, SWORDS_DANCE
+	db 0
+
 SteelixEvosMoves:
 ; Evolutions
 	db 0
@@ -2526,6 +2544,17 @@ GlaceonEvosMoves:
 	db 29, BARRIER
 	db 36, MIST
 	db 42, BLIZZARD
+	db 0
+
+GliscorEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 22, WING_ATTACK
+	db 27, SLASH
+	db 40, X_SCISSOR
+	db 45, CRABHAMMER
+	db 50, SWORDS_DANCE
 	db 0
 
 AxewEvosMoves:

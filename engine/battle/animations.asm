@@ -286,7 +286,7 @@ PlayAnimation:
 .nextAnimationCommand
 	vc_hook Stop_reducing_move_anim_flashing_Guillotine
 	pop hl
-	vc_hook Stop_reducing_move_anim_flashing_Mega_Kick
+	vc_hook Stop_reducing_move_anim_flashing_Axe_Kick
 	jr .animationLoop
 .AnimationOver
 	vc_hook Stop_reducing_move_anim_flashing_Blizzard
@@ -303,7 +303,7 @@ LoadSubanimation:
 	ld d, a ; de = address of subanimation
 	vc_hook Reduce_move_anim_flashing_Bubblebeam
 	ld a, [de]
-	vc_hook Reduce_move_anim_flashing_Mega_Kick
+	vc_hook Reduce_move_anim_flashing_Axe_Kick
 	ld b, a
 	vc_hook Reduce_move_anim_flashing_Guillotine
 	and %00011111

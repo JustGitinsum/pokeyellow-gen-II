@@ -160,6 +160,7 @@
 	const DEX_TOGETIC
 	const DEX_ESPEON
 	const DEX_UMBREON
+	const DEX_GLIGAR
 	const DEX_STEELIX
 	const DEX_SCIZOR
 	const DEX_KINGDRA
@@ -176,6 +177,7 @@
 	const DEX_TOGEKISS
 	const DEX_LEAFEON
 	const DEX_GLACEON
+	const DEX_GLISCOR
 	const DEX_GALLADE
 	const DEX_AXEW
 	const DEX_FRAXURE

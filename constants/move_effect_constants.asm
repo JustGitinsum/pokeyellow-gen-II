@@ -86,9 +86,9 @@
 	const SUBSTITUTE_EFFECT          ; $4F
 	const HYPER_BEAM_EFFECT          ; $50
 	const RAGE_EFFECT                ; $51
-	const DARK_PULSE_EFFECT               ; $52
+	const DARK_PULSE_EFFECT          ; $52
 	const METRONOME_EFFECT           ; $53
 	const LEECH_SEED_EFFECT          ; $54
-	const SPLASH_EFFECT              ; $55
+;	const SPLASH_EFFECT              ; $55
 	const DISABLE_EFFECT             ; $56
 DEF NUM_MOVE_EFFECTS EQU const_value - 1

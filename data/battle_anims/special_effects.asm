@@ -7,7 +7,7 @@ AnimationIdSpecialEffects:
 	; animation id, effect routine address
 	anim_special_effect FORCE_PALM,            AnimationFlashScreen
 	anim_special_effect GUILLOTINE,            AnimationFlashScreen
-	anim_special_effect MEGA_KICK,             AnimationFlashScreen
+	anim_special_effect AXE_KICK,             AnimationFlashScreen
 	anim_special_effect HEADBUTT,              AnimationFlashScreen
 	anim_special_effect TAIL_WHIP,             TailWhipAnimationUnused
 	anim_special_effect GROWL,                 DoGrowlSpecialEffects

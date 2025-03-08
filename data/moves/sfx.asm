@@ -25,7 +25,7 @@ MoveSoundTable:
 	db SFX_VINE_WHIP,          $01, $80 ; VINE_WHIP
 	db SFX_BATTLE_20,          $00, $80 ; STOMP
 	db SFX_BATTLE_17,          $f0, $40 ; DOUBLE_KICK
-	db SFX_SUPER_EFFECTIVE,    $00, $80 ; MEGA_KICK
+	db SFX_SUPER_EFFECTIVE,    $00, $80 ; AXE_KICK
 	db SFX_BATTLE_17,          $00, $80 ; JUMP_KICK
 	db SFX_BATTLE_21,          $10, $80 ; ROLLING_KICK
 	db SFX_BATTLE_1B,          $01, $a0 ; SAND_ATTACK
@@ -150,7 +150,7 @@ MoveSoundTable:
 	db SFX_BATTLE_1C,          $01, $ff ; SPORE
 	db SFX_BATTLE_13,          $f8, $ff ; FLASH
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; PSYCHO_CUT
-	db SFX_BATTLE_0F,          $08, $10 ; SPLASH
+	db SFX_BATTLE_0F,          $08, $10 ; ROLLOUT
 	db SFX_BATTLE_0D,          $f0, $ff ; ACID_ARMOR
 	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; CRABHAMMER
 	db SFX_BATTLE_34,          $10, $ff ; EXPLOSION
@@ -190,6 +190,7 @@ MoveSoundTable:
 	db SFX_BATTLE_23,          $00, $80 ; TROP_KICK
 	db SFX_BATTLE_36,          $00, $80 ; ARMOR_CANNON
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; BITTER_BLADE
+	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; SACRED_SWORD
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

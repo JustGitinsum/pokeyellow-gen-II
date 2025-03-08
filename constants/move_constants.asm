@@ -30,7 +30,7 @@
 	const VINE_WHIP    ; 16
 	const STOMP        ; 17
 	const DOUBLE_KICK  ; 18
-	const MEGA_KICK    ; 19
+	const AXE_KICK    ; 19
 	const JUMP_KICK    ; 1a
 	const ROLLING_KICK ; 1b
 	const SAND_ATTACK  ; 1c
@@ -154,8 +154,8 @@
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
-	const PSYCHO_CUT      ; 95
-	const SPLASH       ; 96
+	const PSYCHO_CUT   ; 95
+	const ROLLOUT      ; 96
 	const ACID_ARMOR   ; 97
 	const CRABHAMMER   ; 98
 	const EXPLOSION    ; 99
@@ -195,6 +195,7 @@
 	const TROP_KICK
 	const ARMOR_CANNON
 	const BITTER_BLADE
+	const SACRED_SWORD
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

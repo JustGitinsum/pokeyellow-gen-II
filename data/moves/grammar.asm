@@ -60,7 +60,7 @@ ExclamationPointMoveSets:
 	db LEECH_LIFE
 	db BUBBLE
 	db FLASH
-	db SPLASH
+	db ROLLOUT
 	db ACID_ARMOR
 	db FURY_SWIPES
 	db REST

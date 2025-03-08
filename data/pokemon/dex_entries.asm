@@ -193,12 +193,14 @@ PokedexEntryPointers:
 	dw CrobatDexEntry
 	dw EspeonDexEntry
 	dw UmbreonDexEntry
+	dw GligarDexEntry
 	dw SteelixDexEntry
 	dw ScizorDexEntry
 	dw KingdraDexEntry
 	dw MagmortarDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
+	dw GliscorDexEntry
 	dw AxewDexEntry
 	dw FraxureDexEntry
 	dw HaxorusDexEntry
@@ -1318,6 +1320,13 @@ UmbreonDexEntry:
 	text_far _FlareonDexEntry
 	text_end
 
+GligarDexEntry:
+	db "FLY SCORP@"
+	db 3,07
+	dw 1429
+	text_far _MewDexEntry
+	text_end
+
 SteelixDexEntry:
 	db "IRONSNAKE@"
 	db 30,2
@@ -1428,6 +1437,13 @@ GlaceonDexEntry:
 	db 2,11
 	dw 550
 	text_far _FlareonDexEntry
+	text_end
+
+GliscorDexEntry:
+	db "FANG SCORP@"
+	db 6,07
+	dw 937
+	text_far _MewDexEntry
 	text_end
 
 GalladeDexEntry:

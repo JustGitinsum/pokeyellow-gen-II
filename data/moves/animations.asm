@@ -24,7 +24,7 @@ AttackAnimationPointers:
 	dw VineWhipAnim
 	dw StompAnim
 	dw DoubleKickAnim
-	dw MegaKickAnim
+	dw AxeKickAnim
 	dw JumpKickAnim
 	dw RollingKickAnim
 	dw SandAttackAnim
@@ -149,7 +149,7 @@ AttackAnimationPointers:
 	dw SporeAnim
 	dw FlashAnim
 	dw PsychoCutAnim
-	dw SplashAnim
+	dw RolloutAnim
 	dw AcidArmorAnim
 	dw CrabHammerAnim
 	dw ExplosionAnim
@@ -189,6 +189,7 @@ AttackAnimationPointers:
 	dw TropKickAnim
 	dw ArmorCannonAnim
 	dw BitterBladeAnim
+	dw SacredSwordAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -371,8 +372,8 @@ DoubleKickAnim:
 	battle_anim DOUBLE_KICK, SUBANIM_0_STAR_TWICE, 0, 8
 	db -1 ; end
 
-MegaKickAnim:
-	battle_anim MEGA_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+AxeKickAnim:
+	battle_anim AXE_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 JumpKickAnim:
@@ -1123,8 +1124,10 @@ PsychoCutAnim:
 	battle_anim CONFUSION, SE_WAVY_SCREEN
 	db -1 ; end
 
-SplashAnim:
-	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
+RolloutAnim:
+	battle_anim ROLLOUT, SE_BOUNCE_UP_AND_DOWN
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
 AcidArmorAnim:
@@ -1295,6 +1298,14 @@ BitterBladeAnim:
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	battle_anim MEGA_DRAIN, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
+	db -1 ; end
+
+SacredSwordAnim:
+	battle_anim LEECH_SEED, SE_LIGHT_SCREEN_PALETTE
+	battle_anim GLARE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
 	db -1 ; end
 
 SubstituteAnim:

@@ -1309,9 +1309,9 @@ MimicLearnedMoveText:
 LeechSeedEffect:
 	jpfar LeechSeedEffect_
 
-SplashEffect:
-	call PlayCurrentMoveAnimation
-	jp PrintNoEffectText
+;SplashEffect:
+;	call PlayCurrentMoveAnimation
+;	jp PrintNoEffectText
 
 DisableEffect:
 	call MoveHitTest

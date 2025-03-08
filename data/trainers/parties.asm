@@ -442,7 +442,7 @@ TamerData:
 	db 33, ARBOK, SANDSLASH, ARBOK, 0
 ; Viridian Gym
 	db 43, RHYHORN, 0
-	db 39, ARBOK, TAUROS, 0
+	db 39, GLISCOR, TAUROS, 0
 ; Victory Road 2F
 	db 44, PERSIAN, GOLDUCK, 0
 ; Unused
@@ -482,7 +482,7 @@ BlackbeltData:
 	db 36, GALLADE, 0
 	db 31, MACHOP, MANKEY, PRIMEAPE, 0
 ; Viridian Gym
-	db 40, MACHOP, MACHOKE, 0
+	db 40, GLISCOR, MACHOKE, 0
 	db 43, MACHOKE, 0
 	db 38, MACHOKE, RIOLU, MACHOKE, 0
 ; Victory Road 2F
@@ -543,7 +543,7 @@ GiovanniData:
 RocketData:
 ; Mt. Moon B2F
 	db 13, RATTATA, ZUBAT, 0
-	db 11, SANDSHREW, ZIGZAGOON, ZUBAT, 0
+	db 11, SANDSHREW, ZIGZAGOON, GLIGAR, 0
 	db 12, ZUBAT, EKANS, 0
 ; Unused
 	db 16, RATICATE, 0

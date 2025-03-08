@@ -339,8 +339,8 @@ ConditionValueC = {dws_ "G"           "U"             "I"             "L"       
 
 ;rsm142438   
 ;17 --13 
-;No150 Mega Kick                        
-[FPA 003 Begin@Reduce_move_anim_flashing_Mega_Kick]                       
+;No150 Axe_Kick                        
+[FPA 003 Begin@Reduce_move_anim_flashing_Axe_Kick]                       
 Mode = 3                              
 Type = 0                              
 Address = {hex @}                     
@@ -349,16 +349,16 @@ MotionBlur0 = 10
 ConditionType = 0                     
 ConditionValueA = {dws_ wStringBuffer wStringBuffer+1 wStringBuffer+2 wStringBuffer+3 wStringBuffer+5 wAnimationID}         
 ConditionValueB = {dws_ ==            ==              ==              ==              ==              ==          }         
-ConditionValueC = {dws_ "M"           "E"             "G"             "A"             "K"             MEGA_KICK   }         
+ConditionValueC = {dws_ "M"           "E"             "G"             "A"             "K"             AXE_KICK   }         
                                       
-[FPA 003 End@Stop_reducing_move_anim_flashing_Mega_Kick]                         
+[FPA 003 End@Stop_reducing_move_anim_flashing_Axe_Kick]                         
 Mode = 3                              
 Type = 1                              
 Address = {hex @}               
 ConditionType = 0                     
 ConditionValueA = {dws_ wStringBuffer wStringBuffer+1 wStringBuffer+2 wStringBuffer+3 wStringBuffer+5 wAnimationID}            
 ConditionValueB = {dws_ ==            ==              ==              ==              ==              ==          }            
-ConditionValueC = {dws_ "M"           "E"             "G"             "A"             "K"             MEGA_KICK   }    
+ConditionValueC = {dws_ "M"           "E"             "G"             "A"             "K"             AXE_KICK   }    
 
 ;rsm154217   blizzard   
 ;No131                     

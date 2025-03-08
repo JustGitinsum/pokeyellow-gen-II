@@ -200,12 +200,14 @@
 	const CROBAT
 	const ESPEON
 	const UMBREON
+	const GLIGAR
 	const STEELIX
 	const SCIZOR
 	const KINGDRA
 	const MAGMORTAR
 	const LEAFEON
 	const GLACEON
+	const GLISCOR
 	const AXEW
 	const FRAXURE
 	const HAXORUS

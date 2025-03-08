@@ -199,12 +199,14 @@ CryData::
 	mon_cry SFX_CRY_1D, $FA, $80 ; CROBAT
 	mon_cry SFX_CRY_1E, $EE, $FF ; ESPEON
 	mon_cry SFX_CRY_1E, $EE, $FF ; UMBREON
+	mon_cry SFX_CRY_1D, $E0, $80 ; Gligar
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
 	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA
 	mon_cry SFX_CRY_04, $FF, $30 ; MAGMORTAR
 	mon_cry SFX_CRY_0F, $20, $80 ; Leafeon
 	mon_cry SFX_CRY_0C, $23, $FF ; Glaceon
+	mon_cry SFX_CRY_1D, $FA, $80 ; Gliscor
 	mon_cry SFX_CRY_0F, $60, $40 ; Axew
 	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus

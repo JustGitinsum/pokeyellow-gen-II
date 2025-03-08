@@ -35,7 +35,7 @@ Moves:
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 10
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
-	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        75,  5
+	move AXE_KICK,     CONFUSION_SIDE_EFFECT,      120, FIGHTING,      90, 10
 	move JUMP_KICK,    JUMP_KICK_EFFECT,            70, FIGHTING,      95, 25
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         60, FIGHTING,      85, 15
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 15
@@ -160,7 +160,7 @@ Moves:
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
 	move FLASH,        ACCURACY_DOWN1_EFFECT,       60, FAIRY,        100, 20
 	move PSYCHO_CUT,   NO_ADDITIONAL_EFFECT,        70, PSYCHIC_TYPE, 100, 20
-	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,       100, 40
+	move ROLLOUT,      NO_ADDITIONAL_EFFECT,        80, ROCK,          95, 20
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,         85, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,       100,  5
@@ -200,5 +200,6 @@ Moves:
 	move TROP_KICK,    ATTACK_DOWN_SIDE_EFFECT,     70, GRASS,        100, 15
 	move ARMOR_CANNON, ATTACK_DOWN_SIDE_EFFECT,    120, FIRE,         100,  5
 	move BITTER_BLADE, DRAIN_HP_EFFECT,             90, FIRE,         100, 10
+	move SACRED_SWORD, NO_ADDITIONAL_EFFECT,        90, FIGHTING,     100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

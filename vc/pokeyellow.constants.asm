@@ -24,7 +24,7 @@ ENDM
 
 ; [FPA 003 Begin]
 	vc_const "K"
-	vc_const MEGA_KICK
+	vc_const AXE_KICK
 
 ; [FPA 004 Begin]
 	vc_const "B"

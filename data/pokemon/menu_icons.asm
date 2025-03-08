@@ -156,6 +156,7 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Togetic
 	nybble ICON_QUADRUPED ; Espeon
 	nybble ICON_QUADRUPED ; Umbreon
+	nybble ICON_MON		  ; Gligar
 	nybble ICON_SNAKE     ; Steelix
 	nybble ICON_BUG       ; Scizor
 	nybble ICON_WATER     ; Kingdra
@@ -172,6 +173,7 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Togekiss
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_QUADRUPED ; Glaceon
+	nybble ICON_MON       ; Gliscor
 	nybble ICON_MON       ; Gallade
 	nybble ICON_MON       ; Axew
 	nybble ICON_MON       ; Fraxure
