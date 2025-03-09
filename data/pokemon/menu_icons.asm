@@ -160,6 +160,9 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Steelix
 	nybble ICON_BUG       ; Scizor
 	nybble ICON_WATER     ; Kingdra
+	nybble ICON_MON       ; Treecko
+	nybble ICON_MON       ; Grovyle
+	nybble ICON_MON       ; Sceptile
 	nybble ICON_BIRD      ; Torchic
 	nybble ICON_BIRD      ; Combusken
 	nybble ICON_BIRD      ; Blaziken

@@ -721,12 +721,18 @@ SirfetchdPicFront::         INCBIN "gfx/pokemon/front/sirfetchd.pic"
 SirfetchdPicBack::          INCBIN "gfx/pokemon/back/sirfetchdb.pic"
 AnnihilapePicFront::         INCBIN "gfx/pokemon/front/annihilape.pic"
 AnnihilapePicBack::          INCBIN "gfx/pokemon/back/annihilapeb.pic"
+TreeckoPicFront::         INCBIN "gfx/pokemon/front/treecko.pic"
+TreeckoPicBack::          INCBIN "gfx/pokemon/back/treeckob.pic"	
+GrovylePicFront::         INCBIN "gfx/pokemon/front/grovyle.pic"
+GrovylePicBack::          INCBIN "gfx/pokemon/back/grovyleb.pic"
+
+SECTION "bank42", ROMX, BANK[$42]
+SceptilePicFront::         INCBIN "gfx/pokemon/front/Sceptile.pic"
+SceptilePicBack::          INCBIN "gfx/pokemon/back/sceptileb.pic"
 TorchicPicFront::         INCBIN "gfx/pokemon/front/torchic.pic"
 TorchicPicBack::          INCBIN "gfx/pokemon/back/torchicb.pic"	
 CombuskenPicFront::         INCBIN "gfx/pokemon/front/combusken.pic"
 CombuskenPicBack::          INCBIN "gfx/pokemon/back/combuskenb.pic"
-
-SECTION "bank42", ROMX, BANK[$42]
 BlazikenPicFront::         INCBIN "gfx/pokemon/front/blaziken.pic"
 BlazikenPicBack::          INCBIN "gfx/pokemon/back/blazikenb.pic"
 RaltsPicFront::       INCBIN "gfx/pokemon/front/ralts.pic"
@@ -763,14 +769,14 @@ TyruntPicFront::      INCBIN "gfx/pokemon/front/tyrunt.pic"
 TyruntPicBack::       INCBIN "gfx/pokemon/back/tyruntb.pic"
 TyrantrumPicFront::   INCBIN "gfx/pokemon/front/tyrantrum.pic"
 TyrantrumPicBack::    INCBIN "gfx/pokemon/back/tyrantrumb.pic"
+
+SECTION "bank43", ROMX, BANK[$43]
 AmauraPicFront::      INCBIN "gfx/pokemon/front/amaura.pic"
 AmauraPicBack::       INCBIN "gfx/pokemon/back/amaurab.pic"
 AurorusPicFront::     INCBIN "gfx/pokemon/front/aurorus.pic"
 AurorusPicBack::      INCBIN "gfx/pokemon/back/aurorusb.pic"
 SylveonPicFront::     INCBIN "gfx/pokemon/front/sylveon.pic"
 SylveonPicBack::      INCBIN "gfx/pokemon/back/sylveonb.pic"
-
-SECTION "bank43", ROMX, BANK[$43]
 MimikyuPicFront::     INCBIN "gfx/pokemon/front/mimikyu.pic"
 MimikyuPicBack::      INCBIN "gfx/pokemon/back/mimikyub.pic"
 Sandshrew_APicFront::     INCBIN "gfx/pokemon/front/sandshrew_a.pic"
@@ -803,6 +809,8 @@ CharcadetPicFront::    INCBIN "gfx/pokemon/front/charcadet.pic"
 CharcadetPicBack::     INCBIN "gfx/pokemon/back/charcadetb.pic"
 ArmarougePicFront::    INCBIN "gfx/pokemon/front/armarouge.pic"
 ArmarougePicBack::     INCBIN "gfx/pokemon/back/armarougeb.pic"
+
+SECTION "bank44", ROMX, BANK[$44]
 CeruledgePicFront::    INCBIN "gfx/pokemon/front/ceruledge.pic"
 CeruledgePicBack::     INCBIN "gfx/pokemon/back/ceruledgeb.pic"
 INCLUDE "data/sgb/sgb_palettes.asm"

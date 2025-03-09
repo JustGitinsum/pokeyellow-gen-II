@@ -164,6 +164,9 @@
 	const DEX_STEELIX
 	const DEX_SCIZOR
 	const DEX_KINGDRA
+	const DEX_TREECKO
+	const DEX_GROVYLE
+	const DEX_SCEPTILE
 	const DEX_TORCHIC
 	const DEX_COMBUSKEN
 	const DEX_BLAZIKEN

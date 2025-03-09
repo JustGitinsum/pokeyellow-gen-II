@@ -207,6 +207,9 @@ EvosMovesPointerTable:
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
 	dw KingdraEvosMoves
+	dw TreeckoEvosMoves
+	dw GrovyleEvosMoves
+	dw SceptileEvosMoves
 	dw TorchicEvosMoves
 	dw CombuskenEvosMoves
 	dw BlazikenEvosMoves
@@ -290,8 +293,8 @@ VoltorbEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, ELECTRODE
 	db 0
 ; Learnset
+	db 11, ROLLOUT
 	db 17, SONICBOOM
-;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
 	db 34, SEED_BOMB
 	db 36, SWIFT
@@ -1344,11 +1347,14 @@ SandshrewEvosMoves:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_FANG
-	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db  9, ROLLOUT
+	db 12, BUG_BITE
+	db 15, METAL_CLAW
+	db 24, FURY_SWIPES
+	db 27, AGILITY
+	db 30, SLASH
+	db 39, SWORDS_DANCE
+	db 45, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
@@ -1863,6 +1869,7 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 11, ROLLOUT
 	db 17, SONICBOOM
 ;	db 22, EXPLOSION
 	db 29, LIGHT_SCREEN
@@ -2088,7 +2095,7 @@ Sandshrew_AEvosMoves:
 	db EVOLVE_ITEM, ICE_STONE, 1, SANDSLASH_A
 	db 0
 ; Learnset
-	db  9, ACCELEROCK
+	db  9, ROLLOUT
 	db 12, PIN_MISSILE
 	db 18, METAL_CLAW
 	db 21, SWIFT
@@ -2188,9 +2195,7 @@ GeodudeEvosMoves:
 	db EVOLVE_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
 	db 16, ROCK_TOMB
-;	db 21, EXPLOSION
 	db 26, HARDEN
 	db 31, EARTHQUAKE
 	db 36, EXPLOSION
@@ -2511,6 +2516,44 @@ KingdraEvosMoves:
 	db 38, AGILITY
 	db 45, DRAGON_PULSE
 	db 60, HYDRO_PUMP
+	db 0
+
+TreeckoEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 16, GROVYLE
+	db 0
+; Learnset
+	db  9, MEGA_DRAIN
+	db 15, LOW_KICK
+	db 18, BITE
+	db 21, GIGA_DRAIN
+	db 24, SLAM
+	db 27, DOUBLE_TEAM
+	db 30, ENERGY_BALL
+	db 36, SCREECH
+	db 0
+
+
+GrovyleEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 36, SCEPTILE
+	db 0
+; Learnset
+	db 20, BITE
+	db 25, GIGA_DRAIN
+	db 30, SLAM
+	db 35, DOUBLE_TEAM
+	db 40, ENERGY_BALL
+	db 50, SCREECH
+	db 0
+
+SceptileEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 37, NIGHT_SLASH
+	db 40, ENERGY_BALL
+	db 50, SCREECH
 	db 0
 
 TorchicEvosMoves:

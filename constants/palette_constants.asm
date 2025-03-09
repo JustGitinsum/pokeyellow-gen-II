@@ -237,6 +237,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_STEELIX
 	const PAL_SCIZOR
 ;	const PAL_KINGDRA
+;   const PAL_TREECKO
+;   const PAL_GROVYLE
+;	const PAL_SCEPTILE
 ;	const PAL_TORCHIC
 ;	const PAL_COMBUSKEN
 ;	const PAL_BLAZIKEN

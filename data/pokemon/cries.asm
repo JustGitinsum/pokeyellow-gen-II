@@ -203,6 +203,9 @@ CryData::
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
 	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA
+	mon_cry SFX_CRY_0F, $80, $01 ; Treecko
+	mon_cry SFX_CRY_0F, $20, $80 ; Grovyle
+	mon_cry SFX_CRY_0F, $00, $C0 ; Sceptile
 	mon_cry SFX_CRY_0E, $DF, $04 ; Torchic
 	mon_cry SFX_CRY_14, $28, $C0 ; Combusken
 	mon_cry SFX_CRY_14, $11, $FF ; Blaziken

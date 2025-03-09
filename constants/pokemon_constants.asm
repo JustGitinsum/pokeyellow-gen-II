@@ -204,6 +204,9 @@
 	const STEELIX
 	const SCIZOR
 	const KINGDRA
+	const TREECKO
+	const GROVYLE
+	const SCEPTILE
 	const TORCHIC
 	const COMBUSKEN
 	const BLAZIKEN

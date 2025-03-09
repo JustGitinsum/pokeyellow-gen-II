@@ -197,6 +197,9 @@ PokedexEntryPointers:
 	dw SteelixDexEntry
 	dw ScizorDexEntry
 	dw KingdraDexEntry
+	dw TreeckoDexEntry
+	dw GrovyleDexEntry
+	dw SceptileDexEntry
 	dw TorchicDexEntry
 	dw CombuskenDexEntry
 	dw BlazikenDexEntry
@@ -1349,6 +1352,27 @@ KingdraDexEntry:
 	db 5,11
 	dw 3351
 	text_far _KingdraDexEntry
+	text_end
+
+TreeckoDexEntry:
+	db "GECKO@"
+	db 1,08
+	dw 110
+	text_far _MewDexEntry
+	text_end
+
+GrovyleDexEntry:
+	db "GECKO@"
+	db 2,11
+	dw 476
+	text_far _MewDexEntry
+	text_end
+
+SceptileDexEntry:
+	db "FOREST@"
+	db 5,07
+	dw 1151
+	text_far _MewDexEntry
 	text_end
 
 TorchicDexEntry:

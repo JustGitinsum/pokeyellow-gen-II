@@ -60,8 +60,8 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11, RATTATA, EKANS, 0
-	db 14, SPEAROW, 0
+	db 11, TREECKO, EKANS, 0
+	db 14, TORCHIC, 0
 ; Mt. Moon 1F
 	db 10, ZIGZAGOON, BUNEARY, AXEW, 0
 ; Route 24
@@ -191,7 +191,7 @@ JrTrainerFData:
 	db 21, JIGGLYPUFF, PIDGEY, MEOWTH, 0
 	db 22, ODDISH, BULBASAUR, 0
 ; Celadon Gym
-	db 24, BULBASAUR, IVYSAUR, 0
+	db 24, GROVYLE, IVYSAUR, 0
 ; Route 13
 	db 24, PIDGEY, TOGETIC, RATTATA, PIDGEY, MEOWTH, 0
 	db 30, POLIWAG, POLIWAG, 0
@@ -385,7 +385,7 @@ GamblerData:
 
 BeautyData:
 ; Celadon Gym
-	db 21, ODDISH, BELLSPROUT, ODDISH, BELLSPROUT, 0
+	db 21, ODDISH, TREECKO, ODDISH, BELLSPROUT, 0
 	db 24, BELLSPROUT, LEAFEON, 0
 	db 26, EXEGGCUTE, 0
 ; Route 13

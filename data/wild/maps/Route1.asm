@@ -1,14 +1,14 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, CHARIZARD
-	db  4, CHARIZARD
-	db  2, CHARIZARD
-	db  4, CHARIZARD
-	db  4, CHARIZARD
-	db  2, CHARIZARD
-	db  5, TORCHIC
-	db  4, COMBUSKEN
-	db  2, BLAZIKEN
+	db  3, PIDGEY
+	db  4, RATTATA
+	db  2, BUNEARY
+	db  4, ZIGZAGOON
+	db  2, RATTATA
+	db  4, PIDGEY
+	db  5, ZIGZAGOON
+	db  4, BUNEARY
+	db  7, RATTATA
 	db  4, PIDGEY
 	end_grass_wildmons
 
