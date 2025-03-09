@@ -166,6 +166,9 @@ MonPartyData:
 	nybble ICON_BIRD      ; Torchic
 	nybble ICON_BIRD      ; Combusken
 	nybble ICON_BIRD      ; Blaziken
+	nybble ICON_WATER     ; Mudkip
+	nybble ICON_WATER     ; Marshtomp
+	nybble ICON_WATER     ; Swampert
 	nybble ICON_MON       ; Magmortar
 	nybble ICON_MON       ; Sirfetchd
 	nybble ICON_MON       ; Annihilape

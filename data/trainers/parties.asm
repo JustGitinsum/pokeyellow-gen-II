@@ -174,7 +174,7 @@ JrTrainerMData:
 
 JrTrainerFData:
 ; Cerulean Gym
-	db 19, GOLDEEN, 0
+	db 19, MUDKIP, 0
 ; Unused
 	db 16, ODDISH, BELLSPROUT, 0
 ; Route 6
@@ -249,7 +249,7 @@ HikerData:
 ; Mt. Moon 1F
 	db 10, GEODUDE, GEODUDE, ONIX, 0
 ; Route 25
-	db 15, MACHOP, GEODUDE, 0
+	db 16, MACHOP, MARSHTOMP, 0
 	db 13, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
 	db 17, ONIX, 0
 ; Route 9

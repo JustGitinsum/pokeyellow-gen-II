@@ -210,6 +210,9 @@
 	const TORCHIC
 	const COMBUSKEN
 	const BLAZIKEN
+	const MUDKIP
+	const MARSHTOMP
+	const SWAMPERT
 	const MAGMORTAR
 	const LEAFEON
 	const GLACEON

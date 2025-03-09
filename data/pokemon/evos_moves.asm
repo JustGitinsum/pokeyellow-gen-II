@@ -213,6 +213,9 @@ EvosMovesPointerTable:
 	dw TorchicEvosMoves
 	dw CombuskenEvosMoves
 	dw BlazikenEvosMoves
+	dw MudkipEvosMoves
+	dw MarshtompEvosMoves
+	dw SwampertEvosMoves
 	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
@@ -2591,6 +2594,45 @@ BlazikenEvosMoves:
 ; Learnset
 	db 40, FLAMETHROWER
 	db 50, AXE_KICK
+	db 0
+
+MudkipEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 16, MARSHTOMP
+	db 0
+; Learnset
+	db 10, ROCK_TOMB
+	db 15, SUPERSONIC
+	db 18, BUBBLEBEAM
+	db 21, ROCK_SLIDE
+	db 24, STOMP
+	db 27, AMNESIA
+	db 33, SCREECH
+	db 39, HYDRO_PUMP
+	db 44, EARTHQUAKE
+	db 0
+
+
+MarshtompEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 36, SWAMPERT
+	db 0
+; Learnset
+	db 20, BUBBLEBEAM
+	db 23, ROCK_SLIDE
+	db 26, STOMP
+	db 29, AMNESIA
+	db 35, SCREECH
+	db 41, HYDRO_PUMP
+	db 48, EARTHQUAKE
+	db 0
+
+SwampertEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 41, HYDRO_PUMP
+	db 48, EARTHQUAKE
 	db 0
 
 MagmortarEvosMoves:
