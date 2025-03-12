@@ -191,6 +191,14 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $00, $80 ; ARMOR_CANNON
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; BITTER_BLADE
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; SACRED_SWORD
+	db SFX_FAINT_FALL,         $ff, $04 ; TRAILBLAZE
+	db SFX_BATTLE_25,          $00, $10 ; EXTREMESPEED
+	db SFX_BATTLE_22,          $00, $80 ; SUPRCELLSLAM
+	db SFX_BATTLE_1B,          $03, $60 ; BULLET_SEED
+	db SFX_BATTLE_36,          $00, $80 ; FLASH_CANNON
+	db SFX_SILPH_SCOPE,        $00, $ff ; MAKE_IT_RAIN
+	db SFX_BATTLE_29,          $f0, $80 ; DRAGONBREATH
+	db SFX_BATTLE_0D,          $10, $60 ; HEAT_CRASH
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

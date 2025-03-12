@@ -13,6 +13,9 @@ PhysicalToSpecialMoves:
         db SHADOW_BALL
 ; Psychic
         db PSYCHO_CUT
+; Steel
+        db MAKE_IT_RAIN
+        db FLASH_CANNON
 ; Normal
         db HYPER_BEAM
         db AIR_SLASH
@@ -25,6 +28,7 @@ SpecialToPhysicalMoves:
         db FIRE_PUNCH
         db FIRE_FANG
         db BITTER_BLADE
+        db HEAT_CRASH
 ; Water
         db RAZOR_SHELL
         db CRABHAMMER
@@ -36,9 +40,12 @@ SpecialToPhysicalMoves:
         db LEAF_BLADE
         db TROP_KICK
         db SEED_BOMB
+        db TRAILBLAZE
+        db BULLET_SEED
 ; Electric
         db THUNDERPUNCH
         db THUNDER_FANG
+        db SUPRCELLSLAM
 ; DARK
         db BITE
         db CRUNCH

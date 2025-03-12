@@ -216,4 +216,7 @@ MonsterNames::
 	db "SYLVEON@@@"
 	db "SIRFETCHD@"
 	db "ANNIHILAPE"
+	db "FRIGIBAX@@"
+	db "ARCTIBAX@@"
+	db "BAXCALIBUR"
 	assert_table_length NUM_POKEMON_INDEXES

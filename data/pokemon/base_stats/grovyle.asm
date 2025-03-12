@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/grovyle.pic", 0, 1 ; sprite dimensions
 	dw GrovylePicFront, GrovylePicBack
 
-	db LEER, QUICK_ATTACK, MEGA_DRAIN, LOW_KICK ; level 1 learnset
+	db DRAGONBREATH, QUICK_ATTACK, MEGA_DRAIN, LOW_KICK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

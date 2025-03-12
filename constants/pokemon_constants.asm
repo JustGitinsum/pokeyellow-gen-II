@@ -223,6 +223,9 @@
 	const SYLVEON
 	const SIRFETCHD
 	const ANNIHILAPE
+	const FRIGIBAX
+	const ARCTIBAX
+	const BAXCALIBUR
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

@@ -196,6 +196,14 @@
 	const ARMOR_CANNON
 	const BITTER_BLADE
 	const SACRED_SWORD
+	const TRAILBLAZE
+	const EXTREMESPEED
+	const SUPRCELLSLAM
+	const BULLET_SEED
+	const FLASH_CANNON
+	const MAKE_IT_RAIN
+	const DRAGONBREATH
+	const HEAT_CRASH
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

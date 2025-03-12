@@ -222,4 +222,7 @@ CryData::
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
+	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
+	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax
+	mon_cry SFX_CRY_0F, $3C, $C0 ; Baxcalibur
 	assert_table_length NUM_POKEMON_INDEXES

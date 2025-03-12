@@ -190,6 +190,14 @@ AttackAnimationPointers:
 	dw ArmorCannonAnim
 	dw BitterBladeAnim
 	dw SacredSwordAnim
+	dw TrailblazeAnim
+	dw ExtremeSpeedAnim
+	dw SuprcellSlamAnim
+	dw BulletSeedAnim
+	dw FlashCannonAnim
+	dw MakeItRainAnim
+	dw DragonBreathAnim
+	dw HeatCrashAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -293,6 +301,7 @@ IcePunchAnim:
 	battle_anim NO_MOVE, SUBANIM_0_ICE_RISE, 0, 16
 	db -1 ; end
 
+SuprcellSlamAnim:
 ThunderFangAnim:
 ThunderPunchAnim:
 	battle_anim THUNDERPUNCH, SUBANIM_0_STAR_THRICE, 0, 6
@@ -527,6 +536,7 @@ EmberAnim:
 	battle_anim EMBER, SUBANIM_1_FLAMES, 1, 6
 	db -1 ; end
 
+DragonBreathAnim:
 FlamethrowerAnim:
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_1, 1, 6
@@ -584,7 +594,7 @@ DrainKissAnim:
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
 	db -1 ; end
 
-
+ExtremeSpeedAnim:
 PlayRoughAnim:
 	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
@@ -686,6 +696,7 @@ RazorLeafAnim:
 	battle_anim AIR_SLASH, SUBANIM_0_SLICE, 0, 1
 	db -1 ; end
 
+FlashCannonAnim:
 EnergyBallAnim:
 	battle_anim ENERGY_BALL, SUBANIM_0_BEAM, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 6
@@ -1306,6 +1317,32 @@ SacredSwordAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
+	db -1 ; end
+
+TrailblazeAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim TAKE_DOWN, SE_DARK_SCREEN_FLASH
+	battle_anim SWIFT, SUBANIM_1_LEAVES_TOSS, 1, 1
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	db -1 ; end
+
+BulletSeedAnim:
+	battle_anim LEECH_SEED, SUBANIM_1_SEED_TOSS, 1, 6
+	battle_anim NO_MOVE, SUBANIM_0_STAR_HIGH, 0, 5
+	db -1 ; end
+
+MakeItRainAnim:
+	battle_anim PAY_DAY, SUBANIM_0_COIN_BOUNCE, 0, 4
+	battle_anim PAY_DAY, SUBANIM_0_COIN_BOUNCE, 0, 4
+	battle_anim PAY_DAY, SUBANIM_0_COIN_BOUNCE, 0, 4
+	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
+	db -1 ; end
+
+HeatCrashAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim TAKE_DOWN, SE_DARK_SCREEN_FLASH
+	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_3, 1, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
 SubstituteAnim:

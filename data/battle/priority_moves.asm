@@ -5,5 +5,5 @@ PriorityMovesList:
         db COUNTER,        1
         db QUICK_ATTACK,   8
         db ACCELEROCK,     8
-;       	db EXTREME_SPEED,  9
+       	db EXTREMESPEED,   9
         db -1 ; end

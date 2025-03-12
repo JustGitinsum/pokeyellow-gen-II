@@ -190,5 +190,13 @@ MoveNames::
 	li "ARMOR CANNON"
 	li "BITTER BLADE"
 	li "SACRED SWORD"
+	li "TRAILBLAZE"
+	li "EXTREMESPEED"
+	li "SUPRCELLSLAM"
+	li "BULLET SEED"
+	li "FLASH CANNON"
+	li "MAKE IT RAIN"
+	li "DRAGONBREATH"
+	li "HEAT CRASH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

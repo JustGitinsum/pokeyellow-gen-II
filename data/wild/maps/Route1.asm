@@ -1,15 +1,15 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, MUDKIP
-	db  4, MARSHTOMP
-	db  2, SWAMPERT
-	db  4, MUDKIP
-	db  4, MARSHTOMP
-	db  2, SWAMPERT
-	db  5, GOLDUCK
-	db  4, GOLDUCK
-	db  2, GOLDUCK
-	db  4, GOLDUCK
+	db  3, PIDGEY
+	db  4, RATTATA
+	db  2, BUNEARY
+	db  4, ZIGZAGOON
+	db  4, BUNEARY
+	db  2, ZIGZAGOON
+	db  5, RATTATA
+	db  4, RATTATA
+	db  2, RATTATA
+	db  4, PIDGEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

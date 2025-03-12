@@ -216,6 +216,9 @@ PokedexEntryPointers:
 	dw SylveonDexEntry
 	dw SirfetchdDexEntry
 	dw AnnihilapeDexEntry
+	dw FrigibaxDexEntry
+	dw ArctibaxDexEntry
+	dw BaxcaliburDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1684,6 +1687,27 @@ CeruledgeDexEntry:
 	db 4,11
 	dw 1874
 	text_far _ZoroarkHDexEntry
+	text_end
+
+FrigibaxDexEntry:
+	db "ICE FIN@"
+	db 1,08
+	dw 375
+	text_far _MewDexEntry
+	text_end
+
+ArctibaxDexEntry:
+	db "ICE FIN@"
+	db 2,07
+	dw 661
+	text_far _MewDexEntry
+	text_end
+
+BaxcaliburDexEntry:
+	db "ICE DRAGON@"
+	db 6,11
+	dw 4630
+	text_far _MewDexEntry
 	text_end
 
 MissingNoDexEntry:
