@@ -204,6 +204,9 @@
 	const MAKE_IT_RAIN
 	const DRAGONBREATH
 	const HEAT_CRASH
+	const SIGNAL_BEAM
+	const ANCIENTPOWER
+	const ICICLE_CRASH
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

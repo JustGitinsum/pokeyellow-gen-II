@@ -199,6 +199,9 @@ MoveSoundTable:
 	db SFX_SILPH_SCOPE,        $00, $ff ; MAKE_IT_RAIN
 	db SFX_BATTLE_29,          $f0, $80 ; DRAGONBREATH
 	db SFX_BATTLE_0D,          $10, $60 ; HEAT_CRASH
+	db SFX_BATTLE_36,          $00, $80 ; SIGNAL_BEAM
+	db SFX_BATTLE_36,          $f0, $20 ; ANCIENTPOWER
+	db SFX_BATTLE_29,          $f0, $e0 ; ICICLE_CRASH
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

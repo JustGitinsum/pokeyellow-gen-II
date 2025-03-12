@@ -198,5 +198,8 @@ MoveNames::
 	li "MAKE IT RAIN"
 	li "DRAGONBREATH"
 	li "HEAT CRASH"
+	li "SIGNAL BEAM"
+	li "ANCIENTPOWER"
+	li "ICICLE CRASH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

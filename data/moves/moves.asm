@@ -23,7 +23,7 @@ Moves:
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, NORMAL,       100, 30
 	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move AIR_SLASH,    FLINCH_SIDE_EFFECT1,         80, FLYING,        75, 10
+	move AIR_SLASH,    FLINCH_SIDE_EFFECT1,         80, FLYING,        95, 15
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
@@ -74,7 +74,7 @@ Moves:
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
-	move PECK,         NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
+	move PECK,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
 	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        80, FLYING,       100, 20
 	move SUBMISSION,   RECOIL_EFFECT,               80, FIGHTING,      80, 25
 	move LOW_KICK,     FLINCH_SIDE_EFFECT2,         50, FIGHTING,      90, 20
@@ -203,13 +203,14 @@ Moves:
 	move SACRED_SWORD, NO_ADDITIONAL_EFFECT,        90, FIGHTING,     100, 15
 	move TRAILBLAZE,   NO_ADDITIONAL_EFFECT,        50, GRASS,        100, 20
 	move EXTREMESPEED, NO_ADDITIONAL_EFFECT,        80, NORMAL,       100,  5
-	move SUPRCELLSLAM, NO_ADDITIONAL_EFFECT,       100, ELECTRIC,      95, 15
+	move SUPRCELLSLAM, JUMP_KICK_EFFECT,           100, ELECTRIC,      95, 15
 	move BULLET_SEED,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, GRASS,         95, 15
 	move FLASH_CANNON, DEFENSE_DOWN_SIDE_EFFECT,    80, STEEL,        100, 10
 	move MAKE_IT_RAIN, PAY_DAY_EFFECT,             120, STEEL,        100,  5
 	move DRAGONBREATH, PARALYZE_SIDE_EFFECT1,       60, DRAGON,       100, 20
 	move HEAT_CRASH,   BURN_SIDE_EFFECT1,          100, FIRE,         100, 10
-;Sp	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75,  BUG,         100, 15
-;Sp	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100,  5
+	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75,  BUG,         100, 15
+	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100,  5
+	move ICICLE_CRASH, FLINCH_SIDE_EFFECT2,         85,  ICE,          90, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

@@ -1,4 +1,6 @@
 PhysicalToSpecialMoves:
+; Bug
+        db SIGNAL_BEAM
 ; Flying
         db GUST
         db AIR_SLASH
@@ -16,6 +18,8 @@ PhysicalToSpecialMoves:
 ; Steel
         db MAKE_IT_RAIN
         db FLASH_CANNON
+; Rock
+        db ANCIENTPOWER
 ; Normal
         db HYPER_BEAM
         db AIR_SLASH
@@ -57,4 +61,5 @@ SpecialToPhysicalMoves:
 ; Ice
         db ICE_PUNCH
         db ICE_FANG
+        db ICICLE_CRASH
         db -1 ; end
