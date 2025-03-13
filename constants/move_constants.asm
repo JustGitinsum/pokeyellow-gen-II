@@ -207,6 +207,8 @@
 	const SIGNAL_BEAM
 	const ANCIENTPOWER
 	const ICICLE_CRASH
+	const DRAGON_DARTS
+	const PHANTOMFORCE
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

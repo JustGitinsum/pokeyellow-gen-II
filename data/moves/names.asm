@@ -201,5 +201,7 @@ MoveNames::
 	li "SIGNAL BEAM"
 	li "ANCIENTPOWER"
 	li "ICICLE CRASH"
+	li "DRAGON DARTS"
+	li "PHANTOMFORCE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

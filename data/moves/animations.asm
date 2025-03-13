@@ -201,6 +201,8 @@ AttackAnimationPointers:
 	dw SignalBeamAnim
 	dw AncientPowerAnim
 	dw IcicleCrashAnim
+	dw DragonDartsAnim
+	dw PhantonForceAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -410,6 +412,7 @@ HornAttackAnim:
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
+DragonDartsAnim:
 FuryAttackAnim:
 	battle_anim FURY_ATTACK, SUBANIM_0_HORN_JAB_THRICE, 0, 2
 	battle_anim NO_MOVE, SUBANIM_0_HORN_JAB_THRICE, 0, 2
@@ -597,6 +600,7 @@ DrainKissAnim:
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
 	db -1 ; end
 
+PhantonForceAnim:
 ExtremeSpeedAnim:
 PlayRoughAnim:
 	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
@@ -1370,6 +1374,15 @@ IcicleCrashAnim:
 	battle_anim BLIZZARD, SUBANIM_0_ICE_FALL, 0, 4
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
+
+;PhantonForceAnim:
+;	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+;	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
+;	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
+;	battle_anim KARATE_CHOP, SUBANIM_0_STAR_DESCENDING, 0, 8
+;	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
+;	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+;	db -1 ; end
 
 SubstituteAnim:
 	battle_anim SUBSTITUTE, SE_SLIDE_MON_OFF

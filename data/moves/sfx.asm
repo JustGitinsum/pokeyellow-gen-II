@@ -202,6 +202,8 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $00, $80 ; SIGNAL_BEAM
 	db SFX_BATTLE_36,          $f0, $20 ; ANCIENTPOWER
 	db SFX_BATTLE_29,          $f0, $e0 ; ICICLE_CRASH
+	db SFX_BATTLE_1E,          $00, $60 ; Dragon Darts
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; phantomforce
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

@@ -56,6 +56,7 @@ SpecialToPhysicalMoves:
         db NIGHT_SLASH
 ; DRAGON
         db DRAGON_CLAW
+        db DRAGON_DARTS
 ; FAIRY
         db PLAY_ROUGH
 ; Ice

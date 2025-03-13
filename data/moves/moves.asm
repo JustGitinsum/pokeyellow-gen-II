@@ -212,5 +212,7 @@ Moves:
 	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75,  BUG,         100, 15
 	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100,  5
 	move ICICLE_CRASH, FLINCH_SIDE_EFFECT2,         85,  ICE,          90, 10
+	move DRAGON_DARTS, ATTACK_TWICE_EFFECT,		    50, DRAGON,       100, 10
+	move PHANTOMFORCE, NO_ADDITIONAL_EFFECT,        90, GHOST,        100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
