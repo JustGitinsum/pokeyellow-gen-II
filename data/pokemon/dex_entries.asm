@@ -215,6 +215,9 @@ PokedexEntryPointers:
 	dw HaxorusDexEntry
 	dw SylveonDexEntry
 	dw SirfetchdDexEntry
+	dw DreepyDexEntry
+	dw DrakloakDexEntry
+	dw DragapultDexEntry
 	dw AnnihilapeDexEntry
 	dw FrigibaxDexEntry
 	dw ArctibaxDexEntry
@@ -1623,6 +1626,27 @@ ObstagoonDexEntry:
 	db "BLOCKING@"
 	db 5,03
 	dw 1014
+	text_far _MewDexEntry
+	text_end
+
+DreepyDexEntry:
+	db "LINGERING@"
+	db 1,08
+	dw 44
+	text_far _MewDexEntry
+	text_end
+
+DrakloakDexEntry:
+	db "CARETAKER@"
+	db 4,07
+	dw 243
+	text_far _MewDexEntry
+	text_end
+
+DragapultDexEntry:
+	db "STEALTH@"
+	db 9,10
+	dw 1102
 	text_far _MewDexEntry
 	text_end
 

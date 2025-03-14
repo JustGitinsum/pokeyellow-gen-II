@@ -221,6 +221,9 @@ CryData::
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
+	mon_cry SFX_CRY_0F, $60, $40 ; DREEPY
+	mon_cry SFX_CRY_0F, $40, $80 ; DRAKLOAK
+	mon_cry SFX_CRY_0F, $3C, $C0 ; DRAGAPULT
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
 	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax

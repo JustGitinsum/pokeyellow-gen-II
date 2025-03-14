@@ -200,6 +200,9 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Zigzagoon
 	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_MON       ; Obstagoon
+	nybble ICON_MON       ; dreepy
+	nybble ICON_MON       ; drakloak
+	nybble ICON_MON       ; dragapult
 	nybble ICON_QUADRUPED ; Ponyta_G
 	nybble ICON_QUADRUPED ; Rapidash_G
 	nybble ICON_QUADRUPED ; Zorua H

@@ -79,6 +79,9 @@ EvosMovesPointerTable:
 	dw ZigzagoonEvosMoves
 	dw LinooneEvosMoves
 	dw ObstagoonEvosMoves
+	dw DreepyEvosMoves
+	dw DrakloakEvosMoves
+	dw DragapultEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -1065,6 +1068,40 @@ ObstagoonEvosMoves:
 ; Learnset
 	db 30, HEADBUTT
 	db 38, CRUNCH
+	db 0
+
+DreepyEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 50, DRAKLOAK
+	db 0
+; Learnset
+	db 20, DRAGON_RAGE
+	db 32, X_SCISSOR
+	db 48, PHANTOMFORCE
+	db 54, TAKE_DOWN
+	db 60, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
+	db 0
+
+DrakloakEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 60, DRAGAPULT
+	db 0
+; Learnset
+	db 20, DRAGON_RAGE
+	db 32, X_SCISSOR
+	db 48, PHANTOMFORCE
+	db 54, TAKE_DOWN
+	db 60, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
+	db 0
+
+DragapultEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 61, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
 	db 0
 
 DoduoEvosMoves:

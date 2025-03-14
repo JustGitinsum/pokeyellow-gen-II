@@ -8,8 +8,8 @@ PokemonTower6FWildMons:
 	db 21, ZORUA_H
 	db 22, CUBONE
 	db 27, MIMIKYU
-	db 22, HAUNTER
-	db 27, HAUNTER
+	db 27, DREEPY
+	db 30, DREEPY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

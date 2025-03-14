@@ -222,6 +222,9 @@
 	const HAXORUS
 	const SYLVEON
 	const SIRFETCHD
+	const DREEPY
+	const DRAKLOAK
+	const DRAGAPULT
 	const ANNIHILAPE
 	const FRIGIBAX
 	const ARCTIBAX
