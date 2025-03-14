@@ -207,6 +207,9 @@ PokedexEntryPointers:
 	dw MarshtompDexEntry
 	dw SwampertDexEntry
 	dw MagmortarDexEntry
+	dw GibleDexEntry
+	dw GabiteDexEntry
+	dw GarchompDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
 	dw GliscorDexEntry
@@ -1479,6 +1482,27 @@ LopunnyDexEntry:
 	db "RABBIT@"
 	db 3,11
 	dw 734
+	text_far _MewDexEntry
+	text_end
+
+GibleDexEntry:
+	db "LAND SHARK@"
+	db 2,04
+	dw 452
+	text_far _MewDexEntry
+	text_end
+
+GabiteDexEntry:
+	db "CAVE@"
+	db 4,07
+	dw 1235
+	text_far _MewDexEntry
+	text_end
+
+GarchompDexEntry:
+	db "MACH@"
+	db 6,03
+	dw 2094
 	text_far _MewDexEntry
 	text_end
 

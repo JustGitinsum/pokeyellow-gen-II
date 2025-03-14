@@ -181,6 +181,9 @@
 	const DEX_GARDEVOIR
 	const DEX_BUNEARY
 	const DEX_LOPUNNY
+	const DEX_GIBLE
+	const DEX_GABITE
+	const DEX_GARCHOMP
 	const DEX_RIOLU
 	const DEX_LUCARIO
 	const DEX_TOGEKISS

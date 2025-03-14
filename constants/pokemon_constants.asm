@@ -214,6 +214,9 @@
 	const MARSHTOMP
 	const SWAMPERT
 	const MAGMORTAR
+	const GIBLE
+	const GABITE
+	const GARCHOMP
 	const LEAFEON
 	const GLACEON
 	const GLISCOR

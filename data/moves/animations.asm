@@ -124,7 +124,7 @@ AttackAnimationPointers:
 	dw ElectrowebAnim
 	dw SmogAnim
 	dw SludgeAnim
-	dw BoneClubAnim
+	dw BulldozeAnim
 	dw FireBlastAnim
 	dw WaterfallAnim
 	dw RazorShellAnim
@@ -664,6 +664,7 @@ SeismicTossAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+BulldozeAnim:
 StrengthAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
@@ -995,10 +996,6 @@ SmogAnim:
 SludgeAnim:
 	battle_anim SLUDGE, SUBANIM_1_BLOB_TOSS, 1, 6
 	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
-	db -1 ; end
-
-BoneClubAnim:
-	battle_anim BONE_CLUB, SUBANIM_0_STAR_THRICE, 0, 8
 	db -1 ; end
 
 FireBlastAnim:

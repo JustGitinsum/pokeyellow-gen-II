@@ -213,6 +213,9 @@ CryData::
 	mon_cry SFX_CRY_1D, $20, $40 ; Marshtomp
 	mon_cry SFX_CRY_13, $00, $80 ; Swampert
 	mon_cry SFX_CRY_04, $FF, $30 ; MAGMORTAR
+	mon_cry SFX_CRY_0F, $60, $40 ; Gible
+	mon_cry SFX_CRY_0F, $40, $80 ; Gabite
+	mon_cry SFX_CRY_0F, $3C, $C0 ; Garchomp
 	mon_cry SFX_CRY_0F, $20, $80 ; Leafeon
 	mon_cry SFX_CRY_0C, $23, $FF ; Glaceon
 	mon_cry SFX_CRY_1D, $FA, $80 ; Gliscor

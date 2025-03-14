@@ -125,7 +125,7 @@ MoveSoundTable:
 	db SFX_BATTLE_09,          $00, $40 ; ELECTROWEB
 	db SFX_NOT_VERY_EFFECTIVE, $10, $ff ; SMOG
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE
-	db SFX_BATTLE_32,          $00, $80 ; BONE_CLUB
+	db SFX_BATTLE_32,          $00, $80 ; BULLDOZE
 	db SFX_BATTLE_29,          $1f, $20 ; FIRE_BLAST
 	db SFX_BATTLE_25,          $2f, $80 ; WATERFALL
 	db SFX_BATTLE_0F,          $1f, $ff ; RAZOR_SHELL

@@ -2507,7 +2507,7 @@ wBGPPalsBuffer:: ds (NUM_ACTIVE_PALS + 1) * PALETTE_SIZE
 SECTION "Stack", WRAM0
 
 ; the stack grows downward
-	ds $d3 - 1
+	ds $d1 - 1
 wStack:: db
 
 ENDSECTION

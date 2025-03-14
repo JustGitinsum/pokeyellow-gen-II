@@ -101,7 +101,7 @@ Moves:
 	move ROCK_TOMB,    SPEED_DOWN_SIDE_EFFECT,      60, ROCK,          95, 15
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move EARTH_POWER,  DEFENSE_DOWN_SIDE_EFFECT,    90, GROUND,       100, 10
-	move DIG,          CHARGE_EFFECT,              100, GROUND,       100, 10
+	move DIG,          CHARGE_EFFECT,               80, GROUND,       100, 10
 	move TOXIC,        POISON_EFFECT,                0, POISON,        85, 10
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
 	move PSYCHIC_M,    SPECIAL_DOWN_SIDE_EFFECT,    90, PSYCHIC_TYPE, 100, 10
@@ -135,7 +135,7 @@ Moves:
 	move ELECTROWEB,   SPEED_DOWN_SIDE_EFFECT,      55, ELECTRIC,      95, 15
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
-	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
+	move BULLDOZE,     SPEED_DOWN_SIDE_EFFECT,      60, GROUND,       100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
 	move RAZOR_SHELL,  DEFENSE_DOWN_SIDE_EFFECT,    75, WATER,         95, 10

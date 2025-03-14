@@ -254,6 +254,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GARDEVOIR
 ;	const PAL_BUNEARY
 ;	const PAL_LOPUNNY
+; 	const PAL_GIBLE
+; 	const PAL_GABITE
+; 	const PAL_GARCHOMP
 ;	const PAL_RIOLU
 	const PAL_LUCARIO
 ;	const PAL_TOGEKISS

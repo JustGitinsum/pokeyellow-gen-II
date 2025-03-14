@@ -220,6 +220,9 @@ EvosMovesPointerTable:
 	dw MarshtompEvosMoves
 	dw SwampertEvosMoves
 	dw MagmortarEvosMoves
+	dw GibleEvosMoves
+	dw GabiteEvosMoves
+	dw GarchompEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
 	dw GliscorEvosMoves
@@ -437,7 +440,7 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
+	db 10, BULLDOZE
 	db 13, TAIL_WHIP
 	db 18, HEADBUTT
 	db 25, LEER
@@ -617,7 +620,7 @@ RioluEvosMoves:
 	db 06, METAL_CLAW
 	db 08, FORCE_PALM
 	db 12, DOUBLE_TEAM
-	db 24, BONE_CLUB
+	db 24, BULLDOZE
 	db 28, AURA_SPHERE
 	db 0
 
@@ -627,7 +630,7 @@ LucarioEvosMoves:
 ; Learnset
 	db 08, FORCE_PALM
 	db 12, DOUBLE_TEAM
-	db 29, BONE_CLUB
+	db 29, BULLDOZE
 	db 30, AURA_SPHERE
 	db 38, TROP_KICK
 	db 52, DRAGON_PULSE
@@ -1988,7 +1991,7 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
+	db 10, BULLDOZE
 	db 13, TAIL_WHIP
 	db 18, HEADBUTT
 	db 25, LEER
@@ -2715,11 +2718,46 @@ MagmortarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
+GibleEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 24, GABITE
+	db 0
+; Learnset
+	db 18, METAL_CLAW
+	db 25, BITE
+	db 30, SLASH
+	db 36, DRAGON_CLAW
+	db 42, EARTHQUAKE
+	db 48, CRUNCH
+	db 54, TAKE_DOWN
+	db 0
+
+GabiteEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 48, GARCHOMP
+	db 0
+; Learnset
+	db 25, BITE
+	db 30, SLASH
+	db 36, DRAGON_CLAW
+	db 42, EARTHQUAKE
+	db 48, CRUNCH
+	db 54, TAKE_DOWN
+	db 0
+
+GarchompEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 48, CRUNCH
+	db 54, TAKE_DOWN
+	db 0
+
 LeafeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SAND_ATTACK
+	db  8, SAND_ATTACK
 	db 16, GROWL
 	db 23, QUICK_ATTACK
 	db 25, MAGICAL_LEAF

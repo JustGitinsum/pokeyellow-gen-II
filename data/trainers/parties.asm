@@ -141,7 +141,7 @@ LassData:
 SailorData:
 ; SS Anne Stern
 	db 18, MACHOP, SHELLDER, 0
-	db 17, MACHOP, TENTACOOL, 0
+	db 17, GIBLE, TENTACOOL, 0
 ; SS Anne B1F Rooms
 	db 21, SHELLDER, 0
 	db 17, HORSEA, SHELLDER, TENTACOOL, 0
@@ -483,7 +483,7 @@ BlackbeltData:
 	db 31, MACHOP, MANKEY, PRIMEAPE, 0
 ; Viridian Gym
 	db 40, GLISCOR, MACHOKE, 0
-	db 43, MACHOKE, 0
+	db 43, GABITE, 0
 	db 38, MACHOKE, RIOLU, MACHOKE, 0
 ; Victory Road 2F
 	db 43, MACHOKE, MACHOP, MACHOKE, 0
@@ -538,7 +538,7 @@ GiovanniData:
 ; Silph Co. 11F
 	db $FF, 37, NIDORINO, 35, PERSIAN, 37, RHYHORN, 41, NIDOQUEEN, 0
 ; Viridian Gym
-	db $FF, 50, DUGTRIO, 53, PERSIAN, 53, NIDOQUEEN, 55, NIDOKING, 55, RHYDON, 0
+	db $FF, 50, DUGTRIO, 53, PERSIAN, 53, NIDOQUEEN, 55, NIDOKING, 55, GARCHOMP, 0
 
 RocketData:
 ; Mt. Moon B2F
