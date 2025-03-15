@@ -21,7 +21,7 @@
 	const DAWN_STONE    ; $0C
 	const DUSK_STONE    ; $0D
 	const SHINY_STONE   ; $0E
-	const PARLYZ_HEAL   ; $0F
+	const DRAGON_SCALE  ; $0F
 	const FULL_RESTORE  ; $10
 	const MAX_POTION    ; $11
 	const HYPER_POTION  ; $12
@@ -93,6 +93,13 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const ELIXER        ; $52
 	const MAX_ELIXER    ; $53
 	const LINK_CABLE    ; $54
+	const MAGMARIZER	; $55
+	const ELECTIRIZER	; $56
+	const METAL_COAT
+	const RAZOR_FANG
+	const MALICIOUS_ARMOR
+	const AUSPICIOUS_ARMOR
+
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs

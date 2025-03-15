@@ -31,7 +31,7 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; DAWN_STONE
 	dw ItemUseEvoStone   ; DUSK_STONE
 	dw ItemUseEvoStone   ; SHINY_STONE
-	dw ItemUseMedicine   ; PARLYZ_HEAL
+	dw ItemUseEvoStone   ; DRAGON_SCALE
 	dw ItemUseMedicine   ; FULL_RESTORE
 	dw ItemUseMedicine   ; MAX_POTION
 	dw ItemUseMedicine   ; HYPER_POTION
@@ -101,6 +101,12 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; ELIXER
 	dw ItemUsePPRestore  ; MAX_ELIXER
 	dw ItemUseEvoStone   ; Link_CABLE
+	dw ItemUseEvoStone	 ; MAGMARIZER
+	dw ItemUseEvoStone   ; ELECTIRIZER
+	dw ItemUseEvoStone   ; METAL_COAT
+	dw ItemUseEvoStone   ; RAZOR_FANG
+	dw ItemUseEvoStone   ; MALICIOUS_ARMOR
+	dw ItemUseEvoStone   ; AUSPICIOUS_ARMOR
 
 ItemUseBall:
 

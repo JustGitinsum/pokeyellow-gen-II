@@ -551,7 +551,7 @@ GastlyEvosMoves:
 
 ScytherEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, SCIZOR
+	db EVOLVE_ITEM, METAL_COAT, 1, SCIZOR
 	db 0
 ; Learnset
 	db 19, TRAILBLAZE
@@ -653,7 +653,7 @@ GrowlitheEvosMoves:
 
 OnixEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, STEELIX
+	db EVOLVE_ITEM, METAL_COAT, 1, STEELIX
 	db 0
 ; Learnset
 	db 15, BIND
@@ -862,7 +862,7 @@ MimikyuEvosMoves:
 
 MagmarEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, FIRE_STONE, 1, MAGMORTAR
+	db EVOLVE_ITEM, MAGMARIZER, 1, MAGMORTAR
 	db 0
 ; Learnset
 	db 36, LEER
@@ -884,7 +884,7 @@ ZoruaHEvosMoves:
 
 ElectabuzzEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, THUNDER_STONE, 1, ELECTIVIRE
+	db EVOLVE_ITEM, ELECTIRIZER, 1, ELECTIVIRE
 	db 0
 ; Learnset
 	db 34, THUNDERSHOCK
@@ -1177,8 +1177,8 @@ KrabbyEvosMoves:
 
 CharcadetEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, DAWN_STONE, 1, ARMAROUGE
-	db EVOLVE_ITEM, DUSK_STONE, 1, CERULEDGE
+	db EVOLVE_ITEM, AUSPICIOUS_ARMOR, 1, ARMAROUGE
+	db EVOLVE_ITEM, MALICIOUS_ARMOR, 1, CERULEDGE
 	db 0
 ; Learnset
 	db 16, COMET_PUNCH
@@ -1346,7 +1346,7 @@ HorseaEvosMoves:
 
 SeadraEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, WATER_STONE, 1, KINGDRA
+	db EVOLVE_ITEM, DRAGON_SCALE, 1, KINGDRA
 	db 0
 ; Learnset
 	db 45, DRAGON_PULSE
@@ -2525,7 +2525,7 @@ UmbreonEvosMoves:
 
 GligarEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, GLISCOR
+	db EVOLVE_ITEM, RAZOR_FANG, 1, GLISCOR
 	db 0
 ; Learnset
 	db 13, QUICK_ATTACK

@@ -14,7 +14,7 @@ ItemPrices::
 	bcd3 2100  ; DAWN_STONE
 	bcd3 2100  ; DUSK_STONE
 	bcd3 2100  ; SHINY_STONE
-	bcd3 200   ; PARLYZ_HEAL
+	bcd3 2100  ; DRAGON_SCALE
 	bcd3 3000  ; FULL_RESTORE
 	bcd3 2500  ; MAX_POTION
 	bcd3 1500  ; HYPER_POTION
@@ -78,12 +78,18 @@ ItemPrices::
 	bcd3 0     ; OLD_ROD
 	bcd3 0     ; GOOD_ROD
 	bcd3 0     ; SUPER_ROD
-	bcd3 4200  ; PP_UP
+	bcd3 1800  ; PP_UP
 	bcd3 0     ; ETHER
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
 	bcd3 0     ; MAX_ELIXER
 	bcd3 2100  ; LINK_CABLE
+	bcd3 2100  ; MAGMARIZER
+	bcd3 2100  ; ELECTIRIZER
+	bcd3 2100  ; METAL_COAT
+	bcd3 2100  ; RAZOR_FANG
+	bcd3 2100  ; MALICIOUS_ARMOR
+	bcd3 2100  ; AUSPICIOUS_ARMOR
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
