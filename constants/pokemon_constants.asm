@@ -133,7 +133,7 @@
 	const METAPOD            ; $7C
 	const BUTTERFREE         ; $7D
 	const MACHAMP            ; $7E
-	const_skip               ; $7F
+	const BLISSEY            ; $7F
 	const GOLDUCK            ; $80
 	const HYPNO              ; $81
 	const GOLBAT             ; $82

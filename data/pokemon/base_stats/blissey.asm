@@ -1,16 +1,16 @@
-	db DEX_CHANSEY ; pokedex id
+	db DEX_BLISSEY ; pokedex id
 
-	db 250,   5,   5,  50, 105
+	db 255,  10,  10,  55, 135
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
 	db 30 ; catch rate
 	db 255 ; base exp
 
-	INCBIN "gfx/pokemon/front/chansey.pic", 0, 1 ; sprite dimensions
-	dw ChanseyPicFront, ChanseyPicBack
+	INCBIN "gfx/pokemon/front/blissey.pic", 0, 1 ; sprite dimensions
+	dw BlisseyPicFront, BlisseyPicBack
 
-	db POUND, TAIL_WHIP, DEFENSE_CURL, NO_MOVE ; level 1 learnset
+	db SOFTBOILED, DOUBLE_EDGE, LIGHT_SCREEN, MOONBLAST ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
@@ -24,4 +24,4 @@
 	     FLASH
 	; end
 
-	db BANK(ChanseyPicFront)
+	db BANK(BlisseyPicFront)

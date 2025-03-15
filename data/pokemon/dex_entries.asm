@@ -126,7 +126,7 @@ PokedexEntryPointers:
 	dw MetapodDexEntry
 	dw ButterfreeDexEntry
 	dw MachampDexEntry
-	dw MissingNoDexEntry
+	dw BlisseyDexEntry
 	dw GolduckDexEntry
 	dw HypnoDexEntry
 	dw GolbatDexEntry
@@ -1365,6 +1365,13 @@ KingdraDexEntry:
 	db 5,11
 	dw 3351
 	text_far _KingdraDexEntry
+	text_end
+
+BlisseyDexEntry:
+	db "HAPPINESS@"
+	db 4,11
+	dw 1032
+	text_far _MewDexEntry
 	text_end
 
 TreeckoDexEntry:

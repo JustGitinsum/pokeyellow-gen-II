@@ -79,9 +79,6 @@ EvosMovesPointerTable:
 	dw ZigzagoonEvosMoves
 	dw LinooneEvosMoves
 	dw ObstagoonEvosMoves
-	dw DreepyEvosMoves
-	dw DrakloakEvosMoves
-	dw DragapultEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -139,7 +136,7 @@ EvosMovesPointerTable:
 	dw MetapodEvosMoves
 	dw ButterfreeEvosMoves
 	dw MachampEvosMoves
-	dw MissingNo7FEvosMoves
+	dw BlisseyEvosMoves
 	dw GolduckEvosMoves
 	dw HypnoEvosMoves
 	dw GolbatEvosMoves
@@ -232,6 +229,9 @@ EvosMovesPointerTable:
 	dw HaxorusEvosMoves
 	dw SylveonEvosMoves
 	dw SirfetchdEvosMoves
+	dw DreepyEvosMoves
+	dw DrakloakEvosMoves
+	dw DragapultEvosMoves
 	dw AnnihilapeEvosMoves
 	dw FrigibaxEvosMoves
 	dw ArctibaxEvosMoves
@@ -729,15 +729,16 @@ GravelerEvosMoves:
 
 ChanseyEvosMoves:
 ; Evolutions
+	db EVOLVE_LEVEL, 40, BLISSEY
 	db 0
 ; Learnset
 	db 12, DOUBLESLAP
 	db 24, SING
-	db 30, GROWL
-	db 38, MINIMIZE
-	db 44, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
-	db 54, DOUBLE_EDGE
+	db 24, DRAIN_KISS
+	db 32, MINIMIZE
+	db 36, LIGHT_SCREEN
+	db 40, DOUBLE_EDGE
+	db 44, SOFTBOILED
 	db 0
 
 MachokeEvosMoves:
@@ -1073,40 +1074,6 @@ ObstagoonEvosMoves:
 ; Learnset
 	db 30, HEADBUTT
 	db 38, CRUNCH
-	db 0
-
-DreepyEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 50, DRAKLOAK
-	db 0
-; Learnset
-	db 20, DRAGON_RAGE
-	db 32, X_SCISSOR
-	db 48, PHANTOMFORCE
-	db 54, TAKE_DOWN
-	db 60, DRAGON_DARTS
-	db 66, DOUBLE_EDGE
-	db 0
-
-DrakloakEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 60, DRAGAPULT
-	db 0
-; Learnset
-	db 20, DRAGON_RAGE
-	db 32, X_SCISSOR
-	db 48, PHANTOMFORCE
-	db 54, TAKE_DOWN
-	db 60, DRAGON_DARTS
-	db 66, DOUBLE_EDGE
-	db 0
-
-DragapultEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 61, DRAGON_DARTS
-	db 66, DOUBLE_EDGE
 	db 0
 
 DoduoEvosMoves:
@@ -1784,10 +1751,13 @@ MachampEvosMoves:
 	db 52, SUBMISSION
 	db 0
 
-MissingNo7FEvosMoves:
+BlisseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 40, DOUBLE_EDGE
+	db 44, SOFTBOILED
+	db 50, MOONBLAST
 	db 0
 
 GolduckEvosMoves:
@@ -2857,6 +2827,40 @@ SirfetchdEvosMoves:
 	db 31, AGILITY
 	db 33, NIGHT_SLASH
 	db 39, LEAF_BLADE
+	db 0
+
+DreepyEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 50, DRAKLOAK
+	db 0
+; Learnset
+	db 20, DRAGON_RAGE
+	db 32, X_SCISSOR
+	db 48, PHANTOMFORCE
+	db 54, TAKE_DOWN
+	db 60, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
+	db 0
+
+DrakloakEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 60, DRAGAPULT
+	db 0
+; Learnset
+	db 20, DRAGON_RAGE
+	db 32, X_SCISSOR
+	db 48, PHANTOMFORCE
+	db 54, TAKE_DOWN
+	db 60, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
+	db 0
+
+DragapultEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 61, DRAGON_DARTS
+	db 66, DOUBLE_EDGE
 	db 0
 
 AnnihilapeEvosMoves:

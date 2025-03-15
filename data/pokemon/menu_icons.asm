@@ -160,6 +160,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Steelix
 	nybble ICON_BUG       ; Scizor
 	nybble ICON_WATER     ; Kingdra
+	nybble ICON_FAIRY     ; Blissey
 	nybble ICON_MON       ; Treecko
 	nybble ICON_MON       ; Grovyle
 	nybble ICON_MON       ; Sceptile
@@ -169,8 +170,6 @@ MonPartyData:
 	nybble ICON_WATER     ; Mudkip
 	nybble ICON_WATER     ; Marshtomp
 	nybble ICON_WATER     ; Swampert
-	nybble ICON_MON       ; Sirfetchd
-	nybble ICON_MON       ; Annihilape
 	nybble ICON_MON       ; Ralts
 	nybble ICON_MON       ; Kirlia
 	nybble ICON_MON       ; Gardevoir
@@ -204,6 +203,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Zigzagoon
 	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_MON       ; Obstagoon
+	nybble ICON_MON       ; Sirfetchd
 	nybble ICON_MON       ; dreepy
 	nybble ICON_MON       ; drakloak
 	nybble ICON_MON       ; dragapult
@@ -216,6 +216,7 @@ MonPartyData:
 	nybble ICON_MON       ; Charcadet
 	nybble ICON_MON       ; Armarouge
 	nybble ICON_MON       ; Ceruledge
+	nybble ICON_MON       ; Annihilape
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Baxcalibur
