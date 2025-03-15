@@ -429,7 +429,7 @@ JugglerData:
 	db 31, DROWZEE, DROWZEE, KADABRA, DROWZEE, 0
 	db 34, DROWZEE, HYPNO, 0
 ; Victory Road 2F
-	db 48, MR_MIME, 0
+	db 48, ELECTIVIRE, 0
 ; Unused
 	db 33, HYPNO, 0
 ; Fuchsia Gym

@@ -219,10 +219,11 @@ EvosMovesPointerTable:
 	dw MudkipEvosMoves
 	dw MarshtompEvosMoves
 	dw SwampertEvosMoves
-	dw MagmortarEvosMoves
 	dw GibleEvosMoves
 	dw GabiteEvosMoves
 	dw GarchompEvosMoves
+	dw ElectivireEvosMoves
+	dw MagmortarEvosMoves
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
 	dw GliscorEvosMoves
@@ -882,6 +883,7 @@ ZoruaHEvosMoves:
 
 ElectabuzzEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, THUNDER_STONE, 1, ELECTIVIRE
 	db 0
 ; Learnset
 	db 34, THUNDERSHOCK
@@ -2706,18 +2708,6 @@ SwampertEvosMoves:
 	db 48, EARTHQUAKE
 	db 0
 
-MagmortarEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 36, LEER
-	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
-	db 48, SMOKESCREEN
-	db 52, SMOG
-	db 55, FLAMETHROWER
-	db 0
-
 GibleEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 24, GABITE
@@ -2751,6 +2741,30 @@ GarchompEvosMoves:
 ; Learnset
 	db 48, CRUNCH
 	db 54, TAKE_DOWN
+	db 0
+
+ElectivireEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 24, SCREECH
+	db 28, THUNDERPUNCH
+	db 40, LOW_KICK
+	db 46, THUNDERBOLT
+	db 52, LIGHT_SCREEN
+	db 58, SUPRCELLSLAM
+	db 0
+
+MagmortarEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 36, LEER
+	db 39, CONFUSE_RAY
+	db 43, FIRE_PUNCH
+	db 48, SMOKESCREEN
+	db 52, SMOG
+	db 55, FLAMETHROWER
 	db 0
 
 LeafeonEvosMoves:

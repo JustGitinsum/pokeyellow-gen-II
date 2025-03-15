@@ -5,11 +5,11 @@ PowerPlantWildMons:
 	db 33, MAGNETON
 	db 33, VOLTORB
 	db 37, RAICHU
-	db 33, RAICHU
-	db 37, GRIMER
-	db 38, MAGNETON
 	db 33, ELECTRODE
 	db 37, JOLTEON
+	db 38, MAGNETON
+	db 33, ELECTIVIRE
+	db 37, ELECTIVIRE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

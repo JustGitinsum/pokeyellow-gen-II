@@ -169,7 +169,6 @@ MonPartyData:
 	nybble ICON_WATER     ; Mudkip
 	nybble ICON_WATER     ; Marshtomp
 	nybble ICON_WATER     ; Swampert
-	nybble ICON_MON       ; Magmortar
 	nybble ICON_MON       ; Sirfetchd
 	nybble ICON_MON       ; Annihilape
 	nybble ICON_MON       ; Ralts
@@ -182,6 +181,8 @@ MonPartyData:
 	nybble ICON_MON       ; Garchomp
 	nybble ICON_MON       ; Riolu
 	nybble ICON_MON       ; Lucario
+	nybble ICON_MON       ; Electivire
+	nybble ICON_MON       ; Magmortar
 	nybble ICON_FAIRY     ; Togekiss
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_QUADRUPED ; Glaceon

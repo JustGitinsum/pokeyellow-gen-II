@@ -206,10 +206,11 @@ PokedexEntryPointers:
 	dw MudkipDexEntry
 	dw MarshtompDexEntry
 	dw SwampertDexEntry
-	dw MagmortarDexEntry
 	dw GibleDexEntry
 	dw GabiteDexEntry
 	dw GarchompDexEntry
+	dw ElectivireDexEntry
+	dw MagmortarDexEntry
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
 	dw GliscorDexEntry
@@ -1429,13 +1430,6 @@ SwampertDexEntry:
 	text_far _MewDexEntry
 	text_end
 
-MagmortarDexEntry:
-	db "BLAST@"
-	db 5,4
-	dw 1499
-	text_far _MagmortarDexEntry
-	text_end
-
 SirfetchdDexEntry:
 	db "WILDDUCK@"
 	db 2,07
@@ -1518,6 +1512,20 @@ LucarioDexEntry:
 	db 3,11
 	dw 1190
 	text_far _LucarioDexEntry
+	text_end
+
+ElectivireDexEntry:
+	db "THUNDERBOLT@"
+	db 5,11
+	dw 3056
+	text_far _MewDexEntry
+	text_end
+
+MagmortarDexEntry:
+	db "BLAST@"
+	db 5,4
+	dw 1499
+	text_far _MagmortarDexEntry
 	text_end
 
 TogekissDexEntry:
