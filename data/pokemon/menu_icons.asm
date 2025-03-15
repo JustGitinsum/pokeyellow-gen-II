@@ -180,6 +180,7 @@ MonPartyData:
 	nybble ICON_MON       ; Garchomp
 	nybble ICON_MON       ; Riolu
 	nybble ICON_MON       ; Lucario
+	nybble ICON_BALL      ; Magnezone
 	nybble ICON_MON       ; Electivire
 	nybble ICON_MON       ; Magmortar
 	nybble ICON_FAIRY     ; Togekiss

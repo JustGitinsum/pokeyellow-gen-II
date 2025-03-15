@@ -155,7 +155,7 @@ EvosMovesPointerTable:
 	dw WeezingEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
-	dw MissingNo92EvosMoves
+	dw MagnezoneEvosMoves
 	dw HaunterEvosMoves
 	dw AbraEvosMoves
 	dw AlakazamEvosMoves
@@ -896,11 +896,12 @@ ElectabuzzEvosMoves:
 
 MagnetonEvosMoves:
 ; Evolutions
+	db EVOLVE_ITEM, THUNDER_STONE, 1, MAGNEZONE
 	db 0
 ; Learnset
-	db 32, FLASH_CANNON
-	db 34, LIGHT_SCREEN
-	db 43, THUNDER
+	db 34, FLASH_CANNON
+	db 52, LIGHT_SCREEN
+	db 64, THUNDER
 	db 0
 
 KoffingEvosMoves:
@@ -1706,6 +1707,7 @@ LopunnyEvosMoves:
 	db 36, AGILITY
 	db 40, PLAY_ROUGH
 	db 48, BOUNCE
+	db 50, SUPRCELLSLAM
 	db 0
 
 CaterpieEvosMoves:
@@ -1973,10 +1975,13 @@ MarowakEvosMoves:
 	db 55, RAGE
 	db 0
 
-MissingNo92EvosMoves:
+MagnezoneEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 38, FLASH_CANNON
+	db 52, LIGHT_SCREEN
+	db 64, THUNDER
 	db 0
 
 HaunterEvosMoves:

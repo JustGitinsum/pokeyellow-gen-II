@@ -530,7 +530,7 @@ ScientistData:
 ; Mansion 3F
 	db 33, ELECTRODE, MAGNETON, RAICHU, 0
 ; Mansion B1F
-	db 34, MAGNEMITE, ELECTRODE, 0
+	db 34, ELECTRODE, MAGNEZONE, 0
 
 GiovanniData:
 ; Rocket Hideout B4F

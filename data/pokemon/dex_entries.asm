@@ -145,7 +145,7 @@ PokedexEntryPointers:
 	dw WeezingDexEntry
 	dw PersianDexEntry
 	dw MarowakDexEntry
-	dw MissingNoDexEntry
+	dw MagnezoneDexEntry
 	dw HaunterDexEntry
 	dw AbraDexEntry
 	dw AlakazamDexEntry
@@ -1519,6 +1519,13 @@ LucarioDexEntry:
 	db 3,11
 	dw 1190
 	text_far _LucarioDexEntry
+	text_end
+
+MagnezoneDexEntry:
+	db "MAGNETAREA@"
+	db 3,11
+	dw 3968
+	text_far _MewDexEntry
 	text_end
 
 ElectivireDexEntry:

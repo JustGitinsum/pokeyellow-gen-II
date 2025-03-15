@@ -8,7 +8,7 @@ PowerPlantWildMons:
 	db 33, ELECTRODE
 	db 37, JOLTEON
 	db 38, MAGNETON
-	db 33, ELECTIVIRE
+	db 33, MAGNEZONE
 	db 37, ELECTIVIRE
 	end_grass_wildmons
 
