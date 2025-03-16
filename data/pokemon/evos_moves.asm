@@ -190,7 +190,7 @@ EvosMovesPointerTable:
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
-	dw MissingNoB5EvosMoves
+	dw KleavorEvosMoves
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -227,11 +227,15 @@ EvosMovesPointerTable:
 	dw AxewEvosMoves
 	dw FraxureEvosMoves
 	dw HaxorusEvosMoves
+	dw SkiddoEvosMoves
+	dw GogoatEvosMoves
 	dw SylveonEvosMoves
 	dw SirfetchdEvosMoves
 	dw DreepyEvosMoves
 	dw DrakloakEvosMoves
 	dw DragapultEvosMoves
+	dw Growlithe_HEvosMoves
+	dw Arcanine_HEvosMoves
 	dw AnnihilapeEvosMoves
 	dw FrigibaxEvosMoves
 	dw ArctibaxEvosMoves
@@ -381,6 +385,7 @@ LickitungEvosMoves:
 ExeggcuteEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, LEAF_STONE, 1, EXEGGUTOR
+	db EVOLVE_ITEM, DRAGON_SCALE, 1, EXEGGUTOR_A
 	db 0
 ; Learnset
 	db 12, MEGA_DRAIN
@@ -554,6 +559,7 @@ GastlyEvosMoves:
 ScytherEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, METAL_COAT, 1, SCIZOR
+	db EVOLVE_ITEM, BLACK_AUGURITE , 1, KLEAVOR
 	db 0
 ; Learnset
 	db 19, TRAILBLAZE
@@ -2400,10 +2406,15 @@ CharizardEvosMoves:
 	db 55, FIRE_SPIN
 	db 0
 
-MissingNoB5EvosMoves:
+KleavorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 36, ROCK_SLIDE
+	db 38, SACRED_SWORD
+	db 40, X_SCISSOR
+	db 44, SWORDS_DANCE
+	db 45, NIGHT_SLASH
 	db 0
 
 FossilKabutopsEvosMoves:
@@ -2804,7 +2815,7 @@ AxewEvosMoves:
 	db 0
 
 FraxureEvosMoves:
-	; Evolutions
+; Evolutions
 	db EVOLVE_LEVEL, 48, HAXORUS
 	db 0
 ; Learnset
@@ -2819,6 +2830,32 @@ HaxorusEvosMoves:
 ; Learnset
 	db 48, X_SCISSOR
 	db 53, GUILLOTINE
+	db 0
+
+SkiddoEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 32, GOGOAT
+	db 0
+; Learnset
+	db  9, HORN_ATTACK
+	db 12, LEECH_LIFE
+	db 13, RAZOR_LEAF
+	db 20, BULLDOZE
+	db 24, HEADBUTT
+	db 30, SEED_BOMB
+	db 32, ROLLOUT
+	db 38, MEGAHORN
+	db 45, LEAF_BLADE
+	db 0
+
+GogoatEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 38, MEGAHORN
+	db 41, BOUNCE
+	db 45, LEAF_BLADE
+	db 50, EARTHQUAKE
 	db 0
 
 SylveonEvosMoves:
@@ -2877,6 +2914,34 @@ DragapultEvosMoves:
 ; Learnset
 	db 61, DRAGON_DARTS
 	db 66, DOUBLE_EDGE
+	db 0
+
+Growlithe_HEvosMoves:
+; Evolutions
+	db EVOLVE_ITEM, FIRE_STONE, 1, ARCANINE_H
+	db 0
+; Learnset
+	db 24, FIRE_FANG
+	db 28, ROAR
+	db 32, CRUNCH
+	db 36, PLAY_ROUGH
+	db 40, FLAMETHROWER
+	db 48, ROCK_SLIDE
+	db 56, HEAT_CRASH
+	db 0
+
+Arcanine_HEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 24, FIRE_FANG
+	db 28, ROAR
+	db 32, CRUNCH
+	db 36, PLAY_ROUGH
+	db 40, FLAMETHROWER
+	db 45, EXTREMESPEED
+	db 48, ROCK_SLIDE
+	db 56, HEAT_CRASH
 	db 0
 
 AnnihilapeEvosMoves:

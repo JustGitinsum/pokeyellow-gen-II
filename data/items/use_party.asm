@@ -41,6 +41,7 @@ UsableItems_PartyMenu:
 	db ELECTIRIZER
 	db METAL_COAT
 	db RAZOR_FANG
+	db BLACK_AUGURITE
 	db MALICIOUS_ARMOR
 	db AUSPICIOUS_ARMOR
 	db -1 ; end

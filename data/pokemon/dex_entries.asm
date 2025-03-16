@@ -180,7 +180,7 @@ PokedexEntryPointers:
 	dw CharmeleonDexEntry
 	dw WartortleDexEntry
 	dw CharizardDexEntry
-	dw MissingNoDexEntry
+	dw KleavorDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -217,11 +217,15 @@ PokedexEntryPointers:
 	dw AxewDexEntry
 	dw FraxureDexEntry
 	dw HaxorusDexEntry
+	dw SkiddoDexEntry
+	dw GogoatDexEntry
 	dw SylveonDexEntry
 	dw SirfetchdDexEntry
 	dw DreepyDexEntry
 	dw DrakloakDexEntry
 	dw DragapultDexEntry
+	dw Growlithe_HDexEntry
+	dw Arcanine_HDexEntry
 	dw AnnihilapeDexEntry
 	dw FrigibaxDexEntry
 	dw ArctibaxDexEntry
@@ -413,6 +417,20 @@ RaichuDexEntry:
 	db 2,7
 	dw 660
 	text_far _RaichuDexEntry
+	text_end
+
+SkiddoDexEntry:
+	db "MOUNT@"
+	db 2,11
+	dw 683
+	text_far _MewDexEntry
+	text_end
+
+GogoatDexEntry:
+	db "MOUNT@"
+	db 5,7
+	dw 2006
+	text_far _MewDexEntry
 	text_end
 
 TyruntDexEntry:
@@ -1729,6 +1747,27 @@ ZoroarkHDexEntry:
 	db 5,3
 	dw 1609
 	text_far _ZoroarkHDexEntry
+	text_end
+
+Growlithe_HDexEntry:
+	db "SCOUT@"
+	db 2,07
+	dw 500
+	text_far _MewDexEntry
+	text_end
+
+Arcanine_HDexEntry:
+	db "LEGENDARY@"
+	db 6,07
+	dw 3704
+	text_far _MewDexEntry
+	text_end
+
+KleavorDexEntry:
+	db "AXE@"
+	db 5,11
+	dw 1962
+	text_far _MewDexEntry
 	text_end
 
 NymbleDexEntry:

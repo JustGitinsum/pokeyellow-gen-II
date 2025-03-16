@@ -186,7 +186,7 @@ CryData::
 	mon_cry SFX_CRY_04, $20, $40 ; Charmeleon
 	mon_cry SFX_CRY_1D, $20, $40 ; Wartortle
 	mon_cry SFX_CRY_04, $00, $80 ; Charizard
-	mon_cry SFX_CRY_1D, $00, $80 ; MissingNo.
+	mon_cry SFX_CRY_14, $00, $80 ; Kleavor
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
@@ -223,11 +223,15 @@ CryData::
 	mon_cry SFX_CRY_0F, $60, $40 ; Axew
 	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
+	mon_cry SFX_CRY_01, $00, $80 ; Skiddo
+	mon_cry SFX_CRY_0A, $00, $80 ; Gogoat
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
 	mon_cry SFX_CRY_0F, $60, $40 ; DREEPY
 	mon_cry SFX_CRY_0F, $40, $80 ; DRAKLOAK
 	mon_cry SFX_CRY_0F, $3C, $C0 ; DRAGAPULT
+	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe_H
+	mon_cry SFX_CRY_15, $00, $80 ; Arcanine_H
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
 	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax

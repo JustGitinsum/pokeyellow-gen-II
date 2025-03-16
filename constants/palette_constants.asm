@@ -268,6 +268,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_AXEW
 ;	const PAL_FRAXURE
 	const PAL_HAXORUS
+;	const PAL_SKIDDO
+;	const PAL_GOGOAT
 	const PAL_TYRUNT
 	const PAL_TYRANTRUM
 	const PAL_AMAURA
@@ -290,6 +292,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_RAPIDASH_G
 ;	const PAL_ZORUA_H
 ;	const PAL_ZOROARK_H
+;   const PAL_GROWLITHE_H
+;   const PAL_ARCANINE_H
+;   const PAL_KLEAVOR
 ;	const PAL_NYMBLE
 	const PAL_LOKIX
 ;   const PAL_CHARCADET

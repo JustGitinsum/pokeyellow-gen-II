@@ -88,6 +88,7 @@ ItemNames::
 	li "ELECTIRIZER"
 	li "METAL COAT"
 	li "RAZOR FANG"
+	li "BLK AUGURITE"
 	li "MALICE ARMOR"
 	li "AUSPIC ARMOR"
 	assert_list_length NUM_ITEMS

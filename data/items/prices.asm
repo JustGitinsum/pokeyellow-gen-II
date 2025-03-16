@@ -88,6 +88,7 @@ ItemPrices::
 	bcd3 2100  ; ELECTIRIZER
 	bcd3 2100  ; METAL_COAT
 	bcd3 2100  ; RAZOR_FANG
+	bcd3 2100  ; BLACK_AUGURITE
 	bcd3 2100  ; MALICIOUS_ARMOR
 	bcd3 2100  ; AUSPICIOUS_ARMOR
 	assert_table_length NUM_ITEMS

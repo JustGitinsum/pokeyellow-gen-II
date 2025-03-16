@@ -195,6 +195,8 @@
 	const DEX_AXEW
 	const DEX_FRAXURE
 	const DEX_HAXORUS
+	const DEX_SKIDDO
+	const DEX_GOGOAT
 	const DEX_TYRUNT
 	const DEX_TYRANTRUM
 	const DEX_AMAURA
@@ -217,6 +219,9 @@
 	const DEX_RAPIDASH_G
 	const DEX_ZORUA_H
 	const DEX_ZOROARK_H
+	const DEX_GROWLITHE_H
+	const DEX_ARCANINE_H
+	const DEX_KLEAVOR
 	const DEX_NYMBLE
 	const DEX_LOKIX
 	const DEX_CHARCADET

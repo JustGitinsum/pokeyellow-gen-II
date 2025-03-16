@@ -191,6 +191,8 @@ MonPartyData:
 	nybble ICON_MON       ; Axew
 	nybble ICON_MON       ; Fraxure
 	nybble ICON_MON       ; Haxorus
+	nybble ICON_QUADRUPED ; Skiddo
+	nybble ICON_QUADRUPED ; Gogoat
 	nybble ICON_MON       ; Tyrunt
 	nybble ICON_MON       ; Tyantrum
 	nybble ICON_QUADRUPED ; Amaura
@@ -213,6 +215,9 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rapidash_G
 	nybble ICON_QUADRUPED ; Zorua H
 	nybble ICON_QUADRUPED ; Zoroark H
+	nybble ICON_QUADRUPED ; Growlithe_H
+	nybble ICON_QUADRUPED ; Arcanine_H
+	nybble ICON_BUG       ; Kleavor
 	nybble ICON_BUG       ; Nymble
 	nybble ICON_BUG       ; Lokix
 	nybble ICON_MON       ; Charcadet

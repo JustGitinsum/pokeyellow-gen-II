@@ -105,6 +105,7 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; ELECTIRIZER
 	dw ItemUseEvoStone   ; METAL_COAT
 	dw ItemUseEvoStone   ; RAZOR_FANG
+	dw ItemUseEvoStone   ; BLACK_AUGURITE
 	dw ItemUseEvoStone   ; MALICIOUS_ARMOR
 	dw ItemUseEvoStone   ; AUSPICIOUS_ARMOR
 

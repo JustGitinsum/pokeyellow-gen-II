@@ -187,7 +187,7 @@
 	const CHARMELEON         ; $B2
 	const WARTORTLE          ; $B3
 	const CHARIZARD          ; $B4
-	const_skip               ; $B5
+	const KLEAVOR            ; $B5
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
@@ -224,11 +224,15 @@
 	const AXEW
 	const FRAXURE
 	const HAXORUS
+	const SKIDDO
+	const GOGOAT
 	const SYLVEON
 	const SIRFETCHD
 	const DREEPY
 	const DRAKLOAK
 	const DRAGAPULT
+	const GROWLITHE_H
+	const ARCANINE_H
 	const ANNIHILAPE
 	const FRIGIBAX
 	const ARCTIBAX

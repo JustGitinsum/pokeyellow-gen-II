@@ -4,8 +4,8 @@ Route2WildMons:
 	db  3, NIDORAN_F
 	db  4, NYMBLE
 	db  4, TORCHIC
-	db  4, PIDGEY
-	db  5, NYMBLE
+	db  4, SKIDDO
+	db  5, SKIDDO
 	db  6, TORCHIC
 	db  6, NYMBLE
 	db  6, NIDORAN_M
