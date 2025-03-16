@@ -201,6 +201,8 @@ EvosMovesPointerTable:
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
 	dw CrobatEvosMoves
+	dw MarillEvosMoves
+	dw AzumarillEvosMoves
 	dw EspeonEvosMoves
 	dw UmbreonEvosMoves
 	dw GligarEvosMoves
@@ -224,6 +226,8 @@ EvosMovesPointerTable:
 	dw LeafeonEvosMoves
 	dw GlaceonEvosMoves
 	dw GliscorEvosMoves
+	dw DrilburEvosMoves
+	dw ExcadrillEvosMoves
 	dw AxewEvosMoves
 	dw FraxureEvosMoves
 	dw HaxorusEvosMoves
@@ -2521,6 +2525,35 @@ CrobatEvosMoves:
 	db 69, LEECH_LIFE
 	db 0
 
+MarillEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 18, AZUMARILL
+	db 0
+; Learnset
+	db  9, WATER_GUN
+	db 15, DRAIN_KISS
+	db 19, SUPERSONIC
+	db 21, AQUA_TAIL
+	db 26, SING
+	db 30, PLAY_ROUGH
+	db 27, BOUNCE
+	db 33, HYDRO_PUMP
+	db 36, ROLLOUT
+	db 0
+
+AzumarillEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 21, SUPERSONIC
+	db 25, AQUA_TAIL
+	db 29, SING
+	db 33, PLAY_ROUGH
+	db 37, BOUNCE
+	db 40, HYDRO_PUMP
+	db 50, ROLLOUT
+	db 0
+
 EspeonEvosMoves:
 ; Evolutions
 	db 0
@@ -2799,8 +2832,33 @@ GliscorEvosMoves:
 	db 50, SWORDS_DANCE
 	db 0
 
+DrilburEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 31, EXCADRILL
+	db 0
+; Learnset
+	db 16, METAL_CLAW
+	db 24, SLASH
+	db 28, ROCK_SLIDE
+	db 32, DIG
+	db 36, SWORDS_DANCE
+	db 39, IRON_HEAD
+	db 44, EARTHQUAKE
+	db 0
+
+ExcadrillEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 34, DIG
+	db 40, SWORDS_DANCE
+	db 43, NIGHT_SLASH
+	db 46, IRON_HEAD
+	db 52, EARTHQUAKE
+	db 0
+
 AxewEvosMoves:
-	; Evolutions
+; Evolutions
 	db EVOLVE_LEVEL, 38, FRAXURE
 	db 0
 ; Learnset

@@ -8,8 +8,8 @@ Route25WildMons:
 	db 15, ABRA
 	db 13, VENONAT
 	db 16, VENONAT
-	db 17, ABRA
-	db 17, PIDGEOTTO
+	db 17, DRILBUR
+	db 21, DRILBUR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -197,6 +197,8 @@ CryData::
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
 	mon_cry SFX_CRY_1D, $FA, $80 ; CROBAT
+	mon_cry SFX_CRY_0C, $88, $C0 ; Marill
+	mon_cry SFX_CRY_0C, $23, $FF ; Azumarill
 	mon_cry SFX_CRY_1E, $EE, $FF ; ESPEON
 	mon_cry SFX_CRY_1E, $EE, $FF ; UMBREON
 	mon_cry SFX_CRY_1D, $E0, $80 ; Gligar
@@ -220,6 +222,8 @@ CryData::
 	mon_cry SFX_CRY_0F, $20, $80 ; Leafeon
 	mon_cry SFX_CRY_0C, $23, $FF ; Glaceon
 	mon_cry SFX_CRY_1D, $FA, $80 ; Gliscor
+	mon_cry SFX_CRY_0B, $AA, $01 ; Drilbur
+	mon_cry SFX_CRY_0B, $2A, $10 ; Excadrill
 	mon_cry SFX_CRY_0F, $60, $40 ; Axew
 	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus

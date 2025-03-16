@@ -158,6 +158,8 @@
 	const DEX_CROBAT
 	const DEX_TOGEPI
 	const DEX_TOGETIC
+	const DEX_MARILL
+	const DEX_AZUMARILL
 	const DEX_ESPEON
 	const DEX_UMBREON
 	const DEX_GLIGAR
@@ -192,6 +194,8 @@
 	const DEX_GLACEON
 	const DEX_GLISCOR
 	const DEX_GALLADE
+	const DEX_DRILBUR
+	const DEX_EXCADRILL
 	const DEX_AXEW
 	const DEX_FRAXURE
 	const DEX_HAXORUS

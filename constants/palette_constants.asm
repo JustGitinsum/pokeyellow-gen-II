@@ -231,6 +231,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_CROBAT
 ;	const PAL_TOGEPI
 ;	const PAL_TOGETIC
+;	const PAL_MARILL
+;	const PAL_AZUMARILL
 ;	const PAL_ESPEON
 ;	const PAL_UMBREON
 ; 	const PAL_GLIGAR
@@ -265,6 +267,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_GLACEON
 ;	const PAL_GLISCOR
 ;	const PAL_GALLADE
+;	const PAL_DRILBUR
+;	const PAL_EXCADRILL
 ;	const PAL_AXEW
 ;	const PAL_FRAXURE
 	const PAL_HAXORUS

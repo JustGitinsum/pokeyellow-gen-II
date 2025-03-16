@@ -154,6 +154,8 @@ MonPartyData:
 	nybble ICON_MON       ; Crobat
 	nybble ICON_FAIRY     ; Togepi
 	nybble ICON_FAIRY     ; Togetic
+	nybble ICON_PIKACHU	  ; Marill
+	nybble ICON_PIKACHU   ; Azumarill
 	nybble ICON_QUADRUPED ; Espeon
 	nybble ICON_QUADRUPED ; Umbreon
 	nybble ICON_MON		  ; Gligar
@@ -188,6 +190,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Glaceon
 	nybble ICON_MON       ; Gliscor
 	nybble ICON_MON       ; Gallade
+	nybble ICON_MON       ; Drilbur
+	nybble ICON_MON       ; Excadrill
 	nybble ICON_MON       ; Axew
 	nybble ICON_MON       ; Fraxure
 	nybble ICON_MON       ; Haxorus

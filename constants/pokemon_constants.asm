@@ -198,6 +198,8 @@
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
 	const CROBAT
+	const MARILL
+	const AZUMARILL
 	const ESPEON
 	const UMBREON
 	const GLIGAR
@@ -221,6 +223,8 @@
 	const LEAFEON
 	const GLACEON
 	const GLISCOR
+	const DRILBUR
+	const EXCADRILL
 	const AXEW
 	const FRAXURE
 	const HAXORUS

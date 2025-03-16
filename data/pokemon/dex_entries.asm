@@ -191,6 +191,8 @@ PokedexEntryPointers:
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
 	dw CrobatDexEntry
+	dw MarillDexEntry
+	dw AzumarillDexEntry
 	dw EspeonDexEntry
 	dw UmbreonDexEntry
 	dw GligarDexEntry
@@ -214,6 +216,8 @@ PokedexEntryPointers:
 	dw LeafeonDexEntry
 	dw GlaceonDexEntry
 	dw GliscorDexEntry
+	dw DrilburDexEntry
+	dw ExcadrillDexEntry
 	dw AxewDexEntry
 	dw FraxureDexEntry
 	dw HaxorusDexEntry
@@ -1343,6 +1347,20 @@ TogeticDexEntry:
 	text_far _MewDexEntry
 	text_end
 	
+MarillDexEntry:
+	db "AQUA MOUSE@"
+	db 1,04
+	dw 187
+	text_far _MewDexEntry
+	text_end
+
+AzumarillDexEntry:
+	db "AQUARABBIT@"
+	db 2,07
+	dw 628
+	text_far _MewDexEntry
+	text_end
+
 EspeonDexEntry:
 	db "SUN@"
 	db 2,11
@@ -1593,6 +1611,20 @@ GalladeDexEntry:
 	db 5,03
 	dw 1146
 	text_far _GalladeDexEntry
+	text_end
+
+DrilburDexEntry:
+	db "MOLE@"
+	db 1,01
+	dw 187
+	text_far _MewDexEntry
+	text_end
+
+ExcadrillDexEntry:
+	db "SUBTERRENE@"
+	db 2,04
+	dw 891
+	text_far _MewDexEntry
 	text_end
 
 AxewDexEntry:
