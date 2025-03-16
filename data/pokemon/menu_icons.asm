@@ -201,6 +201,7 @@ MonPartyData:
 	nybble ICON_MON       ; Sandslash_A
 	nybble ICON_QUADRUPED ; Vulpix_A
 	nybble ICON_QUADRUPED ; Ninetales_A
+	nybble ICON_GRASS     ; Exeggutor_A
 	nybble ICON_QUADRUPED ; Zigzagoon
 	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_MON       ; Obstagoon

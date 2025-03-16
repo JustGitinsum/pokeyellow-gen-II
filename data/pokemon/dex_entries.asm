@@ -155,7 +155,7 @@ PokedexEntryPointers:
 	dw BulbasaurDexEntry
 	dw VenusaurDexEntry
 	dw TentacruelDexEntry
-	dw MissingNoDexEntry
+	dw Exeggutor_ADexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
 	dw Vulpix_ADexEntry
@@ -1651,6 +1651,13 @@ Ninetales_ADexEntry:
 	db "FOX@"
 	db 3,11
 	dw 439
+	text_far _MewDexEntry
+	text_end
+
+Exeggutor_ADexEntry:
+	db "COCONUT@"
+	db 35,09
+	dw 9162
 	text_far _MewDexEntry
 	text_end
 

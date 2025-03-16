@@ -165,7 +165,7 @@ EvosMovesPointerTable:
 	dw BulbasaurEvosMoves
 	dw VenusaurEvosMoves
 	dw TentacruelEvosMoves
-	dw MissingNo9CEvosMoves
+	dw Exeggutor_AEvosMoves
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
 	dw Vulpix_AEvosMoves
@@ -360,6 +360,7 @@ ExeggutorEvosMoves:
 	db 16, ANCIENTPOWER
 	db 20, CONFUSION
 	db 25, BULLET_SEED
+	db 28, ANCIENTPOWER
 	db 31, TRI_ATTACK
 	db 37, GIGA_DRAIN
 	db 42, PSYCHIC_M
@@ -386,6 +387,7 @@ ExeggcuteEvosMoves:
 	db 16, ANCIENTPOWER
 	db 20, CONFUSION
 	db 25, BULLET_SEED
+	db 28, ANCIENTPOWER
 	db 31, TRI_ATTACK
 	db 37, GIGA_DRAIN
 	db 42, PSYCHIC_M
@@ -2081,10 +2083,19 @@ TentacruelEvosMoves:
 	db 46, HYDRO_PUMP
 	db 0
 
-MissingNo9CEvosMoves:
+Exeggutor_AEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 12, MEGA_DRAIN
+	db 16, ANCIENTPOWER
+	db 20, DRAGONBREATH
+	db 25, BULLET_SEED
+	db 28, ANCIENTPOWER
+	db 31, TRI_ATTACK
+	db 37, GIGA_DRAIN
+	db 42, DRAGON_PULSE
+	db 48, ENERGY_BALL
 	db 0
 
 GoldeenEvosMoves:
