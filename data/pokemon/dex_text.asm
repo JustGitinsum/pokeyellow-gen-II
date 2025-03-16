@@ -1506,3 +1506,94 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_Gen2DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Johto Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen3DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Hoenn Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen4DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Sinnoh Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen5DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Unova Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen6DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Kalos Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen7DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Alola Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen8DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Galar Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_GenHDexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Hisui Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+
+_Gen9DexEntry::
+	text "This #MON seems"
+	next "to be from the"
+	next "Paldea Region!"
+
+	page "How did it get all"
+	next "the way here to"
+	next "the Kanto region?"
+	dex
+

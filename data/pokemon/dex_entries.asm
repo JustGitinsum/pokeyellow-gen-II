@@ -427,28 +427,28 @@ SkiddoDexEntry:
 	db "MOUNT@"
 	db 2,11
 	dw 683
-	text_far _MewDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 GogoatDexEntry:
 	db "MOUNT@"
 	db 5,7
 	dw 2006
-	text_far _MewDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 TyruntDexEntry:
 	db "Royal@"
 	db 0,8
 	dw 260
-	text_far _TyruntDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 TyrantrumDexEntry:
 	db "Despot@"
 	db 2,5
 	dw 2700
-	text_far _TyrantrumDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 SandshrewDexEntry:
@@ -1330,532 +1330,532 @@ CrobatDexEntry:
 	db "BAT@"
 	db 5,11
 	dw 1653
-	text_far _CrobatDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 TogepiDexEntry:
 	db "SPIKE BALL@"
 	db 1,1
 	dw 33
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 TogeticDexEntry:
 	db "HAPPINESS@"
 	db 2,1
 	dw 71
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 	
 MarillDexEntry:
 	db "AQUA MOUSE@"
 	db 1,04
 	dw 187
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 AzumarillDexEntry:
 	db "AQUARABBIT@"
 	db 2,07
 	dw 628
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 EspeonDexEntry:
 	db "SUN@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 UmbreonDexEntry:
 	db "MOONLIGHT@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 GligarDexEntry:
 	db "FLY SCORP@"
 	db 3,07
 	dw 1429
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 SteelixDexEntry:
 	db "IRONSNAKE@"
 	db 30,2
 	dw 8818
-	text_far _SteelixDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 ScizorDexEntry:
 	db "PINCER@"
 	db 5,11
 	dw 2601
-	text_far _ScizorDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 KingdraDexEntry:
 	db "DRAGON@"
 	db 5,11
 	dw 3351
-	text_far _KingdraDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 BlisseyDexEntry:
 	db "HAPPINESS@"
 	db 4,11
 	dw 1032
-	text_far _MewDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 TreeckoDexEntry:
 	db "GECKO@"
 	db 1,08
 	dw 110
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 GrovyleDexEntry:
 	db "GECKO@"
 	db 2,11
 	dw 476
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 SceptileDexEntry:
 	db "FOREST@"
 	db 5,07
 	dw 1151
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 TorchicDexEntry:
 	db "CHICK@"
 	db 5,11
 	dw 3351
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 CombuskenDexEntry:
 	db "YOUNG FOWL@"
 	db 2,11
 	dw 430
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 BlazikenDexEntry:
 	db "BLAZE@"
 	db 6,03
 	dw 1146
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 MudkipDexEntry:
 	db "MUD FISH@"
 	db 1,03
 	dw 168
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 MarshtompDexEntry:
 	db "MUD FISH@"
 	db 2,03
 	dw 617
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 SwampertDexEntry:
 	db "MUD FISH@"
 	db 4,11
 	dw 1806
-	text_far _MewDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 SirfetchdDexEntry:
 	db "WILDDUCK@"
 	db 2,07
 	dw 2579
-	text_far _SirfetchdDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 AnnihilapeDexEntry:
 	db "RAGE@"
 	db 3,11
 	dw 1235
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 RaltsDexEntry:
 	db "FEELING@"
 	db 1,04
 	dw 146
-	text_far _RaltsDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 KirliaDexEntry:
 	db "EMOTION@"
 	db 2,07
 	dw 445
-	text_far _KirliaDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 GardevoirDexEntry:
 	db "EMBRACE@"
 	db 5,03
 	dw 1067
-	text_far _GardevoirDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 BunearyDexEntry:
 	db "RABBIT@"
 	db 1,04
 	dw 121
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 LopunnyDexEntry:
 	db "RABBIT@"
 	db 3,11
 	dw 734
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GibleDexEntry:
 	db "LAND SHARK@"
 	db 2,04
 	dw 452
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GabiteDexEntry:
 	db "CAVE@"
 	db 4,07
 	dw 1235
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GarchompDexEntry:
 	db "MACH@"
 	db 6,03
 	dw 2094
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 RioluDexEntry:
 	db "EMANATION@"
 	db 2,4
 	dw 202
-	text_far _RioluDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 LucarioDexEntry:
 	db "AURA@"
 	db 3,11
 	dw 1190
-	text_far _LucarioDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 MagnezoneDexEntry:
 	db "MAGNETAREA@"
 	db 3,11
 	dw 3968
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 ElectivireDexEntry:
 	db "THUNDERBOLT@"
 	db 5,11
 	dw 3056
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 MagmortarDexEntry:
 	db "BLAST@"
 	db 5,4
 	dw 1499
-	text_far _MagmortarDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 TogekissDexEntry:
 	db "JUBILEE@"
 	db 4,11
 	dw 838
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 LeafeonDexEntry:
 	db "VERDANT@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GlaceonDexEntry:
 	db "FRESHSNOW@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GliscorDexEntry:
 	db "FANG SCORP@"
 	db 6,07
 	dw 937
-	text_far _MewDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 GalladeDexEntry:
 	db "BLADE@"
 	db 5,03
 	dw 1146
-	text_far _GalladeDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 DrilburDexEntry:
 	db "MOLE@"
 	db 1,01
 	dw 187
-	text_far _MewDexEntry
+	text_far _Gen5DexEntry
 	text_end
 
 ExcadrillDexEntry:
 	db "SUBTERRENE@"
 	db 2,04
 	dw 891
-	text_far _MewDexEntry
+	text_far _Gen5DexEntry
 	text_end
 
 AxewDexEntry:
 	db "TUSK@"
 	db 2,03
 	dw 397
-	text_far _MewDexEntry
+	text_far _Gen5DexEntry
 	text_end
 
 FraxureDexEntry:
 	db "AXE JAW@"
 	db 3,03
 	dw 794
-	text_far _MewDexEntry
+	text_far _Gen5DexEntry
 	text_end
 
 HaxorusDexEntry:
 	db "AXE JAW@"
 	db 5,11
 	dw 2326
-	text_far _MewDexEntry
+	text_far _Gen5DexEntry
 	text_end
 
 AmauraDexEntry:
 	db "TUNDRA@"
 	db 4,03
 	dw 556
-	text_far _AmauraDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 AurorusDexEntry:
 	db "TUNDRA@"
 	db 8,10
 	dw 4960
-	text_far _AurorusDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 SylveonDexEntry:
 	db "SPARKLE@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _Gen6DexEntry
 	text_end
 
 MimikyuDexEntry:
 	db "DISGUISE@"
 	db 0,8
 	dw 15
-	text_far _MimikyuDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 Sandshrew_ADexEntry:
 	db "MOUSE@"
 	db 2,4
 	dw 882
-	text_far _MewDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 Sandslash_ADexEntry:
 	db "MOUSE@"
 	db 3,11
 	dw 1213
-	text_far _MewDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 Vulpix_ADexEntry:
 	db "FOX@"
 	db 2,6
 	dw 218
-	text_far _MewDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 Ninetales_ADexEntry:
 	db "FOX@"
 	db 3,11
 	dw 439
-	text_far _MewDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 Exeggutor_ADexEntry:
 	db "COCONUT@"
 	db 35,09
 	dw 9162
-	text_far _MewDexEntry
+	text_far _Gen7DexEntry
 	text_end
 
 ZigzagoonDexEntry:
 	db "RACCOON@"
 	db 1,04
 	dw 386
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 LinooneDexEntry:
 	db "RUSHING@"
 	db 1,08
 	dw 717
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 ObstagoonDexEntry:
 	db "BLOCKING@"
 	db 5,03
 	dw 1014
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 DreepyDexEntry:
 	db "LINGERING@"
 	db 1,08
 	dw 44
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 DrakloakDexEntry:
 	db "CARETAKER@"
 	db 4,07
 	dw 243
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 DragapultDexEntry:
 	db "STEALTH@"
 	db 9,10
 	dw 1102
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 Ponyta_GDexEntry:
  	db "UNIQUEHORN@"
 	db 2,7
 	dw 529
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 Rapidash_GDexEntry:
 	db "UNIQUEHORN@"
 	db 5,7
 	dw 1764
-	text_far _MewDexEntry
+	text_far _Gen8DexEntry
 	text_end
 
 ZoruaHDexEntry:
 	db "TRICKY@"
 	db 2,4
 	dw 27
-	text_far _ZoruaHDexEntry
+	text_far _GenHDexEntry
 	text_end
 
 ZoroarkHDexEntry:
 	db "ILLUSION@"
 	db 5,3
 	dw 1609
-	text_far _ZoroarkHDexEntry
+	text_far _GenHDexEntry
 	text_end
 
 Growlithe_HDexEntry:
 	db "SCOUT@"
 	db 2,07
 	dw 500
-	text_far _MewDexEntry
+	text_far _GenHDexEntry
 	text_end
 
 Arcanine_HDexEntry:
 	db "LEGENDARY@"
 	db 6,07
 	dw 3704
-	text_far _MewDexEntry
+	text_far _GenHDexEntry
 	text_end
 
 KleavorDexEntry:
 	db "AXE@"
 	db 5,11
 	dw 1962
-	text_far _MewDexEntry
+	text_far _GenHDexEntry
 	text_end
 
 NymbleDexEntry:
 	db "GRASSHOPPER@"
 	db 1,8
 	dw 22
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 LokixDexEntry:
 	db "GRASSHOPPER@"
 	db 3,03
 	dw 386
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 CharcadetDexEntry:
 	db "FIRECHILD@"
 	db 5,3
 	dw 1609
-	text_far _ZoroarkHDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 ArmarougeDexEntry:
 	db "FIREWARIOR@"
 	db 2,1
 	dw 231
-	text_far _ZoroarkHDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 CeruledgeDexEntry:
 	db "FIREBLADE@"
 	db 4,11
 	dw 1874
-	text_far _ZoroarkHDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 FrigibaxDexEntry:
 	db "ICE FIN@"
 	db 1,08
 	dw 375
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 ArctibaxDexEntry:
 	db "ICE FIN@"
 	db 2,07
 	dw 661
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 BaxcaliburDexEntry:
 	db "ICE DRAGON@"
 	db 6,11
 	dw 4630
-	text_far _MewDexEntry
+	text_far _Gen9DexEntry
 	text_end
 
 MissingNoDexEntry:
