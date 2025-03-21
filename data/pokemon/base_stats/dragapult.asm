@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/dragapult.pic", 0, 1 ; sprite dimensions
 	dw DragapultPicFront, DragapultPicBack
 
-	db X_SCISSOR, PHANTOMFORCE, TAKE_DOWN, DRAGON_DARTS ; level 1 learnset
+	db X_SCISSOR, PHANTOMFORCE, BODY_SLAM, DRAGON_DARTS ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
-	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   \
-	     SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
+	tmhm AIR_SLASH,   TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     \
+	     HYPER_BEAM,   NIGHT_SLASH,         ROCK_SLIDE,  THUNDER_FANG,  THUNDER,      \
+	     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      FIRE_BLAST,   \
+	     STEEL_WING,        FLAMETHROWER,   ICE_FANG,         THUNDER_WAVE, MOONBLAST,   \
 	     SURF,         STRENGTH
 	; end
 

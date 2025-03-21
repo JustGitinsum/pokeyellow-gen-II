@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     RAGE,         DARK_PULSE,        DOUBLE_TEAM,  REST,         \
-	     SUBSTITUTE,   CUT,          SURF,         STRENGTH
+	tmhm SWORDS_DANCE, TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   \
+	     NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  ICE_FANG,         \
+	     MOONBLAST,   CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(KinglerPicFront)

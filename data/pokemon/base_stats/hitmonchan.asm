@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DARK_PULSE,        DOUBLE_TEAM,  METRONOME,    SWIFT,        \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         \
+	     DARK_PULSE,        ICE_BEAM,  DRAGON_PULSE,    STEEL_WING,        \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST,   STRENGTH
 	; end
 
 	db BANK(HitmonchanPicFront)

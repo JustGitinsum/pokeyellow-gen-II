@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack
 
-	db TACKLE, WATER_GUN, HARDEN, NO_MOVE ; level 1 learnset
+	db TACKLE, TRAILBLAZE, HARDEN, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
-	     THUNDER,      PSYCHIC_M,    TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      SWIFT,        IRON_HEAD,   REST,         \
-	     THUNDER_WAVE, PSYCHO_CUT,      TRI_ATTACK,   SUBSTITUTE,   SURF,         \
+	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    \
+	     ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   NIGHT_SLASH,         THUNDER_FANG,  \
+	     THUNDER,      PSYCHIC_M,    TELEPORT,     DARK_PULSE,        ICE_BEAM,  \
+	     IRON_HEAD,      STEEL_WING,        FLAMETHROWER,   ICE_FANG,         \
+	     THUNDER_WAVE, PSYCHO_CUT,      THUNDERPUNCH,   MOONBLAST,   SURF,         \
 	     FLASH
 	; end
 

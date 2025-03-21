@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     PAY_DAY,      RAGE,         DARK_PULSE,        DOUBLE_TEAM,  \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   \
+	     SIGNAL_BEAM,      NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST,   SURF,         STRENGTH
 	; end
 
 	db BANK(DewgongPicFront)

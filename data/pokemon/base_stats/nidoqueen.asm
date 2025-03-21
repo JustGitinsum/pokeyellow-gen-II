@@ -10,16 +10,16 @@
 	INCBIN "gfx/pokemon/front/nidoqueen.pic", 0, 1 ; sprite dimensions
 	dw NidoqueenPicFront, NidoqueenPicBack
 
-	db TACKLE, SCRATCH, TAIL_WHIP, BODY_SLAM ; level 1 learnset
+	db TACKLE, SCRATCH, TAIL_WHIP, FIRE_FANG ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        MEGAHORN,   BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     EARTH_POWER,      DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      ACCELEROCK,         \
-	     FIRE_BLAST,   IRON_HEAD,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        MEGAHORN,   FIRE_FANG,    \
+	     BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     \
+	     BLIZZARD,     HYPER_BEAM,   SIGNAL_BEAM,      POISON_JAB,   WATERFALL,      \
+	     PSYBEAM, NIGHT_SLASH,         THUNDER_FANG,  THUNDER,      EARTHQUAKE,   \
+	     EARTH_POWER,      DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      ACCELEROCK,         \
+	     FIRE_BLAST,   FLAMETHROWER,   ICE_FANG,         FIRE_PUNCH,   MOONBLAST,   \
 	     SURF,         STRENGTH
 	; end
 

@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
+	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
+	     HYPER_BEAM,   NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     STEEL_WING,        DRAGON_CLAW,   ICE_FANG,         MOONBLAST,   \
 	     FLY
 	; end
 

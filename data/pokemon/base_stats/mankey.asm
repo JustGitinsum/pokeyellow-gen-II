@@ -14,11 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         THUNDERBOLT,  THUNDER,      DIG,          DARK_PULSE,        \
-	     DOUBLE_TEAM,  ACCELEROCK,         METRONOME,    SWIFT,        IRON_HEAD,   \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   SWORDS_DANCE, AXE_KICK,     TOXIC,        BODY_SLAM,    \
+		 TRAILBLAZE,   ICE_PUNCH,    POISON_JAB,   NIGHT_SLASH,  ROCK_SLIDE,   \
+		 EARTHQUAKE,   DIG,          ACCELEROCK,   PLAY_ROUGH,   THUNDER_WAVE, \
+	     AURA_SPHERE,  FIRE_PUNCH,   THUNDERPUNCH, STRENGTH
 	; end
 
 	db BANK(MankeyPicFront)

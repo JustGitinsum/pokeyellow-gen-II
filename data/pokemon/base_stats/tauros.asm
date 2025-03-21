@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
-	     THUNDER,      EARTHQUAKE,   EARTH_POWER,      DARK_PULSE,        DOUBLE_TEAM,  \
-	     FIRE_BLAST,   IRON_HEAD,   REST,         SUBSTITUTE,   \
+	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   NIGHT_SLASH,         THUNDER_FANG,  \
+	     THUNDER,      EARTHQUAKE,   EARTH_POWER,      DARK_PULSE,        ICE_BEAM,  \
+	     FIRE_BLAST,   FLAMETHROWER,   ICE_FANG,         MOONBLAST,   \
 	     STRENGTH
 	; end
 

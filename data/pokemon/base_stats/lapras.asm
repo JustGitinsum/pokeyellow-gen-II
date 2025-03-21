@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/lapras.pic", 0, 1 ; sprite dimensions
 	dw LaprasPicFront, LaprasPicBack
 
-	db WATER_GUN, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TRAILBLAZE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     RAGE,         ENERGY_BALL,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     IRON_HEAD,   REST,         PSYCHO_CUT,      SUBSTITUTE,   SURF,         \
+	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   \
+	     NIGHT_SLASH,         ENERGY_BALL,    ROCK_SLIDE,  THUNDER_FANG,  THUNDER,      \
+	     PSYCHIC_M,    DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     FLAMETHROWER,   ICE_FANG,         PSYCHO_CUT,      MOONBLAST,   SURF,         \
 	     STRENGTH
 	; end
 

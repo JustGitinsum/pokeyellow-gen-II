@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/kleavor.pic", 0, 1 ; sprite dimensions
 	dw KleavorPicFront, KleavorPicBack
 
-	db DOUBLE_TEAM, METAL_CLAW, SLASH, WING_ATTACK ; level 1 learnset
+	db ICE_BEAM, METAL_CLAW, SLASH, WING_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         DARK_PULSE,        DOUBLE_TEAM,  SWIFT,        \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   CUT
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   \
+	     NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  STEEL_WING,        \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST,   CUT
 	; end
 
 	db BANK(KleavorPicFront)

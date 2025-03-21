@@ -14,10 +14,11 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	tmhm AIR_SLASH,    SWORDS_DANCE,	TWISTER,     	TOXIC,        MEGAHORN,     \
+		 FIRE_FANG,    BODY_SLAM,   	HYPER_BEAM,   	POISON_JAB,   NIGHT_SLASH,  \
+		 ENERGY_BALL,  ROCK_SLIDE,   	THUNDER_FANG, 	IRON_HEAD,    ACCELEROCK,   \
+		 DRAGON_PULSE, FIRE_BLAST,   	STEEL_WING,   	FLAMETHROWER, PLAY_ROUGH,   \
+		 DRAGON_CLAW,  ICE_FANG,     	THUNDER_WAVE, 	FLY
 	; end
 
 	db BANK(AerodactylPicFront)

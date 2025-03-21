@@ -1,6 +1,6 @@
 	object_const_def
 	const_export SAFARIZONENORTH_PROTEIN
-	const_export SAFARIZONENORTH_TM_IRON_HEAD
+	const_export SAFARIZONENORTH_TM_FLAMETHROWER
 
 SafariZoneNorth_Object:
 	db $0 ; border block
@@ -25,6 +25,6 @@ SafariZoneNorth_Object:
 
 	def_object_events
 	object_event 25,  1, SPRITE_POKE_BALL, STAY, NONE, TEXT_SAFARIZONENORTH_PROTEIN, PROTEIN
-	object_event 19,  7, SPRITE_POKE_BALL, STAY, NONE, TEXT_SAFARIZONENORTH_TM_IRON_HEAD, TM_IRON_HEAD
+	object_event 19,  7, SPRITE_POKE_BALL, STAY, NONE, TEXT_SAFARIZONENORTH_TM_FLAMETHROWER, TM_FLAMETHROWER
 
 	def_warps_to SAFARI_ZONE_NORTH

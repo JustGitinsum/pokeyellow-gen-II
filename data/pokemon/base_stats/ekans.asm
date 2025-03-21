@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     GIGA_DRAIN,   EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
-	     DOUBLE_TEAM,  ACCELEROCK,         IRON_HEAD,   REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE,   STRENGTH
+	tmhm SWORDS_DANCE, TOXIC,       	FIRE_FANG,    BODY_SLAM,  	SLUDGE_BOMB,  \
+	     TRAILBLAZE,   HYPER_BEAM,  	SIGNAL_BEAM,  POISON_JAB,   GIGA_DRAIN,   \
+		 ROCK_SLIDE,   THUNDER_FANG,	EARTHQUAKE,   EARTH_POWER,  DIG,          \
+		 DARK_PULSE,   ACCELEROCK,   	DRAGON_PULSE, ICE_FANG,     STRENGTH
 	; end
 
 	db BANK(EkansPicFront)

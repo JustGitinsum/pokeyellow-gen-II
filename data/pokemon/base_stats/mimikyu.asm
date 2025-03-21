@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, RAGE,         \
-	     THUNDERBOLT,  THUNDER,      DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLASH,        SURF
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  SIGNAL_BEAM,      POISON_JAB,   PSYBEAM, NIGHT_SLASH,         \
+	     THUNDER_FANG,  THUNDER,      DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     STEEL_WING,        FLAMETHROWER,   ICE_FANG,         THUNDER_WAVE, \
+	     MOONBLAST,   FLASH,        SURF
 	; end
 
 	db BANK(MimikyuPicFront)

@@ -14,9 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         DARK_PULSE,        DOUBLE_TEAM,  SWIFT,        \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   CUT
+	tmhm AIR_SLASH,   SWORDS_DANCE, BODY_SLAM,  TRAILBLAZE,  	\
+		 HYPER_BEAM,  SIGNAL_BEAM,	POISON_JAB, NIGHT_SLASH, 	ROCK_SLIDE,   \
+		 IRON_HEAD,   ACCELEROCK,   LEAF_BLADE, STEEL_WING,  	PLAY_ROUGH,   \
+		 DRAGON_CLAW, PSYCHO_CUT,   CUT,          \
+		 STRENGTH
 	; end
 
 	db BANK(ScytherPicFront)

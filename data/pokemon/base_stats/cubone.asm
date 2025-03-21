@@ -10,15 +10,14 @@
 	INCBIN "gfx/pokemon/front/cubone.pic", 0, 1 ; sprite dimensions
 	dw CubonePicFront, CubonePicBack
 
-	db GROWL, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWL, BULLDOZE, POUND, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     FIRE_BLAST,   IRON_HEAD,   REST,         SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   SWORDS_DANCE, TOXIC,        BODY_SLAM,  	 TRAILBLAZE,    \
+		 POISON_JAB,   NIGHT_SLASH,  ROCK_SLIDE,   EARTHQUAKE,   EARTH_POWER,   \
+		 DIG,          IRON_HEAD,    ACCELEROCK,   PSYCHO_CUT,   AURA_SPHERE,   \
+		 STRENGTH
 	; end
 
 	db BANK(CubonePicFront)

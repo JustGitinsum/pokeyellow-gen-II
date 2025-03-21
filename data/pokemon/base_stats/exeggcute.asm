@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/exeggcute.pic", 0, 1 ; sprite dimensions
 	dw ExeggcutePicFront, ExeggcutePicBack
 
-	db BARRAGE, HYPNOSIS, REFLECT, LEECH_SEED ; level 1 learnset
+	db BARRAGE, HYPNOSIS, IRON_HEAD, LEECH_SEED ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         PSYCHIC_M,    \
-	     TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     LEAF_BLADE, SEED_BOMB,     REST,         PSYCHO_CUT,      EXPLOSION,    \
-	     SUBSTITUTE
+	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         PSYCHIC_M,    \
+	     TELEPORT,     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     LEAF_BLADE, THUNDERBOLT,     ICE_FANG,         PSYCHO_CUT,      AURA_SPHERE,    \
+	     MOONBLAST
 	; end
 
 	db BANK(ExeggcutePicFront)

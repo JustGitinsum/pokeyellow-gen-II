@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         GIGA_DRAIN,   DARK_PULSE,        DOUBLE_TEAM,  \
-	     SWIFT,        REST,         SUBSTITUTE
+	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
+	     HYPER_BEAM,   NIGHT_SLASH,         GIGA_DRAIN,   DARK_PULSE,        ICE_BEAM,  \
+	     STEEL_WING,        ICE_FANG,         MOONBLAST
 	; end
 
 	db BANK(GolbatPicFront)

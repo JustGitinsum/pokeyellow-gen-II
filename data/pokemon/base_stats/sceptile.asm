@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/sceptile.pic", 0, 1 ; sprite dimensions
 	dw SceptilePicFront, SceptilePicBack
 
-	db BITE, GIGA_DRAIN, SLAM, DOUBLE_TEAM ; level 1 learnset
+	db BITE, GIGA_DRAIN, SLAM, ICE_BEAM ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         GIGA_DRAIN,   ENERGY_BALL,    DARK_PULSE,        \
-	     DOUBLE_TEAM,  REFLECT,      REST,         SUBSTITUTE,   \
+	tmhm SWORDS_DANCE, TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     HYPER_BEAM,   NIGHT_SLASH,         GIGA_DRAIN,   ENERGY_BALL,    DARK_PULSE,        \
+	     ICE_BEAM,  IRON_HEAD,      ICE_FANG,         MOONBLAST,   \
 	     CUT
 	; end
 

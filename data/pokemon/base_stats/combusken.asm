@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   SWORDS_DANCE, AXE_KICK,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         DRAGON_RAGE,  DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      FIRE_BLAST,   SWIFT,        IRON_HEAD,   \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH
+	tmhm FORCE_PALM,   AIR_SLASH,   SWORDS_DANCE, 	AXE_KICK,     TOXIC,        \
+		 BODY_SLAM,    TRAILBLAZE,  HYPER_BEAM,   	POISON_JAB,   NIGHT_SLASH,  \
+	     ENERGY_BALL,  ROCK_SLIDE,  EARTHQUAKE,   	EARTH_POWER,  DIG,          \
+	     DARK_PULSE,   ACCELEROCK,  FIRE_BLAST,   	STEEL_WING,   FLAMETHROWER, \
+	     AURA_SPHERE,  FIRE_PUNCH,  THUNDERPUNCH,	STRENGTH,     FLASH
 	; end
 
 	db BANK(CombuskenPicFront)

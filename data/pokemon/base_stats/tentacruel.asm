@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
-	     GIGA_DRAIN,   DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   CUT,          SURF
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
+	     TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   NIGHT_SLASH,         \
+	     GIGA_DRAIN,   DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST,   CUT,          SURF
 	; end
 
 	db BANK(TentacruelPicFront)

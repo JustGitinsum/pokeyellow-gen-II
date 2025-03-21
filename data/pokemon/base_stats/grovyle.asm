@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         GIGA_DRAIN,   ENERGY_BALL,    DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      REST,         SUBSTITUTE,   CUT
+	tmhm SWORDS_DANCE, TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     NIGHT_SLASH,         GIGA_DRAIN,   ENERGY_BALL,    DARK_PULSE,        ICE_BEAM,  \
+	     IRON_HEAD,      ICE_FANG,         MOONBLAST,   CUT
 	; end
 
 	db BANK(GrovylePicFront)

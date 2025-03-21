@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      SWIFT,        \
-	     IRON_HEAD,   REST,         SUBSTITUTE
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         \
+	     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      STEEL_WING,        \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST
 	; end
 
 	db BANK(EeveePicFront)

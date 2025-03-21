@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/rapidash.pic", 0, 1 ; sprite dimensions
 	dw RapidashPicFront, RapidashPicBack
 
-	db AGILITY, FLAMETHROWER, TAKE_DOWN, FIRE_SPIN ; level 1 learnset
+	db AGILITY, FLAMETHROWER, BODY_SLAM, FIRE_SPIN ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     FIRE_BLAST,   SWIFT,        IRON_HEAD,   REST,         \
-	     SUBSTITUTE
+	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     HYPER_BEAM,   NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     FIRE_BLAST,   STEEL_WING,        FLAMETHROWER,   ICE_FANG,         \
+	     MOONBLAST
 	; end
 
 	db BANK(RapidashPicFront)

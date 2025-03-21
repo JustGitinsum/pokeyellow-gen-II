@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/vaporeon.pic", 0, 1 ; sprite dimensions
 	dw VaporeonPicFront, VaporeonPicBack
 
-	db TACKLE, TAIL_WHIP, QUICK_ATTACK, WATER_GUN ; level 1 learnset
+	db TACKLE, TAIL_WHIP, QUICK_ATTACK, TRAILBLAZE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
-	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      SWIFT,        \
-	     IRON_HEAD,   REST,         SUBSTITUTE,   SURF
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
+	     TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     HYPER_BEAM,   NIGHT_SLASH,         \
+	     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      STEEL_WING,        \
+	     FLAMETHROWER,   ICE_FANG,         MOONBLAST,   SURF
 	; end
 
 	db BANK(VaporeonPicFront)

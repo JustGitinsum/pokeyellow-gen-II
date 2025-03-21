@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         PSYCHIC_M,    \
-	     DARK_PULSE,        DOUBLE_TEAM,  IRON_HEAD,   REST,         \
-	     PSYCHO_CUT,      SUBSTITUTE,   SURF
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
+	     TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         PSYCHIC_M,    \
+	     DARK_PULSE,        ICE_BEAM,  FLAMETHROWER,   ICE_FANG,         \
+	     PSYCHO_CUT,      MOONBLAST,   SURF
 	; end
 
 	db BANK(PoliwagPicFront)

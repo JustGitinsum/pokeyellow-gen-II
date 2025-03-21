@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/kirlia.pic", 0, 1 ; sprite dimensions
 	dw KirliaPicFront, KirliaPicBack
 
-	db CONFUSION, GROWL, DOUBLE_TEAM, NO_MOVE ; level 1 learnset
+	db CONFUSION, GROWL, ICE_BEAM, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DIG,          PSYCHIC_M,    TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      METRONOME,    IRON_HEAD,   REST,         \
-	     THUNDER_WAVE, PSYCHO_CUT,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         \
+	     DIG,          PSYCHIC_M,    TELEPORT,     DARK_PULSE,        ICE_BEAM,  \
+	     IRON_HEAD,      DRAGON_PULSE,    FLAMETHROWER,   ICE_FANG,         \
+	     THUNDER_WAVE, PSYCHO_CUT,      THUNDERPUNCH,   MOONBLAST,   FLASH
 	; end
 
 	db BANK(KirliaPicFront)

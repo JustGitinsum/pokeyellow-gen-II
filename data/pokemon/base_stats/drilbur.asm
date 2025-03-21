@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/drilbur.pic", 0, 1 ; sprite dimensions
 	dw DrilburPicFront, DrilburPicBack
 
-	db SWORDS_DANCE, ROCK_SLIDE, DIG, IRON_HEAD ; level 1 learnset
+	db SWORDS_DANCE, FIRE_PUNCH, DIG, FLAMETHROWER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
-	     DOUBLE_TEAM,  ACCELEROCK,         REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   \
+	     NIGHT_SLASH,         EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
+	     ICE_BEAM,  ACCELEROCK,         ICE_FANG,         FIRE_PUNCH,   MOONBLAST,   \
 	     CUT
 	; end
 

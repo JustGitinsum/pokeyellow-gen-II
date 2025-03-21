@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         DIG,          \
-	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      IRON_HEAD,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	tmhm FORCE_PALM,   SWORDS_DANCE, AXE_KICK,     TOXIC,        BODY_SLAM,    \
+		 BUBBLEBEAM,   TRAILBLAZE,   ICE_PUNCH,    BLIZZARD,   	 HYPER_BEAM,   \
+	     POISON_JAB,   WATERFALL,    EARTHQUAKE,   EARTH_POWER,  DIG,          \
+		 ICE_BEAM,     IRON_HEAD,    ACCELEROCK,   DRAGON_PULSE, PLAY_ROUGH,   \
+		 DRAGON_CLAW,  ICE_FANG,     MOONBLAST,    SURF,         STRENGTH
 	; end
 
 	db BANK(WartortlePicFront)

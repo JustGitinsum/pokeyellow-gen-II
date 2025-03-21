@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/horsea.pic", 0, 1 ; sprite dimensions
 	dw HorseaPicFront, HorseaPicBack
 
-	db TWISTER, SMOKESCREEN, LEER, WATER_GUN ; level 1 learnset
+	db TWISTER, SMOKESCREEN, LEER, TRAILBLAZE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     RAGE,         DARK_PULSE,        DOUBLE_TEAM,  \
-	     SWIFT,        IRON_HEAD,   REST,         SUBSTITUTE,   \
+	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    \
+	     ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  \
+	     STEEL_WING,        FLAMETHROWER,   ICE_FANG,         MOONBLAST,   \
 	     SURF
 	; end
 

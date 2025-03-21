@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     ACCELEROCK,         LEAF_BLADE, IRON_HEAD,   REST,         EXPLOSION,    \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         \
+	     EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        ICE_BEAM,  \
+	     ACCELEROCK,         LEAF_BLADE, FLAMETHROWER,   ICE_FANG,         AURA_SPHERE,    \
+	     FIRE_PUNCH,   MOONBLAST,   STRENGTH
 	; end
 
 	db BANK(OnixPicFront)

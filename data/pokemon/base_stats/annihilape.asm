@@ -10,16 +10,14 @@
 	INCBIN "gfx/pokemon/front/annihilape.pic", 0, 1 ; sprite dimensions
 	dw AnnihilapePicFront, AnnihilapePicBack
 
-	db COUNTER, FURY_SWIPES, LOW_KICK, SEISMIC_TOSS ; level 1 learnset
+	db WATERFALL, FURY_SWIPES, LOW_KICK, PSYBEAM ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         GIGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
-	     DARK_PULSE,        DOUBLE_TEAM,  METRONOME,    LEAF_BLADE, \
-	     IRON_HEAD,   SHADOW_BALL,  REST,         PSYCHO_CUT,      EXPLOSION,    \
-	     SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   SWORDS_DANCE, AXE_KICK,     TOXIC,        BODY_SLAM,    \
+		 TRAILBLAZE,   ICE_PUNCH,    POISON_JAB,   NIGHT_SLASH,  ROCK_SLIDE,   \
+		 EARTHQUAKE,   DIG,          ACCELEROCK,   PLAY_ROUGH,   THUNDER_WAVE, \
+	     AURA_SPHERE,  FIRE_PUNCH,   THUNDERPUNCH, STRENGTH
 	; end
 
 	db BANK(AnnihilapePicFront)

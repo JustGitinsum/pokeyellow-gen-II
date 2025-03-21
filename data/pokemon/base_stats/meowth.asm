@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    PAY_DAY,      RAGE,         THUNDERBOLT,  THUNDER,      \
-	     DARK_PULSE,        DOUBLE_TEAM,  SWIFT,        IRON_HEAD,   \
-	     REST,         SUBSTITUTE
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
+	     TRAILBLAZE,    SIGNAL_BEAM,      NIGHT_SLASH,         THUNDER_FANG,  THUNDER,      \
+	     DARK_PULSE,        ICE_BEAM,  STEEL_WING,        FLAMETHROWER,   \
+	     ICE_FANG,         MOONBLAST
 	; end
 
 	db BANK(MeowthPicFront)

@@ -10,16 +10,16 @@
 	INCBIN "gfx/pokemon/front/tyrantrum.pic", 0, 1 ; sprite dimensions
 	dw TyrantrumPicFront, TyrantrumPicBack
 
-	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BITE, TAIL_WHIP, DRAGON_CLAW, ROCK_SLIDE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
-	     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   \
-	     SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	tmhm AIR_SLASH,   	SWORDS_DANCE, 	TWISTER,    	TOXIC,       FIRE_FANG,    \
+		 BODY_SLAM,  	SLUDGE_BOMB,  	TRAILBLAZE,  	HYPER_BEAM,  POISON_JAB,   \ 
+		 NIGHT_SLASH,   ROCK_SLIDE,   	THUNDER_FANG, 	EARTHQUAKE,  EARTH_POWER,  \
+		 DIG,           DARK_PULSE,   	IRON_HEAD,    	ACCELEROCK,  DRAGON_PULSE, \
+	     FIRE_BLAST,   	FLAMETHROWER, 	PLAY_ROUGH,   	DRAGON_CLAW, ICE_FANG,     \
+		 STRENGTH
 	; end
 
 	db BANK(TyrantrumPicFront)

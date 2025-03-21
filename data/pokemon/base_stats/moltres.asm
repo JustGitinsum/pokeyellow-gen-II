@@ -14,10 +14,9 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     FIRE_BLAST,   SWIFT,        SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY
+	tmhm AIR_SLASH,    TWISTER,    	TOXIC,        HYPER_BEAM,  SIGNAL_BEAM,  \
+		 ENERGY_BALL,  EARTH_POWER, DRAGON_PULSE, FIRE_BLAST,  STEEL_WING,   \
+		 FLAMETHROWER, PLAY_ROUGH,  MOONBLAST,    FLY,         FLASH
 	; end
 
 	db BANK(MoltresPicFront)

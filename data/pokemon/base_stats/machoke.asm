@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     ACCELEROCK,         METRONOME,    FIRE_BLAST,   IRON_HEAD,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         \
+	     EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        ICE_BEAM,  \
+	     ACCELEROCK,         DRAGON_PULSE,    FIRE_BLAST,   FLAMETHROWER,   ICE_FANG,         \
+	     FIRE_PUNCH,   MOONBLAST,   STRENGTH
 	; end
 
 	db BANK(MachokePicFront)

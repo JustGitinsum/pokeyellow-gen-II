@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    RAGE,         GIGA_DRAIN,   THUNDERBOLT,  \
-	     THUNDER,      DARK_PULSE,        DOUBLE_TEAM,  LEAF_BLADE, \
-	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
+	tmhm TOXIC,        FIRE_FANG,    NIGHT_SLASH,         GIGA_DRAIN,   THUNDER_FANG,  \
+	     THUNDER,      DARK_PULSE,        ICE_BEAM,  LEAF_BLADE, \
+	     FIRE_BLAST,   ICE_FANG,         AURA_SPHERE,    MOONBLAST
 	; end
 
 	db BANK(GrimerPicFront)

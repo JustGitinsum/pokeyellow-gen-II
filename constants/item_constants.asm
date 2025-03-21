@@ -173,23 +173,23 @@ DEF TM01 EQU const_value
 	add_tm AXE_KICK    ; $CD
 	add_tm TOXIC        ; $CE
 	add_tm MEGAHORN   ; $CF
-	add_tm BODY_SLAM    ; $D0
-	add_tm TAKE_DOWN    ; $D1
-	add_tm DOUBLE_EDGE  ; $D2
+	add_tm FIRE_FANG    ; $D0
+	add_tm BODY_SLAM    ; $D1
+	add_tm SLUDGE_BOMB  ; $D2
 	add_tm BUBBLEBEAM   ; $D3
-	add_tm WATER_GUN    ; $D4
-	add_tm ICE_BEAM     ; $D5
+	add_tm TRAILBLAZE    ; $D4
+	add_tm ICE_PUNCH     ; $D5
 	add_tm BLIZZARD     ; $D6
 	add_tm HYPER_BEAM   ; $D7
-	add_tm PAY_DAY      ; $D8
-	add_tm SUBMISSION   ; $D9
-	add_tm COUNTER      ; $DA
-	add_tm SEISMIC_TOSS ; $DB
-	add_tm RAGE         ; $DC
+	add_tm SIGNAL_BEAM      ; $D8
+	add_tm POISON_JAB   ; $D9
+	add_tm WATERFALL      ; $DA
+	add_tm PSYBEAM ; $DB
+	add_tm NIGHT_SLASH         ; $DC
 	add_tm GIGA_DRAIN   ; $DD
 	add_tm ENERGY_BALL  ; $DE
-	add_tm DRAGON_RAGE  ; $DF
-	add_tm THUNDERBOLT  ; $E0
+	add_tm ROCK_SLIDE  ; $DF
+	add_tm THUNDER_FANG  ; $E0
 	add_tm THUNDER      ; $E1
 	add_tm EARTHQUAKE   ; $E2
 	add_tm EARTH_POWER      ; $E3
@@ -197,25 +197,25 @@ DEF TM01 EQU const_value
 	add_tm PSYCHIC_M    ; $E5
 	add_tm TELEPORT     ; $E6
 	add_tm DARK_PULSE   ; $E7
-	add_tm DOUBLE_TEAM  ; $E8
-	add_tm REFLECT      ; $E9
+	add_tm ICE_BEAM  ; $E8
+	add_tm IRON_HEAD      ; $E9
 	add_tm ACCELEROCK   ; $EA
-	add_tm METRONOME    ; $EB
+	add_tm DRAGON_PULSE    ; $EB
 	add_tm LEAF_BLADE   ; $EC
-	add_tm SEED_BOMB     ; $ED
+	add_tm THUNDERBOLT     ; $ED
 	add_tm FIRE_BLAST   ; $EE
-	add_tm SWIFT        ; $EF
-	add_tm IRON_HEAD   ; $F0
-	add_tm SOFTBOILED   ; $F1
+	add_tm STEEL_WING        ; $EF
+	add_tm FLAMETHROWER   ; $F0
+	add_tm PLAY_ROUGH   ; $F1
 	add_tm SHADOW_BALL  ; $F2
-	add_tm SKY_ATTACK   ; $F3
-	add_tm REST         ; $F4
+	add_tm DRAGON_CLAW   ; $F3
+	add_tm ICE_FANG         ; $F4
 	add_tm THUNDER_WAVE ; $F5
 	add_tm PSYCHO_CUT   ; $F6
-	add_tm EXPLOSION    ; $F7
-	add_tm ROCK_SLIDE   ; $F8
-	add_tm TRI_ATTACK   ; $F9
-	add_tm SUBSTITUTE   ; $FA
+	add_tm AURA_SPHERE    ; $F7
+	add_tm FIRE_PUNCH   ; $F8
+	add_tm THUNDERPUNCH   ; $F9
+	add_tm MOONBLAST   ; $FA
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"
 
 DEF NUM_TM_HM EQU NUM_TMS + NUM_HMS

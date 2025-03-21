@@ -10,16 +10,15 @@
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
 
-	db BULLDOZE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BULLDOZE, TAIL_WHIP, ANCIENTPOWER, SHADOW_CLAW ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  \
-	     FIRE_BLAST,   IRON_HEAD,   REST,         SUBSTITUTE,   \
-	     STRENGTH
+	tmhm FORCE_PALM,   SWORDS_DANCE, TOXIC,        BODY_SLAM,  	 TRAILBLAZE,    \
+		 POISON_JAB,   NIGHT_SLASH,  ROCK_SLIDE,   EARTHQUAKE,   EARTH_POWER,   \
+		 DIG,          IRON_HEAD,    ACCELEROCK,   FIRE_BLAST,   FLAMETHROWER,  \
+	     SHADOW_BALL,  THUNDER_WAVE, PSYCHO_CUT,   AURA_SPHERE,  FIRE_PUNCH,    \
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(MarowakPicFront)

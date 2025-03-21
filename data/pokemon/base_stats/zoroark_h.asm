@@ -10,15 +10,16 @@
 	INCBIN "gfx/pokemon/front/zoroark_h.pic", 0, 1 ; sprite dimensions
 	dw ZoroarkHPicFront, ZoroarkHPicBack
 
-	db SCRATCH, TELEPORT, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SLASH, SHADOW_CLAW, ROAR, AGILITY ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     PSYCHIC_M,    TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     METRONOME,    IRON_HEAD,   REST,         THUNDER_WAVE, \
-	     PSYCHO_CUT,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	tmhm FORCE_PALM,    SWORDS_DANCE, AXE_KICK,     TOXIC,        FIRE_FANG,    \
+		 BODY_SLAM,     SLUDGE_BOMB,  TRAILBLAZE,   HYPER_BEAM,   POISON_JAB,   \
+		 PSYBEAM, 	  	NIGHT_SLASH,  ROCK_SLIDE,   THUNDER_FANG, DIG,          \
+		 PSYCHIC_M,     TELEPORT,     DARK_PULSE,   ACCELEROCK,   FIRE_BLAST,   \
+		 FLAMETHROWER,  PLAY_ROUGH,   SHADOW_BALL,  ICE_FANG,     THUNDER_WAVE, \
+	     PSYCHO_CUT,   FIRE_PUNCH,   THUNDERPUNCH, MOONBLAST,     CUT
 	; end
 
 	db BANK(ZoroarkHPicFront)

@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DARK_PULSE,        DOUBLE_TEAM,  \
-	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
+	     HYPER_BEAM,   NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  \
+	     STEEL_WING,        DRAGON_CLAW,   ICE_FANG,         MOONBLAST,   FLY
 	; end
 
 	db BANK(FearowPicFront)

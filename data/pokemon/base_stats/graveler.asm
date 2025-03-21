@@ -14,11 +14,11 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     EARTH_POWER,      DIG,          DARK_PULSE,        DOUBLE_TEAM,  ACCELEROCK,         \
-	     METRONOME,    LEAF_BLADE, FIRE_BLAST,   REST,         EXPLOSION,    \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm FORCE_PALM,   TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         EARTHQUAKE,   \
+	     EARTH_POWER,      DIG,          DARK_PULSE,        ICE_BEAM,  ACCELEROCK,         \
+	     DRAGON_PULSE,    LEAF_BLADE, FIRE_BLAST,   ICE_FANG,         AURA_SPHERE,    \
+	     FIRE_PUNCH,   MOONBLAST,   STRENGTH
 	; end
 
 	db BANK(GravelerPicFront)

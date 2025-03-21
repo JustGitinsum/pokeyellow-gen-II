@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         DARK_PULSE,        \
-	     DOUBLE_TEAM,  REFLECT,      REST,         SUBSTITUTE,   \
+	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
+	     TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         DARK_PULSE,        \
+	     ICE_BEAM,  IRON_HEAD,      ICE_FANG,         MOONBLAST,   \
 	     SURF
 	; end
 

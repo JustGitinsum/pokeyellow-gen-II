@@ -14,13 +14,13 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         EARTHQUAKE,   EARTH_POWER,      DIG,          PSYCHIC_M,    \
-	     TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     FIRE_BLAST,   SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, \
-	     PSYCHO_CUT,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     \
+	     HYPER_BEAM,   SIGNAL_BEAM,      POISON_JAB,   WATERFALL,      PSYBEAM, \
+	     NIGHT_SLASH,         EARTHQUAKE,   EARTH_POWER,      DIG,          PSYCHIC_M,    \
+	     TELEPORT,     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     FIRE_BLAST,   STEEL_WING,        FLAMETHROWER,   ICE_FANG,         THUNDER_WAVE, \
+	     PSYCHO_CUT,      THUNDERPUNCH,   MOONBLAST,   SURF,         STRENGTH,     \
 	     FLASH
 	; end
 

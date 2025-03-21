@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/poliwhirl.pic", 0, 1 ; sprite dimensions
 	dw PoliwhirlPicFront, PoliwhirlPicBack
 
-	db BUBBLE, HYPNOSIS, WATER_GUN, NO_MOVE ; level 1 learnset
+	db BUBBLE, HYPNOSIS, TRAILBLAZE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     EARTH_POWER,      PSYCHIC_M,    DARK_PULSE,        DOUBLE_TEAM,  \
-	     METRONOME,    IRON_HEAD,   REST,         PSYCHO_CUT,      SUBSTITUTE,   \
+	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	     SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     \
+	     POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         EARTHQUAKE,   \
+	     EARTH_POWER,      PSYCHIC_M,    DARK_PULSE,        ICE_BEAM,  \
+	     DRAGON_PULSE,    FLAMETHROWER,   ICE_FANG,         PSYCHO_CUT,      MOONBLAST,   \
 	     SURF,         STRENGTH
 	; end
 

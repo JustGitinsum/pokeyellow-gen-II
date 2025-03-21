@@ -14,11 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, RAGE,         \
-	     THUNDERBOLT,  THUNDER,      DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     SWIFT,        IRON_HEAD,   REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLASH
+	tmhm FORCE_PALM,   AXE_KICK,    BODY_SLAM,    THUNDER_FANG, THUNDER,      \
+	     DIG,          THUNDERBOLT, PLAY_ROUGH,   THUNDER_WAVE, AURA_SPHERE,  \
+		 THUNDERPUNCH, MOONBLAST,   SURF,		  FLASH
 	; end
 
 	db BANK(PikachuPicFront)

@@ -14,11 +14,11 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
-	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      DARK_PULSE,        DOUBLE_TEAM,  \
-	     REFLECT,      FIRE_BLAST,   SWIFT,        IRON_HEAD,   \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
+	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	     BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         \
+	     ROCK_SLIDE,  THUNDER_FANG,  THUNDER,      DARK_PULSE,        ICE_BEAM,  \
+	     IRON_HEAD,      FIRE_BLAST,   STEEL_WING,        FLAMETHROWER,   \
+	     ICE_FANG,         THUNDER_WAVE, MOONBLAST,   SURF
 	; end
 
 	db BANK(DragonairPicFront)

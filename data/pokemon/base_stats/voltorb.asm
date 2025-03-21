@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    RAGE,         THUNDERBOLT,  THUNDER,      \
-	     TELEPORT,     DARK_PULSE,        DOUBLE_TEAM,  REFLECT,      \
-	     LEAF_BLADE, SWIFT,        REST,         THUNDER_WAVE, EXPLOSION,    \
-	     SUBSTITUTE,   FLASH
+	tmhm TOXIC,        BODY_SLAM,    NIGHT_SLASH,         THUNDER_FANG,  THUNDER,      \
+	     TELEPORT,     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
+	     LEAF_BLADE, STEEL_WING,        ICE_FANG,         THUNDER_WAVE, AURA_SPHERE,    \
+	     MOONBLAST,   FLASH
 	; end
 
 	db BANK(VoltorbPicFront)
