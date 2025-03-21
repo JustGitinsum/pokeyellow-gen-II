@@ -231,6 +231,8 @@
 	const SKIDDO
 	const GOGOAT
 	const SYLVEON
+	const PUMPKABOO
+	const GOURGEIST
 	const SIRFETCHD
 	const DREEPY
 	const DRAKLOAK

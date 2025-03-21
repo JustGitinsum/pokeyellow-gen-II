@@ -224,6 +224,8 @@ MonsterNames::
 	db "SKIDDO@@@@"
 	db "GOGOAT@@@@"
 	db "SYLVEON@@@"
+	db "PUMPKABOO@"
+	db "GOURGEIST@"
 	db "SIRFETCH'D"
 	db "DREEPY@@@@"
 	db "DRAKLOAK@@"

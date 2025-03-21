@@ -230,6 +230,8 @@ CryData::
 	mon_cry SFX_CRY_01, $00, $80 ; Skiddo
 	mon_cry SFX_CRY_0A, $00, $80 ; Gogoat
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
+	mon_cry SFX_CRY_1C, $00, $80 ; PUMPKABOO
+	mon_cry SFX_CRY_1C, $00, $80 ; GOURGEIST
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
 	mon_cry SFX_CRY_0F, $60, $40 ; DREEPY
 	mon_cry SFX_CRY_0F, $40, $80 ; DRAKLOAK

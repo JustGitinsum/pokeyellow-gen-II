@@ -133,8 +133,8 @@ LassData:
 	db 19, PIDGEY, BUNEARY, NIDORAN_F, MEOWTH, NIDORAN_M, 0
 	db 22, CLEFAIRY, SYLVEON, 0
 ; Celadon Gym
-	db 23, WEEPINBELL, EXEGGUTOR, 0
-	db 23, SKIDDO, GLOOM, 0
+	db 23, EXEGGUTOR_A, EXEGGUTOR, 0
+	db 23, SKIDDO, PUMPKABOO, 0
 ; Viridian Forest
 	db 6, NIDORAN_F, NIDORAN_M, 0
 
@@ -661,7 +661,7 @@ LtSurgeData:
 	db $FF, 28, RAICHU, 0
 
 ErikaData:
-	db $FF, 30, TANGELA, 32, WEEPINBELL, 32, GLOOM, 0
+	db $FF, 30, TANGELA, 30, GOURGEIST, 32, WEEPINBELL, 32, GLOOM, 0
 
 KogaData:
 	db $FF, 44, CROBAT, 46, MUK, 48, WEEZING, 50, VENOMOTH, 0
@@ -727,7 +727,7 @@ ChannelerData:
 ; Unused
 	db 24, GASTLY, 0
 ; Pokémon Tower 4F
-	db 22, GASTLY, 0
+	db 22, PUMPKABOO, 0
 ; Unused
 	db 24, GASTLY, 0
 ; Pokémon Tower 5F
@@ -735,7 +735,7 @@ ChannelerData:
 ; Unused
 	db 24, GASTLY, 0
 ; Pokémon Tower 5F
-	db 22, GASTLY, 0
+	db 22, PUMPKABOO, 0
 	db 24, GASTLY, 0
 	db 22, HAUNTER, 0
 ; Pokémon Tower 6F

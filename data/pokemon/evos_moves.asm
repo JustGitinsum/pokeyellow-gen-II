@@ -234,6 +234,8 @@ EvosMovesPointerTable:
 	dw SkiddoEvosMoves
 	dw GogoatEvosMoves
 	dw SylveonEvosMoves
+	dw PumpkabooEvosMoves
+	dw GourgeistEvosMoves
 	dw SirfetchdEvosMoves
 	dw DreepyEvosMoves
 	dw DrakloakEvosMoves
@@ -2926,6 +2928,35 @@ SylveonEvosMoves:
 	db 30, BITE
 	db 36, FOCUS_ENERGY
 	db 42, TAKE_DOWN
+	db 0
+
+PumpkabooEvosMoves:
+; Evolutions
+	db EVOLVE_ITEM, LINK_CABLE, 1, GOURGEIST
+	db 0
+; Learnset
+	db 20, BULLET_SEED
+	db 24, DISABLE
+	db 28, ROLLOUT
+	db 32, SEED_BOMB
+	db 36, SHADOW_BALL
+	db 40, EXPLOSION
+	db 44, BOUNCE
+	db 48, PHANTOMFORCE
+	db 0
+
+GourgeistEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 20, BULLET_SEED
+	db 28, ROLLOUT
+	db 32, SEED_BOMB
+	db 40, SHADOW_BALL
+	db 42, LIGHT_SCREEN
+	db 44, EXPLOSION
+	db 46, BOUNCE
+	db 50, PHANTOMFORCE
 	db 0
 
 SirfetchdEvosMoves:

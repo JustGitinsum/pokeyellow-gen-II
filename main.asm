@@ -803,6 +803,10 @@ AurorusPicFront::     INCBIN "gfx/pokemon/front/aurorus.pic"
 AurorusPicBack::      INCBIN "gfx/pokemon/back/aurorusb.pic"
 SylveonPicFront::     INCBIN "gfx/pokemon/front/sylveon.pic"
 SylveonPicBack::      INCBIN "gfx/pokemon/back/sylveonb.pic"
+PumpkabooPicFront::     INCBIN "gfx/pokemon/front/pumpkaboo.pic"
+PumpkabooPicBack::      INCBIN "gfx/pokemon/back/pumpkaboob.pic"
+GourgeistPicFront::     INCBIN "gfx/pokemon/front/gourgeist.pic"
+GourgeistPicBack::      INCBIN "gfx/pokemon/back/gourgeistb.pic"
 MimikyuPicFront::     INCBIN "gfx/pokemon/front/mimikyu.pic"
 MimikyuPicBack::      INCBIN "gfx/pokemon/back/mimikyub.pic"
 Sandshrew_APicFront::     INCBIN "gfx/pokemon/front/sandshrew_a.pic"
@@ -823,12 +827,12 @@ ObstagoonPicFront::  INCBIN "gfx/pokemon/front/obstagoon.pic"
 ObstagoonPicBack::   INCBIN "gfx/pokemon/back/obstagoonb.pic"
 SirfetchdPicFront::         INCBIN "gfx/pokemon/front/sirfetchd.pic"
 SirfetchdPicBack::          INCBIN "gfx/pokemon/back/sirfetchdb.pic"
+
+SECTION "bank44", ROMX, BANK[$44]
 DreepyPicFront::     INCBIN "gfx/pokemon/front/dreepy.pic"
 DreepyPicBack::      INCBIN "gfx/pokemon/back/dreepyb.pic"
 DrakloakPicFront::     INCBIN "gfx/pokemon/front/drakloak.pic"
 DrakloakPicBack::      INCBIN "gfx/pokemon/back/drakloakb.pic"
-
-SECTION "bank44", ROMX, BANK[$44]
 DragapultPicFront::  INCBIN "gfx/pokemon/front/dragapult.pic"
 DragapultPicBack::   INCBIN "gfx/pokemon/back/dragapultb.pic"
 Ponyta_GPicFront::      INCBIN "gfx/pokemon/front/ponyta_g.pic"
@@ -861,6 +865,8 @@ FrigibaxPicFront::    INCBIN "gfx/pokemon/front/frigibax.pic"
 FrigibaxPicBack::     INCBIN "gfx/pokemon/back/frigibaxb.pic"
 ArctibaxPicFront::    INCBIN "gfx/pokemon/front/arctibax.pic"
 ArctibaxPicBack::     INCBIN "gfx/pokemon/back/arctibaxb.pic"
+
+SECTION "bank45", ROMX, BANK[$45]
 BaxcaliburPicFront::    INCBIN "gfx/pokemon/front/baxcalibur.pic"
 BaxcaliburPicBack::     INCBIN "gfx/pokemon/back/baxcaliburb.pic"
 

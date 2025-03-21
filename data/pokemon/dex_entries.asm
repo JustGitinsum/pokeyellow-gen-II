@@ -224,6 +224,8 @@ PokedexEntryPointers:
 	dw SkiddoDexEntry
 	dw GogoatDexEntry
 	dw SylveonDexEntry
+	dw PumpkabooDexEntry
+	dw GourgeistDexEntry
 	dw SirfetchdDexEntry
 	dw DreepyDexEntry
 	dw DrakloakDexEntry
@@ -1666,6 +1668,20 @@ SylveonDexEntry:
 	db "SPARKLE@"
 	db 2,11
 	dw 550
+	text_far _Gen6DexEntry
+	text_end
+
+PumpkabooDexEntry:
+	db "PUMPKIN@"
+	db 1,04
+	dw 110
+	text_far _Gen6DexEntry
+	text_end
+
+GourgeistDexEntry:
+	db "PUMPKIN@"
+	db 2,11
+	dw 276
 	text_far _Gen6DexEntry
 	text_end
 

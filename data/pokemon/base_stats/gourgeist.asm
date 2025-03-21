@@ -1,16 +1,16 @@
-	db DEX_PUMPKABOO ; pokedex id
+	db DEX_GOURGEIST ; pokedex id
 
-	db  49,  66,  70,  51,  55
+	db  65,  90, 122,  75,  84
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GHOST ; type
-	db 120 ; catch rate
-	db 64 ; base exp
+	db 90 ; catch rate
+	db 173 ; base exp
 
-	INCBIN "gfx/pokemon/front/pumpkaboo.pic", 0, 1 ; sprite dimensions
-	dw PumpkabooPicFront, PumpkabooPicBack
+	INCBIN "gfx/pokemon/front/gourgeist.pic", 0, 1 ; sprite dimensions
+	dw GourgeistPicFront, GourgeistPicBack
 
-	db OMINOUS_WIND, CONFUSE_RAY, RAZOR_LEAF, LEECH_SEED ; level 1 learnset
+	db PHANTOMFORCE, SEED_BOMB, LEECH_SEED, CONFUSE_RAY ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -21,4 +21,4 @@
 		 PSYCHO_CUT,   MOONBLAST,   FLASH
 	; end
 
-	db BANK(PumpkabooPicFront)
+	db BANK(GourgeistPicFront)

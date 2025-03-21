@@ -3,8 +3,8 @@ PokemonTower6FWildMons:
 	db 22, GASTLY
 	db 23, GASTLY
 	db 24, GASTLY
-	db 25, GASTLY
-	db 26, GASTLY
+	db 25, PUMPKABOO
+	db 26, PUMPKABOO
 	db 21, ZORUA_H
 	db 22, CUBONE
 	db 27, MIMIKYU
