@@ -279,8 +279,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_AMAURA
 	const PAL_AURORUS
 ;	const PAL_SYLVEON
-;	const PUMPKABOO
-;	const GOURGEIST	
+;	const PAL_PUMPKABOO
+;	const PAL_GOURGEIST	
 ;	const PAL_MIMIKYU
 ;	const PAL_SANDSHREW_A
 ;	const PAL_SANDSLASH_A
@@ -302,7 +302,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;   const PAL_ARCANINE_H
 ;   const PAL_KLEAVOR
 ;	const PAL_NYMBLE
-	const PAL_LOKIX
+;	const PAL_LOKIX
 ;   const PAL_CHARCADET
 ;   const PAL_ARMAROUGE
 ;   const PAL_CERULEDGE

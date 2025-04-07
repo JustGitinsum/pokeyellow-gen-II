@@ -213,7 +213,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Zigzagoon
 	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_MON       ; Obstagoon
-	nybble ICON_MON       ; Sirfetchd
+	nybble ICON_BIRD      ; Sirfetchd
 	nybble ICON_MON       ; dreepy
 	nybble ICON_MON       ; drakloak
 	nybble ICON_MON       ; dragapult
