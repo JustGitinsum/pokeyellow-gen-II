@@ -233,4 +233,5 @@ INCLUDE "data/pokemon/base_stats/annihilape.asm"
 INCLUDE "data/pokemon/base_stats/frigibax.asm"
 INCLUDE "data/pokemon/base_stats/arctibax.asm"
 INCLUDE "data/pokemon/base_stats/baxcalibur.asm"
+INCLUDE "data/pokemon/base_stats/ironvaliant.asm"
 	assert_table_length NUM_POKEMON

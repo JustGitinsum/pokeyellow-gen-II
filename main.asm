@@ -869,5 +869,7 @@ ArctibaxPicBack::     INCBIN "gfx/pokemon/back/arctibaxb.pic"
 SECTION "bank45", ROMX, BANK[$45]
 BaxcaliburPicFront::    INCBIN "gfx/pokemon/front/baxcalibur.pic"
 BaxcaliburPicBack::     INCBIN "gfx/pokemon/back/baxcaliburb.pic"
+IronvaliantPicFront::    INCBIN "gfx/pokemon/front/ironvaliant.pic"
+IronvaliantPicBack::     INCBIN "gfx/pokemon/back/ironvaliantb.pic"
 
 INCLUDE "data/sgb/sgb_palettes.asm"

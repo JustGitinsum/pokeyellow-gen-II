@@ -243,6 +243,7 @@
 	const FRIGIBAX
 	const ARCTIBAX
 	const BAXCALIBUR
+	const IRONVALIANT
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

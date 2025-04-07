@@ -242,4 +242,5 @@ CryData::
 	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Baxcalibur
+	mon_cry SFX_CRY_1C, $20, $C0 ; Ironvaliant
 	assert_table_length NUM_POKEMON_INDEXES

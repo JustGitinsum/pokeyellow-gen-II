@@ -307,9 +307,10 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;   const PAL_ARMAROUGE
 ;   const PAL_CERULEDGE
 ;	const PAL_ANNIHILAPE
-;	const FRIGIBAX
-;	const ARCTIBAX
-;	const BAXCALIBUR
+;	const PAL_FRIGIBAX
+;	const PAL_ARCTIBAX
+;	const PAL_BAXCALIBUR
+;	const PAL_IRONVALIANT
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1

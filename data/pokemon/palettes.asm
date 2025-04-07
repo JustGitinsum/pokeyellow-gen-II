@@ -234,6 +234,7 @@ MonsterPalettes:
 	db PAL_GOLDUCK				;FRIGIBAX
 	db PAL_GOLDUCK				;ARCTIBAX
 	db PAL_MAGNETON				;BAXCALIBUR
+	db PAL_GARDEVOIR			;IRONVALIANT
 
 	assert_table_length NUM_POKEMON + 1
 

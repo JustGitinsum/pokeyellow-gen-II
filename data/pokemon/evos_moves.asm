@@ -246,6 +246,7 @@ EvosMovesPointerTable:
 	dw FrigibaxEvosMoves
 	dw ArctibaxEvosMoves
 	dw BaxcaliburEvosMoves
+	dw IronvaliantEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -1005,6 +1006,7 @@ KirliaEvosMoves:
 ; Evolutions
 	db EVOLVE_LEVEL, 30, GARDEVOIR
 	db EVOLVE_ITEM, DAWN_STONE, 1, GALLADE
+	db EVOLVE_ITEM, METAL_COAT, 1, IRONVALIANT
 	db 0
 ; Learnset
 	db 38, PSYCHIC_M
@@ -3080,3 +3082,13 @@ BaxcaliburEvosMoves:
 	db 62, ICICLE_CRASH
 	db 0
 
+IronvaliantEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 35, PSYCHO_CUT
+	db 42, NIGHT_SLASH
+	db 49, X_SCISSOR
+	db 56, MOONBLAST
+	db 63, SACRED_SWORD
+	db 0

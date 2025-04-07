@@ -237,5 +237,6 @@
 	const DEX_FRIGIBAX
 	const DEX_ARCTIBAX
 	const DEX_BAXCALIBUR
+	const DEX_IRONVALIANT
 
 DEF NUM_POKEMON EQU const_value - 1

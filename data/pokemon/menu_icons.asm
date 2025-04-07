@@ -233,5 +233,6 @@ MonPartyData:
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Baxcalibur
+	nybble ICON_MON		  ; Ironvaliant
 
 	end_nybble_array NUM_POKEMON

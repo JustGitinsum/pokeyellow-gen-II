@@ -236,4 +236,5 @@ MonsterNames::
 	db "FRIGIBAX@@"
 	db "ARCTIBAX@@"
 	db "BAXCALIBUR"
+	db "IRONVALANT"
 	assert_table_length NUM_POKEMON_INDEXES

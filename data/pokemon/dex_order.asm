@@ -236,4 +236,5 @@ PokedexOrder:
 	db DEX_FRIGIBAX
 	db DEX_ARCTIBAX
 	db DEX_BAXCALIBUR
+	db DEX_IRONVALIANT
 	assert_table_length NUM_POKEMON_INDEXES

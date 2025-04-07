@@ -236,6 +236,7 @@ PokedexEntryPointers:
 	dw FrigibaxDexEntry
 	dw ArctibaxDexEntry
 	dw BaxcaliburDexEntry
+	dw IronvaliantDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1871,6 +1872,13 @@ BaxcaliburDexEntry:
 	db "ICE DRAGON@"
 	db 6,11
 	dw 4630
+	text_far _Gen9DexEntry
+	text_end
+
+IronvaliantDexEntry:
+	db "PARADOX@"
+	db 4,07
+	dw 772
 	text_far _Gen9DexEntry
 	text_end
 
