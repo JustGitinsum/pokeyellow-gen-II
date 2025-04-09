@@ -26,7 +26,7 @@ MoveSoundTable:
 	db SFX_BATTLE_20,          $00, $80 ; STOMP
 	db SFX_BATTLE_17,          $f0, $40 ; DOUBLE_KICK
 	db SFX_SUPER_EFFECTIVE,    $00, $80 ; AXE_KICK
-	db SFX_BATTLE_17,          $00, $80 ; JUMP_KICK
+	db SFX_BATTLE_17,          $00, $80 ; SKY_UPPERCUT
 	db SFX_BATTLE_21,          $10, $80 ; ROLLING_KICK
 	db SFX_BATTLE_1B,          $01, $a0 ; SAND_ATTACK
 	db SFX_BATTLE_18,          $00, $80 ; HEADBUTT
@@ -66,9 +66,9 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $00, $80 ; HYPER_BEAM
 	db SFX_PECK,               $01, $a0 ; PECK
 	db SFX_BATTLE_13,          $f0, $20 ; DRILL_PECK
-	db SFX_BATTLE_23,          $01, $c0 ; SUBMISSION
+	db SFX_BATTLE_23,          $01, $c0 ; CLOSE_COMBAT
 	db SFX_BATTLE_23,          $00, $80 ; LOW_KICK
-	db SFX_SUPER_EFFECTIVE,    $00, $e0 ; COUNTER
+	db SFX_SUPER_EFFECTIVE,    $00, $e0 ; BRICK_BREAK
 	db SFX_BATTLE_26,          $01, $60 ; SEISMIC_TOSS
 	db SFX_BATTLE_26,          $20, $40 ; STRENGTH
 	db SFX_BATTLE_24,          $00, $80 ; MEGA_DRAIN

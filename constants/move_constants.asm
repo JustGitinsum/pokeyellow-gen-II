@@ -31,7 +31,7 @@
 	const STOMP        ; 17
 	const DOUBLE_KICK  ; 18
 	const AXE_KICK    ; 19
-	const JUMP_KICK    ; 1a
+	const SKY_UPPERCUT    ; 1a
 	const ROLLING_KICK ; 1b
 	const SAND_ATTACK  ; 1c
 	const HEADBUTT     ; 1d
@@ -71,9 +71,9 @@
 	const HYPER_BEAM   ; 3f
 	const PECK         ; 40
 	const DRILL_PECK   ; 41
-	const SUBMISSION   ; 42
+	const CLOSE_COMBAT   ; 42
 	const LOW_KICK     ; 43
-	const COUNTER      ; 44
+	const BRICK_BREAK      ; 44
 	const SEISMIC_TOSS ; 45
 	const STRENGTH     ; 46
 	const MEGA_DRAIN       ; 47

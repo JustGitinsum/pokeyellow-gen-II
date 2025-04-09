@@ -25,7 +25,7 @@ AttackAnimationPointers:
 	dw StompAnim
 	dw DoubleKickAnim
 	dw AxeKickAnim
-	dw JumpKickAnim
+	dw SkyUppercutAnim
 	dw RollingKickAnim
 	dw SandAttackAnim
 	dw HeadbuttAnim
@@ -65,9 +65,9 @@ AttackAnimationPointers:
 	dw HyperBeamAnim
 	dw PeckAnim
 	dw DrillPeckAnim
-	dw SubmissionAnim
+	dw CloseCombatAnim
 	dw LowKickAnim
-	dw CounterAnim
+	dw BrickBreakAnim
 	dw SeismicTossAnim
 	dw StrengthAnim
 	dw MegaDrainAnim
@@ -390,8 +390,8 @@ AxeKickAnim:
 	battle_anim AXE_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-JumpKickAnim:
-	battle_anim JUMP_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+SkyUppercutAnim:
+	battle_anim SKY_UPPERCUT, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 RollingKickAnim:
@@ -632,8 +632,8 @@ DrillPeckAnim:
 	battle_anim DRILL_PECK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-SubmissionAnim:
-	battle_anim SUBMISSION, SE_SLIDE_MON_OFF
+CloseCombatAnim:
+	battle_anim CLOSE_COMBAT, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
@@ -644,8 +644,8 @@ LowKickAnim:
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
-CounterAnim:
-	battle_anim COUNTER, SE_SLIDE_MON_OFF
+BrickBreakAnim:
+	battle_anim BRICK_BREAK, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end

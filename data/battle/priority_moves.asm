@@ -2,7 +2,7 @@
 ; To avoid working with negative numbers, we shift the priority 
 ; range to be from 0 to 12.
 PriorityMovesList:
-        db COUNTER,        1
+;        db COUNTER,        1
         db QUICK_ATTACK,   8
         db ACCELEROCK,     8
        	db EXTREMESPEED,   9

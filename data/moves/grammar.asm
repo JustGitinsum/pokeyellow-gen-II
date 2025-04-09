@@ -39,7 +39,7 @@ ExclamationPointMoveSets:
 	db ROAR
 	db SING
 	db PECK
-	db COUNTER
+	db BRICK_BREAK
 	db STRENGTH
 	db MEGA_DRAIN
 	db STRING_SHOT

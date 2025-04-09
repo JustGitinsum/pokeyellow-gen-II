@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandshrew.pic", 0, 1 ; sprite dimensions
 	dw SandshrewPicFront, SandshrewPicBack
 
-	db SCRATCH, DEFENSE_CURL, POISON_FANG, SAND_ATTACK ; level 1 learnset
+	db SCRATCH, DEFENSE_CURL, POISON_FANG, BULLDOZE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
