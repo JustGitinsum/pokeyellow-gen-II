@@ -272,6 +272,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_AXEW
 ;	const PAL_FRAXURE
 	const PAL_HAXORUS
+;	const PAL_FROAKIE
+;	const PAL_FROGADIER
+;	const PAL_GRENINJA
 ;	const PAL_SKIDDO
 ;	const PAL_GOGOAT
 	const PAL_TYRUNT

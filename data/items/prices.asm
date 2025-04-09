@@ -43,7 +43,7 @@ ItemPrices::
 	bcd3 0     ; DOME_FOSSIL
 	bcd3 0     ; HELIX_FOSSIL
 	bcd3 0     ; SECRET_KEY
-	bcd3 0     ; ITEM_2C
+	bcd3 2100  ; BLACK_AUGURITE
 	bcd3 0     ; BIKE_VOUCHER
 	bcd3 950   ; X_ACCURACY
 	bcd3 2100  ; LEAF_STONE
@@ -88,9 +88,6 @@ ItemPrices::
 	bcd3 2100  ; ELECTIRIZER
 	bcd3 2100  ; METAL_COAT
 	bcd3 2100  ; RAZOR_FANG
-	bcd3 2100  ; BLACK_AUGURITE
-	bcd3 2100  ; MALICIOUS_ARMOR
-	bcd3 2100  ; AUSPICIOUS_ARMOR
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F

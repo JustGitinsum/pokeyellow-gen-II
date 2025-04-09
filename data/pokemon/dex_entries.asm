@@ -221,6 +221,9 @@ PokedexEntryPointers:
 	dw AxewDexEntry
 	dw FraxureDexEntry
 	dw HaxorusDexEntry
+	dw FroakieDexEntry
+	dw FrogadierDexEntry
+	dw GreninjaDexEntry
 	dw SkiddoDexEntry
 	dw GogoatDexEntry
 	dw SylveonDexEntry
@@ -423,6 +426,27 @@ RaichuDexEntry:
 	db "MOUSE@"
 	db 2,7
 	dw 660
+	text_far _RaichuDexEntry
+	text_end
+
+FroakieDexEntry:
+	db "BUBBLEFROG@"
+	db 1,7
+	dw 154
+	text_far _RaichuDexEntry
+	text_end
+
+FrogadierDexEntry:
+	db "BUBBLEFROG@"
+	db 2,7
+	dw 240
+	text_far _RaichuDexEntry
+	text_end
+
+GreninjaDexEntry:
+	db "NINJA@"
+	db 4,11
+	dw 882
 	text_far _RaichuDexEntry
 	text_end
 

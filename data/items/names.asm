@@ -43,7 +43,7 @@ ItemNames::
 	li "DOME FOSSIL"
 	li "HELIX FOSSIL"
 	li "SECRET KEY"
-	li "?????" ; ITEM_2C
+	li "BLK AUGURITE"
 	li "BIKE VOUCHER"
 	li "X ACCURACY"
 	li "LEAF STONE"
@@ -88,9 +88,6 @@ ItemNames::
 	li "ELECTIRIZER"
 	li "METAL COAT"
 	li "RAZOR FANG"
-	li "BLK AUGURITE"
-	li "MALICE ARMOR"
-	li "AUSPIC ARMOR"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

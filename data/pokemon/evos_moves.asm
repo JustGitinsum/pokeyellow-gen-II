@@ -231,6 +231,9 @@ EvosMovesPointerTable:
 	dw AxewEvosMoves
 	dw FraxureEvosMoves
 	dw HaxorusEvosMoves
+	dw FroakieEvoMoves
+	dw FrogadierEvoMoves
+	dw GreninjaEvoMoves
 	dw SkiddoEvosMoves
 	dw GogoatEvosMoves
 	dw SylveonEvosMoves
@@ -1193,8 +1196,8 @@ KrabbyEvosMoves:
 
 CharcadetEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, AUSPICIOUS_ARMOR, 1, ARMAROUGE
-	db EVOLVE_ITEM, MALICIOUS_ARMOR, 1, CERULEDGE
+	db EVOLVE_ITEM, DAWN_STONE, 1, ARMAROUGE
+	db EVOLVE_ITEM, DUSK_STONE, 1, CERULEDGE
 	db 0
 ; Learnset
 	db 16, COMET_PUNCH
@@ -1472,7 +1475,7 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db EVOLVE_ITEM, DAWN_STONE, 1, ESPEON
-	db EVOLVE_ITEM, DUSK_STONE, 1, UMBREON
+	db EVOLVE_ITEM, MOON_STONE, 1, UMBREON
 	db EVOLVE_ITEM, LEAF_STONE, 1, LEAFEON
 	db EVOLVE_ITEM, ICE_STONE, 1, GLACEON
 	db EVOLVE_ITEM, SHINY_STONE, 1, SYLVEON
@@ -2892,6 +2895,49 @@ HaxorusEvosMoves:
 ; Learnset
 	db 48, X_SCISSOR
 	db 53, GUILLOTINE
+	db 0
+
+FroakieEvoMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 16, FROGADIER
+	db 0
+; Learnset
+	db 14, BUBBLEBEAM
+	db 18, SMOKESCREEN
+	db 21, HEADBUTT
+	db 25, AGILITY
+	db 29, ROCK_SLIDE
+	db 35, SUBSTITUTE
+	db 39, BOUNCE
+	db 43, DOUBLE_TEAM
+	db 48, HYDRO_PUMP
+	db 0
+
+FrogadierEvoMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 36, GRENINJA
+	db 0
+; Learnset
+	db 19, SMOKESCREEN
+	db 23, HEADBUTT
+	db 28, AGILITY
+	db 33, ROCK_SLIDE
+	db 40, SUBSTITUTE
+	db 45, BOUNCE
+	db 50, DOUBLE_TEAM
+	db 56, HYDRO_PUMP
+	db 0
+
+GreninjaEvoMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 36, NIGHT_SLASH
+	db 40, BOUNCE
+	db 42, SUBSTITUTE
+	db 49, PSYCHIC_M
+	db 56, DOUBLE_TEAM
+	db 68, HYDRO_PUMP
 	db 0
 
 SkiddoEvosMoves:

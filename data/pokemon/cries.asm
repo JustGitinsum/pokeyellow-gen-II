@@ -227,6 +227,9 @@ CryData::
 	mon_cry SFX_CRY_0F, $60, $40 ; Axew
 	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
+	mon_cry SFX_CRY_0E, $FF, $FF ; Froakie
+	mon_cry SFX_CRY_0E, $77, $60 ; Frogadier
+	mon_cry SFX_CRY_0E, $00, $FF ; Greninja
 	mon_cry SFX_CRY_01, $00, $80 ; Skiddo
 	mon_cry SFX_CRY_0A, $00, $80 ; Gogoat
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon

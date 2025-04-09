@@ -199,6 +199,9 @@
 	const DEX_AXEW
 	const DEX_FRAXURE
 	const DEX_HAXORUS
+	const DEX_FROAKIE
+	const DEX_FROGADIER
+	const DEX_GRENINJA
 	const DEX_SKIDDO
 	const DEX_GOGOAT
 	const DEX_TYRUNT

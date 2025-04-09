@@ -52,7 +52,7 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
 	const SECRET_KEY    ; $2B
-	const ITEM_2C       ; $2C ; unused
+	const BLACK_AUGURITE 	; $2C ; unused
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const LEAF_STONE    ; $2F
@@ -97,9 +97,6 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const ELECTIRIZER	; $56
 	const METAL_COAT
 	const RAZOR_FANG
-	const BLACK_AUGURITE 
-	const MALICIOUS_ARMOR
-	const AUSPICIOUS_ARMOR
 
 DEF NUM_ITEMS EQU const_value - 1
 

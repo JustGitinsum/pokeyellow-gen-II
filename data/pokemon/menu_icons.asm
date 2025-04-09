@@ -195,6 +195,9 @@ MonPartyData:
 	nybble ICON_MON       ; Axew
 	nybble ICON_MON       ; Fraxure
 	nybble ICON_MON       ; Haxorus
+	nybble ICON_WATER	  ; Froakie
+	nybble ICON_WATER	  ; Frogadier
+	nybble ICON_WATER	  ; Greninja
 	nybble ICON_QUADRUPED ; Skiddo
 	nybble ICON_QUADRUPED ; Gogoat
 	nybble ICON_MON       ; Tyrunt

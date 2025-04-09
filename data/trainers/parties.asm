@@ -319,7 +319,7 @@ UnusedJugglerData:
 
 FisherData:
 ; SS Anne 2F Rooms
-	db 17, GOLDEEN, TENTACOOL, MARILL, 0
+	db 17, GOLDEEN, FROAKIE, MARILL, 0
 ; SS Anne B1F Rooms
 	db 17, TENTACOOL, STARYU, SHELLDER, 0
 ; Route 12
@@ -349,7 +349,7 @@ SwimmerData:
 ; Route 20
 	db 31, SHELLDER, CLOYSTER, 0
 	db 35, STARYU, 0
-	db 28, HORSEA, HORSEA, SEADRA, HORSEA, 0
+	db 28, FROGADIER, HORSEA, SEADRA, HORSEA, 0
 ; Route 21
 	db 33, SEADRA, TENTACRUEL, 0
 	db 37, STARMIE, 0

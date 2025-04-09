@@ -228,6 +228,9 @@
 	const AXEW
 	const FRAXURE
 	const HAXORUS
+	const FROAKIE
+	const FROGADIER
+	const GRENINJA
 	const SKIDDO
 	const GOGOAT
 	const SYLVEON

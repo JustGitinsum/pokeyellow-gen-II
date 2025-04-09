@@ -20,6 +20,7 @@ UsableItems_PartyMenu:
 	db CARBOS
 	db CALCIUM
 	db RARE_CANDY
+	db BLACK_AUGURITE
 	db LEAF_STONE
 	db FULL_HEAL
 	db REVIVE
@@ -41,7 +42,4 @@ UsableItems_PartyMenu:
 	db ELECTIRIZER
 	db METAL_COAT
 	db RAZOR_FANG
-	db BLACK_AUGURITE
-	db MALICIOUS_ARMOR
-	db AUSPICIOUS_ARMOR
 	db -1 ; end

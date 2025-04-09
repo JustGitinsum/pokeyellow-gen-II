@@ -3,13 +3,13 @@ Route4WildMons:
 	db  8, ODDISH
 	db  9, VULPIX
 	db  9, RIOLU
-	db 10, ODDISH
+	db 10, FROAKIE
 	db  8, SANDSHREW
-	db 10, RIOLU
 	db 10, SANDSHREW
-	db 12, SANDSHREW
-	db 11, VULPIX
+	db 10, FROAKIE
 	db 12, RIOLU
+	db 11, VULPIX
+	db 12, ODDISH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
