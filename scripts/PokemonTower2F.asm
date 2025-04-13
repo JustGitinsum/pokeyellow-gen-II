@@ -153,7 +153,7 @@ PokemonTower2FRivalText:
 	add $1
 	ld [wTrainerNo], a
 
-	xor a
+	ld a, 1
 	ld [wIsTrainerBattle], a
 	ld a, SCRIPT_POKEMONTOWER2F_DEFEATED_RIVAL
 	ld [wPokemonTower2FCurScript], a

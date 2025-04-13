@@ -212,6 +212,8 @@ RocketHideoutB4FScript10:
 	ld [wCurOpponent], a
 	ld a, $2b
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	xor a
 	ldh [hJoyHeld], a
 	ld [wJoyIgnore], a

@@ -336,6 +336,8 @@ MtMoonB2FScript12:
 	ld [wCurOpponent], a
 	ld a, $2a
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	xor a
 	ldh [hJoyHeld], a
 	ld [wJoyIgnore], a

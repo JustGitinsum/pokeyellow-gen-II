@@ -73,6 +73,8 @@ ChampionsRoomRivalReadyToBattleScript:
 	ld a, [wRivalStarter]
 	add $0 ; Wow GameFreak
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 
 	xor a
 	ldh [hJoyHeld], a

@@ -88,8 +88,8 @@ SSAnne2FRivalStartBattleScript:
 	ld a, [wStatusFlags5]
 	bit BIT_SCRIPTED_NPC_MOVEMENT, a
 	ret nz
-	xor a
-	ld [wIsTrainerBattle], a
+	; xor a
+	; ld [wIsTrainerBattle], a
 	call SSAnne2FSetFacingDirectionScript
 	xor a
 	ld [wJoyIgnore], a
@@ -101,6 +101,10 @@ SSAnne2FRivalStartBattleScript:
 	ld [wCurOpponent], a
 	ld a, $1
 	ld [wTrainerNo], a
+
+	ld a, 1
+	ld [wIsTrainerBattle], a
+
 	call SSAnne2FSetFacingDirectionScript
 	ld a, SCRIPT_SSANNE2F_RIVAL_AFTER_BATTLE
 	ld [wSSAnne2FCurScript], a

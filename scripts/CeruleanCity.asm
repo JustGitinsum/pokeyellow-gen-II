@@ -126,8 +126,8 @@ CeruleanCityRivalBattleScript:
 	ld a, [wStatusFlags5]
 	bit BIT_SCRIPTED_NPC_MOVEMENT, a
 	ret nz
-	xor a
-	ld [wIsTrainerBattle], a
+	; xor a
+	; ld [wIsTrainerBattle], a
 	xor a
 	ld [wJoyIgnore], a
 	ld a, TEXT_CERULEANCITY_RIVAL
@@ -143,6 +143,8 @@ CeruleanCityRivalBattleScript:
 	ld [wCurOpponent], a
 	ld a, 3
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	xor a
 	ldh [hJoyHeld], a
 	call CeruleanCityFaceRivalScript

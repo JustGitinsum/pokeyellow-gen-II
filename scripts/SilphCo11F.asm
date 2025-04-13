@@ -393,6 +393,8 @@ SilphCo11FScript11:
 	ld [wCurOpponent], a
 	ld a, $2d
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	xor a
 	ldh [hJoyHeld], a
 	ld [wJoyIgnore], a
