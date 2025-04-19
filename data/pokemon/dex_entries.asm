@@ -198,6 +198,9 @@ PokedexEntryPointers:
 	dw GligarDexEntry
 	dw SteelixDexEntry
 	dw ScizorDexEntry
+	dw SkarmoryDexEntry
+	dw HoundourDexEntry
+	dw HoundoomDexEntry
 	dw KingdraDexEntry
 	dw TreeckoDexEntry
 	dw GrovyleDexEntry
@@ -1420,6 +1423,27 @@ ScizorDexEntry:
 	db "PINCER@"
 	db 5,11
 	dw 2601
+	text_far _Gen2DexEntry
+	text_end
+
+SkarmoryDexEntry:
+	db "ARMOR BIRD@"
+	db 5,07
+	dw 1113
+	text_far _Gen2DexEntry
+	text_end
+
+HoundourDexEntry:
+	db "DARK@"
+	db 2,11
+	dw 238
+	text_far _Gen2DexEntry
+	text_end
+
+HoundoomDexEntry:
+	db "DARK@"
+	db 4,11
+	dw 772
 	text_far _Gen2DexEntry
 	text_end
 

@@ -205,6 +205,9 @@
 	const GLIGAR
 	const STEELIX
 	const SCIZOR
+	const SKARMORY
+	const HOUNDOUR
+	const HOUNDOOM
 	const KINGDRA
 	const TREECKO
 	const GROVYLE

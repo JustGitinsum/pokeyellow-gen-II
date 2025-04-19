@@ -208,6 +208,9 @@ EvosMovesPointerTable:
 	dw GligarEvosMoves
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
+	dw SkarmoryEvosMoves
+	dw houndourEvosMoves
+	dw HoundoomEvosMoves
 	dw KingdraEvosMoves
 	dw TreeckoEvosMoves
 	dw GrovyleEvosMoves
@@ -2653,6 +2656,48 @@ ScizorEvosMoves:
 	db 50, IRON_HEAD
 	db 0
 
+SkarmoryEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 12, METAL_CLAW
+	db 16, AGILITY
+	db 20, WING_ATTACK
+	db 24, SLASH
+	db 28, SCREECH
+	db 32, STEEL_WING
+	db 36, X_SCISSOR
+	db 41, DRILL_PECK
+	db 0
+
+houndourEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 24, HOUNDOOM
+	db 0
+; Learnset
+	db 13, ROAR
+	db 16, BITE
+	db 20, FIRE_FANG
+	db 25, AGILITY
+	db 29, LOW_KICK
+	db 38, FLAMETHROWER
+	db 43, CRUNCH
+	db 48, IRON_TAIL
+	db 55, HEAT_CRASH
+	db 0
+
+HoundoomEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 25, AGILITY
+	db 29, LOW_KICK
+	db 38, FLAMETHROWER
+	db 43, CRUNCH
+	db 48, IRON_TAIL
+	db 55, HEAT_CRASH
+	db 0
+
 KingdraEvosMoves:
 ; Evolutions
 	db 0
@@ -2676,7 +2721,6 @@ TreeckoEvosMoves:
 	db 30, ENERGY_BALL
 	db 36, SCREECH
 	db 0
-
 
 GrovyleEvosMoves:
 ; Evolutions

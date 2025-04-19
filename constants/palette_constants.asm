@@ -238,6 +238,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ; 	const PAL_GLIGAR
 ;	const PAL_STEELIX
 	const PAL_SCIZOR
+	const PAL_SKARMORY
+;	const PAL_HOUNDOUR
+;	const PAL_HOUNDOOM
 ;	const PAL_KINGDRA
 ;	const PAL_BLISSEY
 ;   const PAL_TREECKO

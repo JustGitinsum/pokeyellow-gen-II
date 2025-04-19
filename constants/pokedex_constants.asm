@@ -165,6 +165,9 @@
 	const DEX_GLIGAR
 	const DEX_STEELIX
 	const DEX_SCIZOR
+	const DEX_SKARMORY
+	const DEX_HOUNDOUR
+	const DEX_HOUNDOOM
 	const DEX_KINGDRA
 	const DEX_BLISSEY
 	const DEX_TREECKO

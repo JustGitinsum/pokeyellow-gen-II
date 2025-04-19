@@ -161,6 +161,9 @@ MonPartyData:
 	nybble ICON_MON		  ; Gligar
 	nybble ICON_SNAKE     ; Steelix
 	nybble ICON_BUG       ; Scizor
+	nybble ICON_BIRD      ; Skarmory
+	nybble ICON_QUADRUPED ; Houndour
+	nybble ICON_QUADRUPED ; Houndoom
 	nybble ICON_WATER     ; Kingdra
 	nybble ICON_FAIRY     ; Blissey
 	nybble ICON_MON       ; Treecko

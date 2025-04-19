@@ -204,6 +204,9 @@ CryData::
 	mon_cry SFX_CRY_1D, $E0, $80 ; Gligar
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
+	mon_cry SFX_CRY_18, $40, $A0 ; Skarmory
+	mon_cry SFX_CRY_1F, $20, $40 ; Houndour
+	mon_cry SFX_CRY_15, $00, $80 ; Houndoom
 	mon_cry SFX_CRY_19, $3C, $01 ; KINGDRA
 	mon_cry SFX_CRY_0F, $80, $01 ; Treecko
 	mon_cry SFX_CRY_0F, $20, $80 ; Grovyle

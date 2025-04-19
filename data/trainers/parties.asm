@@ -259,7 +259,7 @@ HikerData:
 	db 21, GEODUDE, ONIX, 0
 	db 19, ONIX, GRAVELER, 0
 ; Rock Tunnel B1F
-	db 21, RHYHORN, GEODUDE, GRAVELER, 0
+	db 21, RHYHORN, GRAVELER, SKARMORY, 0
 	db 25, STEELIX, 0
 ; Route 9/Rock Tunnel B1F
 	db 20, MACHOP, ONIX, 0
@@ -299,7 +299,7 @@ BurglarData:
 ; Cinnabar Gym
 	db 36, GROWLITHE_H, VULPIX, NINETALES, 0
 	db 41, ARCANINE_H, 0
-	db 37, VULPIX, GROWLITHE, 0
+	db 37, VULPIX, HOUNDOOM, 0
 ; Mansion 2F
 	db 34, CHARMANDER, CHARMELEON, 0
 ; Mansion 3F
@@ -544,7 +544,7 @@ RocketData:
 ; Mt. Moon B2F
 	db 13, RATTATA, ZUBAT, 0
 	db 11, SANDSHREW, ZIGZAGOON, GLIGAR, 0
-	db 12, ZUBAT, EKANS, 0
+	db 12, HOUNDOUR, EKANS, 0
 ; Unused
 	db 16, RATICATE, 0
 ; Cerulean City
@@ -556,7 +556,7 @@ RocketData:
 ; Rocket Hideout B1F
 	db 25, HYPNO, MACHOKE, 0
 	db 24, RATICATE, LOKIX, 0
-	db 20, GRIMER, KOFFING, KOFFING, 0
+	db 20, GRIMER, HOUNDOUR, KOFFING, 0
 	db 19, RATTATA, RATICATE, RATICATE, UMBREON, 0
 	db 22, GRIMER, KOFFING, 0
 ; Rocket Hideout B2F
@@ -576,7 +576,7 @@ RocketData:
 	db 26, DROWZEE, KOFFING, 0
 ; Silph Co. 2F
 	db 29, CUBONE, CROBAT, 0
-	db 25, GOLBAT, UMBREON, LINOONE, RATICATE, LOKIX, 0
+	db 25, GOLBAT, UMBREON, LINOONE, HOUNDOOM, LOKIX, 0
 ; Silph Co. 3F
 	db 28, LOKIX, HYPNO, UMBREON, 0
 ; Silph Co. 4F

@@ -78,7 +78,7 @@ Moves:
 	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        80, FLYING,       100, 20
 	move CLOSE_COMBAT, NO_ADDITIONAL_EFFECT,       120, FIGHTING,     100,  5
 	move LOW_KICK,     FLINCH_SIDE_EFFECT2,         50, FIGHTING,      90, 20
-	move BRICK_BREAK,      NO_ADDITIONAL_EFFECT,        75, FIGHTING,     100, 15
+	move BRICK_BREAK,  NO_ADDITIONAL_EFFECT,        75, FIGHTING,     100, 15
 	move SEISMIC_TOSS, SPECIAL_DAMAGE_EFFECT,        1, FIGHTING,     100, 20
 	move STRENGTH,     NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 15
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             40, GRASS,        100, 20
@@ -127,7 +127,7 @@ Moves:
 	move HAZE,         HAZE_EFFECT,                  0, ICE,          100, 30
 	move REFLECT,      REFLECT_EFFECT,               0, PSYCHIC_TYPE, 100, 20
 	move FOCUS_ENERGY, FOCUS_ENERGY_EFFECT,          0, NORMAL,       100, 30
-	move ACCELEROCK,   NO_ADDITIONAL_EFFECT,        50, ROCK,         100, 20
+	move ACCELEROCK,   NO_ADDITIONAL_EFFECT,        60, ROCK,         100, 20
 	move METRONOME,    METRONOME_EFFECT,             0, NORMAL,       100, 10
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
 	move LEAF_BLADE,   NO_ADDITIONAL_EFFECT,        90, GRASS,        100, 15
@@ -150,7 +150,7 @@ Moves:
 	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,        75, 30
 	move SHADOW_BALL,  DEFENSE_DOWN_SIDE_EFFECT,    80, GHOST,   	  100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        55, 40
-	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,        95, 20
+	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,        95, 20 ; FREE
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,          100, 10
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
 	move SKY_ATTACK,   NO_ADDITIONAL_EFFECT,       140, FLYING,        90,  5
