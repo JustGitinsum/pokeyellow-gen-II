@@ -232,6 +232,8 @@ MonsterNames::
 	db "SYLVEON@@@"
 	db "PUMPKABOO@"
 	db "GOURGEIST@"
+	db "ROCKRUFF@@"
+	db "LYCANROC@@"
 	db "SIRFETCH'D"
 	db "DREEPY@@@@"
 	db "DRAKLOAK@@"

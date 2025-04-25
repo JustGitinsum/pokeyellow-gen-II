@@ -242,6 +242,8 @@ EvosMovesPointerTable:
 	dw SylveonEvosMoves
 	dw PumpkabooEvosMoves
 	dw GourgeistEvosMoves
+	dw RockruffEvosMoves
+	dw LycanrocEvosMoves
 	dw SirfetchdEvosMoves
 	dw DreepyEvosMoves
 	dw DrakloakEvosMoves
@@ -3083,6 +3085,37 @@ GourgeistEvosMoves:
 	db 44, EXPLOSION
 	db 46, BOUNCE
 	db 50, PHANTOMFORCE
+	db 0
+
+RockruffEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 25, LYCANROC
+	db 0
+; Learnset
+	db  4, SAND_ATTACK
+	db  8, ACCELEROCK
+	db 12, DOUBLE_TEAM
+	db 16, ROAR
+	db 20, BITE
+	db 24, BULLDOZE
+	db 28, BRICK_BREAK
+	db 32, ROCK_SLIDE
+	db 36, CRUNCH
+	db 0
+
+LycanrocEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db  4, SAND_ATTACK
+	db  8, ACCELEROCK
+	db 12, DOUBLE_TEAM
+	db 16, ROAR
+	db 20, BITE
+	db 24, BULLDOZE
+	db 30, BRICK_BREAK
+	db 36, ROCK_SLIDE
+	db 42, CRUNCH
 	db 0
 
 SirfetchdEvosMoves:

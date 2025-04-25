@@ -210,6 +210,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Sylveon
 	nybble ICON_BALL	  ; Pumpkaboo
 	nybble ICON_BALL	  ; Gourgeist
+	nybble ICON_QUADRUPED ; Rockruff
+	nybble ICON_QUADRUPED ; Lycanroc
 	nybble ICON_PIKACHU   ; Mimikyu
 	nybble ICON_MON       ; Sandshrew_A
 	nybble ICON_MON       ; Sandslash_A

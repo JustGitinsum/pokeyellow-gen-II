@@ -239,6 +239,8 @@
 	const SYLVEON
 	const PUMPKABOO
 	const GOURGEIST
+	const ROCKRUFF
+	const LYCANROC
 	const SIRFETCHD
 	const DREEPY
 	const DRAKLOAK

@@ -232,6 +232,8 @@ PokedexEntryPointers:
 	dw SylveonDexEntry
 	dw PumpkabooDexEntry
 	dw GourgeistDexEntry
+	dw RockruffDexEntry
+	dw LycanrocDexEntry
 	dw SirfetchdDexEntry
 	dw DreepyDexEntry
 	dw DrakloakDexEntry
@@ -1732,6 +1734,20 @@ GourgeistDexEntry:
 	db 2,11
 	dw 276
 	text_far _Gen6DexEntry
+	text_end
+
+RockruffDexEntry:
+	db "PUPPY@"
+	db 1,08
+	dw 203
+	text_far _Gen7DexEntry
+	text_end
+
+LycanrocDexEntry:
+	db "WOLF@"
+	db 2,07
+	dw 551
+	text_far _Gen7DexEntry
 	text_end
 
 MimikyuDexEntry:

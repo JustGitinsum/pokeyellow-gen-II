@@ -1,16 +1,16 @@
-	db DEX_LYCANROC ; pokedex id
+	db DEX_ROCKRUFF ; pokedex id
 
-	db  75, 115, 65,  112, 65
+	db  45, 65,  40,   30,  40
 	;   hp  atk  def  spd  spc
 
 	db ROCK, ROCK ; type
-	db 90 ; catch rate
-	db 170 ; base exp
+	db 190 ; catch rate
+	db 56 ; base exp
 
-	INCBIN "gfx/pokemon/front/lycanroc.pic", 0, 1 ; sprite dimensions
-	dw LycanrocPicFront, LycanrocPicBack
+	INCBIN "gfx/pokemon/front/rockruff.pic", 0, 1 ; sprite dimensions
+	dw RockruffPicFront, RockruffPicBack
 
-	db SAND_ATTACK, ROAR, BITE, ROCK_TOMB ; level 1 learnset
+	db TACKLE, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -21,4 +21,4 @@
 		 STRENGTH
 	; end
 
-	db BANK(LycanrocPicFront)
+	db BANK(RockruffPicFront)

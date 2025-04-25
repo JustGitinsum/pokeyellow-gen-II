@@ -238,6 +238,8 @@ CryData::
 	mon_cry SFX_CRY_19, $AA, $20 ; Sylveon
 	mon_cry SFX_CRY_1C, $00, $80 ; PUMPKABOO
 	mon_cry SFX_CRY_1C, $00, $80 ; GOURGEIST
+	mon_cry SFX_CRY_22, $00, $80 ; Rockruff
+	mon_cry SFX_CRY_22, $20, $FF ; Lycanroc
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
 	mon_cry SFX_CRY_0F, $60, $40 ; DREEPY
 	mon_cry SFX_CRY_0F, $40, $80 ; DRAKLOAK
