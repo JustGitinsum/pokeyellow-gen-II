@@ -247,6 +247,7 @@
 	const DRAGAPULT
 	const GROWLITHE_H
 	const ARCANINE_H
+	const FLAMIGO
 	const ANNIHILAPE
 	const FRIGIBAX
 	const ARCTIBAX

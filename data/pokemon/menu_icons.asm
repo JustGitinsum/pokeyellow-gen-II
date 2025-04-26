@@ -237,6 +237,7 @@ MonPartyData:
 	nybble ICON_MON       ; Charcadet
 	nybble ICON_MON       ; Armarouge
 	nybble ICON_MON       ; Ceruledge
+	nybble ICON_BIRD	  ; Flamigo
 	nybble ICON_MON       ; Annihilape
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax

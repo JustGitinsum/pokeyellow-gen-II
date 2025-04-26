@@ -240,6 +240,7 @@ MonsterNames::
 	db "DRAGAPULT@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"
+	db "FLAMIGO@@@"
 	db "ANNIHILAPE"
 	db "FRIGIBAX@@"
 	db "ARCTIBAX@@"

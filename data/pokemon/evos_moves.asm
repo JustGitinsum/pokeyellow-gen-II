@@ -250,6 +250,7 @@ EvosMovesPointerTable:
 	dw DragapultEvosMoves
 	dw Growlithe_HEvosMoves
 	dw Arcanine_HEvosMoves
+	dw FlamigoEvosMoves
 	dw AnnihilapeEvosMoves
 	dw FrigibaxEvosMoves
 	dw ArctibaxEvosMoves
@@ -3190,6 +3191,20 @@ Arcanine_HEvosMoves:
 	db 45, EXTREMESPEED
 	db 48, ROCK_SLIDE
 	db 56, HEAT_CRASH
+	db 0
+
+FlamigoEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 18, LOW_KICK
+	db 21, SLAM
+	db 27, BRICK_BREAK
+	db 31, TROP_KICK
+	db 35, AIR_SLASH
+	db 39, CRUNCH
+	db 44, DRILL_PECK
+	db 48, CLOSE_COMBAT
 	db 0
 
 AnnihilapeEvosMoves:

@@ -246,6 +246,7 @@ CryData::
 	mon_cry SFX_CRY_0F, $3C, $C0 ; DRAGAPULT
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe_H
 	mon_cry SFX_CRY_15, $00, $80 ; Arcanine_H
+	mon_cry SFX_CRY_18, $40, $A0 ; Flamigo
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
 	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax

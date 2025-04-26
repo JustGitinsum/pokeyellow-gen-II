@@ -126,7 +126,7 @@ LassData:
 ; SS Anne 1F Rooms
 	db 18, PONYTA_G, RALTS, 0
 ; SS Anne 2F Rooms
-	db 20, JIGGLYPUFF, 0
+	db 20, FLAMIGO, 0
 ; Route 8
 	db 23, NIDORAN_F, NIDORINA, 0
 	db 24, MEOWTH, KIRLIA, AMAURA, 0

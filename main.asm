@@ -877,6 +877,8 @@ CeruledgePicFront::    INCBIN "gfx/pokemon/front/ceruledge.pic"
 CeruledgePicBack::     INCBIN "gfx/pokemon/back/ceruledgeb.pic"
 
 SECTION "bank45", ROMX, BANK[$45]
+FlamigoPicFront::         INCBIN "gfx/pokemon/front/flamigo.pic"
+FlamigoPicBack::          INCBIN "gfx/pokemon/back/flamigob.pic"
 AnnihilapePicFront::         INCBIN "gfx/pokemon/front/annihilape.pic"
 AnnihilapePicBack::          INCBIN "gfx/pokemon/back/annihilapeb.pic"
 FrigibaxPicFront::    INCBIN "gfx/pokemon/front/frigibax.pic"

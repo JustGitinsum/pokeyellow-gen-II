@@ -240,6 +240,7 @@ PokedexEntryPointers:
 	dw DragapultDexEntry
 	dw Growlithe_HDexEntry
 	dw Arcanine_HDexEntry
+	dw FlamigoDexEntry
 	dw AnnihilapeDexEntry
 	dw FrigibaxDexEntry
 	dw ArctibaxDexEntry
@@ -1531,6 +1532,13 @@ SirfetchdDexEntry:
 	db 2,07
 	dw 2579
 	text_far _Gen8DexEntry
+	text_end
+
+FlamigoDexEntry:
+	db "SYNCH@"
+	db 5,03
+	dw 816
+	text_far _Gen9DexEntry
 	text_end
 
 AnnihilapeDexEntry:

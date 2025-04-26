@@ -1,13 +1,13 @@
 Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db  9, POLIWAG
-	db  9, GROWLITHE
-	db 10, VULPIX_A
 	db 16, POLIWAG
-	db 16, GROWLITHE
-	db 17, VULPIX_A
-	db 17, PSYDUCK
-	db 13, PSYDUCK
+	db 17, GROWLITHE
+	db 16, VULPIX_A
+	db 16, PSYDUCK
+	db 16, FLAMIGO
+	db 20, FLAMIGO
+	db 19, PSYDUCK
+	db 19, VULPIX_A
 	db 19, POLIWAG
 	db 19, GROWLITHE
 	end_grass_wildmons
