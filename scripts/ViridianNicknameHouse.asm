@@ -5,7 +5,7 @@ ViridianNicknameHouse_TextPointers:
 	def_text_pointers
 	dw_const ViridianNicknameHouseBaldingGuyText, TEXT_VIRIDIANNICKNAMEHOUSE_BALDING_GUY
 	dw_const ViridianNicknameHouseLittleGirlText, TEXT_VIRIDIANNICKNAMEHOUSE_LITTLE_GIRL
-	dw_const ViridianNicknameHouseSpearowText,    TEXT_VIRIDIANNICKNAMEHOUSE_SPEAROW
+	dw_const ViridianNicknameHouseMurkrowText,    TEXT_VIRIDIANNICKNAMEHOUSE_MURKROW
 	dw_const ViridianNicknameHouseSpearySignText, TEXT_VIRIDIANNICKNAMEHOUSE_SPEARY_SIGN
 
 ViridianNicknameHouseBaldingGuyText:
@@ -16,17 +16,17 @@ ViridianNicknameHouseLittleGirlText:
 	text_far _ViridianNicknameHouseLittleGirlText
 	text_end
 
-ViridianNicknameHouseSpearowText:
+ViridianNicknameHouseMurkrowText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SPEAROW
+	ld a, MURKROW
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 
 .Text:
-	text_far _ViridianNicknameHouseSpearowText
+	text_far _ViridianNicknameHouseMurkrowText
 	text_end
 
 ViridianNicknameHouseSpearySignText:

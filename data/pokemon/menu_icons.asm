@@ -20,17 +20,17 @@ MonPartyData:
 	nybble ICON_BIRD      ; Pidgeot
 	nybble ICON_QUADRUPED ; Rattata
 	nybble ICON_QUADRUPED ; Raticate
-	nybble ICON_BIRD      ; Spearow
-	nybble ICON_BIRD      ; Fearow
+	nybble ICON_BIRD      ; Murkrow
+	nybble ICON_BIRD      ; Honchkrow
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_PIKACHU   ; Pikachu
 	nybble ICON_PIKACHU   ; Raichu
 	nybble ICON_MON       ; Sandshrew
 	nybble ICON_MON       ; Sandslash
-	nybble ICON_MON       ; NidoranF
-	nybble ICON_MON       ; Nidorina
-	nybble ICON_MON       ; Nidoqueen
+	nybble ICON_QUADRUPED ; Phanpy
+	nybble ICON_QUADRUPED ; Donphan
+	nybble ICON_QUADRUPED ; Greattusk
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking
@@ -95,8 +95,8 @@ MonPartyData:
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
 	nybble ICON_SNAKE     ; Onix
-	nybble ICON_MON       ; Drowzee
-	nybble ICON_MON       ; Hypno
+	nybble ICON_MON       ; Gothorita
+	nybble ICON_MON       ; Gothitelle
 	nybble ICON_WATER     ; Krabby
 	nybble ICON_WATER     ; Kingler
 	nybble ICON_BALL      ; Voltorb
@@ -107,7 +107,7 @@ MonPartyData:
 	nybble ICON_MON       ; Marowak
 	nybble ICON_MON       ; Hitmonlee
 	nybble ICON_MON       ; Hitmonchan
-	nybble ICON_MON       ; Lickitung
+	nybble ICON_QUADRUPED ; Absol
 	nybble ICON_MON       ; Koffing
 	nybble ICON_MON       ; Weezing
 	nybble ICON_QUADRUPED ; Rhyhorn
@@ -117,8 +117,8 @@ MonPartyData:
 	nybble ICON_MON       ; Kangaskhan
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra
-	nybble ICON_WATER     ; Goldeen
-	nybble ICON_WATER     ; Seaking
+	nybble ICON_WATER     ; Finizen
+	nybble ICON_WATER     ; Palafin
 	nybble ICON_HELIX     ; Staryu
 	nybble ICON_HELIX     ; Starmie
 	nybble ICON_MON       ; Mr.Mime
@@ -195,6 +195,9 @@ MonPartyData:
 	nybble ICON_MON       ; Gallade
 	nybble ICON_MON       ; Drilbur
 	nybble ICON_MON       ; Excadrill
+	nybble ICON_QUADRUPED ; Sandile
+	nybble ICON_MON 	  ; Krokorok
+	nybble ICON_MON  	  ; Krookodile
 	nybble ICON_MON       ; Axew
 	nybble ICON_MON       ; Fraxure
 	nybble ICON_MON       ; Haxorus
@@ -222,6 +225,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_MON       ; Obstagoon
 	nybble ICON_BIRD      ; Sirfetchd
+	nybble ICON_BUG 	  ; Snom
+	nybble ICON_BUG 	  ; Frosmoth
 	nybble ICON_MON       ; dreepy
 	nybble ICON_MON       ; drakloak
 	nybble ICON_MON       ; dragapult
@@ -243,5 +248,6 @@ MonPartyData:
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Baxcalibur
 	nybble ICON_MON		  ; Ironvaliant
-
+	nybble ICON_SNAKE     ; Gyarados_Red
+	
 	end_nybble_array NUM_POKEMON

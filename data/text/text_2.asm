@@ -644,7 +644,7 @@ _FanClubPicture1Text::
 	done
 
 _FanClubPicture2Text::
-	text "My beloved FEAROW."
+	text "My beloved HONCHKROW."
 	done
 
 _LinkCableHelpText1::

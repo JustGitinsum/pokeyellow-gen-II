@@ -72,7 +72,7 @@
 	const PECK         ; 40
 	const DRILL_PECK   ; 41
 	const CLOSE_COMBAT   ; 42
-	const LOW_KICK     ; 43
+	const LOW_SWEEP     ; 43
 	const BRICK_BREAK      ; 44
 	const SEISMIC_TOSS ; 45
 	const STRENGTH     ; 46

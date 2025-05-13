@@ -14,7 +14,7 @@ Route12WildMons:
 
 	def_water_wildmons 3 ; encounter rate
 	db 15, SLOWPOKE
-	db 15, GOLDEEN
+	db 15, FINIZEN
 	db 15, SLOWPOKE
 	db 15, SLOWPOKE
 	db 15, SLOWPOKE

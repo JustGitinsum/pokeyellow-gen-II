@@ -1,10 +1,10 @@
 SafariZoneNorthWildMons:
 	def_grass_wildmons 30 ; encounter rate
 	db 36, NIDORAN_M
-	db 14, NIDORAN_F
+	db 14, PHANPY
 	db 20, EXEGGCUTE
 	db 25, RHYHORN
-	db 23, NIDORINA
+	db 23, DONPHAN
 	db 28, KANGASKHAN
 	db 16, CUBONE
 	db 33, KANGASKHAN

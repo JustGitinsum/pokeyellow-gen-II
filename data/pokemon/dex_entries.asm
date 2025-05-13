@@ -4,18 +4,18 @@ PokedexEntryPointers:
 	dw KangaskhanDexEntry
 	dw NidoranMDexEntry
 	dw ClefairyDexEntry
-	dw SpearowDexEntry
+	dw MurkrowDexEntry
 	dw VoltorbDexEntry
 	dw NidokingDexEntry
 	dw SlowbroDexEntry
 	dw IvysaurDexEntry
 	dw ExeggutorDexEntry
-	dw LickitungDexEntry
+	dw AbsolDexEntry
 	dw ExeggcuteDexEntry
 	dw GrimerDexEntry
 	dw GengarDexEntry
-	dw NidoranFDexEntry
-	dw NidoqueenDexEntry
+	dw PhanpyDexEntry
+	dw GreattuskDexEntry
 	dw CuboneDexEntry
 	dw RhyhornDexEntry
 	dw LaprasDexEntry
@@ -34,7 +34,7 @@ PokedexEntryPointers:
 	dw LucarioDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
-	dw FearowDexEntry
+	dw HonchkrowDexEntry
 	dw PidgeyDexEntry
 	dw SlowpokeDexEntry
 	dw KadabraDexEntry
@@ -47,7 +47,7 @@ PokedexEntryPointers:
 	dw ArbokDexEntry
 	dw ParasectDexEntry
 	dw PsyduckDexEntry
-	dw DrowzeeDexEntry
+	dw GothoritaDexEntry
 	dw GolemDexEntry
 	dw MimikyuDexEntry
 	dw MagmarDexEntry
@@ -128,7 +128,7 @@ PokedexEntryPointers:
 	dw MachampDexEntry
 	dw BlisseyDexEntry
 	dw GolduckDexEntry
-	dw HypnoDexEntry
+	dw GothitelleDexEntry
 	dw GolbatDexEntry
 	dw MewtwoDexEntry
 	dw SnorlaxDexEntry
@@ -156,8 +156,8 @@ PokedexEntryPointers:
 	dw VenusaurDexEntry
 	dw TentacruelDexEntry
 	dw Exeggutor_ADexEntry
-	dw GoldeenDexEntry
-	dw SeakingDexEntry
+	dw FinizenDexEntry
+	dw PalafinDexEntry
 	dw Vulpix_ADexEntry
 	dw Ninetales_ADexEntry
 	dw Sandshrew_ADexEntry
@@ -167,7 +167,7 @@ PokedexEntryPointers:
 	dw RattataDexEntry
 	dw RaticateDexEntry
 	dw NidorinoDexEntry
-	dw NidorinaDexEntry
+	dw DonphanDexEntry
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
@@ -221,6 +221,9 @@ PokedexEntryPointers:
 	dw GliscorDexEntry
 	dw DrilburDexEntry
 	dw ExcadrillDexEntry
+	dw SandileDexEntry
+	dw KrokorokDexEntry
+	dw KrookodileDexEntry
 	dw AxewDexEntry
 	dw FraxureDexEntry
 	dw HaxorusDexEntry
@@ -235,6 +238,8 @@ PokedexEntryPointers:
 	dw RockruffDexEntry
 	dw LycanrocDexEntry
 	dw SirfetchdDexEntry
+	dw SnomDexEntry
+	dw FrosmothDexEntry
 	dw DreepyDexEntry
 	dw DrakloakDexEntry
 	dw DragapultDexEntry
@@ -246,6 +251,7 @@ PokedexEntryPointers:
 	dw ArctibaxDexEntry
 	dw BaxcaliburDexEntry
 	dw IronvaliantDexEntry
+	dw GyaradosDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -393,18 +399,18 @@ RaticateDexEntry:
 	text_far _RaticateDexEntry
 	text_end
 
-SpearowDexEntry:
-	db "TINY BIRD@"
+MurkrowDexEntry:
+	db "DARKNESS@"
 	db 1,0
 	dw 40
-	text_far _SpearowDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
-FearowDexEntry:
-	db "BEAK@"
+HonchkrowDexEntry:
+	db "BIG BOSS@"
 	db 3,11
 	dw 840
-	text_far _FearowDexEntry
+	text_far _Gen4DexEntry
 	text_end
 
 EkansDexEntry:
@@ -498,25 +504,25 @@ SandslashDexEntry:
 	text_far _SandslashDexEntry
 	text_end
 
-NidoranFDexEntry:
-	db "POISON PIN@"
-	db 1,4
-	dw 150
-	text_far _NidoranFDexEntry
+PhanpyDexEntry:
+	db "LONG NOSE@"
+	db 1,8
+	dw 739
+	text_far _Gen2DexEntry
 	text_end
 
-NidorinaDexEntry:
-	db "POISON PIN@"
-	db 2,7
-	dw 440
-	text_far _NidorinaDexEntry
+DonphanDexEntry:
+	db "ARMOR@"
+	db 3,7
+	dw 2646
+	text_far _Gen2DexEntry
 	text_end
 
-NidoqueenDexEntry:
-	db "DRILL@"
-	db 4,3
-	dw 1320
-	text_far _NidoqueenDexEntry
+GreattuskDexEntry:
+	db "PARADOX@"
+	db 7,3
+	dw 7055
+	text_far _Gen9DexEntry
 	text_end
 
 NidoranMDexEntry:
@@ -967,18 +973,18 @@ OnixDexEntry:
 	text_far _OnixDexEntry
 	text_end
 
-DrowzeeDexEntry:
-	db "HYPNOSIS@"
-	db 3,3
-	dw 710
-	text_far _DrowzeeDexEntry
+GothoritaDexEntry:
+	db "MANIPULATE@"
+	db 2,3
+	dw 397
+	text_far _Gen5DexEntry
 	text_end
 
-HypnoDexEntry:
-	db "HYPNOSIS@"
-	db 5,3
-	dw 1670
-	text_far _HypnoDexEntry
+GothitelleDexEntry:
+	db "ASTRAL@"
+	db 4,11
+	dw 970
+	text_far _Gen5DexEntry
 	text_end
 
 KrabbyDexEntry:
@@ -1051,11 +1057,11 @@ HitmonchanDexEntry:
 	text_far _HitmonchanDexEntry
 	text_end
 
-LickitungDexEntry:
-	db "LICKING@"
+AbsolDexEntry:
+	db "DISASTER@"
 	db 3,11
-	dw 1440
-	text_far _LickitungDexEntry
+	dw 1080
+	text_far _Gen3DexEntry
 	text_end
 
 KoffingDexEntry:
@@ -1121,18 +1127,18 @@ SeadraDexEntry:
 	text_far _SeadraDexEntry
 	text_end
 
-GoldeenDexEntry:
-	db "GOLDFISH@"
-	db 2,0
-	dw 330
-	text_far _GoldeenDexEntry
+FinizenDexEntry:
+	db "DOLPHIN@"
+	db 4,03
+	dw 1327
+	text_far _Gen9DexEntry
 	text_end
 
-SeakingDexEntry:
-	db "GOLDFISH@"
-	db 4,3
-	dw 860
-	text_far _SeakingDexEntry
+PalafinDexEntry:
+	db "HERO@"
+	db 5,11
+	dw 2147
+	text_far _Gen9DexEntry
 	text_end
 
 StaryuDexEntry:
@@ -1688,6 +1694,27 @@ ExcadrillDexEntry:
 	text_far _Gen5DexEntry
 	text_end
 
+SandileDexEntry:
+	db "DESERTCROC@"
+	db 2,01
+	dw 335
+	text_far _Gen5DexEntry
+	text_end
+
+KrokorokDexEntry:
+	db "DESERTCROC@"
+	db 3,03
+	dw 736
+	text_far _Gen5DexEntry
+	text_end
+
+KrookodileDexEntry:
+	db "INTIMIDATE@"
+	db 4,11
+	dw 2123
+	text_far _Gen5DexEntry
+	text_end
+
 AxewDexEntry:
 	db "TUSK@"
 	db 2,03
@@ -1818,6 +1845,20 @@ ObstagoonDexEntry:
 	db "BLOCKING@"
 	db 5,03
 	dw 1014
+	text_far _Gen8DexEntry
+	text_end
+
+SnomDexEntry:
+	db "WORM@"
+	db 1,03
+	dw 84
+	text_far _Gen8DexEntry
+	text_end
+
+FrosmothDexEntry:
+	db "FROST MOTH@"
+	db 4,03
+	dw 926
 	text_far _Gen8DexEntry
 	text_end
 

@@ -66,7 +66,7 @@ AttackAnimationPointers:
 	dw PeckAnim
 	dw DrillPeckAnim
 	dw CloseCombatAnim
-	dw LowKickAnim
+	dw LowSweepAnim
 	dw BrickBreakAnim
 	dw SeismicTossAnim
 	dw StrengthAnim
@@ -638,8 +638,8 @@ CloseCombatAnim:
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
-LowKickAnim:
-	battle_anim LOW_KICK, SE_SLIDE_MON_OFF
+LowSweepAnim:
+	battle_anim LOW_SWEEP, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end

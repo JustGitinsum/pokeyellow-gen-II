@@ -10,18 +10,18 @@ CryData::
 	mon_cry SFX_CRY_03, $00, $80 ; Kangaskhan
 	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
-	mon_cry SFX_CRY_10, $00, $80 ; Spearow
+	mon_cry SFX_CRY_10, $00, $80 ; Murkrow
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb
 	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
 	mon_cry SFX_CRY_1F, $00, $80 ; Slowbro
 	mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
-	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
+	mon_cry SFX_CRY_0C, $00, $80 ; Absol
 	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
 	mon_cry SFX_CRY_05, $00, $80 ; Grimer
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_01, $00, $80 ; Nidoran♀
-	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
+	mon_cry SFX_CRY_0A, $00, $80 ; Greattusk
 	mon_cry SFX_CRY_19, $00, $80 ; Cubone
 	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
 	mon_cry SFX_CRY_1B, $00, $80 ; Lapras
@@ -40,7 +40,7 @@ CryData::
 	mon_cry SFX_CRY_1F, $48, $60 ; Lucario
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
-	mon_cry SFX_CRY_18, $40, $A0 ; Fearow
+	mon_cry SFX_CRY_18, $40, $A0 ; Honchkrow
 	mon_cry SFX_CRY_0E, $DF, $04 ; Pidgey
 	mon_cry SFX_CRY_02, $00, $80 ; Slowpoke
 	mon_cry SFX_CRY_1C, $A8, $C0 ; Kadabra
@@ -53,7 +53,7 @@ CryData::
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok
 	mon_cry SFX_CRY_1E, $42, $FF ; Parasect
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
-	mon_cry SFX_CRY_0D, $88, $20 ; Drowzee
+	mon_cry SFX_CRY_0D, $88, $20 ; Gothorita
 	mon_cry SFX_CRY_12, $E0, $40 ; Golem
 	mon_cry SFX_CRY_09, $EE, $08 ; Mimikyu
 	mon_cry SFX_CRY_04, $FF, $30 ; Magmar
@@ -134,7 +134,7 @@ CryData::
 	mon_cry SFX_CRY_1F, $08, $C0 ; Machamp
 	mon_cry SFX_CRY_14, $0A, $C0 ; Blissey
 	mon_cry SFX_CRY_21, $FF, $40 ; Golduck
-	mon_cry SFX_CRY_0D, $EE, $40 ; Hypno
+	mon_cry SFX_CRY_0D, $EE, $40 ; Gothitelle
 	mon_cry SFX_CRY_1D, $FA, $80 ; Golbat
 	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
 	mon_cry SFX_CRY_05, $55, $01 ; Snorlax
@@ -162,8 +162,8 @@ CryData::
 	mon_cry SFX_CRY_0F, $00, $C0 ; Venusaur
 	mon_cry SFX_CRY_1A, $EE, $FF ; Tentacruel
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor_A
-	mon_cry SFX_CRY_16, $80, $40 ; Goldeen
-	mon_cry SFX_CRY_16, $10, $FF ; Seaking
+	mon_cry SFX_CRY_16, $80, $40 ; Finizen
+	mon_cry SFX_CRY_16, $10, $FF ; Palafin
 	mon_cry SFX_CRY_24, $4F, $10 ; Vulpix_A
 	mon_cry SFX_CRY_24, $88, $60 ; Ninetales_A
 	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew_A
@@ -173,7 +173,7 @@ CryData::
 	mon_cry SFX_CRY_22, $00, $80 ; Rattata
 	mon_cry SFX_CRY_22, $20, $FF ; Raticate
 	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
-	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
+	mon_cry SFX_CRY_01, $2C, $E0 ; Donphan
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
 	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl
@@ -227,6 +227,9 @@ CryData::
 	mon_cry SFX_CRY_1D, $FA, $80 ; Gliscor
 	mon_cry SFX_CRY_0B, $AA, $01 ; Drilbur
 	mon_cry SFX_CRY_0B, $2A, $10 ; Excadrill
+	mon_cry SFX_CRY_00, $00, $80 ; Sandile
+	mon_cry SFX_CRY_00, $2C, $C0 ; Krokorok
+	mon_cry SFX_CRY_09, $00, $80 ; Krookodile
 	mon_cry SFX_CRY_0F, $60, $40 ; Axew
 	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
@@ -241,6 +244,8 @@ CryData::
 	mon_cry SFX_CRY_22, $00, $80 ; Rockruff
 	mon_cry SFX_CRY_22, $20, $FF ; Lycanroc
 	mon_cry SFX_CRY_10, $DD, $01 ; SIRFETCHD
+	mon_cry SFX_CRY_1A, $44, $40 ; Snom
+	mon_cry SFX_CRY_1A, $29, $80 ; Frosmoth
 	mon_cry SFX_CRY_0F, $60, $40 ; DREEPY
 	mon_cry SFX_CRY_0F, $40, $80 ; DRAKLOAK
 	mon_cry SFX_CRY_0F, $3C, $C0 ; DRAGAPULT
@@ -252,4 +257,5 @@ CryData::
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Baxcalibur
 	mon_cry SFX_CRY_1C, $20, $C0 ; Ironvaliant
+	mon_cry SFX_CRY_17, $00, $80 ; Gyarados_Red
 	assert_table_length NUM_POKEMON_INDEXES

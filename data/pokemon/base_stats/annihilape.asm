@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/annihilape.pic", 0, 1 ; sprite dimensions
 	dw AnnihilapePicFront, AnnihilapePicBack
 
-	db WATERFALL, FURY_SWIPES, LOW_KICK, PSYBEAM ; level 1 learnset
+	db WATERFALL, FURY_SWIPES, LOW_SWEEP, PSYBEAM ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

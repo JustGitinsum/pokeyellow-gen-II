@@ -198,7 +198,7 @@ _RaticateDexEntry::
 	next "for prey"
 	dex
 
-_SpearowDexEntry::
+_MurkrowDexEntry::
 	text "Inept at flying"
 	next "high. However, it"
 	next "can fly around"
@@ -208,7 +208,7 @@ _SpearowDexEntry::
 	next "ritory"
 	dex
 
-_FearowDexEntry::
+_HonchkrowDexEntry::
 	text "A #MON that"
 	next "dates back many"
 	next "years. If it"
@@ -278,7 +278,7 @@ _SandslashDexEntry::
 	next "in a day"
 	dex
 
-_NidoranFDexEntry::
+_PhanpyDexEntry::
 	text "A mild-mannered"
 	next "#MON that does"
 	next "not like to"
@@ -288,7 +288,7 @@ _NidoranFDexEntry::
 	next "secrete venom"
 	dex
 
-_NidorinaDexEntry::
+_DonphanDexEntry::
 	text "When resting deep"
 	next "in its burrow, its"
 	next "thorns always"
@@ -298,7 +298,7 @@ _NidorinaDexEntry::
 	next "it is relaxed"
 	dex
 
-_NidoqueenDexEntry::
+_GreattuskDexEntry::
 	text "Tough scales cover"
 	next "the sturdy body"
 	next "of this #MON."
@@ -948,7 +948,7 @@ _OnixDexEntry::
 	next "by DIGLETTs"
 	dex
 
-_DrowzeeDexEntry::
+_GothoritaDexEntry::
 	text "If you sleep by"
 	next "it all the time,"
 	next "it will sometimes"
@@ -958,7 +958,7 @@ _DrowzeeDexEntry::
 	next "the past"
 	dex
 
-_HypnoDexEntry::
+_GothitelleDexEntry::
 	text "Avoid eye contact"
 	next "if you come across"
 	next "one. It will try"
@@ -1068,7 +1068,7 @@ _HitmonchanDexEntry::
 	next "way as a drill"
 	dex
 
-_LickitungDexEntry::
+_AbsolDexEntry::
 	text "Its tongue spans"
 	next "almost 7 feet and"
 	next "moves more freely"
@@ -1167,7 +1167,7 @@ _SeadraDexEntry::
 	next "while sleeping"
 	dex
 
-_GoldeenDexEntry::
+_FinizenDexEntry::
 	text "When it is time"
 	next "for them to lay"
 	next "eggs, they can be"
@@ -1177,7 +1177,7 @@ _GoldeenDexEntry::
 	next "in large groups"
 	dex
 
-_SeakingDexEntry::
+_PalafinDexEntry::
 	text "It is the male's"
 	next "job to make a"
 	next "nest by carving"

@@ -108,7 +108,7 @@ ViridianCityFisherYouCanHaveThisText::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a GOTHORITA"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"

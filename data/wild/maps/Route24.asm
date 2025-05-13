@@ -6,8 +6,8 @@ Route24WildMons:
 	db 14, ODDISH
 	db 14, FARFETCHD
 	db 15, ABRA
-	db 13, VENONAT
-	db 16, VENONAT
+	db 13, NYMBLE
+	db 16, NYMBLE
 	db 17, ABRA
 	db 17, PIDGEOTTO
 	end_grass_wildmons

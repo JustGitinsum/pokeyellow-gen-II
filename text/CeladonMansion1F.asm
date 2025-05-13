@@ -7,8 +7,8 @@ _CeladonMansion1FClefairyText::
 	line "pippippi!@"
 	text_end
 
-_CeladonMansion1FNidoranFText::
-	text "NIDORAN: Kya"
+_CeladonMansion1FPhanpyText::
+	text "PHANPY: Kya"
 	line "kyaoo!@"
 	text_end
 

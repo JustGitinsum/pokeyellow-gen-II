@@ -7,7 +7,7 @@ CeladonMansion1F_TextPointers:
 	dw_const CeladonMansion1FMeowthText,            TEXT_CELADONMANSION1F_MEOWTH
 	dw_const CeladonMansion1FGrannyText,            TEXT_CELADONMANSION1F_GRANNY
 	dw_const CeladonMansion1FClefairyText,          TEXT_CELADONMANSION1F_CLEFAIRY
-	dw_const CeladonMansion1FNidoranFText,          TEXT_CELADONMANSION1F_NIDORANF
+	dw_const CeladonMansion1FPhanpyText,          TEXT_CELADONMANSION1F_PHANPY
 	dw_const CeladonMansion1FManagersSuiteSignText, TEXT_CELADONMANSION1F_MANAGERS_SUITE_SIGN
 
 CeladonMansion1FMeowthText:
@@ -37,10 +37,10 @@ CeladonMansion1FClefairyText:
 	call PlayCry
 	jp TextScriptEnd
 
-CeladonMansion1FNidoranFText:
-	text_far _CeladonMansion1FNidoranFText
+CeladonMansion1FPhanpyText:
+	text_far _CeladonMansion1FPhanpyText
 	text_asm
-	ld a, NIDORAN_F
+	ld a, PHANPY
 	call PlayCry
 	jp TextScriptEnd
 

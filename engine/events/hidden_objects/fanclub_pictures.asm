@@ -11,7 +11,7 @@ FanClubPicture1Text::
 	text_end
 
 FanClubPicture2:
-	ld a, FEAROW
+	ld a, HONCHKROW
 	ld [wCurPartySpecies], a
 	call DisplayMonFrontSpriteInBox
 	call EnableAutoTextBoxDrawing

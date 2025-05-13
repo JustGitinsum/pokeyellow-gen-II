@@ -5,7 +5,7 @@ Pointer_3b0ee:
 	db IVYSAUR
 	db EXEGGUTOR
 	db GENGAR
-	db NIDOQUEEN
+	db GREATTUSK
 	db ARCANINE
 	db GYARADOS
 	db BLASTOISE

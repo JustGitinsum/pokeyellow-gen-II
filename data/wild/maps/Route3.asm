@@ -1,15 +1,15 @@
 Route3WildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db  8, JIGGLYPUFF
-	db  9, PONYTA
 	db  9, JIGGLYPUFF
-	db 10, PONYTA
-	db  8, EKANS
-	db 10, EKANS
-	db 10, JIGGLYPUFF
-	db 12, PONYTA
-	db 11, EKANS
+	db  9, PONYTA
+	db  9, EKANS
+	db  7, METAPOD
+	db  7, KAKUNA
+	db  8, KAKUNA
+	db  8, METAPOD
 	db 12, EKANS
+	db 12, PONYTA
+	db 12, JIGGLYPUFF
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -1,7 +1,7 @@
 SafariZoneCenterWildMons:
 	def_grass_wildmons 30 ; encounter rate
 	db 14, NIDORAN_M
-	db 36, NIDORAN_F
+	db 36, PHANPY
 	db 24, EXEGGCUTE
 	db 20, RHYHORN
 	db 23, NIDORINO

@@ -11,18 +11,18 @@
 	const KANGASKHAN         ; $02
 	const NIDORAN_M          ; $03
 	const CLEFAIRY           ; $04
-	const SPEAROW            ; $05
+	const MURKROW            ; $05
 	const VOLTORB            ; $06
 	const NIDOKING           ; $07
 	const SLOWBRO            ; $08
 	const IVYSAUR            ; $09
 	const EXEGGUTOR          ; $0A
-	const LICKITUNG          ; $0B
+	const ABSOL  	         ; $0B
 	const EXEGGCUTE          ; $0C
 	const GRIMER             ; $0D
 	const GENGAR             ; $0E
-	const NIDORAN_F          ; $0F
-	const NIDOQUEEN          ; $10
+	const PHANPY          ; $0F
+	const GREATTUSK          ; $10
 	const CUBONE             ; $11
 	const RHYHORN            ; $12
 	const LAPRAS             ; $13
@@ -41,7 +41,7 @@
 	const LUCARIO            ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
-	const FEAROW             ; $23
+	const HONCHKROW             ; $23
 	const PIDGEY             ; $24
 	const SLOWPOKE           ; $25
 	const KADABRA            ; $26
@@ -54,7 +54,7 @@
 	const ARBOK              ; $2D
 	const PARASECT           ; $2E
 	const PSYDUCK            ; $2F
-	const DROWZEE            ; $30
+	const GOTHORITA            ; $30
 	const GOLEM              ; $31
 	const MIMIKYU            ; $32
 	const MAGMAR             ; $33
@@ -135,7 +135,7 @@
 	const MACHAMP            ; $7E
 	const BLISSEY            ; $7F
 	const GOLDUCK            ; $80
-	const HYPNO              ; $81
+	const GOTHITELLE              ; $81
 	const GOLBAT             ; $82
 	const MEWTWO             ; $83
 	const SNORLAX            ; $84
@@ -163,8 +163,8 @@
 	const VENUSAUR           ; $9A
 	const TENTACRUEL         ; $9B
 	const EXEGGUTOR_A        ; $9C
-	const GOLDEEN            ; $9D
-	const SEAKING            ; $9E
+	const FINIZEN            ; $9D
+	const PALAFIN            ; $9E
 	const VULPIX_A           ; $9F
 	const NINETALES_A        ; $A0
 	const SANDSHREW_A        ; $A1
@@ -174,7 +174,7 @@
 	const RATTATA            ; $A5
 	const RATICATE           ; $A6
 	const NIDORINO           ; $A7
-	const NIDORINA           ; $A8
+	const DONPHAN           ; $A8
 	const GEODUDE            ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB
@@ -228,6 +228,9 @@
 	const GLISCOR
 	const DRILBUR
 	const EXCADRILL
+	const SANDILE
+	const KROKOROK
+	const KROOKODILE
 	const AXEW
 	const FRAXURE
 	const HAXORUS
@@ -242,6 +245,8 @@
 	const ROCKRUFF
 	const LYCANROC
 	const SIRFETCHD
+	const SNOM
+	const FROSMOTH
 	const DREEPY
 	const DRAKLOAK
 	const DRAGAPULT
@@ -253,6 +258,7 @@
 	const ARCTIBAX
 	const BAXCALIBUR
 	const IRONVALIANT
+	const GYARADOS_RED
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

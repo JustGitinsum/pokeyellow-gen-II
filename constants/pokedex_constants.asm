@@ -24,17 +24,17 @@
 	const DEX_PIDGEOT    ; 18
 	const DEX_RATTATA    ; 19
 	const DEX_RATICATE   ; 20
-	const DEX_SPEAROW    ; 21
-	const DEX_FEAROW     ; 22
+	const DEX_MURKROW    ; 21
+	const DEX_HONCHKROW     ; 22
 	const DEX_EKANS      ; 23
 	const DEX_ARBOK      ; 24
 	const DEX_PIKACHU    ; 25
 	const DEX_RAICHU     ; 26
 	const DEX_SANDSHREW  ; 27
 	const DEX_SANDSLASH  ; 28
-	const DEX_NIDORAN_F  ; 29
-	const DEX_NIDORINA   ; 30
-	const DEX_NIDOQUEEN  ; 31
+	const DEX_PHANPY  ; 29
+	const DEX_DONPHAN   ; 30
+	const DEX_GREATTUSK  ; 31
 	const DEX_NIDORAN_M  ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_NIDOKING   ; 34
@@ -99,8 +99,8 @@
 	const DEX_HAUNTER    ; 93
 	const DEX_GENGAR     ; 94
 	const DEX_ONIX       ; 95
-	const DEX_DROWZEE    ; 96
-	const DEX_HYPNO      ; 97
+	const DEX_GOTHORITA    ; 96
+	const DEX_GOTHITELLE      ; 97
 	const DEX_KRABBY     ; 98
 	const DEX_KINGLER    ; 99
 	const DEX_VOLTORB    ; 100
@@ -111,7 +111,7 @@
 	const DEX_MAROWAK    ; 105
 	const DEX_HITMONLEE  ; 106
 	const DEX_HITMONCHAN ; 107
-	const DEX_LICKITUNG  ; 108
+	const DEX_ABSOL  	 ; 108
 	const DEX_KOFFING    ; 109
 	const DEX_WEEZING    ; 110
 	const DEX_RHYHORN    ; 111
@@ -121,8 +121,8 @@
 	const DEX_KANGASKHAN ; 115
 	const DEX_HORSEA     ; 116
 	const DEX_SEADRA     ; 117
-	const DEX_GOLDEEN    ; 118
-	const DEX_SEAKING    ; 119
+	const DEX_FINIZEN    ; 118
+	const DEX_PALAFIN    ; 119
 	const DEX_STARYU     ; 120
 	const DEX_STARMIE    ; 121
 	const DEX_MR_MIME    ; 122
@@ -199,6 +199,9 @@
 	const DEX_GALLADE
 	const DEX_DRILBUR
 	const DEX_EXCADRILL
+	const DEX_SANDILE
+	const DEX_KROKOROK
+	const DEX_KROOKODILE
 	const DEX_AXEW
 	const DEX_FRAXURE
 	const DEX_HAXORUS
@@ -226,6 +229,8 @@
 	const DEX_LINOONE
 	const DEX_OBSTAGOON
 	const DEX_SIRFETCHD
+	const DEX_SNOM
+	const DEX_FROSMOTH
 	const DEX_DREEPY
 	const DEX_DRAKLOAK
 	const DEX_DRAGAPULT
@@ -247,5 +252,6 @@
 	const DEX_ARCTIBAX
 	const DEX_BAXCALIBUR
 	const DEX_IRONVALIANT
+	const DEX_GYARADOS_RED
 
 DEF NUM_POKEMON EQU const_value - 1

@@ -4,7 +4,7 @@ Route16FlyHouse_Script:
 Route16FlyHouse_TextPointers:
 	def_text_pointers
 	dw_const Route16FlyHouseBrunetteGirlText, TEXT_ROUTE16FLYHOUSE_BRUNETTE_GIRL
-	dw_const Route16FlyHouseFearowText,       TEXT_ROUTE16FLYHOUSE_FEAROW
+	dw_const Route16FlyHouseHonchkrowText,       TEXT_ROUTE16FLYHOUSE_HONCHKROW
 
 Route16FlyHouseBrunetteGirlText:
 	text_asm
@@ -42,15 +42,15 @@ Route16FlyHouseBrunetteGirlText:
 	text_far _Route16FlyHouseBrunetteGirlHM02NoRoomText
 	text_end
 
-Route16FlyHouseFearowText:
+Route16FlyHouseHonchkrowText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, FEAROW
+	ld a, HONCHKROW
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 
 .Text:
-	text_far _Route16FlyHouseFearowText
+	text_far _Route16FlyHouseHonchkrowText
 	text_end

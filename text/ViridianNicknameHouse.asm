@@ -13,11 +13,11 @@ _ViridianNicknameHouseLittleGirlText::
 	line "#MON too."
 	done
 
-_ViridianNicknameHouseSpearowText::
+_ViridianNicknameHouseMurkrowText::
 	text "SPEARY: Tetweet!"
 	done
 
 _ViridianNicknameHouseSpearySignText::
-	text "SPEAROW"
+	text "MURKROW"
 	line "Name: SPEARY"
 	done

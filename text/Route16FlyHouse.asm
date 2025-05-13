@@ -27,6 +27,6 @@ _Route16FlyHouseBrunetteGirlHM02NoRoomText::
 	line "room for this."
 	done
 
-_Route16FlyHouseFearowText::
-	text "FEAROW: Kyueen!"
+_Route16FlyHouseHonchkrowText::
+	text "HONCHKROW: Kyueen!"
 	done

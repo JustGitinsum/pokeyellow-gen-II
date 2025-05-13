@@ -97,17 +97,17 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_PIDGEOT    ; $39
 	const PAL_RATTATA    ; $3A
 	const PAL_RATICATE   ; $3B
-	const PAL_SPEAROW    ; $3C
-	const PAL_FEAROW     ; $3D
+	const PAL_MURKROW    ; $3C
+	const PAL_HONCHKROW  ; $3D
 ;	const PAL_EKANS      ; $3E
 	const PAL_ARBOK      ; $3F
 	const PAL_PIKACHU    ; $40
 	const PAL_RAICHU     ; $41
 	const PAL_SANDSHREW  ; $42
 	const PAL_SANDSLASH  ; $43
-	const PAL_NIDORAN_F  ; $44
-	const PAL_NIDORINA   ; $45
-	const PAL_NIDOQUEEN  ; $46
+	const PAL_PHANPY  	 ; $44
+	const PAL_DONPHAN    ; $45
+	const PAL_GREATTUSK  ; $46
 	const PAL_NIDORAN_M  ; $47
 	const PAL_NIDORINO   ; $48
 	const PAL_NIDOKING   ; $49
@@ -172,8 +172,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_HAUNTER    ; $84
 	const PAL_GENGAR     ; $85
 	const PAL_ONIX       ; $86
-	const PAL_DROWZEE    ; $87
-	const PAL_HYPNO      ; $88
+	const PAL_GOTHORITA  ; $87
+;	const PAL_GOTHITELLE      ; $88
 	const PAL_KRABBY     ; $89
 ;	const PAL_KINGLER    ; $8A
 	const PAL_VOLTORB    ; $8B
@@ -184,7 +184,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_MAROWAK    ; $90
 	const PAL_HITMONLEE  ; $91
 	const PAL_HITMONCHAN ; $92
-	const PAL_LICKITUNG  ; $93
+	const PAL_ABSOL  	 ; LICKITUNG $93
 	const PAL_KOFFING    ; $94
 	const PAL_WEEZING    ; $95
 	const PAL_RHYHORN    ; $96
@@ -194,8 +194,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_KANGASKHAN ; $9A
 	const PAL_HORSEA     ; $9B
 	const PAL_SEADRA     ; $9C
-	const PAL_GOLDEEN    ; $9D
-	const PAL_SEAKING    ; $9E
+;	const PAL_FINIZEN    ; $9D
+;	const PAL_PALAFIN    ; $9E
 	const PAL_STARYU     ; $9F
 	const PAL_STARMIE    ; $A0
 	const PAL_MR_MIME    ; $A1
@@ -272,6 +272,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_GALLADE
 ;	const PAL_DRILBUR
 ;	const PAL_EXCADRILL
+;	const PAL_SANDILE
+;	const PAL_KROKOROK
+	const PAL_KROOKODILE
 ;	const PAL_AXEW
 ;	const PAL_FRAXURE
 	const PAL_HAXORUS
@@ -299,6 +302,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_LINOONE
 ;	const PAL_OBSTAGOON
 	const PAL_SIRFETCHD
+;	const PAL_SNOM
+;	const PAL_FROSMOTH
 ;	const PAL_DREEPY
 ;	const PAL_DRAKLOAK
 ;	const PAL_DRAGAPULT
@@ -320,6 +325,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_ARCTIBAX
 ;	const PAL_BAXCALIBUR
 ;	const PAL_IRONVALIANT
+;	const PAL_GYARADOS_RED
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1

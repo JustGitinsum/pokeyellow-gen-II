@@ -66,7 +66,7 @@ MoveNames::
 	li "PECK"
 	li "DRILL PECK"
 	li "CLOSE COMBAT"
-	li "LOW KICK"
+	li "LOW SWEEP"
 	li "BRICK BREAK"
 	li "SEISMIC TOSS"
 	li "STRENGTH"

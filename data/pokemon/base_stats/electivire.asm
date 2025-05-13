@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/electivire.pic", 0, 1 ; sprite dimensions
 	dw ElectivirePicFront, ElectivirePicBack
 
-	db SUPRCELLSLAM, LOW_KICK, LIGHT_SCREEN, QUICK_ATTACK ; level 1 learnset
+	db SUPRCELLSLAM, LOW_SWEEP, LIGHT_SCREEN, QUICK_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
