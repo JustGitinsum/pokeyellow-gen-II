@@ -6,8 +6,8 @@ MtMoonB1FWildMons:
 	db 10, GEODUDE
 	db 11, GEODUDE
 	db 11, ZUBAT
-	db  9, PARAS
-	db 11, PARAS
+	db  9, WIMPOD
+	db 11, WIMPOD
 	db 10, AXEW
 	db 12, AXEW
 	end_grass_wildmons

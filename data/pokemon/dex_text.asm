@@ -448,7 +448,7 @@ _VileplumeDexEntry::
 	next "is very loud"
 	dex
 
-_ParasDexEntry::
+_WimpodDexEntry::
 	text "Burrows under the"
 	next "ground to gnaw on"
 	next "tree roots. The"
@@ -458,7 +458,7 @@ _ParasDexEntry::
 	next "of the nutrition"
 	dex
 
-_ParasectDexEntry::
+_GolisopodDexEntry::
 	text "The bug host is"
 	next "drained of energy"
 	next "by the mushrooms"

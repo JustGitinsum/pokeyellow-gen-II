@@ -45,7 +45,7 @@ PokedexEntryPointers:
 	dw HitmonleeDexEntry
 	dw HitmonchanDexEntry
 	dw ArbokDexEntry
-	dw ParasectDexEntry
+	dw GolisopodDexEntry
 	dw PsyduckDexEntry
 	dw GothoritaDexEntry
 	dw GolemDexEntry
@@ -108,7 +108,7 @@ PokedexEntryPointers:
 	dw MachopDexEntry
 	dw ZubatDexEntry
 	dw EkansDexEntry
-	dw ParasDexEntry
+	dw WimpodDexEntry
 	dw PoliwhirlDexEntry
 	dw PoliwrathDexEntry
 	dw WeedleDexEntry
@@ -623,18 +623,18 @@ VileplumeDexEntry:
 	text_far _VileplumeDexEntry
 	text_end
 
-ParasDexEntry:
-	db "MUSHROOM@"
-	db 1,0
-	dw 120
-	text_far _ParasDexEntry
+WimpodDexEntry:
+	db "TURN TAIL@"
+	db 1,08
+	dw 265
+	text_far _Gen7DexEntry
 	text_end
 
-ParasectDexEntry:
-	db "MUSHROOM@"
-	db 3,3
-	dw 650
-	text_far _ParasectDexEntry
+GolisopodDexEntry:
+	db "HARD SCALE@"
+	db 6,7
+	dw 2381
+	text_far _Gen7DexEntry
 	text_end
 
 VenonatDexEntry:

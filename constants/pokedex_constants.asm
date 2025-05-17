@@ -49,8 +49,8 @@
 	const DEX_ODDISH     ; 43
 	const DEX_GLOOM      ; 44
 	const DEX_VILEPLUME  ; 45
-	const DEX_PARAS      ; 46
-	const DEX_PARASECT   ; 47
+	const DEX_WIMPOD      ; 46
+	const DEX_GOLISOPOD   ; 47
 	const DEX_VENONAT    ; 48
 	const DEX_VENOMOTH   ; 49
 	const DEX_DIGLETT    ; 50

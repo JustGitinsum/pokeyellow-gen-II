@@ -126,7 +126,7 @@ MoveNames::
 	li "SLUDGE"
 	li "BULLDOZE"
 	li "FIRE BLAST"
-	li "WATERFALL"
+	li "LIQUIDATION"
 	li "RAZOR SHELL"
 	li "SWIFT"
 	li "IRON HEAD"

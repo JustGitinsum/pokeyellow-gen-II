@@ -51,7 +51,7 @@ CryData::
 	mon_cry SFX_CRY_12, $80, $C0 ; Hitmonlee
 	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok
-	mon_cry SFX_CRY_1E, $42, $FF ; Parasect
+	mon_cry SFX_CRY_1E, $42, $FF ; Golisopod
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
 	mon_cry SFX_CRY_0D, $88, $20 ; Gothorita
 	mon_cry SFX_CRY_12, $E0, $40 ; Golem
@@ -114,7 +114,7 @@ CryData::
 	mon_cry SFX_CRY_1F, $EE, $01 ; Machop
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
-	mon_cry SFX_CRY_1E, $20, $E0 ; Paras
+	mon_cry SFX_CRY_1E, $20, $E0 ; Wimpod
 	mon_cry SFX_CRY_0E, $77, $60 ; Poliwhirl
 	mon_cry SFX_CRY_0E, $00, $FF ; Poliwrath
 	mon_cry SFX_CRY_15, $EE, $01 ; Weedle

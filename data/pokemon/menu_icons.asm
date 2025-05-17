@@ -45,8 +45,8 @@ MonPartyData:
 	nybble ICON_GRASS     ; Oddish
 	nybble ICON_GRASS     ; Gloom
 	nybble ICON_GRASS     ; Vileplume
-	nybble ICON_BUG       ; Paras
-	nybble ICON_BUG       ; Parasect
+	nybble ICON_BUG       ; Wimpod
+	nybble ICON_BUG       ; Golisopod
 	nybble ICON_BUG       ; Venonat
 	nybble ICON_BUG       ; Venomoth
 	nybble ICON_MON       ; Diglett

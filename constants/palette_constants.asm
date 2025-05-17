@@ -122,8 +122,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_ODDISH     ; $52
 	const PAL_GLOOM      ; $53
 	const PAL_VILEPLUME  ; $54
-	const PAL_PARAS      ; $55
-	const PAL_PARASECT   ; $56
+	const PAL_WIMPOD      ; $55
+	const PAL_GOLISOPOD   ; $56
 	const PAL_VENONAT    ; $57
 	const PAL_VENOMOTH   ; $58
 	const PAL_DIGLETT    ; $59

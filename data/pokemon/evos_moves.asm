@@ -55,7 +55,7 @@ EvosMovesPointerTable:
 	dw HitmonleeEvosMoves
 	dw HitmonchanEvosMoves
 	dw ArbokEvosMoves
-	dw ParasectEvosMoves
+	dw GolisopodEvosMoves
 	dw PsyduckEvosMoves
 	dw GothoritaEvosMoves
 	dw GolemEvosMoves
@@ -118,7 +118,7 @@ EvosMovesPointerTable:
 	dw MachopEvosMoves
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
-	dw ParasEvosMoves
+	dw WimpodEvosMoves
 	dw PoliwhirlEvosMoves
 	dw PoliwrathEvosMoves
 	dw WeedleEvosMoves
@@ -847,14 +847,18 @@ ArbokEvosMoves:
 	db 40, POISON_JAB
 	db 0
 
-ParasectEvosMoves:
+GolisopodEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, SLASH
-	db 33, GROWTH
-	db 38, GIGA_DRAIN
-	db 54, X_SCISSOR
+	db 24, SHADOW_CLAW
+	db 28, SLASH
+	db 30, RAZOR_SHELL
+	db 33, PIN_MISSILE
+	db 38, ROLLOUT
+	db 40, SWORDS_DANCE
+	db 44, WATERFALL
+	db 50, X_SCISSOR
 	db 0
 
 PsyduckEvosMoves:
@@ -1609,17 +1613,17 @@ EkansEvosMoves:
 	db 38, POISON_JAB
 	db 0
 
-ParasEvosMoves:
+WimpodEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 24, PARASECT
+	db EVOLVE_LEVEL, 24, GOLISOPOD
 	db 0
 ; Learnset
 	db 15, ELECTROWEB
-	db 22, SPORE
-	db 27, SLASH
-	db 33, GROWTH
-	db 38, GIGA_DRAIN
-	db 54, X_SCISSOR
+	db 20, METAL_CLAW
+	db 30, RAZOR_SHELL
+	db 33, PIN_MISSILE
+	db 38, ROLLOUT
+	db 44, WATERFALL
 	db 0
 
 PoliwhirlEvosMoves:

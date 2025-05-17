@@ -14,7 +14,7 @@ CreditsMons:
 	db OMASTAR
 	db VILEPLUME
 	db NIDOKING
-	db PARASECT
+	db GOLISOPOD
 
 REPT 9
 	db GENGAR

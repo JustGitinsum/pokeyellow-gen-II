@@ -52,7 +52,7 @@
 	const HITMONLEE          ; $2B
 	const HITMONCHAN         ; $2C
 	const ARBOK              ; $2D
-	const PARASECT           ; $2E
+	const GOLISOPOD           ; $2E
 	const PSYDUCK            ; $2F
 	const GOTHORITA            ; $30
 	const GOLEM              ; $31
@@ -115,7 +115,7 @@
 	const MACHOP             ; $6A
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
-	const PARAS              ; $6D
+	const WIMPOD              ; $6D
 	const POLIWHIRL          ; $6E
 	const POLIWRATH          ; $6F
 	const WEEDLE             ; $70

@@ -7,7 +7,7 @@ CeruleanCave1FWildMons:
 	db 55, WEEPINBELL
 	db 52, SANDSLASH
 	db 54, VENOMOTH
-	db 54, PARASECT
+	db 54, GOLISOPOD
 	db 55, DITTO
 	db 60, DITTO
 	end_grass_wildmons

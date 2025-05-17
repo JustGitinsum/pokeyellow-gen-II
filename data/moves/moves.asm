@@ -137,7 +137,7 @@ Moves:
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BULLDOZE,     SPEED_DOWN_SIDE_EFFECT,      60, GROUND,       100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
+	move WATERFALL,    DEFENSE_DOWN_SIDE_EFFECT,    85, WATER,        100, 10
 	move RAZOR_SHELL,  DEFENSE_DOWN_SIDE_EFFECT,    75, WATER,         95, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move IRON_HEAD,    NO_ADDITIONAL_EFFECT,        80, STEEL,        100, 15

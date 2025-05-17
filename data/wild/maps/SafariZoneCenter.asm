@@ -5,9 +5,9 @@ SafariZoneCenterWildMons:
 	db 24, EXEGGCUTE
 	db 20, LAIRON
 	db 23, NIDORINO
-	db 27, PARASECT
-	db 27, PARAS
-	db 32, PARASECT
+	db 27, GOLISOPOD
+	db 27, WIMPOD
+	db 32, GOLISOPOD
 	db 22, TANGELA
 	db  7, CHANSEY
 	end_grass_wildmons
