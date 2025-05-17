@@ -215,7 +215,7 @@ JrTrainerFData:
 
 PokemaniacData:
 ; Route 10
-	db 30, RHYHORN, ELECTABUZZ, 0
+	db 30, LAIRON, ELECTABUZZ, 0
 	db 20, CUBONE, SLOWPOKE, 0
 ; Rock Tunnel B1F
 	db 20, FARFETCHD, SLOWPOKE, SLOWPOKE, 0
@@ -259,7 +259,7 @@ HikerData:
 	db 21, GEODUDE, ONIX, 0
 	db 19, ONIX, GRAVELER, 0
 ; Rock Tunnel B1F
-	db 21, RHYHORN, GRAVELER, SKARMORY, 0
+	db 21, LAIRON, GRAVELER, SKARMORY, 0
 	db 25, STEELIX, 0
 ; Route 9/Rock Tunnel B1F
 	db 20, MACHOP, ONIX, 0
@@ -441,12 +441,12 @@ TamerData:
 	db 34, SANDSLASH, ARBOK, 0
 	db 33, ARBOK, SANDSLASH, ARBOK, 0
 ; Viridian Gym
-	db 43, RHYHORN, 0
+	db 43, LAIRON, 0
 	db 39, GLISCOR, TAUROS, 0
 ; Victory Road 2F
 	db 44, PERSIAN, GOLDUCK, 0
 ; Unused
-	db 42, RHYHORN, PRIMEAPE, ARBOK, TAUROS, 0
+	db 42, LAIRON, PRIMEAPE, ARBOK, TAUROS, 0
 
 BirdKeeperData:
 ; Route 13
@@ -534,9 +534,9 @@ ScientistData:
 
 GiovanniData:
 ; Rocket Hideout B4F
-	db $FF, 25, ONIX, 24, RHYHORN, 29, PERSIAN, 0
+	db $FF, 25, ONIX, 24, LAIRON, 29, PERSIAN, 0
 ; Silph Co. 11F
-	db $FF, 37, NIDORINO, 35, PERSIAN, 37, RHYHORN, 41, GREATTUSK, 0
+	db $FF, 37, NIDORINO, 35, PERSIAN, 37, LAIRON, 41, GREATTUSK, 0
 ; Viridian Gym
 	db $FF, 50, KROOKODILE, 53, PERSIAN, 53, GREATTUSK, 55, EXCADRILL, 55, GARCHOMP, 0
 
@@ -631,7 +631,7 @@ CooltrainerMData:
 	db 44, KINGLER, CLOYSTER, 0
 ; Viridian Gym
 	db 39, SANDSLASH, DUGTRIO, 0
-	db 43, RHYHORN, 0
+	db 43, LAIRON, 0
 
 CooltrainerFData:
 ; Celadon Gym

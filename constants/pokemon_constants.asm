@@ -7,7 +7,7 @@
 ; - PokedexEntryPointers (see data/pokemon/dex_entries.asm)
 	const_def
 	const NO_MON             ; $00
-	const RHYDON             ; $01
+	const AGGRON             ; $01
 	const KANGASKHAN         ; $02
 	const NIDORAN_M          ; $03
 	const CLEFAIRY           ; $04
@@ -24,7 +24,7 @@
 	const PHANPY          ; $0F
 	const GREATTUSK          ; $10
 	const CUBONE             ; $11
-	const RHYHORN            ; $12
+	const LAIRON            ; $12
 	const LAPRAS             ; $13
 	const ARCANINE           ; $14
 	const MEW                ; $15

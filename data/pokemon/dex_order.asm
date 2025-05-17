@@ -1,6 +1,6 @@
 PokedexOrder:
 	table_width 1, PokedexOrder
-	db DEX_RHYDON
+	db DEX_AGGRON
 	db DEX_KANGASKHAN
 	db DEX_NIDORAN_M
 	db DEX_CLEFAIRY
@@ -17,7 +17,7 @@ PokedexOrder:
 	db DEX_PHANPY
 	db DEX_GREATTUSK
 	db DEX_CUBONE
-	db DEX_RHYHORN
+	db DEX_LAIRON
 	db DEX_LAPRAS
 	db DEX_ARCANINE
 	db DEX_MEW

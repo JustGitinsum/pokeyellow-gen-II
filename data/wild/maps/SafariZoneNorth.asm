@@ -3,7 +3,7 @@ SafariZoneNorthWildMons:
 	db 36, NIDORAN_M
 	db 14, PHANPY
 	db 20, EXEGGCUTE
-	db 25, RHYHORN
+	db 25, LAIRON
 	db 23, DONPHAN
 	db 28, KANGASKHAN
 	db 16, CUBONE

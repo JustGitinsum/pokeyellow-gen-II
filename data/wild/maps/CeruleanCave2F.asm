@@ -9,7 +9,7 @@ CeruleanCave2FWildMons:
 	db 58, LUCARIO
 	db 58, CHANSEY
 	db 60, SIRFETCHD
-	db 58, RHYDON
+	db 58, AGGRON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

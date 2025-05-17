@@ -187,8 +187,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_ABSOL  	 ; LICKITUNG $93
 	const PAL_KOFFING    ; $94
 	const PAL_WEEZING    ; $95
-	const PAL_RHYHORN    ; $96
-;	const PAL_RHYDON     ; $97
+	const PAL_LAIRON    ; $96
+;	const PAL_AGGRON     ; $97
 	const PAL_CHANSEY    ; $98
 	const PAL_TANGELA    ; $99
 	const PAL_KANGASKHAN ; $9A

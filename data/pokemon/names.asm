@@ -1,6 +1,6 @@
 MonsterNames::
 	table_width NAME_LENGTH - 1, MonsterNames
-	db "RHYDON@@@@"
+	db "AGGRON@@@@"
 	db "KANGASKHAN"
 	db "NIDORAN@@@"
 	db "CLEFAIRY@@"
@@ -17,7 +17,7 @@ MonsterNames::
 	db "PHANPY@@@@"
 	db "GREATTUSK@"
 	db "CUBONE@@@@"
-	db "RHYHORN@@@"
+	db "LAIRON@@@@"
 	db "LAPRAS@@@@"
 	db "ARCANINE@@"
 	db "MEW@@@@@@@"

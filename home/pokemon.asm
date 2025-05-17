@@ -112,7 +112,7 @@ LoadFrontSpriteByMonIndex::
 	cp NUM_POKEMON + 1
 	jr c, .validDexNumber   ; dex >#151 invalid
 .invalidDexNumber
-	ld a, RHYDON ; $1
+	ld a, AGGRON ; $1
 	ld [wCurPartySpecies], a
 	ret
 .validDexNumber

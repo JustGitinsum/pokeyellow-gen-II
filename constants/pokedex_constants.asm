@@ -114,8 +114,8 @@
 	const DEX_ABSOL  	 ; 108
 	const DEX_KOFFING    ; 109
 	const DEX_WEEZING    ; 110
-	const DEX_RHYHORN    ; 111
-	const DEX_RHYDON     ; 112
+	const DEX_LAIRON    ; 111
+	const DEX_AGGRON     ; 112
 	const DEX_CHANSEY    ; 113
 	const DEX_TANGELA    ; 114
 	const DEX_KANGASKHAN ; 115

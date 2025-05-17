@@ -13,8 +13,6 @@ PhysicalToSpecialMoves:
 ; GHOST
         db OMINOUS_WIND
         db SHADOW_BALL
-; Psychic
-        db PSYCHO_CUT
 ; Steel
         db MAKE_IT_RAIN
         db FLASH_CANNON
@@ -22,7 +20,6 @@ PhysicalToSpecialMoves:
         db ANCIENTPOWER
 ; Normal
         db HYPER_BEAM
-        db AIR_SLASH
         db SWIFT
         db TRI_ATTACK
         db -1 ; end
@@ -50,6 +47,8 @@ SpecialToPhysicalMoves:
         db THUNDERPUNCH
         db THUNDER_FANG
         db SUPRCELLSLAM
+; Psychic
+        db PSYCHO_CUT
 ; DARK
         db BITE
         db CRUNCH

@@ -3,7 +3,7 @@ SafariZoneCenterWildMons:
 	db 14, NIDORAN_M
 	db 36, PHANPY
 	db 24, EXEGGCUTE
-	db 20, RHYHORN
+	db 20, LAIRON
 	db 23, NIDORINO
 	db 27, PARASECT
 	db 27, PARAS

@@ -6,7 +6,7 @@ ENDM
 CryData::
 	table_width 3, CryData
 	; base cry, pitch, length
-	mon_cry SFX_CRY_11, $00, $80 ; Rhydon
+	mon_cry SFX_CRY_11, $00, $80 ; Aggron
 	mon_cry SFX_CRY_03, $00, $80 ; Kangaskhan
 	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
@@ -23,7 +23,7 @@ CryData::
 	mon_cry SFX_CRY_01, $00, $80 ; Nidoran♀
 	mon_cry SFX_CRY_0A, $00, $80 ; Greattusk
 	mon_cry SFX_CRY_19, $00, $80 ; Cubone
-	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
+	mon_cry SFX_CRY_04, $00, $80 ; Lairon
 	mon_cry SFX_CRY_1B, $00, $80 ; Lapras
 	mon_cry SFX_CRY_15, $00, $80 ; Arcanine
 	mon_cry SFX_CRY_1E, $EE, $FF ; Mew

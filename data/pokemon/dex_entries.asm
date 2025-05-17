@@ -1,6 +1,6 @@
 PokedexEntryPointers:
 	table_width 2, PokedexEntryPointers
-	dw RhydonDexEntry
+	dw AggronDexEntry
 	dw KangaskhanDexEntry
 	dw NidoranMDexEntry
 	dw ClefairyDexEntry
@@ -17,7 +17,7 @@ PokedexEntryPointers:
 	dw PhanpyDexEntry
 	dw GreattuskDexEntry
 	dw CuboneDexEntry
-	dw RhyhornDexEntry
+	dw LaironDexEntry
 	dw LaprasDexEntry
 	dw ArcanineDexEntry
 	dw MewDexEntry
@@ -1078,18 +1078,18 @@ WeezingDexEntry:
 	text_far _WeezingDexEntry
 	text_end
 
-RhyhornDexEntry:
+LaironDexEntry:
 	db "SPIKES@"
 	db 3,3
 	dw 2540
-	text_far _RhyhornDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
-RhydonDexEntry:
+AggronDexEntry:
 	db "DRILL@"
 	db 6,3
 	dw 2650
-	text_far _RhydonDexEntry
+	text_far _Gen3DexEntry
 	text_end
 
 ChanseyDexEntry:

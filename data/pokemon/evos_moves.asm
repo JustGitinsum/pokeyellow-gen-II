@@ -10,7 +10,7 @@
 
 EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable
-	dw RhydonEvosMoves
+	dw AggronEvosMoves
 	dw KangaskhanEvosMoves
 	dw NidoranMEvosMoves
 	dw ClefairyEvosMoves
@@ -27,7 +27,7 @@ EvosMovesPointerTable:
 	dw PhanpyEvosMoves
 	dw GreattuskEvosMoves
 	dw CuboneEvosMoves
-	dw RhyhornEvosMoves
+	dw LaironEvosMoves
 	dw LaprasEvosMoves
 	dw ArcanineEvosMoves
 	dw MewEvosMoves
@@ -264,16 +264,15 @@ EvosMovesPointerTable:
 	dw GyaradosEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
-RhydonEvosMoves:
+AggronEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 48, MEGAHORN
-	db 55, SUPRCELLSLAM
-	db 64, TAKE_DOWN
+	db 48, REST
+	db 56, IRON_TAIL
+	db 64, SUPRCELLSLAM
+	db 72, ICICLE_CRASH
+	db 80, DOUBLE_EDGE
 	db 0
 
 KangaskhanEvosMoves:
@@ -485,17 +484,21 @@ CuboneEvosMoves:
 	db 46, RAGE
 	db 0
 
-RhyhornEvosMoves:
+LaironEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 42, RHYDON
+	db EVOLVE_LEVEL, 42, AGGRON
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 45, MEGAHORN
-	db 50, SUPRCELLSLAM
-	db 55, TAKE_DOWN
+	db 12, ROAR
+	db 16, HEADBUTT
+	db 20, BULLDOZE
+	db 24, ROCK_SLIDE
+	db 28, IRON_HEAD
+	db 35, SHADOW_CLAW
+	db 40, TAKE_DOWN
+	db 46, REST
+	db 52, IRON_TAIL
+	db 76, DOUBLE_EDGE
 	db 0
 
 LaprasEvosMoves:
@@ -3188,10 +3191,10 @@ SnomEvosMoves:
 	db EVOLVE_LEVEL, 20, FROSMOTH
 	db 0
 ; Learnset
-	db  6, BUG_BITE
-	db  8, ELECTROWEB
+	db  5, BUG_BITE
+	db  8, AURORA_BEAM
 	db 12, SWIFT
-	db 18, AURORA_BEAM
+	db 18, ELECTROWEB
 	db 0
 
 FrosmothEvosMoves:

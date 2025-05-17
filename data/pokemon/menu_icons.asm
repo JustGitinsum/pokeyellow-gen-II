@@ -110,8 +110,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Absol
 	nybble ICON_MON       ; Koffing
 	nybble ICON_MON       ; Weezing
-	nybble ICON_QUADRUPED ; Rhyhorn
-	nybble ICON_MON       ; Rhydon
+	nybble ICON_QUADRUPED ; Lairon
+	nybble ICON_MON       ; Aggron
 	nybble ICON_FAIRY     ; Chansey
 	nybble ICON_GRASS     ; Tangela
 	nybble ICON_MON       ; Kangaskhan

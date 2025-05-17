@@ -1097,7 +1097,7 @@ _WeezingDexEntry::
 	next "waste and garbage"
 	dex
 
-_RhyhornDexEntry::
+_LaironDexEntry::
 	text "A #MON with a"
 	next "one-track mind."
 	next "Once it charges, "
@@ -1107,7 +1107,7 @@ _RhyhornDexEntry::
 	next "falls asleep"
 	dex
 
-_RhydonDexEntry::
+_AggronDexEntry::
 	text "Walks on its hind"
 	next "legs. Shows signs"
 	next "of intelligence."

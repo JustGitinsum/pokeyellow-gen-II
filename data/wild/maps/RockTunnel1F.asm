@@ -1,7 +1,7 @@
 RockTunnel1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 15, GOLBAT
-	db 16, RHYHORN
+	db 16, LAIRON
 	db 17, KOFFING
 	db 19, ONIX
 	db 18, GRIMER
