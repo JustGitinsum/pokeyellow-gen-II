@@ -1,7 +1,7 @@
 Route8WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 20, PINSIR
-	db 22, PINSIR
+	db 20, KANGASKHAN
+	db 22, TAUROS
 	db 20, TAUROS
 	db 15, KADABRA
 	db 19, KADABRA

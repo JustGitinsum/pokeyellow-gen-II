@@ -187,10 +187,10 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_ABSOL  	 ; LICKITUNG $93
 	const PAL_KOFFING    ; $94
 	const PAL_WEEZING    ; $95
-	const PAL_LAIRON    ; $96
+	const PAL_LAIRON     ; $96
 ;	const PAL_AGGRON     ; $97
 	const PAL_CHANSEY    ; $98
-	const PAL_TANGELA    ; $99
+	const PAL_CYCLIZAR   ; $99
 	const PAL_KANGASKHAN ; $9A
 	const PAL_HORSEA     ; $9B
 	const PAL_SEADRA     ; $9C
@@ -203,7 +203,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_JYNX       ; $A3
 	const PAL_ELECTABUZZ ; $A4
 	const PAL_MAGMAR     ; $A5
-	const PAL_PINSIR     ; $A6
+	const PAL_BUZZWOLE     ; $A6
 	const PAL_TAUROS     ; $A7
 	const PAL_MAGIKARP   ; $A8
 	const PAL_GYARADOS   ; $A9

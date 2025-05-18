@@ -117,7 +117,7 @@
 	const DEX_LAIRON    ; 111
 	const DEX_AGGRON     ; 112
 	const DEX_CHANSEY    ; 113
-	const DEX_TANGELA    ; 114
+	const DEX_CYCLIZAR    ; 114
 	const DEX_KANGASKHAN ; 115
 	const DEX_HORSEA     ; 116
 	const DEX_SEADRA     ; 117
@@ -130,7 +130,7 @@
 	const DEX_JYNX       ; 124
 	const DEX_ELECTABUZZ ; 125
 	const DEX_MAGMAR     ; 126
-	const DEX_PINSIR     ; 127
+	const DEX_BUZZWOLE     ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_MAGIKARP   ; 129
 	const DEX_GYARADOS   ; 130

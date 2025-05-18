@@ -8,7 +8,7 @@ SafariZoneCenterWildMons:
 	db 27, GOLISOPOD
 	db 27, WIMPOD
 	db 32, GOLISOPOD
-	db 22, TANGELA
+	db 22, CYCLIZAR
 	db  7, CHANSEY
 	end_grass_wildmons
 

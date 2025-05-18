@@ -35,8 +35,8 @@
 	const SCYTHER            ; $1A
 	const STARYU             ; $1B
 	const BLASTOISE          ; $1C
-	const PINSIR             ; $1D
-	const TANGELA            ; $1E
+	const BUZZWOLE             ; $1D
+	const CYCLIZAR            ; $1E
 	const RIOLU              ; $1F
 	const LUCARIO            ; $20
 	const GROWLITHE          ; $21

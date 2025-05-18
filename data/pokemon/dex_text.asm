@@ -1127,7 +1127,7 @@ _ChanseyDexEntry::
 	next "injured #MON"
 	dex
 
-_TangelaDexEntry::
+_CyclizarDexEntry::
 	text "Its identity is"
 	next "obscured by masses"
 	next "of thick, blue"
@@ -1257,7 +1257,7 @@ _MagmarDexEntry::
 	next "ball of fire"
 	dex
 
-_PinsirDexEntry::
+_BuzzwoleDexEntry::
 	text "Grips its prey in"
 	next "its pincers and"
 	next "squeezes hard! It"

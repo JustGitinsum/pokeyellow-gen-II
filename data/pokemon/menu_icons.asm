@@ -113,7 +113,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Lairon
 	nybble ICON_MON       ; Aggron
 	nybble ICON_FAIRY     ; Chansey
-	nybble ICON_GRASS     ; Tangela
+	nybble ICON_MON     ; Cyclizar
 	nybble ICON_MON       ; Kangaskhan
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra
@@ -126,7 +126,7 @@ MonPartyData:
 	nybble ICON_MON       ; Jynx
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
-	nybble ICON_BUG       ; Pinsir
+	nybble ICON_BUG       ; Buzzwole
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_WATER     ; Magikarp
 	nybble ICON_SNAKE     ; Gyarados

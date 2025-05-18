@@ -16,15 +16,15 @@ PrizeMenuMon1Cost:
 	db "@"
 
 PrizeMenuMon2Entries:
-	db SCYTHER
-	db PINSIR
-	db PORYGON
+	db AXEW
+	db FRIGIBAX
+	db DRATINI
 	db "@"
 
 PrizeMenuMon2Cost:
+	bcd2 6000
 	bcd2 6500
-	bcd2 6500
-	bcd2 9999
+	bcd2 7000
 	db "@"
 
 PrizeMenuTMsEntries:

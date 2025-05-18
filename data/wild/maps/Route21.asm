@@ -1,7 +1,7 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 15, TANGELA
-	db 13, TANGELA
+	db 15, CYCLIZAR
+	db 13, CYCLIZAR
 	db 13, EXEGGUTOR
 	db 11, EXEGGUTOR
 	db 17, EXEGGUTOR_A

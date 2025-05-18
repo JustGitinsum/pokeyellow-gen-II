@@ -4,5 +4,5 @@ PrizeMonLevelDictionary:
 	db WIGGLYTUFF, 22
 
 	db SCYTHER,    30
-	db PINSIR,     30
+	db BUZZWOLE,     30
 	db PORYGON,    26

@@ -9,7 +9,7 @@ SafariZoneNorthWildMons:
 	db 16, CUBONE
 	db 33, KANGASKHAN
 	db 25, SCYTHER
-	db 15, PINSIR
+	db 15, SCYTHER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -38,8 +38,8 @@ EvosMovesPointerTable:
 	dw ScytherEvosMoves
 	dw StaryuEvosMoves
 	dw BlastoiseEvosMoves
-	dw PinsirEvosMoves
-	dw TangelaEvosMoves
+	dw BuzzwoleEvosMoves
+	dw CyclizarEvosMoves
 	dw RioluEvosMoves
 	dw LucarioEvosMoves
 	dw GrowlitheEvosMoves
@@ -624,31 +624,32 @@ BlastoiseEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-PinsirEvosMoves:
+BuzzwoleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, ELECTROWEB
-	db 25, SEISMIC_TOSS
-	db 30, X_SCISSOR
-	db 33, CLOSE_COMBAT
-	db 40, SWORDS_DANCE
-	db 43, THRASH
-	db 54, GUILLOTINE
+	db 25, COMET_PUNCH
+	db 30, BRICK_BREAK
+	db 35, ROLLING_KICK
+	db 40, LEECH_LIFE
+	db 45, FOCUS_ENERGY
+	db 50, BOUNCE
+	db 55, SUPRCELLSLAM
+	db 60, CLOSE_COMBAT
 	db 0
 
-TangelaEvosMoves:
+CyclizarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, BIND
-	db 27, MEGA_DRAIN
-	db 29, VINE_WHIP
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, SLAM
-	db 48, GROWTH
+	db 27, ROLLOUT
+	db 31, IRON_TAIL
+	db 34, DRAGON_CLAW
+	db 38, AQUA_TAIL
+	db 42, AGILITY
+	db 45, CRUNCH
+	db 51, EXTREMESPEED
+	db 57, DRAGON_PULSE
 	db 0
 
 RioluEvosMoves:

@@ -34,8 +34,8 @@ CryData::
 	mon_cry SFX_CRY_16, $00, $80 ; Scyther
 	mon_cry SFX_CRY_1E, $02, $20 ; Staryu
 	mon_cry SFX_CRY_13, $00, $80 ; Blastoise
-	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
-	mon_cry SFX_CRY_12, $00, $80 ; Tangela
+	mon_cry SFX_CRY_14, $00, $80 ; Buzzwole
+	mon_cry SFX_CRY_12, $00, $80 ; Cyclizar
 	mon_cry SFX_CRY_0A, $DD, $60 ; Riolu
 	mon_cry SFX_CRY_1F, $48, $60 ; Lucario
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe

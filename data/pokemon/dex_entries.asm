@@ -28,8 +28,8 @@ PokedexEntryPointers:
 	dw ScytherDexEntry
 	dw StaryuDexEntry
 	dw BlastoiseDexEntry
-	dw PinsirDexEntry
-	dw TangelaDexEntry
+	dw BuzzwoleDexEntry
+	dw CyclizarDexEntry
 	dw RioluDexEntry
 	dw LucarioDexEntry
 	dw GrowlitheDexEntry
@@ -1099,11 +1099,11 @@ ChanseyDexEntry:
 	text_far _ChanseyDexEntry
 	text_end
 
-TangelaDexEntry:
-	db "VINE@"
-	db 3,3
-	dw 770
-	text_far _TangelaDexEntry
+CyclizarDexEntry:
+	db "MOUNT@"
+	db 5,03
+	dw 1389
+	text_far _Gen9DexEntry
 	text_end
 
 KangaskhanDexEntry:
@@ -1190,11 +1190,11 @@ MagmarDexEntry:
 	text_far _MagmarDexEntry
 	text_end
 
-PinsirDexEntry:
-	db "STAGBEETLE@"
-	db 4,11
-	dw 1210
-	text_far _PinsirDexEntry
+BuzzwoleDexEntry:
+	db "SWOLL@"
+	db 7,11
+	dw 7355
+	text_far _Gen7DexEntry
 	text_end
 
 TaurosDexEntry:
