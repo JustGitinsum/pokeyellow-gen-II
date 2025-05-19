@@ -82,8 +82,8 @@
 	const DEX_GOLEM      ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
-	const DEX_SLOWPOKE   ; 79
-	const DEX_SLOWBRO    ; 80
+	const DEX_WOOPER   ; 79
+	const DEX_CLODSIRE    ; 80
 	const DEX_MAGNEMITE  ; 81
 	const DEX_MAGNETON   ; 82
 	const DEX_FARFETCHD  ; 83

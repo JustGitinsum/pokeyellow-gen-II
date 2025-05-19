@@ -37,7 +37,7 @@ Moves:
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
 	move AXE_KICK,     CONFUSION_SIDE_EFFECT,      120, FIGHTING,      90, 10
 	move SKY_UPPERCUT, NO_ADDITIONAL_EFFECT,        85, FLYING,        95, 25
-	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         60, FIGHTING,      85, 15 ;Maybe turn to throat chop
+	move THROAT_CHOP , FLINCH_SIDE_EFFECT2,         80, DARK,         100, 15 ;Maybe turn to throat chop
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 15
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,       100, 25
@@ -216,3 +216,5 @@ Moves:
 	move PHANTOMFORCE, NO_ADDITIONAL_EFFECT,        90, GHOST,        100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
+
+; Moves I want to add: Zen Headbutt, Aero Blast, 

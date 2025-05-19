@@ -778,7 +778,7 @@ _RapidashDexEntry::
 	next "speed"
 	dex
 
-_SlowpokeDexEntry::
+_WooperDexEntry::
 	text "Incredibly slow"
 	next "and sluggish. It"
 	next "is quite content"
@@ -788,14 +788,14 @@ _SlowpokeDexEntry::
 	next "about the time"
 	dex
 
-_SlowbroDexEntry::
+_ClodsireDexEntry::
 	text "Lives lazily by"
 	next "the sea. If the"
 	next "SHELLDER on its"
 
 	page "tail comes off,"
 	next "it becomes a"
-	next "SLOWPOKE again"
+	next "WOOPER again"
 	dex
 
 _MagnemiteDexEntry::

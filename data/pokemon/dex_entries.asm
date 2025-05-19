@@ -7,7 +7,7 @@ PokedexEntryPointers:
 	dw MurkrowDexEntry
 	dw VoltorbDexEntry
 	dw NidokingDexEntry
-	dw SlowbroDexEntry
+	dw ClodsireDexEntry
 	dw IvysaurDexEntry
 	dw ExeggutorDexEntry
 	dw AbsolDexEntry
@@ -36,7 +36,7 @@ PokedexEntryPointers:
 	dw OnixDexEntry
 	dw HonchkrowDexEntry
 	dw PidgeyDexEntry
-	dw SlowpokeDexEntry
+	dw WooperDexEntry
 	dw KadabraDexEntry
 	dw GravelerDexEntry
 	dw ChanseyDexEntry
@@ -854,18 +854,18 @@ RapidashDexEntry:
 	text_far _RapidashDexEntry
 	text_end
 
-SlowpokeDexEntry:
-	db "DOPEY@"
-	db 3,11
-	dw 790
-	text_far _SlowpokeDexEntry
+WooperDexEntry:
+	db "POISONFISH@"
+	db 1,04
+	dw 243
+	text_far _Gen9DexEntry
 	text_end
 
-SlowbroDexEntry:
-	db "HERMITCRAB@"
-	db 5,3
-	dw 1730
-	text_far _SlowbroDexEntry
+ClodsireDexEntry:
+	db "SPINY FISH@"
+	db 5,11
+	dw 4916
+	text_far _Gen9DexEntry
 	text_end
 
 MagnemiteDexEntry:

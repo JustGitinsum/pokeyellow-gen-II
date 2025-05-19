@@ -155,8 +155,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GOLEM      ; $73
 ;	const PAL_PONYTA     ; $74
 	const PAL_RAPIDASH   ; $75
-	const PAL_SLOWPOKE   ; $76
-	const PAL_SLOWBRO    ; $77
+	const PAL_WOOPER   ; $76
+	const PAL_CLODSIRE    ; $77
 ;	const PAL_MAGNEMITE  ; $78
 	const PAL_MAGNETON   ; $79
 	const PAL_FARFETCHD  ; $7A

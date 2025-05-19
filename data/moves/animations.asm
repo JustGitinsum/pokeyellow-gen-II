@@ -26,7 +26,7 @@ AttackAnimationPointers:
 	dw DoubleKickAnim
 	dw AxeKickAnim
 	dw SkyUppercutAnim
-	dw RollingKickAnim
+	dw ThroatChopAnim
 	dw SandAttackAnim
 	dw HeadbuttAnim
 	dw HornAttackAnim
@@ -394,8 +394,8 @@ SkyUppercutAnim:
 	battle_anim SKY_UPPERCUT, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-RollingKickAnim:
-	battle_anim ROLLING_KICK, SE_DARK_SCREEN_FLASH
+ThroatChopAnim:
+	battle_anim THROAT_CHOP , SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 

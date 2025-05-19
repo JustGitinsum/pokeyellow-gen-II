@@ -32,7 +32,7 @@
 	const DOUBLE_KICK  ; 18
 	const AXE_KICK    ; 19
 	const SKY_UPPERCUT    ; 1a
-	const ROLLING_KICK ; 1b
+	const THROAT_CHOP  ; 1b
 	const SAND_ATTACK  ; 1c
 	const HEADBUTT     ; 1d
 	const HORN_ATTACK  ; 1e

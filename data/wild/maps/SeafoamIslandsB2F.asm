@@ -5,11 +5,11 @@ SeafoamIslandsB2FWildMons:
 	db 36, JYNX
 	db 27, GOLBAT
 	db 28, KINGLER
-	db 24, SLOWBRO
+	db 24, CLODSIRE
 	db 29, KINGLER
 	db 36, AURORUS
-	db 31, SLOWPOKE
-	db 31, SLOWBRO
+	db 31, WOOPER
+	db 31, CLODSIRE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

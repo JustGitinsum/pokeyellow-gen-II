@@ -14,7 +14,7 @@
 	const MURKROW            ; $05
 	const VOLTORB            ; $06
 	const NIDOKING           ; $07
-	const SLOWBRO            ; $08
+	const CLODSIRE            ; $08
 	const IVYSAUR            ; $09
 	const EXEGGUTOR          ; $0A
 	const ABSOL  	         ; $0B
@@ -43,7 +43,7 @@
 	const ONIX               ; $22
 	const HONCHKROW             ; $23
 	const PIDGEY             ; $24
-	const SLOWPOKE           ; $25
+	const WOOPER           ; $25
 	const KADABRA            ; $26
 	const GRAVELER           ; $27
 	const CHANSEY            ; $28

@@ -26,7 +26,7 @@ MoveNames::
 	li "DOUBLE KICK"
 	li "AXE KICK"
 	li "SKY UPPERCUT"
-	li "ROLLING KICK"
+	li "THROAT CHOP"
 	li "SAND-ATTACK"
 	li "HEADBUTT"
 	li "HORN ATTACK"

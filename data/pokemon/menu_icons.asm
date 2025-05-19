@@ -78,8 +78,8 @@ MonPartyData:
 	nybble ICON_MON       ; Golem
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
-	nybble ICON_QUADRUPED ; Slowpoke
-	nybble ICON_MON       ; Slowbro
+	nybble ICON_MON		  ; Wooper
+	nybble ICON_MON       ; Clodsire
 	nybble ICON_BALL      ; Magnemite
 	nybble ICON_BALL      ; Magneton
 	nybble ICON_BIRD      ; Farfetch'd

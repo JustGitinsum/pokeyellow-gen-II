@@ -5,7 +5,7 @@ SeafoamIslandsB1FWildMons:
 	db 36, ZUBAT
 	db 28, JYNX
 	db 27, GOLBAT
-	db 29, SLOWPOKE
+	db 29, WOOPER
 	db 18, AMAURA
 	db 28, KINGLER
 	db 22, AURORUS

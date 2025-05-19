@@ -68,7 +68,7 @@ YoungsterData:
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
 	db 15, DRILBUR, MURKROW, 0
-	db 17, SLOWPOKE, 0
+	db 17, WOOPER, 0
 	db 14, EKANS, DRILBUR, 0
 ; SS Anne 1F Rooms
 	db 21, NIDORAN_M, 0
@@ -216,15 +216,15 @@ JrTrainerFData:
 PokemaniacData:
 ; Route 10
 	db 30, LAIRON, ELECTABUZZ, 0
-	db 20, CUBONE, SLOWPOKE, 0
+	db 20, CUBONE, WOOPER, 0
 ; Rock Tunnel B1F
-	db 20, FARFETCHD, SLOWPOKE, SLOWPOKE, 0
+	db 20, FARFETCHD, WOOPER, WOOPER, 0
 	db 22, CHARMANDER, CUBONE, 0
-	db 25, SLOWPOKE, 0
+	db 25, WOOPER, 0
 ; Victory Road 2F
 	db 40, CHARIZARD, LAPRAS, SCIZOR, 0
 ; Rock Tunnel 1F
-	db 23, CUBONE, SLOWPOKE, 0
+	db 23, CUBONE, WOOPER, 0
 
 SuperNerdData:
 ; Mt. Moon 1F
@@ -409,9 +409,9 @@ BeautyData:
 
 PsychicData:
 ; Saffron Gym
-	db 31, KADABRA, SLOWPOKE, MR_MIME, RAICHU, 0
+	db 31, KADABRA, WOOPER, MR_MIME, RAICHU, 0
 	db 34, GARDEVOIR, GALLADE, 0
-	db 33, ESPEON, KIRLIA, SLOWBRO, 0
+	db 33, ESPEON, KIRLIA, CLODSIRE, 0
 	db 40, RAPIDASH_G, 0
 
 RockerData:

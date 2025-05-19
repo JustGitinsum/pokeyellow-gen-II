@@ -5,8 +5,8 @@ SeafoamIslands1FWildMons:
 	db 27, KRABBY
 	db 27, JYNX
 	db 36, JYNX
-	db 28, SLOWPOKE
-	db 30, SLOWPOKE
+	db 28, WOOPER
+	db 30, WOOPER
 	db  9, JYNX
 	db 27, AURORUS
 	db 36, AURORUS

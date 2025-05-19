@@ -13,7 +13,7 @@ CryData::
 	mon_cry SFX_CRY_10, $00, $80 ; Murkrow
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb
 	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
-	mon_cry SFX_CRY_1F, $00, $80 ; Slowbro
+	mon_cry SFX_CRY_1F, $00, $80 ; Clodsire
 	mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
 	mon_cry SFX_CRY_0C, $00, $80 ; Absol
@@ -42,7 +42,7 @@ CryData::
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
 	mon_cry SFX_CRY_18, $40, $A0 ; Honchkrow
 	mon_cry SFX_CRY_0E, $DF, $04 ; Pidgey
-	mon_cry SFX_CRY_02, $00, $80 ; Slowpoke
+	mon_cry SFX_CRY_02, $00, $80 ; Wooper
 	mon_cry SFX_CRY_1C, $A8, $C0 ; Kadabra
 	mon_cry SFX_CRY_24, $00, $80 ; Graveler
 	mon_cry SFX_CRY_14, $0A, $C0 ; Chansey

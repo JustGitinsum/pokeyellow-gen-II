@@ -17,7 +17,7 @@ EvosMovesPointerTable:
 	dw MurkrowEvosMoves
 	dw VoltorbEvosMoves
 	dw NidokingEvosMoves
-	dw SlowbroEvosMoves
+	dw ClodsireEvosMoves
 	dw IvysaurEvosMoves
 	dw ExeggutorEvosMoves
 	dw AbsolEvosMoves
@@ -46,7 +46,7 @@ EvosMovesPointerTable:
 	dw OnixEvosMoves
 	dw HonchkrowEvosMoves
 	dw PidgeyEvosMoves
-	dw SlowpokeEvosMoves
+	dw WooperEvosMoves
 	dw KadabraEvosMoves
 	dw GravelerEvosMoves
 	dw ChanseyEvosMoves
@@ -352,17 +352,16 @@ NidokingEvosMoves:
 	db 23, THRASH
 	db 0
 
-SlowbroEvosMoves:
+ClodsireEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 37, WITHDRAW
-	db 44, AMNESIA
-	db 55, PSYCHIC_M
+	db 21, CONFUSE_RAY
+	db 24, POISON_JAB
+	db 30, SLUDGE_BOMB
+	db 36, MEGAHORN
+	db 40, TOXIC
+	db 48, EARTHQUAKE
 	db 0
 
 IvysaurEvosMoves:
@@ -630,7 +629,7 @@ BuzzwoleEvosMoves:
 ; Learnset
 	db 25, COMET_PUNCH
 	db 30, BRICK_BREAK
-	db 35, ROLLING_KICK
+	db 35, THROAT_CHOP 
 	db 40, LEECH_LIFE
 	db 45, FOCUS_ENERGY
 	db 50, BOUNCE
@@ -729,17 +728,20 @@ PidgeyEvosMoves:
 	db 44, MIRROR_MOVE
 	db 0
 
-SlowpokeEvosMoves:
+WooperEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 37, SLOWBRO
+	db EVOLVE_LEVEL, 20, CLODSIRE
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 40, AMNESIA
-	db 48, PSYCHIC_M
+	db  8, POISON_FANG
+	db 12, SPIKE_CANNON
+	db 16, SLAM
+	db 21, CONFUSE_RAY
+	db 24, POISON_JAB
+	db 28, SLUDGE_BOMB
+	db 32, AMNESIA
+	db 36, TOXIC
+	db 40, EARTHQUAKE
 	db 0
 
 KadabraEvosMoves:
@@ -814,7 +816,7 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
+	db 33, THROAT_CHOP 
 	db 36, CLOSE_COMBAT
 	db 40, TROP_KICK
 	db 43, FOCUS_ENERGY
@@ -989,8 +991,8 @@ MankeyEvosMoves:
 	db  9, LOW_SWEEP
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 33, SEISMIC_TOSS
+	db 27, THROAT_CHOP
+	db 33, FOCUS_ENERGY
 	db 39, THRASH
 	db 45, SCREECH
 	db 0
@@ -1142,7 +1144,7 @@ DoduoEvosMoves:
 	db 20, TRAILBLAZE
 	db 24, FURY_ATTACK
 	db 30, DRILL_PECK
-	db 36, RAGE
+	db 36, THROAT_CHOP
 	db 40, TRI_ATTACK
 	db 44, AGILITY
 	db 0
@@ -1582,7 +1584,7 @@ MachopEvosMoves:
 	db 0
 ; Learnset
 	db 20, LOW_SWEEP
-	db 25, LEER
+	db 25, THROAT_CHOP
 	db 32, FOCUS_ENERGY
 	db 39, SEISMIC_TOSS
 	db 46, CLOSE_COMBAT
@@ -1696,7 +1698,7 @@ DodrioEvosMoves:
 	db 0
 ; Learnset
 	db 30, DRILL_PECK
-	db 39, RAGE
+	db 39, THROAT_CHOP
 	db 45, TRI_ATTACK
 	db 51, AGILITY
 	db 0
@@ -1706,7 +1708,7 @@ PrimeapeEvosMoves:
 	db EVOLVE_LEVEL, 35, ANNIHILAPE
 	db 0
 ; Learnset
-	db 9, LOW_SWEEP
+	db  9, LOW_SWEEP
 	db 15, KARATE_CHOP
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
@@ -1773,6 +1775,7 @@ LopunnyEvosMoves:
 	db 21, LOVELY_KISS
 	db 23, DIG
 	db 28, HEADBUTT
+	db 31, THROAT_CHOP
 	db 36, AGILITY
 	db 40, PLAY_ROUGH
 	db 48, BOUNCE
@@ -1885,8 +1888,10 @@ SnorlaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, TRAILBLAZE
-	db 35, BODY_SLAM
+	db 20, REST
+	db 24, CRUNCH
+	db 28, BODY_SLAM
+	db 36, AMNESIA
 	db 41, SUPRCELLSLAM
 	db 48, DOUBLE_EDGE
 	db 56, HYPER_BEAM
@@ -1949,6 +1954,7 @@ NymbleEvosMoves:
 	db 18, BITE
 	db 25, BOUNCE
 	db 32, AGILITY
+	db 36, THROAT_CHOP
 	db 0
 
 KinglerEvosMoves:
@@ -2190,6 +2196,7 @@ PalafinEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 39, THROAT_CHOP
 	db 44, MIST
 	db 50, HYDRO_PUMP
 	db 55, FURY_ATTACK
@@ -2797,6 +2804,7 @@ CombuskenEvosMoves:
 	db 30, BOUNCE
 	db 35, FOCUS_ENERGY
 	db 40, FLAMETHROWER
+	db 44, THROAT_CHOP
 	db 50, AXE_KICK
 	db 53, SKY_UPPERCUT
 	db 0
@@ -2806,6 +2814,7 @@ BlazikenEvosMoves:
 	db 0
 ; Learnset
 	db 40, FLAMETHROWER
+	db 43, THROAT_CHOP
 	db 50, AXE_KICK
 	db 57, SKY_UPPERCUT
 	db 0
@@ -3284,7 +3293,7 @@ FlamigoEvosMoves:
 	db 27, BRICK_BREAK
 	db 31, TROP_KICK
 	db 35, AIR_SLASH
-	db 39, CRUNCH
+	db 39, THROAT_CHOP
 	db 44, DRILL_PECK
 	db 48, CLOSE_COMBAT
 	db 0

@@ -10,7 +10,7 @@ FuchsiaCity_TextPointers:
 	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_CHANSEY
 	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_VOLTORB
 	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_KANGASKHAN
-	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_SLOWPOKE
+	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_WOOPER
 	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_LAPRAS
 	dw_const FuchsiaCityPokemonText,         TEXT_FUCHSIACITY_FOSSIL
 	dw_const FuchsiaCitySignText,            TEXT_FUCHSIACITY_SIGN1
@@ -24,7 +24,7 @@ FuchsiaCity_TextPointers:
 	dw_const FuchsiaCityChanseySignText,     TEXT_FUCHSIACITY_CHANSEY_SIGN
 	dw_const FuchsiaCityVoltorbSignText,     TEXT_FUCHSIACITY_VOLTORB_SIGN
 	dw_const FuchsiaCityKangaskhanSignText,  TEXT_FUCHSIACITY_KANGASKHAN_SIGN
-	dw_const FuchsiaCitySlowpokeSignText,    TEXT_FUCHSIACITY_SLOWPOKE_SIGN
+	dw_const FuchsiaCityWooperSignText,    TEXT_FUCHSIACITY_WOOPER_SIGN
 	dw_const FuchsiaCityLaprasSignText,      TEXT_FUCHSIACITY_LAPRAS_SIGN
 	dw_const FuchsiaCityFossilSignText,      TEXT_FUCHSIACITY_FOSSIL_SIGN
 
@@ -104,16 +104,16 @@ FuchsiaCityKangaskhanSignText:
 	text_far _FuchsiaCityKangaskhanSignText
 	text_end
 
-FuchsiaCitySlowpokeSignText:
+FuchsiaCityWooperSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SLOWPOKE
+	ld a, WOOPER
 	call DisplayPokedex
 	jp TextScriptEnd
 
 .Text:
-	text_far _FuchsiaCitySlowpokeSignText
+	text_far _FuchsiaCityWooperSignText
 	text_end
 
 FuchsiaCityLaprasSignText:

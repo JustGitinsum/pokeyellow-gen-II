@@ -84,8 +84,8 @@ _FuchsiaCityKangaskhanSignText::
 	cont "on its belly."
 	prompt
 
-_FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+_FuchsiaCityWooperSignText::
+	text "Name: WOOPER"
 
 	para "Friendly and very"
 	line "slow moving."
