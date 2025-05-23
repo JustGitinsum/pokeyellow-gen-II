@@ -14,7 +14,7 @@
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	tmhm BRICK_BREAK,   CLOSE_COMBAT,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
 	     SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     \
 	     POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         ENERGY_BALL,    \
 	     THUNDER_FANG,  THUNDER,      PSYCHIC_M,    TELEPORT,     DARK_PULSE,        \

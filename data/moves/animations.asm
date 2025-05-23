@@ -19,7 +19,7 @@ AttackAnimationPointers:
 	dw WingAttackAnim
 	dw TwisterAnim
 	dw FlyAnim
-	dw BindAnim
+	dw TwinBeamAnim
 	dw SlamAnim
 	dw VineWhipAnim
 	dw StompAnim
@@ -363,9 +363,9 @@ FlyAnim:
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
-BindAnim:
-	battle_anim BIND, SUBANIM_0_BIND, 0, 4
-	battle_anim BIND, SUBANIM_0_BIND, 0, 4
+TwinBeamAnim:
+	battle_anim TWIN_BEAM, SUBANIM_0_TWIN_BEAM, 0, 4
+	battle_anim TWIN_BEAM, SUBANIM_0_TWIN_BEAM, 0, 4
 	db -1 ; end
 
 SlamAnim:
@@ -439,9 +439,9 @@ BodySlamAnim:
 	db -1 ; end
 
 WrapAnim:
-	battle_anim WRAP, SUBANIM_0_BIND, 0, 4
-	battle_anim WRAP, SUBANIM_0_BIND, 0, 4
-	battle_anim WRAP, SUBANIM_0_BIND, 0, 4
+	battle_anim WRAP, SUBANIM_0_TWIN_BEAM, 0, 4
+	battle_anim WRAP, SUBANIM_0_TWIN_BEAM, 0, 4
+	battle_anim WRAP, SUBANIM_0_TWIN_BEAM, 0, 4
 	db -1 ; end
 
 TakeDownAnim:
@@ -757,8 +757,8 @@ ThunderBoltAnim:
 
 ThunderWaveAnim:
 	battle_anim THUNDER_WAVE, SUBANIM_1_LIGHTNING_BALL, 1, 2
-	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
-	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 4
+	battle_anim NO_MOVE, SUBANIM_0_TWIN_BEAM, 0, 2
+	battle_anim NO_MOVE, SUBANIM_0_TWIN_BEAM, 0, 4
 	db -1 ; end
 
 ThunderAnim:
@@ -1015,8 +1015,8 @@ WaterfallAnim:
 
 RazorShellAnim:
 	battle_anim RAZOR_SHELL, SUBANIM_0_SLICE_BOTH_SIDES, 0, 8
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
+	battle_anim CONSTRICT, SUBANIM_0_TWIN_BEAM, 0, 6
+	battle_anim CONSTRICT, SUBANIM_0_TWIN_BEAM, 0, 6
 	db -1 ; end
 
 SwiftAnim:
@@ -1034,9 +1034,9 @@ SpikeCannonAnim:
 	db -1 ; end
 
 ConstrictAnim:
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
-	battle_anim CONSTRICT, SUBANIM_0_BIND, 0, 6
+	battle_anim CONSTRICT, SUBANIM_0_TWIN_BEAM, 0, 6
+	battle_anim CONSTRICT, SUBANIM_0_TWIN_BEAM, 0, 6
+	battle_anim CONSTRICT, SUBANIM_0_TWIN_BEAM, 0, 6
 	db -1 ; end
 
 AmnesiaAnim:
@@ -1474,13 +1474,13 @@ UnusedAnim:
 	db -1 ; end
 
 ParalyzeAnim:
-	battle_anim BIND, SUBANIM_0_STATUS_PARALYZED, 0, 4
-	battle_anim BIND, SUBANIM_0_STATUS_PARALYZED, 0, 4
+	battle_anim TWIN_BEAM, SUBANIM_0_STATUS_PARALYZED, 0, 4
+	battle_anim TWIN_BEAM, SUBANIM_0_STATUS_PARALYZED, 0, 4
 	db -1 ; end
 
 PoisonAnim:
-	battle_anim BIND, SUBANIM_0_STATUS_POISONED, 0, 8
-	battle_anim BIND, SUBANIM_0_STATUS_POISONED, 0, 8
+	battle_anim TWIN_BEAM, SUBANIM_0_STATUS_POISONED, 0, 8
+	battle_anim TWIN_BEAM, SUBANIM_0_STATUS_POISONED, 0, 8
 	db -1 ; end
 
 SleepPlayerAnim:

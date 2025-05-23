@@ -158,6 +158,7 @@ MonPartyData:
 	nybble ICON_PIKACHU   ; Azumarill
 	nybble ICON_QUADRUPED ; Espeon
 	nybble ICON_QUADRUPED ; Umbreon
+	nybble ICON_QUADRUPED ; Girafarig
 	nybble ICON_MON		  ; Gligar
 	nybble ICON_SNAKE     ; Steelix
 	nybble ICON_BUG       ; Scizor
@@ -244,6 +245,7 @@ MonPartyData:
 	nybble ICON_MON       ; Ceruledge
 	nybble ICON_BIRD	  ; Flamigo
 	nybble ICON_MON       ; Annihilape
+	nybble ICON_QUADRUPED ; Farigiraf
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Baxcalibur

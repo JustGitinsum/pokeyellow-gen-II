@@ -35,7 +35,7 @@ SubanimationPointers:
 	dw Subanim_1FlameStar
 	dw Subanim_0Circles_1Squares_CenteringEnemy
 	dw Subanim_0Circle_1Square_TossBack
-	dw Subanim_0Bind
+	dw Subanim_0TWIN_BEAM
 	dw Subanim_0StatusParalyzed
 	dw Subanim_0StatusConfused
 	dw Subanim_0StatusConfusedEnemy
@@ -623,7 +623,7 @@ Subanim_0SliceBothSides:
 	db FRAMEBLOCK_50, BASECOORD_2B, FRAMEBLOCKMODE_00
 	db FRAMEBLOCK_50, BASECOORD_2B, FRAMEBLOCKMODE_00
 
-Subanim_0Bind:
+Subanim_0TWIN_BEAM:
 	subanim SUBANIMTYPE_HFLIP, 2
 	db FRAMEBLOCK_51, BASECOORD_2D, FRAMEBLOCKMODE_00
 	db FRAMEBLOCK_51, BASECOORD_6E, FRAMEBLOCKMODE_00

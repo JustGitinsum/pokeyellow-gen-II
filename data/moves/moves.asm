@@ -22,7 +22,7 @@ Moves:
 	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, NORMAL,       100, 30
-	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5 ;; FREE
+	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
 	move AIR_SLASH,    FLINCH_SIDE_EFFECT1,         80, FLYING,        95, 15
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 30
@@ -30,14 +30,14 @@ Moves:
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35
 	move TWISTER,      FLINCH_SIDE_EFFECT2,         40, DRAGON,       100, 20
 	move FLY,          FLY_EFFECT,                  90, FLYING,        95, 15
-	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
+	move TWIN_BEAM,    ATTACK_TWICE_EFFECT,         40, PSYCHIC_TYPE, 100, 10 ;;; TODO ANIM
 	move SLAM,         NO_ADDITIONAL_EFFECT,        60, NORMAL,       100, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 10
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
 	move AXE_KICK,     CONFUSION_SIDE_EFFECT,      120, FIGHTING,      90, 10
 	move SKY_UPPERCUT, NO_ADDITIONAL_EFFECT,        85, FLYING,        95, 25
-	move THROAT_CHOP , FLINCH_SIDE_EFFECT2,         80, DARK,         100, 15 ;Maybe turn to throat chop
+	move THROAT_CHOP , FLINCH_SIDE_EFFECT2,         80, DARK,         100, 15
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 15
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,       100, 25
@@ -217,4 +217,4 @@ Moves:
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
 
-; Moves I want to add: Zen Headbutt, Aero Blast, 
+; Moves I want to add: Zen Headbutt, Aero Blast, Psychic Fangs

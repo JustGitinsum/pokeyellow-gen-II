@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
+	tmhm BRICK_BREAK,   CLOSE_COMBAT,    TOXIC,        FIRE_FANG,    BODY_SLAM,    \
 	     SLUDGE_BOMB,  HYPER_BEAM,   POISON_JAB,   WATERFALL,      PSYBEAM, \
 	     NIGHT_SLASH,         DIG,          PSYCHIC_M,    TELEPORT,     DARK_PULSE,        \
 	     ICE_BEAM,  IRON_HEAD,      DRAGON_PULSE,    FLAMETHROWER,   \

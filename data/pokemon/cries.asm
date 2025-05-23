@@ -201,6 +201,7 @@ CryData::
 	mon_cry SFX_CRY_0C, $23, $FF ; Azumarill
 	mon_cry SFX_CRY_1E, $EE, $FF ; ESPEON
 	mon_cry SFX_CRY_1E, $EE, $FF ; UMBREON
+	mon_cry SFX_CRY_1A, $88, $60 ; Girafarig
 	mon_cry SFX_CRY_1D, $E0, $80 ; Gligar
 	mon_cry SFX_CRY_17, $FF, $C0 ; STEELIX
 	mon_cry SFX_CRY_16, $00, $80 ; SCIZOR
@@ -253,6 +254,7 @@ CryData::
 	mon_cry SFX_CRY_15, $00, $80 ; Arcanine_H
 	mon_cry SFX_CRY_18, $40, $A0 ; Flamigo
 	mon_cry SFX_CRY_0A, $AF, $40 ; ANNIHILAPE
+	mon_cry SFX_CRY_10, $DD, $01 ; Farigiraf
 	mon_cry SFX_CRY_0F, $60, $40 ; Frigibax
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Baxcalibur

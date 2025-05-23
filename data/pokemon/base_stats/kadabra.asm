@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   TOXIC,        BODY_SLAM,    		PSYBEAM,   	NIGHT_SLASH,		\
+	tmhm BRICK_BREAK,   TOXIC,        BODY_SLAM,    		PSYBEAM,   	NIGHT_SLASH,		\
 	     PSYCHIC_M,    TELEPORT,     DARK_PULSE,        ICE_BEAM,  	IRON_HEAD,      	\
 	     DRAGON_PULSE, FLAMETHROWER, THUNDER_WAVE, 		PSYCHO_CUT, THUNDERPUNCH,   	\
 		 MOONBLAST,   FLASH

@@ -25,7 +25,7 @@
 	const WING_ATTACK  ; 11
 	const TWISTER    ; 12
 	const FLY          ; 13
-	const BIND         ; 14
+	const TWIN_BEAM         ; 14
 	const SLAM         ; 15
 	const VINE_WHIP    ; 16
 	const STOMP        ; 17

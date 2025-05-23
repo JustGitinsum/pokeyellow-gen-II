@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE,   AXE_KICK, 	    TOXIC, 			BODY_SLAM, 	    BUBBLEBEAM,   \
+	tmhm SWORDS_DANCE,   CLOSE_COMBAT, 	    TOXIC, 			BODY_SLAM, 	    BUBBLEBEAM,   \
 		 TRAILBLAZE, 	 BLIZZARD, 		HYPER_BEAM,     POISON_JAB, 	WATERFALL, 	  \
 		 ROCK_SLIDE, 	 ICE_BEAM, 		IRON_HEAD, 	    ACCELEROCK, 	PLAY_ROUGH,   \
 		 SURF

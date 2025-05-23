@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/blaziken.pic", 0, 1 ; sprite dimensions
 	dw BlazikenPicFront, BlazikenPicBack
 
-	db AXE_KICK, SLASH, BOUNCE, FLAMETHROWER ; level 1 learnset
+	db CLOSE_COMBAT, SLASH, BOUNCE, FLAMETHROWER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AIR_SLASH,   SWORDS_DANCE, 	AXE_KICK,     TOXIC,        \
+	tmhm BRICK_BREAK,   AIR_SLASH,   SWORDS_DANCE, 	CLOSE_COMBAT,     TOXIC,        \
 		 BODY_SLAM,    TRAILBLAZE,  HYPER_BEAM,   	POISON_JAB,   NIGHT_SLASH,  \
 	     ENERGY_BALL,  ROCK_SLIDE,  EARTHQUAKE,   	EARTH_POWER,  DIG,          \
 	     DARK_PULSE,   ACCELEROCK,  FIRE_BLAST,   	STEEL_WING,   FLAMETHROWER, \

@@ -100,7 +100,7 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ETHER
 	dw ItemUsePPRestore  ; ELIXER
 	dw ItemUsePPRestore  ; MAX_ELIXER
-	dw ItemUseEvoStone   ; Link_CABLE
+	dw ItemUseEvoStone   ; LINKCABLE
 	dw ItemUseEvoStone	 ; MAGMARIZER
 	dw ItemUseEvoStone   ; ELECTIRIZER
 	dw ItemUseEvoStone   ; METAL_COAT

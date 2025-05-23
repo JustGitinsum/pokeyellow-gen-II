@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   AXE_KICK,    BODY_SLAM,    THUNDER_FANG, THUNDER,      \
+	tmhm BRICK_BREAK,   CLOSE_COMBAT,    BODY_SLAM,    THUNDER_FANG, THUNDER,      \
 	     DIG,          THUNDERBOLT, PLAY_ROUGH,   THUNDER_WAVE, AURA_SPHERE,  \
 		 THUNDERPUNCH, MOONBLAST,   SURF,		  FLASH
 	; end

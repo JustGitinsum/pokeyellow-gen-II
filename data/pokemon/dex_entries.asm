@@ -195,6 +195,7 @@ PokedexEntryPointers:
 	dw AzumarillDexEntry
 	dw EspeonDexEntry
 	dw UmbreonDexEntry
+	dw GirafarigDexEntry
 	dw GligarDexEntry
 	dw SteelixDexEntry
 	dw ScizorDexEntry
@@ -247,6 +248,7 @@ PokedexEntryPointers:
 	dw Arcanine_HDexEntry
 	dw FlamigoDexEntry
 	dw AnnihilapeDexEntry
+	dw FarigirafDexEntry
 	dw FrigibaxDexEntry
 	dw ArctibaxDexEntry
 	dw BaxcaliburDexEntry
@@ -1414,6 +1416,13 @@ UmbreonDexEntry:
 	text_far _Gen2DexEntry
 	text_end
 
+GirafarigDexEntry:
+	db "LONG NECK@"
+	db 4,11
+	dw 915
+	text_far _Gen2DexEntry
+	text_end
+
 GligarDexEntry:
 	db "FLY SCORP@"
 	db 3,07
@@ -1964,6 +1973,13 @@ CeruledgeDexEntry:
 	db "FIREBLADE@"
 	db 4,11
 	dw 1874
+	text_far _Gen9DexEntry
+	text_end
+
+FarigirafDexEntry:
+	db "LONG NECK@"
+	db 10,06
+	dw 3527
 	text_far _Gen9DexEntry
 	text_end
 

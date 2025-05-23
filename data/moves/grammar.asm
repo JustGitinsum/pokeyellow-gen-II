@@ -26,7 +26,7 @@ ExclamationPointMoveSets:
 	db VICEGRIP
 	db WING_ATTACK
 	db FLY
-	db BIND
+	db TWIN_BEAM
 	db SLAM
 	db HORN_ATTACK
 	db BODY_SLAM

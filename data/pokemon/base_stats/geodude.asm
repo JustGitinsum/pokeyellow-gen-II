@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
+	tmhm BRICK_BREAK,   TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
 	     POISON_JAB,   WATERFALL,      PSYBEAM, NIGHT_SLASH,         EARTHQUAKE,   \
 	     EARTH_POWER,      DIG,          DARK_PULSE,        ICE_BEAM,  ACCELEROCK,         \
 	     DRAGON_PULSE,    LEAF_BLADE, FIRE_BLAST,   ICE_FANG,         AURA_SPHERE,    \

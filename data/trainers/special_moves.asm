@@ -4,17 +4,17 @@
 ;	db 0
 
 SpecialTrainerMoves:
-	db BUG_CATCHER, 15
-	db 2, 2, TACKLE
-	db 2, 3, STRING_SHOT
-	db 0
+	; db BUG_CATCHER, 15
+	; db 2, 2, TACKLE
+	; db 2, 3, STRING_SHOT
+	; db 0
 
-	db YOUNGSTER, 14
-	db 1, 4, EARTH_POWER
-	db 0
+	; db YOUNGSTER, 14
+	; db 1, 4, EARTH_POWER
+	; db 0
 
 	db BROCK, 1
-	db 2, 3, BIND
+	db 2, 3, WRAP
 	db 2, 4, ACCELEROCK
 	db 0
 

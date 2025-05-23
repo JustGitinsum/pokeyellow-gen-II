@@ -202,6 +202,7 @@
 	const AZUMARILL
 	const ESPEON
 	const UMBREON
+	const GIRAFARIG
 	const GLIGAR
 	const STEELIX
 	const SCIZOR
@@ -254,6 +255,7 @@
 	const ARCANINE_H
 	const FLAMIGO
 	const ANNIHILAPE
+	const FARIGIRAF
 	const FRIGIBAX
 	const ARCTIBAX
 	const BAXCALIBUR

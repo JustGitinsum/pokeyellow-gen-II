@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/buzzwole.pic", 0, 1 ; sprite dimensions
 	dw BuzzwolePicFront, BuzzwolePicBack
 
-	db HARDEN, FORCE_PALM, BUG_BITE, ELECTROWEB ; level 1 learnset
+	db HARDEN, BRICK_BREAK, BUG_BITE, ELECTROWEB ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM, 	AXE_KICK, 	    TOXIC, 			MEGAHORN, 		BODY_SLAM, 	  \
+	tmhm BRICK_BREAK, 	CLOSE_COMBAT, 	    TOXIC, 			MEGAHORN, 		BODY_SLAM, 	  \
 		 TRAILBLAZE, 	ICE_PUNCH, 		HYPER_BEAM,     SIGNAL_BEAM, 	POISON_JAB,   \
 		 GIGA_DRAIN, 	ROCK_SLIDE, 	EARTHQUAKE, 	IRON_HEAD, 		ACCELEROCK,   \
 		 PLAY_ROUGH, 	FIRE_PUNCH, 	THUNDERPUNCH, 	FLY, 			STRENGTH 

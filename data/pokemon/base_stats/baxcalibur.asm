@@ -14,7 +14,7 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FORCE_PALM,   TWISTER,    		AXE_KICK,     TOXIC,        BODY_SLAM,    \
+	tmhm BRICK_BREAK,   TWISTER,    		CLOSE_COMBAT,     TOXIC,        BODY_SLAM,    \
 		 TRAILBLAZE,   ICE_PUNCH,   	BLIZZARD,     HYPER_BEAM,   POISON_JAB,   \
 		 NIGHT_SLASH,  THUNDER_FANG,	EARTHQUAKE,   EARTH_POWER, 	DIG,		  \
 		 ICE_BEAM,     IRON_HEAD,    	ACCELEROCK,   DRAGON_PULSE, DRAGON_CLAW,  \

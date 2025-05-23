@@ -83,7 +83,7 @@ ItemPrices::
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
 	bcd3 0     ; MAX_ELIXER
-	bcd3 2100  ; LINK_CABLE
+	bcd3 2100  ; LINKCABLE
 	bcd3 2100  ; MAGMARIZER
 	bcd3 2100  ; ELECTIRIZER
 	bcd3 2100  ; METAL_COAT

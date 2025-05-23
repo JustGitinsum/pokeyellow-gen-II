@@ -37,7 +37,7 @@ UsableItems_PartyMenu:
 	db MAX_ETHER
 	db ELIXER
 	db MAX_ELIXER
-	db LINK_CABLE
+	db LINKCABLE
 	db MAGMARIZER
 	db ELECTIRIZER
 	db METAL_COAT

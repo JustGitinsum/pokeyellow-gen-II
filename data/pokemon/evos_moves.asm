@@ -205,6 +205,7 @@ EvosMovesPointerTable:
 	dw AzumarillEvosMoves
 	dw EspeonEvosMoves
 	dw UmbreonEvosMoves
+	dw GirafarigEvosMoves
 	dw GligarEvosMoves
 	dw SteelixEvosMoves
 	dw ScizorEvosMoves
@@ -257,6 +258,7 @@ EvosMovesPointerTable:
 	dw Arcanine_HEvosMoves
 	dw FlamigoEvosMoves
 	dw AnnihilapeEvosMoves
+	dw FarigirafEvosMoves
 	dw FrigibaxEvosMoves
 	dw ArctibaxEvosMoves
 	dw BaxcaliburEvosMoves
@@ -450,6 +452,7 @@ PhanpyEvosMoves:
 	db EVOLVE_LEVEL, 25, DONPHAN
 	db 0
 ; Learnset
+	db  7, BUBBLE
 	db 10, BULLDOZE
 	db 12, DOUBLE_KICK
 	db 17, SLAM
@@ -695,7 +698,7 @@ OnixEvosMoves:
 	db EVOLVE_ITEM, METAL_COAT, 1, STEELIX
 	db 0
 ; Learnset
-	db 15, BIND
+	db 15, WRAP
 	db 19, ROCK_TOMB
 	db 25, RAGE
 	db 33, SLAM
@@ -746,7 +749,7 @@ WooperEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LINK_CABLE, 1, ALAKAZAM
+	db EVOLVE_ITEM, LINKCABLE, 1, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -759,7 +762,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LINK_CABLE, 1, GOLEM
+	db EVOLVE_ITEM, LINKCABLE, 1, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -790,7 +793,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LINK_CABLE, 1, MACHAMP
+	db EVOLVE_ITEM, LINKCABLE, 1, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_SWEEP
@@ -957,7 +960,9 @@ MagnetonEvosMoves:
 	db EVOLVE_ITEM, THUNDER_STONE, 1, MAGNEZONE
 	db 0
 ; Learnset
+	db 30, TRI_ATTACK
 	db 34, FLASH_CANNON
+	db 40, TWIN_BEAM
 	db 52, LIGHT_SCREEN
 	db 64, THUNDER
 	db 0
@@ -1144,9 +1149,10 @@ DoduoEvosMoves:
 	db 20, TRAILBLAZE
 	db 24, FURY_ATTACK
 	db 30, DRILL_PECK
-	db 36, THROAT_CHOP
+	db 32, THROAT_CHOP
+	db 36, AGILITY
 	db 40, TRI_ATTACK
-	db 44, AGILITY
+	db 44, TWIN_BEAM
 	db 0
 
 PoliwagEvosMoves:
@@ -1698,9 +1704,10 @@ DodrioEvosMoves:
 	db 0
 ; Learnset
 	db 30, DRILL_PECK
-	db 39, THROAT_CHOP
+	db 35, THROAT_CHOP
+	db 40, AGILITY
 	db 45, TRI_ATTACK
-	db 51, AGILITY
+	db 51, TWIN_BEAM
 	db 0
 
 PrimeapeEvosMoves:
@@ -1723,9 +1730,9 @@ DugtrioEvosMoves:
 	db 0
 ; Learnset
 	db 15, GROWL
-	db 19, DIG
-	db 24, SAND_ATTACK
+	db 26, TRI_ATTACK
 	db 35, SLASH
+	db 40, TWIN_BEAM
 	db 47, EARTHQUAKE
 	db 0
 
@@ -2062,14 +2069,16 @@ MagnezoneEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, TRI_ATTACK
 	db 38, FLASH_CANNON
+	db 40, TWIN_BEAM
 	db 52, LIGHT_SCREEN
 	db 64, THUNDER
 	db 0
 
 HaunterEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LINK_CABLE, 1, GENGAR
+	db EVOLVE_ITEM, LINKCABLE, 1, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -2653,6 +2662,23 @@ UmbreonEvosMoves:
 	db 42, TAKE_DOWN
 	db 0
 
+GirafarigEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 32, FARIGIRAF
+	db 0
+; Learnset
+	db 10, DOUBLE_KICK
+	db 14, STOMP
+	db 19, PSYBEAM
+	db 23, AGILITY
+	db 28, TRI_ATTACK
+	db 32, TWIN_BEAM
+	db 37, CRUNCH
+	db 41, SUBSTITUTE
+	db 46, AMNESIA
+	db 50, PSYCHIC_M
+	db 0
+
 GligarEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, RAZOR_FANG, 1, GLISCOR
@@ -3131,7 +3157,7 @@ SylveonEvosMoves:
 
 PumpkabooEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LINK_CABLE, 1, GOURGEIST
+	db EVOLVE_ITEM, LINKCABLE, 1, GOURGEIST
 	db 0
 ; Learnset
 	db 20, BULLET_SEED
@@ -3310,6 +3336,17 @@ AnnihilapeEvosMoves:
 	db 39, CLOSE_COMBAT
 	db 44, SCREECH
 	db 46, THRASH
+	db 0
+
+FarigirafEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 32, TWIN_BEAM
+	db 37, CRUNCH
+	db 41, SUBSTITUTE
+	db 46, AMNESIA
+	db 50, PSYCHIC_M
 	db 0
 
 FrigibaxEvosMoves:

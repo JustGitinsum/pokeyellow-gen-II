@@ -92,7 +92,7 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const MAX_ETHER     ; $51
 	const ELIXER        ; $52
 	const MAX_ELIXER    ; $53
-	const LINK_CABLE    ; $54
+	const LINKCABLE    ; $54
 	const MAGMARIZER	; $55
 	const ELECTIRIZER	; $56
 	const METAL_COAT
@@ -163,11 +163,11 @@ MACRO add_tm
 ENDM
 
 DEF TM01 EQU const_value
-	add_tm FORCE_PALM   ; $C9
+	add_tm BRICK_BREAK; $C9
 	add_tm AIR_SLASH   ; $CA
 	add_tm SWORDS_DANCE ; $CB
 	add_tm TWISTER    ; $CC
-	add_tm AXE_KICK    ; $CD
+	add_tm CLOSE_COMBAT    ; $CD
 	add_tm TOXIC        ; $CE
 	add_tm MEGAHORN   ; $CF
 	add_tm FIRE_FANG    ; $D0

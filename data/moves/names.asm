@@ -19,7 +19,7 @@ MoveNames::
 	li "WING ATTACK"
 	li "TWISTER"
 	li "FLY"
-	li "BIND"
+	li "TWIN BEAM"
 	li "SLAM"
 	li "VINE WHIP"
 	li "STOMP"
