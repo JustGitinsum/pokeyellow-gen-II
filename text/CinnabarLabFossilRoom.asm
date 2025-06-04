@@ -15,18 +15,16 @@ _CinnabarLabFossilRoomScientist1NoFossilsText::
 	text "No! Is too bad!"
 	done
 
-_CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+; _CinnabarLabFossilRoomScientist1GoForAWalkText::
+; 	text "I take a little"
+; 	line "time!"
 
-	para "You go for walk a"
-	line "little while!"
-	done
+; 	para "You go for walk a"
+; 	line "little while!"
+; 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
-
-	para "Your fossil is"
+	text "Your fossil is"
 	line "back to life!"
 
 	para "It was @"
@@ -64,13 +62,13 @@ _CinnabarLabFossilRoomScientist1TakesFossilText::
 	text "!"
 	prompt
 
-_CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+; _CinnabarLabFossilRoomScientist1GoForAWalkText2::
+; 	text "I take a little"
+; 	line "time!"
 
-	para "You go for walk a"
-	line "little while!"
-	done
+; 	para "You go for walk a"
+; 	line "little while!"
+; 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
 	text "Aiyah! You come"

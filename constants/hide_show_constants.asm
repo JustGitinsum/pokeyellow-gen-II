@@ -83,6 +83,8 @@ DEF SHOW EQU $15
 	const HS_FIGHTING_DOJO_GIFT_1          ; 4A
 	const HS_FIGHTING_DOJO_GIFT_2          ; 4B
 	const HS_SILPH_CO_1F_RECEPTIONIST      ; 4C
+	const HS_ROCKTUNNEL_1F_FOSSIL_1
+	const HS_ROCKTUNNEL_1F_FOSSIL_2
 	const HS_VOLTORB_1                     ; 4D
 	const HS_VOLTORB_2                     ; 4E
 	const HS_VOLTORB_3                     ; 4F
@@ -197,7 +199,7 @@ DEF SHOW EQU $15
 	const HS_SILPH_CO_11F_JAMES            ; BC
 	const HS_SILPH_CO_11F_2                ; BD
 	const HS_SILPH_CO_11F_JESSIE           ; BE
-	const HS_UNUSED_MAP_F4_1               ; BF XXX sprite doesn't exist
+;	const HS_UNUSED_MAP_F4_1               ; BF XXX sprite doesn't exist Route10FossilRoom ROUTE_10_FOSSIL_ROOM
 	const HS_POKEMON_MANSION_2F_ITEM       ; C0
 	const HS_POKEMON_MANSION_3F_ITEM_1     ; C1
 	const HS_POKEMON_MANSION_3F_ITEM_2     ; C2

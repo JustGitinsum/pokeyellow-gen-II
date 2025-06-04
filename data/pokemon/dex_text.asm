@@ -678,7 +678,7 @@ _MachampDexEntry::
 	next "punches"
 	dex
 
-_BellsproutDexEntry::
+_ChikoritaDexEntry::
 	text "Prefers hot and"
 	next "humid places."
 	next "It ensnares tiny"
@@ -688,7 +688,7 @@ _BellsproutDexEntry::
 	next "them"
 	dex
 
-_WeepinbellDexEntry::
+_BayleefDexEntry::
 	text "When hungry, it"
 	next "swallows anything"
 	next "that moves. Its"
@@ -698,7 +698,7 @@ _WeepinbellDexEntry::
 	next "strong acids"
 	dex
 
-_VictreebelDexEntry::
+_MeganiumDexEntry::
 	text "Lures prey with"
 	next "the sweet aroma of"
 	next "honey. Swallowed"

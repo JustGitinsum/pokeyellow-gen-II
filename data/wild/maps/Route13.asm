@@ -1,13 +1,13 @@
 Route13WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 25, ODDISH
-	db 25, BELLSPROUT
+	db 25, CHIKORITA
 	db 28, PIDGEOTTO
 	db 28, EEVEE
 	db 27, EEVEE
-	db 27, BELLSPROUT
+	db 27, CHIKORITA
 	db 29, GLOOM
-	db 29, WEEPINBELL
+	db 29, BAYLEEF
 	db 26, FARFETCHD
 	db 31, FARFETCHD
 	end_grass_wildmons

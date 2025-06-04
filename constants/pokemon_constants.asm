@@ -194,9 +194,9 @@
 	const ODDISH             ; $B9
 	const GLOOM              ; $BA
 	const VILEPLUME          ; $BB
-	const BELLSPROUT         ; $BC
-	const WEEPINBELL         ; $BD
-	const VICTREEBEL         ; $BE
+	const CHIKORITA         ; $BC
+	const BAYLEEF         ; $BD
+	const MEGANIUM         ; $BE
 	const CROBAT
 	const MARILL
 	const AZUMARILL

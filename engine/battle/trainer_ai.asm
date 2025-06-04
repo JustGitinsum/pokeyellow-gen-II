@@ -343,7 +343,7 @@ BlackbeltAI:
 GiovanniAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseGuardSpec
+	jp AIUseXAttack
 
 CooltrainerMAI:
 	cp 25 percent + 1
@@ -651,12 +651,12 @@ AIUseXAccuracy: ; unused
 	ld a, X_ACCURACY
 	jp AIPrintItemUse
 
-AIUseGuardSpec:
-	call AIPlayRestoringSFX
-	ld hl, wEnemyBattleStatus2
-	set PROTECTED_BY_MIST, [hl]
-	ld a, GUARD_SPEC
-	jp AIPrintItemUse
+; AIUseGuardSpec:
+; 	call AIPlayRestoringSFX
+; 	ld hl, wEnemyBattleStatus2
+; 	set PROTECTED_BY_MIST, [hl]
+; 	ld a, GUARD_SPEC
+; 	jp AIPrintItemUse
 
 AIUseDireHit: ; unused
 	call AIPlayRestoringSFX

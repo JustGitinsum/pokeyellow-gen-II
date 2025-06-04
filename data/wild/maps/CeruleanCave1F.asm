@@ -4,7 +4,7 @@ CeruleanCave1FWildMons:
 	db 55, GOLBAT
 	db 45, GRAVELER
 	db 55, GLOOM
-	db 55, WEEPINBELL
+	db 55, BAYLEEF
 	db 52, SANDSLASH
 	db 54, VENOMOTH
 	db 54, GOLISOPOD

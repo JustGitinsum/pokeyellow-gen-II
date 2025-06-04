@@ -49,12 +49,12 @@ ItemPrices::
 	bcd3 2100  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 10000 ; NUGGET
-	bcd3 9800  ; ITEM_32
+	bcd3 9800  ; JAW_FOSSIL
 	bcd3 1000  ; POKE_DOLL
 	bcd3 200   ; FULL_HEAL
 	bcd3 1500  ; REVIVE
 	bcd3 4000  ; MAX_REVIVE
-	bcd3 700   ; GUARD_SPEC
+	bcd3 0   ; SAIL_FOSSIL (GUARD_SPEC)
 	bcd3 500   ; SUPER_REPEL
 	bcd3 700   ; MAX_REPEL
 	bcd3 650   ; DIRE_HIT

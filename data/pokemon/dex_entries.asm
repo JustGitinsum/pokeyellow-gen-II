@@ -187,9 +187,9 @@ PokedexEntryPointers:
 	dw OddishDexEntry
 	dw GloomDexEntry
 	dw VileplumeDexEntry
-	dw BellsproutDexEntry
-	dw WeepinbellDexEntry
-	dw VictreebelDexEntry
+	dw ChikoritaDexEntry
+	dw BayleefDexEntry
+	dw MeganiumDexEntry
 	dw CrobatDexEntry
 	dw MarillDexEntry
 	dw AzumarillDexEntry
@@ -786,25 +786,25 @@ MachampDexEntry:
 	text_far _MachampDexEntry
 	text_end
 
-BellsproutDexEntry:
-	db "FLOWER@"
+ChikoritaDexEntry:
+	db "LEAF@"
 	db 2,4
 	dw 90
-	text_far _BellsproutDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
-WeepinbellDexEntry:
-	db "FLYCATCHER@"
+BayleefDexEntry:
+	db "LEAF@"
 	db 3,3
 	dw 140
-	text_far _WeepinbellDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
-VictreebelDexEntry:
-	db "FLYCATCHER@"
+MeganiumDexEntry:
+	db "HERB@"
 	db 5,7
 	dw 340
-	text_far _VictreebelDexEntry
+	text_far _Gen2DexEntry
 	text_end
 
 TentacoolDexEntry:

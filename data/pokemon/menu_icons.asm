@@ -68,9 +68,9 @@ MonPartyData:
 	nybble ICON_MON       ; Machop
 	nybble ICON_MON       ; Machoke
 	nybble ICON_MON       ; Machamp
-	nybble ICON_GRASS     ; Bellsprout
-	nybble ICON_GRASS     ; Weepinbell
-	nybble ICON_GRASS     ; Victreebel
+	nybble ICON_GRASS     ; Chikorita
+	nybble ICON_GRASS     ; Bayleef
+	nybble ICON_GRASS     ; Meganium
 	nybble ICON_WATER     ; Tentacool
 	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_MON       ; Geodude

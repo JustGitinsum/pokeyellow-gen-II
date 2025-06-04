@@ -72,9 +72,9 @@
 	const DEX_MACHOP     ; 66
 	const DEX_MACHOKE    ; 67
 	const DEX_MACHAMP    ; 68
-	const DEX_BELLSPROUT ; 69
-	const DEX_WEEPINBELL ; 70
-	const DEX_VICTREEBEL ; 71
+	const DEX_CHIKORITA ; 69
+	const DEX_BAYLEEF ; 70
+	const DEX_MEGANIUM ; 71
 	const DEX_TENTACOOL  ; 72
 	const DEX_TENTACRUEL ; 73
 	const DEX_GEODUDE    ; 74

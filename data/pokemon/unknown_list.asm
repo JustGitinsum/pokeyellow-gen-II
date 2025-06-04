@@ -32,5 +32,5 @@ Pointer_3b0ee:
 	db WARTORTLE
 	db CHARIZARD
 	db VILEPLUME
-	db VICTREEBEL
+	db MEGANIUM
 	db -1 ; end

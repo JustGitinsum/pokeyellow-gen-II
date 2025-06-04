@@ -103,11 +103,16 @@ DebugSetPokedexEntries:
 	ret
 
 DebugItemsList:
-	db MASTER_BALL, 99
-	db TOWN_MAP, 1
-	db BICYCLE, 1
-	db FULL_RESTORE, 99
-	db ESCAPE_ROPE, 99
+	; db MASTER_BALL, 99
+	; db TOWN_MAP, 1
+	; db BICYCLE, 1
+	; db FULL_RESTORE, 99
+	; db ESCAPE_ROPE, 99
+	db OLD_AMBER, 1
+	db DOME_FOSSIL, 1
+	db HELIX_FOSSIL, 1
+	db JAW_FOSSIL, 1
+	db SAIL_FOSSIL, 1
 	db RARE_CANDY, 99
 	db SECRET_KEY, 1
 	db CARD_KEY, 1

@@ -364,8 +364,7 @@ FlyAnim:
 	db -1 ; end
 
 TwinBeamAnim:
-	battle_anim TWIN_BEAM, SUBANIM_0_TWIN_BEAM, 0, 4
-	battle_anim TWIN_BEAM, SUBANIM_0_TWIN_BEAM, 0, 4
+	battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
 	db -1 ; end
 
 SlamAnim:

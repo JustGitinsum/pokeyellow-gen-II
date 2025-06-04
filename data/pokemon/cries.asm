@@ -193,9 +193,9 @@ CryData::
 	mon_cry SFX_CRY_08, $DD, $01 ; Oddish
 	mon_cry SFX_CRY_08, $AA, $40 ; Gloom
 	mon_cry SFX_CRY_23, $22, $FF ; Vileplume
-	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
-	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
-	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_21, $55, $01 ; Chikorita
+	mon_cry SFX_CRY_25, $44, $20 ; Bayleef
+	mon_cry SFX_CRY_25, $66, $CC ; Meganium
 	mon_cry SFX_CRY_1D, $FA, $80 ; CROBAT
 	mon_cry SFX_CRY_0C, $88, $C0 ; Marill
 	mon_cry SFX_CRY_0C, $23, $FF ; Azumarill

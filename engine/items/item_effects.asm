@@ -66,12 +66,12 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; LEAF_STONE
 	dw ItemUseCardKey    ; CARD_KEY
 	dw UnusableItem      ; NUGGET
-	dw UnusableItem      ; ITEM_32
+	dw UnusableItem      ; JAW_FOSSIL
 	dw ItemUsePokeDoll   ; POKE_DOLL
 	dw ItemUseMedicine   ; FULL_HEAL
 	dw ItemUseMedicine   ; REVIVE
 	dw ItemUseMedicine   ; MAX_REVIVE
-	dw ItemUseGuardSpec  ; GUARD_SPEC
+	dw UnusableItem      ; SAIL_FOSSIL (GUARD_SPEC - ItemUseGuardSpec)
 	dw ItemUseSuperRepel ; SUPER_REPEL
 	dw ItemUseMaxRepel   ; MAX_REPEL
 	dw ItemUseDireHit    ; DIRE_HIT
@@ -1753,22 +1753,22 @@ ItemUsePokeDoll:
 	ld [wEscapedFromBattle], a
 	jp PrintItemUseTextAndRemoveItem
 
-ItemUseGuardSpec:
-	ld a, [wIsInBattle]
-	and a
-	jp z, ItemUseNotTime
+; ItemUseGuardSpec:
+; 	ld a, [wIsInBattle]
+; 	and a
+; 	jp z, ItemUseNotTime
 
-	ld a, [wWhichPokemon]
-	push af
-	ld a, [wPlayerMonNumber]
-	ld [wWhichPokemon], a
-	callabd_ModifyPikachuHappiness PIKAHAPPY_USEDXITEM
-	pop af
-	ld [wWhichPokemon], a
+; 	ld a, [wWhichPokemon]
+; 	push af
+; 	ld a, [wPlayerMonNumber]
+; 	ld [wWhichPokemon], a
+; 	callabd_ModifyPikachuHappiness PIKAHAPPY_USEDXITEM
+; 	pop af
+; 	ld [wWhichPokemon], a
 
-	ld hl, wPlayerBattleStatus2
-	set PROTECTED_BY_MIST, [hl] ; Mist bit
-	jp PrintItemUseTextAndRemoveItem
+; 	ld hl, wPlayerBattleStatus2
+; 	set PROTECTED_BY_MIST, [hl] ; Mist bit
+; 	jp PrintItemUseTextAndRemoveItem
 
 ItemUseSuperRepel:
 	ld b, 200

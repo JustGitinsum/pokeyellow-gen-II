@@ -49,12 +49,12 @@ ItemNames::
 	li "LEAF STONE"
 	li "CARD KEY"
 	li "NUGGET"
-	li "PP UP" ; ITEM_32
+	li "JAW FOSSIL" ; ITEM_32
 	li "POKé DOLL"
 	li "FULL HEAL"
 	li "REVIVE"
 	li "MAX REVIVE"
-	li "GUARD SPEC."
+	li "SAIL FOSSIL"
 	li "SUPER REPEL"
 	li "MAX REPEL"
 	li "DIRE HIT"

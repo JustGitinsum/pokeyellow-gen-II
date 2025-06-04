@@ -145,9 +145,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_MACHOP     ; $69
 	const PAL_MACHOKE    ; $6A
 	const PAL_MACHAMP    ; $6B
-	const PAL_BELLSPROUT ; $6C
-	const PAL_WEEPINBELL ; $6D
-	const PAL_VICTREEBEL ; $6E
+	const PAL_CHIKORITA ; $6C
+	const PAL_BAYLEEF 	; $6D
+	const PAL_MEGANIUM 	; $6E
 	const PAL_TENTACOOL  ; $6F
 	const PAL_TENTACRUEL ; $70
 	const PAL_GEODUDE    ; $71

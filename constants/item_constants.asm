@@ -58,12 +58,12 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const LEAF_STONE    ; $2F
 	const CARD_KEY      ; $30
 	const NUGGET        ; $31
-	const ITEM_32       ; $32 ; unused
+	const JAW_FOSSIL       ; $32 ; unused
 	const POKE_DOLL     ; $33
 	const FULL_HEAL     ; $34
 	const REVIVE        ; $35
 	const MAX_REVIVE    ; $36
-	const GUARD_SPEC    ; $37
+	const SAIL_FOSSIL    ; $37
 	const SUPER_REPEL   ; $38
 	const MAX_REPEL     ; $39
 	const DIRE_HIT      ; $3A

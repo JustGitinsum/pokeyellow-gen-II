@@ -197,9 +197,9 @@ EvosMovesPointerTable:
 	dw OddishEvosMoves
 	dw GloomEvosMoves
 	dw VileplumeEvosMoves
-	dw BellsproutEvosMoves
-	dw WeepinbellEvosMoves
-	dw VictreebelEvosMoves
+	dw ChikoritaEvosMoves
+	dw BayleefEvosMoves
+	dw MeganiumEvosMoves
 	dw CrobatEvosMoves
 	dw MarillEvosMoves
 	dw AzumarillEvosMoves
@@ -2563,39 +2563,48 @@ VileplumeEvosMoves:
 	db 52, ENERGY_BALL
 	db 0
 
-BellsproutEvosMoves:
+ChikoritaEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 21, WEEPINBELL
+	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, RAZOR_LEAF
-	db 33, POISON_JAB
-	db 42, SLAM
+	db 12, ANCIENTPOWER
+	db 17, REFLECT
+	db 20, MAGICAL_LEAF
+	db 23, LEECH_SEED
+	db 28, TAKE_DOWN
+	db 31, LIGHT_SCREEN
+	db 34, BODY_SLAM
+	db 39, GIGA_DRAIN
+	db 42, MOONBLAST
+	db 45, ENERGY_BALL
 	db 0
 
-WeepinbellEvosMoves:
+BayleefEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LEAF_STONE, 1, VICTREEBEL
+	db EVOLVE_LEVEL, 32, MEGANIUM
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, RAZOR_LEAF
-	db 33, POISON_JAB
-	db 42, SLAM
+	db 18, REFLECT
+	db 22, MAGICAL_LEAF
+	db 26, LEECH_SEED
+	db 32, TAKE_DOWN
+	db 36, LIGHT_SCREEN
+	db 40, BODY_SLAM
+	db 56, GIGA_DRAIN
+	db 50, MOONBLAST
+	db 54, ENERGY_BALL
 	db 0
 
-VictreebelEvosMoves:
+MeganiumEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 40, LIGHT_SCREEN
+	db 46, BODY_SLAM
+	db 54, GIGA_DRAIN
+	db 60, MOONBLAST
+	db 65, ENERGY_BALL
 	db 0
 
 CrobatEvosMoves:
