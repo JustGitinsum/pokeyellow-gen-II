@@ -205,6 +205,10 @@ AttackAnimationPointers:
 	dw PhantonForceAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
+
+	
+AlternativeAnimationPointers:
+	table_width 2, AlternativeAnimationPointers
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -242,7 +246,7 @@ AttackAnimationPointers:
 	dw HidePicAnim
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
-	assert_table_length NUM_ATTACK_ANIMS
+	assert_table_length NUM_ALTERNATIVE_ANIMS
 
 ; each animation is a list of subanimations
 ; and/or special effects, terminated by -1
