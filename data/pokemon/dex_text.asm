@@ -468,7 +468,7 @@ _GolisopodDexEntry::
 	next "the thinking"
 	dex
 
-_VenonatDexEntry::
+_VaroomDexEntry::
 	text "Its large eyes act"
 	next "as radars. In a"
 	next "bright place, you"
@@ -478,7 +478,7 @@ _VenonatDexEntry::
 	next "many tiny eyes"
 	dex
 
-_VenomothDexEntry::
+_RevavroomDexEntry::
 	text "The powdery scales"
 	next "on its wings are"
 	next "hard to remove."
@@ -1357,7 +1357,7 @@ _FlareonDexEntry::
 	next "3,000F degrees"
 	dex
 
-_PorygonDexEntry::
+_ZacianDexEntry::
 	text "The only #MON"
 	next "people anticipate"
 	next "can fly into"

@@ -3,12 +3,12 @@ PokemonTower4FWildMons:
 	db 20, GASTLY
 	db 21, GASTLY
 	db 22, GASTLY
-	db 23, PUMPKABOO
-	db 24, PUMPKABOO
-	db 19, ZORUA_H
-	db 18, ZORUA_H
+	db 23, GASTLY
+	db 24, GASTLY
+	db 19, GASTLY
+	db 18, CUBONE
 	db 25, MIMIKYU
-	db 20, HAUNTER
+	db 25, DREEPY
 	db 25, HAUNTER
 	end_grass_wildmons
 

@@ -1,15 +1,15 @@
 RockTunnel1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 15, GOLBAT
-	db 16, LAIRON
-	db 17, KOFFING
-	db 19, ONIX
-	db 18, GRIMER
-	db 20, AMAURA
-	db 22, GRIMER
-	db 17, TYRUNT
-	db 19, OMANYTE
-	db 21, KABUTO
+	db 16, GRAVELER
+	db 17, LAIRON
+	db 19, MAGMAR
+	db 18, MAGMAR
+	db 20, LAIRON
+	db 22, GRAVELER
+	db 17, GOLBAT
+	db 19, DRILBUR
+	db 21, DRILBUR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -47,8 +47,8 @@ MonPartyData:
 	nybble ICON_GRASS     ; Vileplume
 	nybble ICON_BUG       ; Wimpod
 	nybble ICON_BUG       ; Golisopod
-	nybble ICON_BUG       ; Venonat
-	nybble ICON_BUG       ; Venomoth
+	nybble ICON_BALL      ; Varoom
+	nybble ICON_BALL      ; Revavroom
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth
@@ -136,7 +136,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Vaporeon
 	nybble ICON_QUADRUPED ; Jolteon
 	nybble ICON_QUADRUPED ; Flareon
-	nybble ICON_MON       ; Porygon
+	nybble ICON_QUADRUPED ; Zacian
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar
 	nybble ICON_HELIX     ; Kabuto
@@ -250,6 +250,5 @@ MonPartyData:
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Baxcalibur
 	nybble ICON_MON		  ; Ironvaliant
-	nybble ICON_SNAKE     ; Gyarados_Red
 	
 	end_nybble_array NUM_POKEMON

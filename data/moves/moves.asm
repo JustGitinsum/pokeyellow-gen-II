@@ -153,12 +153,12 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,        95, 20 ; FREE
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,          100, 10
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
-	move SKY_ATTACK,   NO_ADDITIONAL_EFFECT,       140, FLYING,        90,  5 ; 
+	move BEAK_BLAST,   BURN_SIDE_EFFECT2,          100, FLYING,       100, 15 ; Add to learn sets
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
-	move FLASH,        ACCURACY_DOWN1_EFFECT,       60, FAIRY,        100, 20
+	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, FAIRY,        100, 20
 	move PSYCHO_CUT,   NO_ADDITIONAL_EFFECT,        75, PSYCHIC_TYPE, 100, 20
 	move ROLLOUT,      NO_ADDITIONAL_EFFECT,        80, ROCK,          95, 20
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40
@@ -209,12 +209,27 @@ Moves:
 	move MAKE_IT_RAIN, PAY_DAY_EFFECT,             120, STEEL,        100,  5
 	move DRAGONBREATH, PARALYZE_SIDE_EFFECT1,       60, DRAGON,       100, 20
 	move HEAT_CRASH,   BURN_SIDE_EFFECT1,          100, FIRE,         100, 10
+	move MYSTICALFIRE, SPECIAL_DAMAGE_EFFECT,       75, FIRE,         100, 10 ; Add to learn sets
+	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 25
 	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75,  BUG,         100, 15
 	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100,  5
 	move ICICLE_CRASH, FLINCH_SIDE_EFFECT2,         85,  ICE,          90, 10
 	move DRAGON_DARTS, ATTACK_TWICE_EFFECT,		    50, DRAGON,       100, 10
 	move PHANTOMFORCE, NO_ADDITIONAL_EFFECT,        90, GHOST,        100, 10
+	move ZEN_HEADBUTT, FLINCH_SIDE_EFFECT2,	        80,	PSYCHIC_TYPE,  95, 15
+	move EXTRASENSORY, FLINCH_SIDE_EFFECT1,	        80,	PSYCHIC_TYPE, 100, 20
+	move PSYCHICFANGS, DEFENSE_DOWN_SIDE_EFFECT,    85,	PSYCHIC_TYPE, 100, 10
+	move MUD_SHOT,	   SPEED_DOWN_SIDE_EFFECT,	    55,	GROUND,	       95, 15
+	move ICICLE_SPEAR, TWO_TO_FIVE_ATTACKS_EFFECT,  25,	ICE,	      100, 30 ; Add to learn sets
+	move SHOCK_WAVE,   SWIFT_EFFECT,  				60, ELECTRIC,     100, 20
+	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,  120,	DRAGON,	      100, 10 ; Add to learn sets
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
 
-; Moves I want to add: Zen Headbutt, Aero Blast, Psychic Fangs
+; Moves I want to add: 
+; Aero Blast, Rapid Spin, Silver Wind, Shadow Bone, Pounce, Lunge, Ice Spinner, Hi Horsepowr, Stomping Tantrum, Beak Blast  
+; Status Moves:
+; Synthesis, Moonlight, Roost, Dragon Dance
+
+; Pikachu moves: Floaty Fall, Pika Papow, Splishy Splash, Zippy Zap
+; Eevee Moves: Baddy Bad, Bouncy Bubble, Buzzy Buzz, Freezy Frost, Glitzy Glow, Sappy Seed, Sizzly Slide, Sparkly Swirl, Veevee Volley

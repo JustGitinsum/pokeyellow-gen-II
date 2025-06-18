@@ -104,10 +104,10 @@ _LoweredItsHeadText::
 	line "lowered its head!"
 	prompt
 
-_SkyAttackGlowingText::
-	text_start
-	line "is glowing!"
-	prompt
+; _SkyAttackGlowingText::
+; 	text_start
+; 	line "is glowing!"
+; 	prompt
 
 _FlewUpHighText::
 	text_start

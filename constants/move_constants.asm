@@ -148,7 +148,7 @@
 	const BARRAGE      ; 8c
 	const LEECH_LIFE   ; 8d
 	const LOVELY_KISS  ; 8e
-	const SKY_ATTACK   ; 8f
+	const BEAK_BLAST   ; 8f
 	const TRANSFORM    ; 90
 	const BUBBLE       ; 91
 	const DIZZY_PUNCH  ; 92
@@ -204,11 +204,20 @@
 	const MAKE_IT_RAIN
 	const DRAGONBREATH
 	const HEAT_CRASH
+	const MYSTICALFIRE
+	const FLAME_WHEEL
 	const SIGNAL_BEAM
 	const ANCIENTPOWER
 	const ICICLE_CRASH
 	const DRAGON_DARTS
 	const PHANTOMFORCE
+	const ZEN_HEADBUTT
+	const EXTRASENSORY
+	const PSYCHICFANGS
+	const MUD_SHOT
+	const ICICLE_SPEAR
+	const SHOCK_WAVE
+	const OUTRAGE
 	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 

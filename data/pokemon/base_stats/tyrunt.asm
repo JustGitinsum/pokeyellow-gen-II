@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tyrunt.pic", 0, 1 ; sprite dimensions
 	dw TyruntPicFront, TyruntPicBack
 
-	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, TAIL_WHIP, ROAR, ANCIENTPOWER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

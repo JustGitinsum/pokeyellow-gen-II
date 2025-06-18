@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/torchic.pic", 0, 1 ; sprite dimensions
 	dw TorchicPicFront, TorchicPicBack
 
-	db PECK, GROWL, EMBER, QUICK_ATTACK ; level 1 learnset
+	db SCRATCH, GROWL, EMBER, QUICK_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -70,7 +70,7 @@ CryData::
 	mon_cry SFX_CRY_1C, $A8, $C0 ; Kirlia
 	mon_cry SFX_CRY_1C, $98, $FF ; Gardevoir
 	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
-	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
+	mon_cry SFX_CRY_1A, $44, $40 ; Varoom
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
 	mon_cry SFX_CRY_22, $00, $80 ; Zigzagoon
 	mon_cry SFX_CRY_22, $20, $FF ; Linoone
@@ -124,7 +124,7 @@ CryData::
 	mon_cry SFX_CRY_0B, $99, $20 ; Dodrio
 	mon_cry SFX_CRY_0A, $AF, $40 ; Primeape
 	mon_cry SFX_CRY_0B, $2A, $10 ; Dugtrio
-	mon_cry SFX_CRY_1A, $29, $80 ; Venomoth
+	mon_cry SFX_CRY_1A, $29, $80 ; Revavroom
 	mon_cry SFX_CRY_0C, $23, $FF ; Dewgong
 	mon_cry SFX_CRY_22, $00, $80 ; Buneary
 	mon_cry SFX_CRY_22, $20, $FF ; Lopunny
@@ -175,7 +175,7 @@ CryData::
 	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
 	mon_cry SFX_CRY_01, $2C, $E0 ; Donphan
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
-	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
+	mon_cry SFX_CRY_25, $AA, $FF ; Zacian
 	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl
 	mon_cry SFX_CRY_0E, $DF, $04 ; Togepi
 	mon_cry SFX_CRY_1C, $80, $60 ; Magnemite
@@ -259,5 +259,4 @@ CryData::
 	mon_cry SFX_CRY_0F, $40, $80 ; Arctibax
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Baxcalibur
 	mon_cry SFX_CRY_1C, $20, $C0 ; Ironvaliant
-	mon_cry SFX_CRY_17, $00, $80 ; Gyarados_Red
 	assert_table_length NUM_POKEMON_INDEXES

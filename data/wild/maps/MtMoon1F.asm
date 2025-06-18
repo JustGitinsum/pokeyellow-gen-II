@@ -8,7 +8,7 @@ MtMoon1FWildMons:
 	db 10, EXEGGCUTE
 	db 10, GEODUDE
 	db 11, ZUBAT
-	db 8, ONIX
+	db  8, ONIX
 	db 11, CLEFAIRY
 	end_grass_wildmons
 

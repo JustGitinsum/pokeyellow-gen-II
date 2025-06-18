@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/mudkip.pic", 0, 1 ; sprite dimensions
 	dw MudkipPicFront, MudkipPicBack
 
-	db TACKLE, GROWL, TRAILBLAZE, DOUBLE_KICK ; level 1 learnset
+	db TACKLE, GROWL, MUD_SHOT, DOUBLE_KICK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

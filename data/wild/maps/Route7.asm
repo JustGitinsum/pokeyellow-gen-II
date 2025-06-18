@@ -1,12 +1,12 @@
 Route7WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 20, CYCLIZAR
+	db 20, RATICATE
 	db 22, TAUROS
-	db 20, TAUROS
-	db 15, KADABRA
-	db 19, KADABRA
-	db 24, KANGASKHAN
-	db 26, CYCLIZAR
+	db 22, TOGETIC
+	db 15, NINETALES
+	db 19, RATICATE
+	db 24, NINETALES
+	db 26, TOGETIC
 	db 19, TAUROS
 	db 24, CYCLIZAR
 	db 28, KANGASKHAN

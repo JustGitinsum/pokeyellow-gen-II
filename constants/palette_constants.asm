@@ -124,8 +124,8 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_VILEPLUME  ; $54
 	const PAL_WIMPOD      ; $55
 	const PAL_GOLISOPOD   ; $56
-	const PAL_VENONAT    ; $57
-	const PAL_VENOMOTH   ; $58
+	const PAL_VAROOM    ; $57
+	const PAL_REVAVROOM   ; $58
 	const PAL_DIGLETT    ; $59
 ;	const PAL_DUGTRIO    ; $5A
 	const PAL_MEOWTH     ; $5B
@@ -213,7 +213,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_VAPOREON   ; $AD
 	const PAL_JOLTEON    ; $AE
 	const PAL_FLAREON    ; $AF
-	const PAL_PORYGON    ; $B0
+	const PAL_ZACIAN    ; $B0
 	const PAL_OMANYTE    ; $B1
 ;	const PAL_OMASTAR    ; $B2
 	const PAL_KABUTO     ; $B3
@@ -327,7 +327,6 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_ARCTIBAX
 ;	const PAL_BAXCALIBUR
 ;	const PAL_IRONVALIANT
-;	const PAL_GYARADOS_RED
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1

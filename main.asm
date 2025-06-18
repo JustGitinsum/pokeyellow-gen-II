@@ -491,14 +491,17 @@ INCLUDE "engine/events/hidden_items.asm"
 SECTION "bank1E", ROMX
 
 INCLUDE "engine/battle/animations.asm"
-INCLUDE "engine/overworld/cut2.asm"
-INCLUDE "engine/overworld/dust_smoke.asm"
+;INCLUDE "engine/overworld/cut2.asm"
+;INCLUDE "engine/overworld/dust_smoke.asm"
+;INCLUDE "gfx/fishing.asm" ; moved to bank1F
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
 
-SECTION "fishing gfx", ROMX
+SECTION "bank1F", ROMX
 
+INCLUDE "engine/overworld/cut2.asm"
+INCLUDE "engine/overworld/dust_smoke.asm"
 INCLUDE "gfx/fishing.asm"
 
 SECTION "BG Map Attributes (Debug)", ROMX
@@ -665,8 +668,8 @@ JolteonPicFront::     INCBIN "gfx/pokemon/front/jolteon.pic"
 JolteonPicBack::      INCBIN "gfx/pokemon/back/jolteonb.pic"
 FlareonPicFront::     INCBIN "gfx/pokemon/front/flareon.pic"
 FlareonPicBack::      INCBIN "gfx/pokemon/back/flareonb.pic"
-PorygonPicFront::     INCBIN "gfx/pokemon/front/porygon.pic"
-PorygonPicBack::      INCBIN "gfx/pokemon/back/porygonb.pic"
+ZacianPicFront::     INCBIN "gfx/pokemon/front/zacian.pic"
+ZacianPicBack::      INCBIN "gfx/pokemon/back/zacianb.pic"
 OmanytePicFront::     INCBIN "gfx/pokemon/front/omanyte.pic"
 OmanytePicBack::      INCBIN "gfx/pokemon/back/omanyteb.pic"
 OmastarPicFront::     INCBIN "gfx/pokemon/front/omastar.pic"
@@ -905,7 +908,5 @@ BaxcaliburPicFront::    INCBIN "gfx/pokemon/front/baxcalibur.pic"
 BaxcaliburPicBack::     INCBIN "gfx/pokemon/back/baxcaliburb.pic"
 IronvaliantPicFront::    INCBIN "gfx/pokemon/front/ironvaliant.pic"
 IronvaliantPicBack::     INCBIN "gfx/pokemon/back/ironvaliantb.pic"
-Gyarados_RedPicFront::    INCBIN "gfx/pokemon/front/gyarados_red.pic"
-Gyarados_RedPicBack::     INCBIN "gfx/pokemon/back/gyaradosb.pic"
 
 INCLUDE "data/sgb/sgb_palettes.asm"

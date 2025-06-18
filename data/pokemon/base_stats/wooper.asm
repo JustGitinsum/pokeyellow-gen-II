@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/wooper.pic", 0, 1 ; sprite dimensions
 	dw WooperPicFront, WooperPicBack
 
-	db TAIL_WHIP, BULLDOZE, TACKLE, NO_MOVE ; level 1 learnset
+	db TAIL_WHIP, MUD_SHOT, TACKLE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm CLOSE_COMBAT, 	    TOXIC, 			MEGAHORN, 		BODY_SLAM, 		SLUDGE_BOMB,  \
+	tmhm CLOSE_COMBAT, 	TOXIC, 			MEGAHORN, 		BODY_SLAM, 		SLUDGE_BOMB,  \
 		 BUBBLEBEAM, 	TRAILBLAZE, 	ICE_PUNCH, 		BLIZZARD, 		HYPER_BEAM,   \
 		 SIGNAL_BEAM, 	POISON_JAB, 	WATERFALL, 		ENERGY_BALL, 	ROCK_SLIDE,   \
 		 EARTHQUAKE, 	EARTH_POWER, 	DIG, 			ICE_BEAM, 		IRON_HEAD, 	  \

@@ -6,8 +6,8 @@ Route21WildMons:
 	db 11, EXEGGUTOR
 	db 17, EXEGGUTOR_A
 	db 15, EXEGGUTOR_A
-	db 15, RATICATE
-	db 17, PIDGEOTTO
+	db 15, KLEAVOR
+	db 17, KLEAVOR
 	db 19, PIDGEOTTO
 	db 15, PIDGEOTTO
 	end_grass_wildmons

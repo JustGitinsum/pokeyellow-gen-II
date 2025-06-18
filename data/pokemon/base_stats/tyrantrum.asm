@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tyrantrum.pic", 0, 1 ; sprite dimensions
 	dw TyrantrumPicFront, TyrantrumPicBack
 
-	db BITE, TAIL_WHIP, DRAGON_CLAW, ROCK_SLIDE ; level 1 learnset
+	db CRUNCH, PSYCHICFANGS, DRAGON_CLAW, ROCK_SLIDE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

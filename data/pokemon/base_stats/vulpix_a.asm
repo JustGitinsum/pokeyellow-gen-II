@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vulpix_a.pic", 0, 1 ; sprite dimensions
 	dw Vulpix_APicFront, Vulpix_APicBack
 
-	db AURORA_BEAM, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, TAIL_WHIP, AURORA_BEAM, OMINOUS_WIND ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

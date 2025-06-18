@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/amaura.pic", 0, 1 ; sprite dimensions
 	dw AmauraPicFront, AmauraPicBack
 
-	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db MIST, GROWL, AURORA_BEAM, ANCIENTPOWER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -8,8 +8,8 @@ CeruleanCaveB1FWildMons:
 	db 60, DITTO
 	db 58, LUCARIO
 	db 58, CHANSEY
-	db 60, SIRFETCHD
-	db 58, AGGRON
+	db 60, GREATTUSK
+	db 58, IRONVALIANT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

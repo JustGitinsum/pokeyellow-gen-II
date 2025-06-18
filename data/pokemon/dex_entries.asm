@@ -64,7 +64,7 @@ PokedexEntryPointers:
 	dw KirliaDexEntry
 	dw GardevoirDexEntry
 	dw FarfetchdDexEntry
-	dw VenonatDexEntry
+	dw VaroomDexEntry
 	dw DragoniteDexEntry
 	dw ZigzagoonDexEntry
 	dw LinooneDexEntry
@@ -118,7 +118,7 @@ PokedexEntryPointers:
 	dw DodrioDexEntry
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
-	dw VenomothDexEntry
+	dw RevavroomDexEntry
 	dw DewgongDexEntry
 	dw BunearyDexEntry
 	dw LopunnyDexEntry
@@ -169,7 +169,7 @@ PokedexEntryPointers:
 	dw NidorinoDexEntry
 	dw DonphanDexEntry
 	dw GeodudeDexEntry
-	dw PorygonDexEntry
+	dw ZacianDexEntry
 	dw AerodactylDexEntry
 	dw TogepiDexEntry
 	dw MagnemiteDexEntry
@@ -253,7 +253,6 @@ PokedexEntryPointers:
 	dw ArctibaxDexEntry
 	dw BaxcaliburDexEntry
 	dw IronvaliantDexEntry
-	dw GyaradosDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -639,18 +638,18 @@ GolisopodDexEntry:
 	text_far _Gen7DexEntry
 	text_end
 
-VenonatDexEntry:
-	db "INSECT@"
-	db 3,3
-	dw 660
-	text_far _VenonatDexEntry
+VaroomDexEntry:
+	db "SINGLE-CYL@"
+	db 3,03
+	dw 772
+	text_far _Gen9DexEntry
 	text_end
 
-VenomothDexEntry:
-	db "POISONMOTH@"
-	db 4,11
-	dw 280
-	text_far _VenomothDexEntry
+RevavroomDexEntry:
+	db "MULTI-CYL@"
+	db 5,11
+	dw 2646
+	text_far _Gen9DexEntry
 	text_end
 
 DiglettDexEntry:
@@ -1262,11 +1261,11 @@ FlareonDexEntry:
 	text_far _FlareonDexEntry
 	text_end
 
-PorygonDexEntry:
-	db "VIRTUAL@"
-	db 2,7
-	dw 800
-	text_far _PorygonDexEntry
+ZacianDexEntry:
+	db "WARRIOR@"
+	db 9,02
+	dw 7826
+	text_far _Gen8DexEntry
 	text_end
 
 OmanyteDexEntry:

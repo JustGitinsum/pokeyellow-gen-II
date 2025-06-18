@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kabuto.pic", 0, 1 ; sprite dimensions
 	dw KabutoPicFront, KabutoPicBack
 
-	db SCRATCH, HARDEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WATER_GUN, LEER, MUD_SHOT, ANCIENTPOWER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

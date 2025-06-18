@@ -6,6 +6,9 @@ PhysicalToSpecialMoves:
         db AIR_SLASH
 ; Fighting
         db AURA_SPHERE
+; Ground
+        db MUD_SHOT
+        db EARTH_POWER
 ; Poison
         db ACID
         db SLUDGE
@@ -30,6 +33,7 @@ SpecialToPhysicalMoves:
         db FIRE_FANG
         db BITTER_BLADE
         db HEAT_CRASH
+        db FLAME_WHEEL
 ; Water
         db RAZOR_SHELL
         db CRABHAMMER
@@ -49,17 +53,22 @@ SpecialToPhysicalMoves:
         db SUPRCELLSLAM
 ; Psychic
         db PSYCHO_CUT
+        db ZEN_HEADBUTT
+        db PSYCHICFANGS
 ; DARK
         db BITE
         db CRUNCH
         db NIGHT_SLASH
+        db THROAT_CHOP
 ; DRAGON
         db DRAGON_CLAW
         db DRAGON_DARTS
+        db OUTRAGE
 ; FAIRY
         db PLAY_ROUGH
 ; Ice
         db ICE_PUNCH
         db ICE_FANG
         db ICICLE_CRASH
+        db ICICLE_SPEAR
         db -1 ; end

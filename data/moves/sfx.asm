@@ -143,7 +143,7 @@ MoveSoundTable:
 	db SFX_BATTLE_32,          $08, $e0 ; BARRAGE
 	db SFX_BATTLE_24,          $00, $80 ; LEECH_LIFE
 	db SFX_BATTLE_09,          $88, $10 ; LOVELY_KISS
-	db SFX_BATTLE_25,          $48, $ff ; SKY_ATTACK
+	db SFX_BATTLE_25,          $48, $ff ; BEAK_BLAST
 	db SFX_FAINT_FALL,         $ff, $ff ; TRANSFORM
 	db SFX_BATTLE_24,          $ff, $10 ; BUBBLE
 	db SFX_FAINT_FALL,         $ff, $04 ; DIZZY_PUNCH
@@ -199,11 +199,20 @@ MoveSoundTable:
 	db SFX_SILPH_SCOPE,        $00, $ff ; MAKE_IT_RAIN
 	db SFX_BATTLE_29,          $f0, $80 ; DRAGONBREATH
 	db SFX_BATTLE_0D,          $10, $60 ; HEAT_CRASH
+	db SFX_BATTLE_19,          $21, $e0 ; MYSTICALFIRE
+	db SFX_BATTLE_0D,          $10, $60 ; FLAME_WHEEL
 	db SFX_BATTLE_36,          $00, $80 ; SIGNAL_BEAM
 	db SFX_BATTLE_36,          $f0, $20 ; ANCIENTPOWER
 	db SFX_BATTLE_29,          $f0, $e0 ; ICICLE_CRASH
 	db SFX_BATTLE_1E,          $00, $60 ; Dragon Darts
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; phantomforce
+	db SFX_BATTLE_18,          $00, $80 ; ZEN_HEADBUTT
+	db SFX_BATTLE_35,          $11, $18 ; EXTRASENSORY
+	db SFX_BATTLE_36,          $00, $80 ; PSYCHICFANGS
+	db SFX_BATTLE_34,          $00, $40 ; MUD_SHOT
+	db SFX_BATTLE_36,          $f0, $20 ; ICICLE_SPEAR
+	db SFX_BATTLE_2F,          $00, $20 ; SHOCK_WAVE
+	db SFX_BATTLE_22,          $11, $c0 ; OUTRAGE
 	db SFX_BATTLE_0D,          $00, $a0 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1 ; sprite dimensions
 	dw AerodactylPicFront, AerodactylPicBack
 
-	db WING_ATTACK, SUPERSONIC, BITE, FIRE_FANG ; level 1 learnset
+	db WING_ATTACK, SUPERSONIC, ROCK_SLIDE, ANCIENTPOWER ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

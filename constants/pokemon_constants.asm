@@ -71,7 +71,7 @@
 	const KIRLIA             ; $3E
 	const GARDEVOIR          ; $3F
 	const FARFETCHD          ; $40
-	const VENONAT            ; $41
+	const VAROOM            ; $41
 	const DRAGONITE          ; $42
 	const ZIGZAGOON          ; $43
 	const LINOONE            ; $44
@@ -125,7 +125,7 @@
 	const DODRIO             ; $74
 	const PRIMEAPE           ; $75
 	const DUGTRIO            ; $76
-	const VENOMOTH           ; $77
+	const REVAVROOM           ; $77
 	const DEWGONG            ; $78
 	const BUNEARY            ; $79
 	const LOPUNNY            ; $7A
@@ -176,7 +176,7 @@
 	const NIDORINO           ; $A7
 	const DONPHAN           ; $A8
 	const GEODUDE            ; $A9
-	const PORYGON            ; $AA
+	const ZACIAN            ; $AA
 	const AERODACTYL         ; $AB
 	const TOGEPI             ; $AC
 	const MAGNEMITE          ; $AD
@@ -260,7 +260,6 @@
 	const ARCTIBAX
 	const BAXCALIBUR
 	const IRONVALIANT
-	const GYARADOS_RED
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

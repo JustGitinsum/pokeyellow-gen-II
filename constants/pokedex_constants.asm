@@ -51,8 +51,8 @@
 	const DEX_VILEPLUME  ; 45
 	const DEX_WIMPOD      ; 46
 	const DEX_GOLISOPOD   ; 47
-	const DEX_VENONAT    ; 48
-	const DEX_VENOMOTH   ; 49
+	const DEX_VAROOM    ; 48
+	const DEX_REVAVROOM   ; 49
 	const DEX_DIGLETT    ; 50
 	const DEX_DUGTRIO    ; 51
 	const DEX_MEOWTH     ; 52
@@ -140,7 +140,7 @@
 	const DEX_VAPOREON   ; 134
 	const DEX_JOLTEON    ; 135
 	const DEX_FLAREON    ; 136
-	const DEX_PORYGON    ; 137
+	const DEX_ZACIAN    ; 137
 	const DEX_OMANYTE    ; 138
 	const DEX_OMASTAR    ; 139
 	const DEX_KABUTO     ; 140
@@ -254,6 +254,5 @@
 	const DEX_ARCTIBAX
 	const DEX_BAXCALIBUR
 	const DEX_IRONVALIANT
-	const DEX_GYARADOS_RED
 
 DEF NUM_POKEMON EQU const_value - 1
