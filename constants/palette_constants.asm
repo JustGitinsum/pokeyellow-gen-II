@@ -119,9 +119,9 @@ DEF SET_PAL_DEFAULT EQU $ff
 ;	const PAL_WIGGLYTUFF ; $4F
 	const PAL_ZUBAT      ; $50
 ;	const PAL_GOLBAT     ; $51
-	const PAL_ODDISH     ; $52
-	const PAL_GLOOM      ; $53
-	const PAL_VILEPLUME  ; $54
+	const PAL_TURTWIG     ; $52
+	const PAL_GROTLE      ; $53
+	const PAL_TORTERRA  ; $54
 	const PAL_WIMPOD      ; $55
 	const PAL_GOLISOPOD   ; $56
 	const PAL_VAROOM    ; $57

@@ -12,7 +12,7 @@ CreditsMons:
 	db GYARADOS
 	db DITTO
 	db OMASTAR
-	db VILEPLUME
+	db TORTERRA
 	db NIDOKING
 	db GOLISOPOD
 

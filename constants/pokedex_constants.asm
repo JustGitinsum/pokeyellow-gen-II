@@ -46,9 +46,9 @@
 	const DEX_WIGGLYTUFF ; 40
 	const DEX_ZUBAT      ; 41
 	const DEX_GOLBAT     ; 42
-	const DEX_ODDISH     ; 43
-	const DEX_GLOOM      ; 44
-	const DEX_VILEPLUME  ; 45
+	const DEX_TURTWIG     ; 43
+	const DEX_GROTLE      ; 44
+	const DEX_TORTERRA  ; 45
 	const DEX_WIMPOD      ; 46
 	const DEX_GOLISOPOD   ; 47
 	const DEX_VAROOM    ; 48

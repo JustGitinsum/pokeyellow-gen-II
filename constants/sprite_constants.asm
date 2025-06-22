@@ -65,7 +65,7 @@
 	const SPRITE_PIKACHU                 ; $3d
 	const SPRITE_OFFICER_JENNY           ; $3e
 	const SPRITE_SANDSHREW               ; $3f
-	const SPRITE_ODDISH                  ; $40
+	const SPRITE_TURTWIG                  ; $40
 	const SPRITE_BULBASAUR               ; $41
 	const SPRITE_JIGGLYPUFF              ; $42
 	const SPRITE_CLEFAIRY                ; $43

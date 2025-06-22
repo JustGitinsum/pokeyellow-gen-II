@@ -418,7 +418,7 @@ _GolbatDexEntry::
 	next "and suck blood"
 	dex
 
-_OddishDexEntry::
+_TurtwigDexEntry::
 	text "It may be mistaken"
 	next "for a clump of"
 	next "weeds. If you try"
@@ -428,7 +428,7 @@ _OddishDexEntry::
 	next "shrieks horribly"
 	dex
 
-_GloomDexEntry::
+_GrotleDexEntry::
 	text "Smells incredibly"
 	next "foul! However,"
 	next "around 1 out of"
@@ -438,7 +438,7 @@ _GloomDexEntry::
 	next "bending stink"
 	dex
 
-_VileplumeDexEntry::
+_TorterraDexEntry::
 	text "Flaps its broad"
 	next "flower petals to"
 	next "scatter its"

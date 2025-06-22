@@ -184,9 +184,9 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw OddishDexEntry
-	dw GloomDexEntry
-	dw VileplumeDexEntry
+	dw TurtwigDexEntry
+	dw GrotleDexEntry
+	dw TorterraDexEntry
 	dw ChikoritaDexEntry
 	dw BayleefDexEntry
 	dw MeganiumDexEntry
@@ -603,25 +603,25 @@ GolbatDexEntry:
 	text_far _GolbatDexEntry
 	text_end
 
-OddishDexEntry:
-	db "WEED@"
-	db 1,8
-	dw 120
-	text_far _OddishDexEntry
+TurtwigDexEntry:
+	db "TINY LEAF@"
+	db 1,4
+	dw 225
+	text_far _Gen4DexEntry
 	text_end
 
-GloomDexEntry:
-	db "WEED@"
-	db 2,7
-	dw 190
-	text_far _GloomDexEntry
+GrotleDexEntry:
+	db "GROVE@"
+	db 3,7
+	dw 2138
+	text_far _Gen4DexEntry
 	text_end
 
-VileplumeDexEntry:
-	db "FLOWER@"
-	db 3,11
-	dw 410
-	text_far _VileplumeDexEntry
+TorterraDexEntry:
+	db "CONTINENT@"
+	db 7,03
+	dw 6834
+	text_far _Gen4DexEntry
 	text_end
 
 WimpodDexEntry:

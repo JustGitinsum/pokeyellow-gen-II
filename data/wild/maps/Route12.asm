@@ -1,12 +1,12 @@
 Route12WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 25, GLOOM
+	db 25, GROTLE
 	db 25, BAYLEEF
 	db 28, PIDGEY
 	db 28, PIDGEOTTO
-	db 27, GLOOM
+	db 27, GROTLE
 	db 27, CHIKORITA
-	db 29, GLOOM
+	db 29, GROTLE
 	db 29, BAYLEEF
 	db 26, FARFETCHD
 	db 31, FARFETCHD

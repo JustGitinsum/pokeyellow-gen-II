@@ -191,9 +191,9 @@
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
-	const ODDISH             ; $B9
-	const GLOOM              ; $BA
-	const VILEPLUME          ; $BB
+	const TURTWIG             ; $B9
+	const GROTLE              ; $BA
+	const TORTERRA          ; $BB
 	const CHIKORITA         ; $BC
 	const BAYLEEF         ; $BD
 	const MEGANIUM         ; $BE

@@ -194,9 +194,9 @@ EvosMovesPointerTable:
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
-	dw OddishEvosMoves
-	dw GloomEvosMoves
-	dw VileplumeEvosMoves
+	dw TurtwigEvosMoves
+	dw GrotleEvosMoves
+	dw TorterraEvosMoves
 	dw ChikoritaEvosMoves
 	dw BayleefEvosMoves
 	dw MeganiumEvosMoves
@@ -2626,44 +2626,46 @@ MonGhostEvosMoves:
 ; Learnset
 	db 0
 
-OddishEvosMoves:
+TurtwigEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 21, GLOOM
+	db EVOLVE_LEVEL, 18, GROTLE
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, MAGICAL_LEAF
-	db 46, ENERGY_BALL
+	db  9, MEGA_DRAIN
+	db 13, RAZOR_LEAF
+	db 17, BITE
+	db 21, SPORE
+	db 25, BULLDOZE
+	db 29, LEECH_SEED
+	db 33, RAZOR_SHELL
+	db 37, CRUNCH
+	db 41, GIGA_DRAIN
 	db 0
 
-GloomEvosMoves:
+GrotleEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, LEAF_STONE, 1, VILEPLUME
+	db EVOLVE_LEVEL, 32, TORTERRA
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 34, MOONBLAST
-	db 38, MAGICAL_LEAF
-	db 52, ENERGY_BALL
+	db 21, SPORE
+	db 27, BULLDOZE
+	db 32, LEECH_SEED
+	db 37, RAZOR_SHELL
+	db 42, CRUNCH
+	db 47, GIGA_DRAIN
 	db 0
 
-VileplumeEvosMoves:
+TorterraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 34, MOONBLAST
-	db 38, MAGICAL_LEAF
-	db 52, ENERGY_BALL
+	db 21, SPORE
+	db 32, EARTHQUAKE
+	db 33, LEECH_SEED
+	db 36, ZEN_HEADBUTT
+	db 39, RAZOR_SHELL
+	db 45, CRUNCH
+	db 51, GIGA_DRAIN
 	db 0
 
 ChikoritaEvosMoves:

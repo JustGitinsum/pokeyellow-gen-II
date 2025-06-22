@@ -31,6 +31,6 @@ Pointer_3b0ee:
 	db CHARMELEON
 	db WARTORTLE
 	db CHARIZARD
-	db VILEPLUME
+	db TORTERRA
 	db MEGANIUM
 	db -1 ; end

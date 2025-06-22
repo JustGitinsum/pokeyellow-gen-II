@@ -37,8 +37,8 @@ MelanieBulbasaurText::
 	line "Zoar!@"
 	text_end
 
-MelanieOddishText::
-	text "ODDISH: Orddissh!@"
+MelanieTurtwigText::
+	text "TURTWIG: Orddissh!@"
 	text_end
 
 MelanieSandshrewText::

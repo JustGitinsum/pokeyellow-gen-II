@@ -42,9 +42,9 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Wigglytuff
 	nybble ICON_MON       ; Zubat
 	nybble ICON_MON       ; Golbat
-	nybble ICON_GRASS     ; Oddish
-	nybble ICON_GRASS     ; Gloom
-	nybble ICON_GRASS     ; Vileplume
+	nybble ICON_GRASS     ; Turtwig
+	nybble ICON_GRASS     ; Grotle
+	nybble ICON_GRASS     ; Torterra
 	nybble ICON_BUG       ; Wimpod
 	nybble ICON_BUG       ; Golisopod
 	nybble ICON_BALL      ; Varoom

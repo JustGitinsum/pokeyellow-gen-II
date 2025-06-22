@@ -190,9 +190,9 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_08, $DD, $01 ; Oddish
-	mon_cry SFX_CRY_08, $AA, $40 ; Gloom
-	mon_cry SFX_CRY_23, $22, $FF ; Vileplume
+	mon_cry SFX_CRY_08, $DD, $01 ; Turtwig
+	mon_cry SFX_CRY_08, $AA, $40 ; Grotle
+	mon_cry SFX_CRY_23, $22, $FF ; Torterra
 	mon_cry SFX_CRY_21, $55, $01 ; Chikorita
 	mon_cry SFX_CRY_25, $44, $20 ; Bayleef
 	mon_cry SFX_CRY_25, $66, $CC ; Meganium

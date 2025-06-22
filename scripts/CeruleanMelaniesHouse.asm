@@ -6,7 +6,7 @@ CeruleanMelaniesHouse_TextPointers:
 	def_text_pointers
 	dw_const CeruleanMelanieHouseMelanieText, TEXT_CERULEANMELANIESHOUSE_MELANIE
 	dw_const CeruleanMelanieHouseBulbasaurText, TEXT_CERULEANMELANIESHOUSE_BULBASAUR
-	dw_const CeruleanMelanieHouseOddishText, TEXT_CERULEANMELANIESHOUSE_ODDISH
+	dw_const CeruleanMelanieHouseTurtwigText, TEXT_CERULEANMELANIESHOUSE_TURTWIG
 	dw_const CeruleanMelanieHouseSandshrewText, TEXT_CERULEANMELANIESHOUSE_SANDSHREW
 
 CeruleanMelanieHouseMelanieText:
@@ -92,10 +92,10 @@ CeruleanMelanieHouseBulbasaurText:
 	call PlayCry
 	jp TextScriptEnd
 
-CeruleanMelanieHouseOddishText:
-	text_far MelanieOddishText
+CeruleanMelanieHouseTurtwigText:
+	text_far MelanieTurtwigText
 	text_asm
-	ld a, ODDISH
+	ld a, TURTWIG
 	call PlayCry
 	jp TextScriptEnd
 
