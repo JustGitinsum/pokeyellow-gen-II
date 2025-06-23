@@ -227,7 +227,7 @@ Moves:
 	assert_table_length NUM_ATTACKS
 
 ; Moves I want to add: 
-; Aero Blast, Rapid Spin, Silver Wind, Shadow Bone, Pounce, Lunge, Ice Spinner, Hi Horsepowr, Stomping Tantrum, Beak Blast  
+; Aero Blast, Rapid Spin, Silver Wind, Shadow Bone, Pounce, Lunge, Ice Spinner, Hi Horsepowr, Stomping Tantrum  
 ; Status Moves:
 ; Synthesis, Moonlight, Roost, Dragon Dance
 

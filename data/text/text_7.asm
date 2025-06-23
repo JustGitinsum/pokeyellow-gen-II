@@ -93,10 +93,18 @@ _LearnedMove1Text::
 	text "!@"
 	text_end
 
-_WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
-	done
+
+_WhichMoveToForgetText:: ; edited
+;	text "Which move should"
+;	next "be forgotten?"
+
+	text "Delete which move"
+	line "for @"
+	text_ram wStringBuffer
+	text "?@"
+	text_end
+
+;	xxxx "123456789012345678"
 
 _AbandonLearningText::
 	text "Abandon learning"

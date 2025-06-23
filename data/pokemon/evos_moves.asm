@@ -739,6 +739,7 @@ HonchkrowEvosMoves:
 	db 34, NIGHT_SLASH
 	db 40, AGILITY
 	db 45, DARK_PULSE
+	db 50, BEAK_BLAST
 	db 0
 
 PidgeyEvosMoves:
@@ -748,7 +749,7 @@ PidgeyEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 19, TWISTER
+	db 16, TWISTER
 	db 28, WING_ATTACK
 	db 36, AGILITY
 	db 44, MIRROR_MOVE
@@ -1775,6 +1776,7 @@ DodrioEvosMoves:
 	db 40, AGILITY
 	db 45, TRI_ATTACK
 	db 51, TWIN_BEAM
+	db 55, BEAK_BLAST
 	db 0
 
 PrimeapeEvosMoves:
@@ -2208,8 +2210,9 @@ PidgeotEvosMoves:
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
 	db 21, TWISTER
-	db 31, WING_ATTACK
-	db 44, AGILITY
+	db 32, AGILITY
+	db 38, WING_ATTACK
+	db 50, BEAK_BLAST
 	db 54, MIRROR_MOVE
 	db 0
 
@@ -2255,6 +2258,7 @@ TentacruelEvosMoves:
 	db 37, SCREECH
 	db 40, SLUDGE_BOMB
 	db 46, HYDRO_PUMP
+	db 50, BEAK_BLAST
 	db 0
 
 Exeggutor_AEvosMoves:
@@ -2472,6 +2476,7 @@ AerodactylEvosMoves:
 	db 33, CRUNCH
 	db 38, ROCK_SLIDE
 	db 41, TAKE_DOWN
+	db 50, BEAK_BLAST
 	db 57, IRON_HEAD
 	db 63, HYPER_BEAM
 	db 0
@@ -2666,6 +2671,7 @@ TorterraEvosMoves:
 	db 39, RAZOR_SHELL
 	db 45, CRUNCH
 	db 51, GIGA_DRAIN
+	db 56, OUTRAGE
 	db 0
 
 ChikoritaEvosMoves:
@@ -2840,8 +2846,9 @@ SkarmoryEvosMoves:
 	db 24, SLASH
 	db 28, SCREECH
 	db 32, STEEL_WING
-	db 36, X_SCISSOR
-	db 41, DRILL_PECK
+	db 36, DRILL_PECK
+	db 41, X_SCISSOR
+	db 50, BEAK_BLAST
 	db 0
 
 houndourEvosMoves:
@@ -2948,7 +2955,7 @@ CombuskenEvosMoves:
 	db 40, FLAMETHROWER
 	db 44, THROAT_CHOP
 	db 50, AXE_KICK
-	db 53, SKY_UPPERCUT
+	db 53, BEAK_BLAST
 	db 0
 
 BlazikenEvosMoves:
@@ -2957,8 +2964,9 @@ BlazikenEvosMoves:
 ; Learnset
 	db 40, FLAMETHROWER
 	db 43, THROAT_CHOP
+	db 48, SKY_UPPERCUT
 	db 50, AXE_KICK
-	db 57, SKY_UPPERCUT
+	db 57, BEAK_BLAST
 	db 0
 
 MudkipEvosMoves:
@@ -3359,6 +3367,7 @@ SirfetchdEvosMoves:
 	db 31, AGILITY
 	db 33, NIGHT_SLASH
 	db 39, LEAF_BLADE
+	db 45, BEAK_BLAST
 	db 0
 
 SnomEvosMoves:
@@ -3461,6 +3470,7 @@ FlamigoEvosMoves:
 	db 39, THROAT_CHOP
 	db 44, DRILL_PECK
 	db 48, CLOSE_COMBAT
+	db 55, BEAK_BLAST
 	db 0
 
 AnnihilapeEvosMoves:

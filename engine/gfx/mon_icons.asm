@@ -184,7 +184,6 @@ WriteMonPartySpriteOAMByPartyIndex:
 	pop de
 	pop hl
 	ret
-
 .asm_7191f
 	ld hl, wShadowOAM
 	ld de, wMonPartySpritesSavedOAM

@@ -2281,7 +2281,9 @@ wRoute18Gate1FCurScript:: db
 	ds 78
 wGameProgressFlagsEnd::
 
-	ds 56
+	ds 55
+
+wPlayerMoveAccuracyPercent:: db ; new, to host the accuracy in [0,100] rather than [0,255]
 
 wObtainedHiddenItemsFlags:: flag_array MAX_HIDDEN_ITEMS
 
