@@ -1631,6 +1631,10 @@ ItemUseEscapeRope:
 	jr z, .notUsable
 	cp POKEMON_FAN_CLUB
 	jr z, .notUsable
+	;=============Added=============
+	call CheckIfInOutsideMap
+	jr z, .doTeleport
+	;===============================
 	ld a, [wCurMapTileset]
 	ld b, a
 	ld hl, EscapeRopeTilesets
@@ -1640,6 +1644,7 @@ ItemUseEscapeRope:
 	jr z, .notUsable
 	cp b
 	jr nz, .loop
+	.doTeleport	
 	ld hl, wStatusFlags6
 	set BIT_FLY_WARP, [hl]
 	set BIT_ESCAPE_WARP, [hl]
