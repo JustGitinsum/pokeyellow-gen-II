@@ -600,6 +600,7 @@ INCLUDE "engine/events/give_pokemon.asm"
 INCLUDE "engine/battle/get_trainer_name.asm"
 INCLUDE "engine/math/random.asm"
 INCLUDE "engine/predefs.asm"
+INCLUDE "engine/overworld/field_moves.asm"
 
 
 SECTION "Battle Engine 10", ROMX
@@ -624,7 +625,6 @@ INCLUDE "engine/pikachu/pikachu_emotions.asm"
 INCLUDE "engine/pikachu/pikachu_movement.asm"
 INCLUDE "engine/pikachu/pikachu_pic_animation.asm"
 INCLUDE "engine/debug/debug_menu.asm"
-
 
 SECTION "bank40", ROMX, BANK[$40]
 
@@ -910,3 +910,4 @@ IronvaliantPicFront::    INCBIN "gfx/pokemon/front/ironvaliant.pic"
 IronvaliantPicBack::     INCBIN "gfx/pokemon/back/ironvaliantb.pic"
 
 INCLUDE "data/sgb/sgb_palettes.asm"
+

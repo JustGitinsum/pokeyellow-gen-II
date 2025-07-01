@@ -19,7 +19,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 4, BUBBLEBEAM
+	db 4, 4, BUBBLEBEAM
 	db 0
 
 	db LT_SURGE, 1

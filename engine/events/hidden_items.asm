@@ -10,6 +10,7 @@ HiddenItems:
 	ld a, c
 	and a
 	jr nz, .itemAlreadyFound
+	; jr nz, .nope
 	call EnableAutoTextBoxDrawing
 	ld a, 1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
@@ -18,7 +19,12 @@ HiddenItems:
 	call GetItemName
 	tx_pre_jump FoundHiddenItemText
 
+; .nope
+; 	predef TryFieldMove
+; 	ret
+
 .itemAlreadyFound
+	predef TryFieldMove
 	ld a, $ff
 	ldh [hItemAlreadyFound], a
 	ret
