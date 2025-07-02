@@ -36,9 +36,9 @@ DEF SOUND_MASK      EQU %110000
 	const BIT_BATTLE_SHIFT     ; 6
 	const BIT_BATTLE_ANIMATION ; 7
 
-DEF TEXT_DELAY_FAST   EQU %001 ; 1
-DEF TEXT_DELAY_MEDIUM EQU %011 ; 3
-DEF TEXT_DELAY_SLOW   EQU %101 ; 5
+DEF TEXT_DELAY_FAST   EQU %00 ; 0  ; changed from %001 = 1
+DEF TEXT_DELAY_MEDIUM EQU %01 ; 1  ; changed from %011 = 3
+DEF TEXT_DELAY_SLOW   EQU %11 ; 3  ; changed from %101 = 5
 
 ; wLetterPrintingDelayFlags
 	const_def
