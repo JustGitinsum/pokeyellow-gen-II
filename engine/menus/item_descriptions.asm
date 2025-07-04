@@ -187,6 +187,8 @@ ItemDescriptionPointers:
 	text_end
     text_far _RazorFangDescription
 	text_end
+	text_far _LightBallDescription
+	text_end
 	text_far _HM01Description
 	text_end
 	text_far _HM02Description

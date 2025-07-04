@@ -105,6 +105,7 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; ELECTIRIZER
 	dw ItemUseEvoStone   ; METAL_COAT
 	dw ItemUseEvoStone   ; RAZOR_FANG
+	dw UnusableItem      ; LIGHT_BALL
 
 ItemUseBall:
 

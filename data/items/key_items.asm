@@ -88,5 +88,6 @@ KeyItemFlags:
 	dbit FALSE ; ELECTIRIZER
 	dbit FALSE ; METAL_COAT
 	dbit FALSE ; RAZOR_FANG
+	dbit TRUE  ; LIGHT_BALL
 	
 	end_bit_array NUM_ITEMS

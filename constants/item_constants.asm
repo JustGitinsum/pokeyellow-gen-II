@@ -97,6 +97,7 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const ELECTIRIZER	; $56
 	const METAL_COAT
 	const RAZOR_FANG
+	const LIGHT_BALL
 
 DEF NUM_ITEMS EQU const_value - 1
 

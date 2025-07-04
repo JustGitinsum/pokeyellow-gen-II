@@ -88,6 +88,7 @@ ItemNames::
 	li "ELECTIRIZER"
 	li "METAL COAT"
 	li "RAZOR FANG"
+	li "LIGHT BALL"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

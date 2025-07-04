@@ -110,6 +110,7 @@ PewterGymBrockText:
 	call PrintText
 	jr .done
 .beforeBeat
+	SetEvent EVENT_BATTLED_BROCK
 	ld hl, .PreBattleText
 	call PrintText
 	ld hl, wStatusFlags3

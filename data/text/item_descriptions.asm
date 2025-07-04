@@ -335,6 +335,11 @@ _MaxElixerDescription::
 	next "PP of one #MON."
 	prompt
 
+_LightBallDescription::
+	text "Doubles the damage"
+	next "of one PIKACHU."
+	prompt
+
 _HM01Description::
 	text "HM01   CUT"
 	next "NORMAL    PWR 70"

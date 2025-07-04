@@ -52,9 +52,11 @@
 	const EVENT_GOT_OLD_AMBER
 	const_skip 8
 	const EVENT_BEAT_PEWTER_GYM_TRAINER_0
-	const_skip 3
+	const_skip 1
 	const EVENT_GOT_TM34
 	const EVENT_BEAT_BROCK
+	const EVENT_BATTLED_BROCK
+	const EVENT_GOT_LIGHT_BALL
 
 ; Cerulean City events
 	const_next $98

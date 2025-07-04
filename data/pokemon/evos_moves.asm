@@ -2455,7 +2455,7 @@ GeodudeEvosMoves:
 ; Learnset
 	db 16, ROCK_TOMB
 	db 20, BRICK_BREAK
-	db 26, HARDEN
+	db 25, ROLLOUT
 	db 31, EARTHQUAKE
 	db 36, EXPLOSION
 	db 0

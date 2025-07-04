@@ -88,6 +88,7 @@ ItemPrices::
 	bcd3 2100  ; ELECTIRIZER
 	bcd3 2100  ; METAL_COAT
 	bcd3 2100  ; RAZOR_FANG
+	bcd3 0     ; LIGHT_BALL
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
