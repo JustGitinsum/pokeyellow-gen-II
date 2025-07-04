@@ -602,6 +602,9 @@ INCLUDE "engine/math/random.asm"
 INCLUDE "engine/predefs.asm"
 INCLUDE "engine/overworld/field_moves.asm"
 
+SECTION "Engine Spillover", ROMX
+
+INCLUDE "engine/menus/item_descriptions.asm"
 
 SECTION "Battle Engine 10", ROMX
 INCLUDE "data/pokemon/base_stats.asm"

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/flamigo.pic", 0, 1 ; sprite dimensions
 	dw FlamigoPicFront, FlamigoPicBack
 
-	db PECK, DOUBLE_KICK, WING_ATTACK, FOCUS_ENERGY ; level 1 learnset
+	db PECK, DOUBLE_KICK, AERIAL_ACE, FOCUS_ENERGY ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

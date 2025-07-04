@@ -324,7 +324,7 @@ MurkrowEvosMoves:
 	db 0
 ; Learnset
 	db 11, HAZE
-	db 15, WING_ATTACK
+	db 15, AERIAL_ACE
 	db 21, OMINOUS_WIND
 	db 29, DRILL_PECK
 	db 34, NIGHT_SLASH
@@ -619,7 +619,7 @@ ScytherEvosMoves:
 	db 35, SWORDS_DANCE
 	db 38, SACRED_SWORD
 	db 41, X_SCISSOR
-	db 50, WING_ATTACK
+	db 50, AERIAL_ACE
 	db 0
 
 StaryuEvosMoves:
@@ -733,7 +733,7 @@ HonchkrowEvosMoves:
 	db 0
 ; Learnset
 	db 11, HAZE
-	db 15, WING_ATTACK
+	db 15, AERIAL_ACE
 	db 21, OMINOUS_WIND
 	db 29, DRILL_PECK
 	db 34, NIGHT_SLASH
@@ -750,7 +750,7 @@ PidgeyEvosMoves:
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
 	db 16, TWISTER
-	db 28, WING_ATTACK
+	db 28, AERIAL_ACE
 	db 36, AGILITY
 	db 44, MIRROR_MOVE
 	db 0
@@ -1668,7 +1668,7 @@ ZubatEvosMoves:
 	db 0
 ; Learnset
 	db 15, POISON_FANG
-	db 25, WING_ATTACK
+	db 25, AERIAL_ACE
 	db 30, BITE
 	db 45, CONFUSE_RAY
 	db 55, LEECH_LIFE
@@ -1949,7 +1949,7 @@ GolbatEvosMoves:
 	db 0
 ; Learnset
 	db 15, POISON_FANG
-	db 27, WING_ATTACK
+	db 27, AERIAL_ACE
 	db 34, BITE
 	db 55, CONFUSE_RAY
 	db 69, LEECH_LIFE
@@ -2198,7 +2198,7 @@ PidgeottoEvosMoves:
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
 	db 21, TWISTER
-	db 31, WING_ATTACK
+	db 31, AERIAL_ACE
 	db 40, AGILITY
 	db 49, MIRROR_MOVE
 	db 0
@@ -2211,7 +2211,7 @@ PidgeotEvosMoves:
 	db 12, QUICK_ATTACK
 	db 21, TWISTER
 	db 32, AGILITY
-	db 38, WING_ATTACK
+	db 38, AERIAL_ACE
 	db 50, BEAK_BLAST
 	db 54, MIRROR_MOVE
 	db 0
@@ -2723,7 +2723,7 @@ CrobatEvosMoves:
 	db 0
 ; Learnset
 	db 15, POISON_FANG
-	db 27, WING_ATTACK
+	db 27, AERIAL_ACE
 	db 34, BITE
 	db 55, CONFUSE_RAY
 	db 69, LEECH_LIFE
@@ -2807,7 +2807,7 @@ GligarEvosMoves:
 	db 13, QUICK_ATTACK
 	db 16, BUG_BITE
 	db 19, POISON_JAB
-	db 22, WING_ATTACK
+	db 22, AERIAL_ACE
 	db 27, SLASH
 	db 40, X_SCISSOR
 	db 45, CRABHAMMER
@@ -2842,7 +2842,7 @@ SkarmoryEvosMoves:
 ; Learnset
 	db 12, METAL_CLAW
 	db 16, AGILITY
-	db 20, WING_ATTACK
+	db 20, AERIAL_ACE
 	db 24, SLASH
 	db 28, SCREECH
 	db 32, STEEL_WING
@@ -2934,7 +2934,7 @@ TorchicEvosMoves:
 	db  9, FLAME_WHEEL
 	db 12, SAND_ATTACK
 	db 16, LOW_SWEEP
-	db 18, WING_ATTACK
+	db 18, AERIAL_ACE
 	db 21, SLASH
 	db 24, BOUNCE
 	db 27, FOCUS_ENERGY
@@ -2948,7 +2948,7 @@ CombuskenEvosMoves:
 	db EVOLVE_LEVEL, 36, BLAZIKEN
 	db 0
 ; Learnset
-	db 20, WING_ATTACK
+	db 20, AERIAL_ACE
 	db 25, SLASH
 	db 30, BOUNCE
 	db 35, FOCUS_ENERGY
@@ -3101,7 +3101,7 @@ GliscorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, WING_ATTACK
+	db 22, AERIAL_ACE
 	db 27, SLASH
 	db 40, X_SCISSOR
 	db 45, CRABHAMMER

@@ -22,7 +22,7 @@
 	const SWORDS_DANCE ; 0e
 	const CUT          ; 0f
 	const GUST         ; 10
-	const WING_ATTACK  ; 11
+	const AERIAL_ACE  ; 11
 	const TWISTER    ; 12
 	const FLY          ; 13
 	const TWIN_BEAM         ; 14

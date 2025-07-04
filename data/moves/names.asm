@@ -16,7 +16,7 @@ MoveNames::
 	li "SWORDS DANCE"
 	li "CUT"
 	li "GUST"
-	li "WING ATTACK"
+	li "AERIAL ACE"
 	li "TWISTER"
 	li "FLY"
 	li "TWIN BEAM"

@@ -118,7 +118,7 @@ SpecialTrainerMoves:
 	db 3, 1, BUBBLEBEAM
 	db 3, 2, WRAP
 	db 3, 3, ICE_BEAM
-	db 4, 1, WING_ATTACK
+	db 4, 1, AERIAL_ACE
 	db 4, 2, SWIFT
 	db 4, 3, FLY
 	db 5, 1, BLIZZARD

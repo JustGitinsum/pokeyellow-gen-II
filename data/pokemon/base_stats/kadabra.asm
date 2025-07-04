@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm BRICK_BREAK,   TOXIC,        BODY_SLAM,    		PSYBEAM,   	NIGHT_SLASH,		\
-	     PSYCHIC_M,    TELEPORT,     DARK_PULSE,        ICE_BEAM,  	IRON_HEAD,      	\
+	     PSYCHIC_M,    AERIAL_ACE,     DARK_PULSE,        ICE_BEAM,  	IRON_HEAD,      	\
 	     DRAGON_PULSE, FLAMETHROWER, THUNDER_WAVE, 		PSYCHO_CUT, THUNDERPUNCH,   	\
 		 MOONBLAST,   FLASH
 	; end

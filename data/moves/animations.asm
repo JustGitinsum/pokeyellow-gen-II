@@ -16,7 +16,7 @@ AttackAnimationPointers:
 	dw SwordsDanceAnim
 	dw CutAnim
 	dw GustAnim
-	dw WingAttackAnim
+	dw AerialAceAnim
 	dw TwisterAnim
 	dw FlyAnim
 	dw TwinBeamAnim
@@ -362,8 +362,8 @@ GustAnim:
 	db -1 ; end
 
 SteelWingAnim:
-WingAttackAnim:
-	battle_anim WING_ATTACK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+AerialAceAnim:
+	battle_anim AERIAL_ACE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 TwisterAnim:

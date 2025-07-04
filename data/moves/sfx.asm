@@ -17,7 +17,7 @@ MoveSoundTable:
 	db SFX_NOT_VERY_EFFECTIVE, $10, $c0 ; SWORDS_DANCE
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; CUT
 	db SFX_BATTLE_12,          $00, $c0 ; GUST
-	db SFX_BATTLE_12,          $10, $a0 ; WING_ATTACK
+	db SFX_BATTLE_12,          $10, $a0 ; AERIAL_ACE
 	db SFX_BATTLE_13,          $00, $e0 ; TWISTER
 	db SFX_NOT_VERY_EFFECTIVE, $20, $c0 ; FLY
 	db SFX_BATTLE_14,          $00, $80 ; TWIN_BEAM

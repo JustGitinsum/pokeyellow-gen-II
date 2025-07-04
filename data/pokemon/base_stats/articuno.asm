@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/articuno.pic", 0, 1 ; sprite dimensions
 	dw ArticunoPicFront, ArticunoPicBack
 
-	db WING_ATTACK, ICE_BEAM, ANCIENTPOWER, NO_MOVE ; level 1 learnset
+	db AERIAL_ACE, ICE_BEAM, ANCIENTPOWER, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

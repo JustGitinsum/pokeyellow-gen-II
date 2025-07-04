@@ -192,7 +192,7 @@ DEF TM01 EQU const_value
 	add_tm EARTH_POWER      ; $E3
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
-	add_tm TELEPORT     ; $E6
+	add_tm AERIAL_ACE     ; $E6
 	add_tm DARK_PULSE   ; $E7
 	add_tm ICE_BEAM  ; $E8
 	add_tm IRON_HEAD      ; $E9

@@ -24,7 +24,7 @@ ExclamationPointMoveSets:
 	db POUND
 	db SCRATCH
 	db VICEGRIP
-	db WING_ATTACK
+	db AERIAL_ACE
 	db FLY
 	db TWIN_BEAM
 	db SLAM

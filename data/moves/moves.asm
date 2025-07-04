@@ -25,9 +25,9 @@ Moves:
 	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
 	move AIR_SLASH,    FLINCH_SIDE_EFFECT1,         80, FLYING,        95, 15
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
-	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 30
+	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,        95, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35
+	move AERIAL_ACE,   SWIFT_EFFECT,                60, FLYING,       100, 20
 	move TWISTER,      FLINCH_SIDE_EFFECT2,         40, DRAGON,       100, 20
 	move FLY,          FLY_EFFECT,                  90, FLYING,        95, 15
 	move TWIN_BEAM,    ATTACK_TWICE_EFFECT,         40, PSYCHIC_TYPE, 100, 10 ;;; TODO ANIM
@@ -158,7 +158,7 @@ Moves:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
-	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, FAIRY,        100, 20
+	move FLASH,        CONFUSION_SIDE_EFFECT,       60, FAIRY,        100, 20
 	move PSYCHO_CUT,   NO_ADDITIONAL_EFFECT,        75, PSYCHIC_TYPE, 100, 20
 	move ROLLOUT,      NO_ADDITIONAL_EFFECT,        80, ROCK,          95, 20
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40

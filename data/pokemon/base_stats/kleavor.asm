@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kleavor.pic", 0, 1 ; sprite dimensions
 	dw KleavorPicFront, KleavorPicBack
 
-	db ICE_BEAM, METAL_CLAW, SLASH, WING_ATTACK ; level 1 learnset
+	db ICE_BEAM, METAL_CLAW, SLASH, AERIAL_ACE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
