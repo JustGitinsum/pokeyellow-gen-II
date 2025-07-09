@@ -407,7 +407,7 @@ _TM06Description::
 _TM07Description::
 	text "TM07  MEGAHORN"
 	next "BUG     PWR 100"
-    cont "ACC 95    PP 10"
+    line "ACC 95    PP 10"
 	prompt
 
 _TM08Description::

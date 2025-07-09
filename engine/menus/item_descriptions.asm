@@ -8,7 +8,7 @@ DisplayItemDescription::
 	ld hl, ItemDescriptionPointers
 	ld bc, 5
 	call AddNTimes
-	jp PrintText
+	jp PrintBigText
 
 ItemDescriptionPointers:
 	text_far _MasterBallDescription
