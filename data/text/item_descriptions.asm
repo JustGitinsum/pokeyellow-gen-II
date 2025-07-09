@@ -343,43 +343,43 @@ _LightBallDescription::
 _HM01Description::
 	text "HM01   CUT"
 	next "NORMAL    PWR 70"
-    cont "ACC 95    PP 30"
+    next "ACC 95    PP 30"
 	prompt
 
 _HM02Description::
 	text "HM02   FLY"
 	next "FLYING    PWR 90"
-    cont "ACC 95    PP 15"
+    next "ACC 95    PP 15"
 	prompt
 
 _HM03Description::
 	text "HM03   SURF"
 	next "WATER    PWR 95"
-    cont "ACC 100   PP 15"
+    next "ACC 100   PP 15"
 	prompt
 
 _HM04Description::
 	text "HM04   STRENGTH"
 	next "NORMAL   PWR 85"
-    cont "ACC 100   PP 15"
+    next "ACC 100   PP 15"
 	prompt
 
 _HM05Description::
 	text "HM05   FLASH"
 	next "FAIRY    PWR 60"
-    cont "ACC 100   PP 20"
+    next "ACC 100   PP 20"
 	prompt
 
 _TM01Description::
 	text "TM01 BRICK BREAK"
 	next "FIGHTING  PWR 75"
-    cont "ACC 100   PP 15"
+    next "ACC 100   PP 15"
 	prompt
 
 _TM02Description::
 	text "TM02  AIR SLASH"
 	next "FLYING    PWR 80"
-    cont "ACC 95    PP 15"
+    next "ACC 95    PP 15"
 	prompt
 
 _TM03Description::
@@ -390,13 +390,13 @@ _TM03Description::
 _TM04Description::
 	text "TM04  TWISTER"
 	next "DRAGON    PWR 40"
-    cont "ACC 100   PP 20"
+    next "ACC 100   PP 20"
 	prompt
 
 _TM05Description::
 	text "TM05 CLOSE COMBAT"
 	next "FIGHTING  PWR 120"
-    cont "ACC 100   PP 5"
+    next "ACC 100   PP 5"
 	prompt
 
 _TM06Description::
@@ -407,226 +407,264 @@ _TM06Description::
 _TM07Description::
 	text "TM07  MEGAHORN"
 	next "BUG     PWR 100"
-    line "ACC 95    PP 10"
+    next "ACC 95    PP 10"
 	prompt
 
 _TM08Description::
 	text "TM08  FIRE FANG"
 	next "FIRE      PWR 65"
-    cont "ACC 100    PP 15"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM09Description::
 	text "TM09  BODY SLAM"
 	next "NORMAL    PWR 85"
-    cont "ACC 100    PP 15"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM10Description::
 	text "TM10  SLUDGE BOMB"
 	next "NORMAL    PWR 80"
-    cont "ACC 100    PP 15"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM11Description::
 	text "TM11 BUBBLEBEAM"
-	next "WATER      PWR 65"
-    cont "ACC 100    PP 20"
+	next "WATER     PWR 65"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM12Description::
-	text "Squirts water to"
-	next "attack."
+	text "TM12 TRAILBLAZE"
+	next "GRASS     PWR 60"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM13Description::
-	text "An attack that may"
-	next "freeze the foe."
+	text "TM13 ICE PUNCH"
+	next "ICE       PWR 75"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM14Description::
-	text "An attack that may"
-	next "freeze the foe."
+	text "TM14  BLIZZARD"
+	next "ICE       PWR 120"
+    next "ACC 90     PP 15"
 	prompt
 
 _TM15Description::
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
+	text "TM15 HYPER BEAM"
+	next "NORMAL    PWR 150"
+    next "ACC 90     PP 5"
 	prompt
 
 _TM16Description::
-	text "Throws coins. Gets"
-	next "them back later."
+	text "TM16 SIGNAL BEAM"
+	next "BUG       PWR 75"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM17Description::
-	text "An attack that al-"
-	next "so hurts the user."
+	text "TM17 POISON JAB"
+	next "POISON    PWR 80"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM18Description::
-	text "Returns a physical"
-	next "blow double."
+	text "TM18 LIQUIDATION"
+	next "WATER     PWR 85"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM19Description::
-	text "The user's level"
-	next "equals damage HP."
+	text "TM19   PSYBEAM"
+	next "PSYCHIC   PWR 65"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM20Description::
-	text "Raises ATTACK if"
-	next "the user is hit."
+	text "TM20 NIGHT SLASH"
+	next "DARK      PWR 75"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM21Description::
-	text "Steals 1/2 of the"
-	next "damage inflicted."
+	text "TM21  GIGA DRAIN"
+	next "GRASS     PWR 80"
+    next "ACC 100    PP 5"
 	prompt
 
 _TM22Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "TM22  ENERGY BALL"
+	next "GRASS     PWR 90"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM23Description::
-	text "Always inflicts"
-	next "40HP damage."
+	text "TM23 MIGHTYCLEAVE"
+	next "ROCK      PWR 90"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM24Description::
-	text "An attack that may"
-	next "cause paralysis."
+	text "TM24 THUNDERFANG"
+	next "ELECTRIC  PWR 65"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM25Description::
-	text "An attack that may"
-	next "cause paralysis."
+	text "TM25   THUNDER"
+	next "ELECTRIC  PWR 120"
+    next "ACC 70     PP 10"
 	prompt
 
 _TM26Description::
-	text "Tough but useless"
-	next "vs. flying foes."
+	text "TM26  EARTHQUAKE"
+	next "GROUND    PWR 100"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM27Description::
-	text "A ground-type,"
-	next "one-hit KO attack."
+	text "TM27  EARTH POWER"
+	next "GROUND    PWR 90"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM28Description::
-	text "1st turn: Burrow"
-	next "2nd turn: Attack"
+	text "TM28    DIG"
+	next "GROUND    PWR 80"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM29Description::
-	text "An attack that may"
-	next "lower SPECIAL."
+	text "TM29   PSYCHIC"
+	next "PSYCHIC   PWR 90"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM30Description::
-	text "A move for fleeing"
-	next "from battle."
+	text "TM30  AERIAL ACE"
+	next "FLYING    PWR 60"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM31Description::
-	text "Copies a move used"
-	next "by the foe."
+	text "TM31  DARK PULSE"
+	next "DARK      PWR 80"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM32Description::
-	text "Heightens evasive-"
-	next "ness."
+	text "TM32  ICE BEAM"
+	next "ICE       PWR 95"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM33Description::
-	text "Raises DEFENSE"
-	next "with a barrier."
+	text "TM33  IRON HEAD"
+	next "STEEL     PWR 80"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM34Description::
-	text "Waits 2-3 turns to"
-	next "hit back double."
+	text "TM34  ACCELEROCK"
+	next "ROCK      PWR 60"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM35Description::
-	text "Randomly uses any"
-	next "#MON move."
+	text "TM35 DRAGON PULSE"
+	next "DRAGON    PWR 90"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM36Description::
-	text "Powerful but makes"
-	next "the user faint."
+	text "TM36  LEAF BLADE"
+	next "GRASS    PWR 100"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM37Description::
-	text "Eggs are hurled at"
-	next "the foe."
+	text "TM37  THUNDERBOLT"
+	next "ELECTRIC  PWR 95"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM38Description::
-	text "An attack that"
-	next "may cause a burn."
+	text "TM38  FIRE BLAST"
+	next "ELECTRIC  PWR 120"
+    next "ACC 85     PP 5"
 	prompt
 
 _TM39Description::
-	text "An attack that"
-	next "never misses."
+	text "TM39  STEEL WING"
+	next "STEEL     PWR 70"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM40Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "TM40 FLAMETHROWER"
+	next "STEEL     PWR 95"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM41Description::
-	text "Restores HP by 1/2"
-	next "the user's max HP."
+	text "TM41  PLAY ROUGH"
+	next "FAIRY     PWR 90"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM42Description::
-	text "Steals HP from a"
-	next "sleeping victim."
+	text "TM42 SHADOW BALL"
+	next "GHOST     PWR 80"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM43Description::
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "TM43 DRAGON CLAW"
+	next "DRAGON    PWR 80"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM44Description::
-	text "Sleep for 2 turns"
-	next "to fully recover."
+	text "TM44   ICE FANG"
+	next "ICE       PWR 65"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM45Description::
-	text "A move that may"
-	next "cause paralysis."
+	text "TM45 THUNDER WAVE"
+	next "Inflict Paralyze"
 	prompt
 
 _TM46Description::
-	text "An attack with"
-	next "variable power."
+	text "TM46  PSYCHO CUT"
+	next "PSYCHIC   PWR 75"
+    next "ACC 100    PP 20"
 	prompt
 
 _TM47Description::
-	text "Very powerful but"
-	next "makes user faint."
+	text "TM47 AURA SPHERE"
+	next "FIGHTING  PWR 95"
+    next "ACC 100    PP 10"
 	prompt
 
 _TM48Description::
-	text "An attack that may"
-	next "cause flinching."
+	text "TM48 FIRE PUNCH"
+	next "FIRE      PWR 75"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM49Description::
-	text "Fires three kinds"
-	next "of beams at once."
+	text "TM49 THUNDERPUNCH"
+	next "ELECTRIC  PWR 75"
+    next "ACC 100    PP 15"
 	prompt
 
 _TM50Description::
-	text "Makes a decoy with"
-	next "1/4 user's max HP."
+	text "TM50  MOONBLAST"
+	next "FAIRY     PWR 95"
+    next "ACC 100    PP 10"
 	prompt
 
 _UnusedItemDescription::
