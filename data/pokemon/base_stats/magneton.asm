@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   NIGHT_SLASH,         \
-	     THUNDER_FANG,  THUNDER,      AERIAL_ACE,     DARK_PULSE,        ICE_BEAM,  \
-	     IRON_HEAD,      STEEL_WING,        ICE_FANG,         THUNDER_WAVE, \
-	     MOONBLAST,   FLASH
+	tmhm BRICK_BREAK, 	SWORDS_DANCE,   CLOSE_COMBAT,   TOXIC, 		    BODY_SLAM, 	  \
+	     HYPER_BEAM,    SIGNAL_BEAM, 	ENERGY_BALL, 	THUNDER, 	    EARTH_POWER,  \
+		 AERIAL_ACE, 	DARK_PULSE, 	IRON_HEAD, 		THUNDERBOLT, 	THUNDER_WAVE, \
+		 FLY, 			FLASH 
 	; end
 
 	db BANK(MagnetonPicFront)

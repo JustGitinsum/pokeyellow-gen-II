@@ -13,7 +13,7 @@
 	db GROWL, TACKLE, RAZOR_LEAF, POISONPOWDER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm TOXIC, 		BODY_SLAM, 		TRAILBLAZE, 	HYPER_BEAM,     SIGNAL_BEAM,  \
 		 GIGA_DRAIN, 	ENERGY_BALL, 	EARTHQUAKE, 	EARTH_POWER, 	DRAGON_PULSE, \
 		 LEAF_BLADE, 	PLAY_ROUGH, 	SHADOW_BALL, 	MOONBLAST, 	    CUT, 		  \

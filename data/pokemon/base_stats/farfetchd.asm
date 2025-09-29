@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   SWORDS_DANCE, TWISTER,    TOXIC,        FIRE_FANG,    \
-	     BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  \
-	     IRON_HEAD,      STEEL_WING,        FLAMETHROWER,   ICE_FANG,         \
-	     MOONBLAST,   CUT,          FLY
+	tmhm BRICK_BREAK, 	AIR_SLASH,  	SWORDS_DANCE,   TWISTER, 		CLOSE_COMBAT, \
+		 TOXIC, 		BODY_SLAM, 		TRAILBLAZE, 	HYPER_BEAM,     POISON_JAB,   \
+		 NIGHT_SLASH,   AERIAL_ACE, 	LEAF_BLADE, 	STEEL_WING, 	PSYCHO_CUT,   \
+		 AURA_SPHERE, 	CUT, 			FLY, 			STRENGTH 
 	; end
 
 	db BANK(FarfetchdPicFront)

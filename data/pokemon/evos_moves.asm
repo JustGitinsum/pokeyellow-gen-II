@@ -777,11 +777,12 @@ KadabraEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
-	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
+	db 20, PSYBEAM
+	db 25, RECOVER
+	db 30, MYSTICALFIRE
+	db 35, PSYCHIC_M
 	db 42, REFLECT
+	db 50, AMNESIA
 	db 0
 
 GravelerEvosMoves:
@@ -986,8 +987,10 @@ ElectabuzzEvosMoves:
 	db 24, SCREECH
 	db 28, THUNDERPUNCH
 	db 30, LOW_SWEEP
-	db 36, THUNDERBOLT
-	db 42, LIGHT_SCREEN
+	db 32, THUNDERBOLT
+	db 35, THROAT_CHOP
+	db 39, LIGHT_SCREEN
+	db 42, ZEN_HEADBUTT
 	db 48, SUPRCELLSLAM
 	db 0
 
@@ -1087,13 +1090,13 @@ RaltsEvosMoves:
 	db EVOLVE_LEVEL, 20, KIRLIA
 	db 0
 ; Learnset
-	db 3, DOUBLE_TEAM
-	db 6, CONFUSION
-	db 9, HYPNOSIS
+	db  3, DOUBLE_TEAM
+	db  6, CONFUSION
+	db  9, HYPNOSIS
 	db 12, DRAIN_KISS
-	db 15, TELEPORT
+	db 15, ANCIENTPOWER
 	db 18, PSYBEAM
-	db 21, ZEN_HEADBUTT
+	db 20, SWIFT
 	db 0
 
 KirliaEvosMoves:
@@ -1103,7 +1106,8 @@ KirliaEvosMoves:
 	db EVOLVE_ITEM, METAL_COAT, 1, IRONVALIANT
 	db 0
 ; Learnset
-	db 21, ZEN_HEADBUTT
+	db 20, SWIFT
+	db 22, ZEN_HEADBUTT
 	db 26, MYSTICALFIRE
 	db 38, PSYCHIC_M
 	db 0
@@ -1596,12 +1600,14 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, SHINY_STONE, 1, SYLVEON
 	db 0
 ; Learnset
-	db 8, SAND_ATTACK
-	db 16, QUICK_ATTACK
-	db 23, TRAILBLAZE
-	db 30, BITE
+	db  6, QUICK_ATTACK
+	db 10, DOUBLE_KICK
+	db 14, SAND_ATTACK
+	db 17, BITE
+	db 21, SWIFT
+	db 24, IRON_TAIL
 	db 36, FOCUS_ENERGY
-	db 42, TAKE_DOWN
+	db 42, DOUBLE_EDGE
 	db 0
 
 FlareonEvosMoves:
@@ -1837,7 +1843,8 @@ BunearyEvosMoves:
 	db EVOLVE_LEVEL, 20, LOPUNNY
 	db 0
 ; Learnset
-	db  8, QUICK_ATTACK
+	db  6, QUICK_ATTACK
+	db  9, DRAIN_KISS
 	db 13, DOUBLE_KICK
 	db 18, BITE
 	db 23, DIG
@@ -1851,7 +1858,7 @@ LopunnyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, LOVELY_KISS
+	db 20, LOVELY_KISS
 	db 23, DIG
 	db 28, HEADBUTT
 	db 31, THROAT_CHOP
@@ -1937,7 +1944,7 @@ GothitelleEvosMoves:
 	db 19, PSYBEAM
 	db 23, OMINOUS_WIND
 	db 27, HYPNOSIS
-	db 32, AMNESIA
+	db 32, MYSTICALFIRE
 	db 36, LIGHT_SCREEN
 	db 40, PSYCHIC_M
 	db 46, DARK_PULSE
@@ -2176,6 +2183,14 @@ AbraEvosMoves:
 	db EVOLVE_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
+	db  5, CONFUSION
+	db  9, REFLECT
+	db 12, SWIFT
+	db 15, ANCIENTPOWER
+	db 18, PSYBEAM
+	db 22, RECOVER
+	db 30, PSYCHIC_M
+	
 	db 0
 
 AlakazamEvosMoves:
@@ -2183,11 +2198,12 @@ AlakazamEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
-	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
+	db 20, PSYBEAM
+	db 25, RECOVER
+	db 30, MYSTICALFIRE
+	db 35, PSYCHIC_M
 	db 42, REFLECT
+	db 50, AMNESIA
 	db 0
 
 PidgeottoEvosMoves:
@@ -2418,7 +2434,8 @@ RaticateEvosMoves:
 	db 24, CRUNCH
 	db 29, PSYCHICFANGS
 	db 34, SUPER_FANG
-	db 39, DOUBLE_EDGE
+	db 39, IRON_TAIL
+	db 44, DOUBLE_EDGE
 	db 0
 
 NidorinoEvosMoves:
@@ -2680,6 +2697,7 @@ ChikoritaEvosMoves:
 	db 0
 ; Learnset
 	db 12, ANCIENTPOWER
+	db 15, DRAIN_KISS
 	db 17, REFLECT
 	db 20, MAGICAL_LEAF
 	db 23, LEECH_SEED
@@ -3054,8 +3072,10 @@ ElectivireEvosMoves:
 	db 24, SCREECH
 	db 28, THUNDERPUNCH
 	db 30, LOW_SWEEP
-	db 36, THUNDERBOLT
-	db 42, LIGHT_SCREEN
+	db 32, THUNDERBOLT
+	db 35, THROAT_CHOP
+	db 39, LIGHT_SCREEN
+	db 42, ZEN_HEADBUTT
 	db 48, SUPRCELLSLAM
 	db 0
 

@@ -13,7 +13,7 @@
 	db TACKLE, WITHDRAW, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm BRICK_BREAK, 	SWORDS_DANCE,   CLOSE_COMBAT,   TOXIC, 		    MEGAHORN, 	  \
 	     BODY_SLAM, 	TRAILBLAZE, 	HYPER_BEAM,     GIGA_DRAIN, 	ENERGY_BALL,  \
 		 ROCK_SLIDE, 	EARTHQUAKE, 	EARTH_POWER, 	DIG, 			IRON_HEAD, 	  \

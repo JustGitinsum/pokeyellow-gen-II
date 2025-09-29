@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/alakazam.pic", 0, 1 ; sprite dimensions
 	dw AlakazamPicFront, AlakazamPicBack
 
-	db TELEPORT, KINESIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PSYBEAM, ANCIENTPOWER, MYSTICALFIRE, RECOVER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm BRICK_BREAK,   TOXIC,        BODY_SLAM,    		PSYBEAM,   	NIGHT_SLASH,		\
-	     PSYCHIC_M,    AERIAL_ACE,     DARK_PULSE,        ICE_BEAM,  	IRON_HEAD,      	\
-	     DRAGON_PULSE, FLAMETHROWER, THUNDER_WAVE, 		PSYCHO_CUT, THUNDERPUNCH,   	\
-		 MOONBLAST,   FLASH
+	tmhm TOXIC, 		BODY_SLAM, 		TRAILBLAZE, 	ICE_PUNCH, 		HYPER_BEAM,   \
+		 PSYBEAM, 		ENERGY_BALL, 	PSYCHIC_M, 		DRAGON_PULSE,   SHADOW_BALL,  \
+		 THUNDER_WAVE,  PSYCHO_CUT, 	AURA_SPHERE, 	FIRE_PUNCH, 	THUNDERPUNCH, \
+		 MOONBLAST, 	FLASH 
 	; end
 
 	db BANK(AlakazamPicFront)

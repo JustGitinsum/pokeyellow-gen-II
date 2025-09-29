@@ -209,7 +209,7 @@ Moves:
 	move MAKE_IT_RAIN, PAY_DAY_EFFECT,             120, STEEL,        100,  5
 	move DRAGONBREATH, PARALYZE_SIDE_EFFECT1,       60, DRAGON,       100, 20
 	move HEAT_CRASH,   BURN_SIDE_EFFECT1,          100, FIRE,         100, 10
-	move MYSTICALFIRE, SPECIAL_DAMAGE_EFFECT,       75, FIRE,         100, 10 ; Add to learn sets
+	move MYSTICALFIRE, SPECIAL_DOWN_SIDE_EFFECT,    75, FIRE,         100, 10 ; Add to learn sets
 	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 25
 	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75,  BUG,         100, 15
 	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100,  5

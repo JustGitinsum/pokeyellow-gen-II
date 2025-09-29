@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         PSYCHIC_M,    \
-	     AERIAL_ACE,     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     LEAF_BLADE, THUNDERBOLT,     ICE_FANG,         PSYCHO_CUT,      AURA_SPHERE,    \
-	     MOONBLAST
+	tmhm BRICK_BREAK, 	SWORDS_DANCE,   CLOSE_COMBAT,   TOXIC, 		    BODY_SLAM, 	  \
+	     SLUDGE_BOMB,   TRAILBLAZE, 	HYPER_BEAM,     SIGNAL_BEAM,    PSYBEAM, 	  \
+		 GIGA_DRAIN, 	ENERGY_BALL, 	EARTH_POWER,    PSYCHIC_M, 	    SHADOW_BALL,  \
+		 FLASH 
 	; end
 
 	db BANK(ExeggcutePicFront)

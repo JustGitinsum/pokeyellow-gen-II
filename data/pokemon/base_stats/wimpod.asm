@@ -13,7 +13,7 @@
 	db DEFENSE_CURL, SAND_ATTACK, TACKLE, BUG_BITE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm TOXIC, 		BODY_SLAM, 	    SLUDGE_BOMB,    BUBBLEBEAM, 	TRAILBLAZE,   \
 		 BLIZZARD, 	    HYPER_BEAM,     SIGNAL_BEAM, 	WATERFALL, 		ICE_BEAM, 	  \
 		 IRON_HEAD, 	ACCELEROCK, 	CUT, 		    SURF 

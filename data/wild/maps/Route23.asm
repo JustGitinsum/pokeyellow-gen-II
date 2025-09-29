@@ -1,15 +1,15 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 41, PIDGEOT
-	db 41, DONPHAN
-	db 36, MANKEY
-	db 44, NIDOKING
-	db 44, GREATTUSK
-	db 40, RAPIDASH_G
-	db 41, RAPIDASH_G
+	db 41, SCEPTILE
+	db 36, MACHAMP
+	db 44, SWAMPERT
+	db 44, EXCADRILL
+	db 40, SWAMPERT
+	db 41, MACHAMP
 	db 45, PIDGEOT
-	db 41, PRIMEAPE
-	db 46, PRIMEAPE
+	db 48, SCEPTILE
+	db 50, EXCADRILL
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

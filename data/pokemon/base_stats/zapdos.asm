@@ -14,9 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,    TWISTER,    	TOXIC,        TRAILBLAZE,  	HYPER_BEAM,   \
-	     SIGNAL_BEAM,  THUNDER,     DRAGON_PULSE, THUNDERBOLT,  STEEL_WING,   \
-	     THUNDER_WAVE, MOONBLAST,   FLY,          FLASH
+	tmhm AIR_SLASH,  	TWISTER, 		TOXIC, 		    BODY_SLAM, 		HYPER_BEAM,   \
+		 SIGNAL_BEAM, 	ENERGY_BALL, 	THUNDER, 	    AERIAL_ACE, 	DARK_PULSE,   \
+		 DRAGON_PULSE,  THUNDERBOLT, 	STEEL_WING, 	THUNDER_WAVE,   MOONBLAST, 	  \
+		 CUT, 			FLY, 			STRENGTH, 		SURF, 			FLASH 
 	; end
 
 	db BANK(ZapdosPicFront)

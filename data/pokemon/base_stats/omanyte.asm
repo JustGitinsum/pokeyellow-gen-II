@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   \
-	     TRAILBLAZE,    ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         DARK_PULSE,        \
-	     ICE_BEAM,  IRON_HEAD,      ICE_FANG,         MOONBLAST,   \
-	     SURF
+	tmhm TOXIC, 		MEGAHORN, 		BODY_SLAM, 		SLUDGE_BOMB,    BUBBLEBEAM,   \
+	     TRAILBLAZE, 	BLIZZARD, 		HYPER_BEAM,     SIGNAL_BEAM, 	POISON_JAB,   \
+		 WATERFALL, 	ENERGY_BALL, 	ROCK_SLIDE, 	EARTH_POWER, 	ICE_BEAM, 	  \
+		 IRON_HEAD, 	ACCELEROCK, 	STRENGTH, 		SURF 
 	; end
 
 	db BANK(OmanytePicFront)

@@ -3,13 +3,13 @@ Route5WildMons:
 	db 15, MARILL
 	db 14, TOGEPI
 	db 12, SANDILE
-	db 16, VOLTORB
 	db 16, CHARCADET
-	db 17, MARILL
-	db 17, VOLTORB
-	db 16, SANDILE
+	db 18, CHARCADET
+	db 17, SANDILE
 	db 18, TOGEPI
-	db 20, CHARCADET
+	db 20, MARILL
+	db 18, DITTO
+	db 20, DITTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

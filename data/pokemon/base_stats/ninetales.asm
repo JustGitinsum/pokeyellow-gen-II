@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   \
-	     NIGHT_SLASH,         DIG,          DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     FIRE_BLAST,   STEEL_WING,        FLAMETHROWER,   ICE_FANG,         \
-	     MOONBLAST
+	tmhm TOXIC, 		FIRE_FANG, 		BODY_SLAM, 		SLUDGE_BOMB,    TRAILBLAZE,   \
+		 HYPER_BEAM,    PSYBEAM, 		ENERGY_BALL, 	DIG, 			PSYCHIC_M, 	  \
+		 AERIAL_ACE, 	DARK_PULSE, 	ACCELEROCK, 	FIRE_BLAST, 	FLAMETHROWER, \
+		 SHADOW_BALL, 	CUT, 			FLASH 
 	; end
 
 	db BANK(NinetalesPicFront)

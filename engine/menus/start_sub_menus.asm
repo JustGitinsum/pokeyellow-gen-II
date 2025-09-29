@@ -357,20 +357,21 @@ StartMenu_Item::
 ; 	cp BICYCLE
 ; 	jp z, .useOrTossItem
 ; .notBicycle1
-; 	ld a, USE_TOSS_MENU_TEMPLATE
-	ld a, USE_INFO_TOSS_MENU_TEMPLATE
+	farcall DisplayItemDescription
+	ld a, USE_TOSS_MENU_TEMPLATE
+	; ld a, USE_INFO_TOSS_MENU_TEMPLATE
 	ld [wTextBoxID], a
 	call DisplayTextBoxID
 	ld hl, wTopMenuItemY
-	ld a, 11
+	ld a, 7
 	ld [hli], a ; top menu item Y
-	ld a, 14
+	ld a, 1
 	ld [hli], a ; top menu item X
 	xor a
 	ld [hli], a ; current menu item ID
 	inc hl
 	; inc a ; a = 1
-	ld a, 2
+	ld a, 1
 	ld [hli], a ; max menu item ID
 	ld a, A_BUTTON | B_BUTTON
 	ld [hli], a ; menu watched keys
@@ -388,10 +389,10 @@ StartMenu_Item::
 	call CopyToStringBuffer
 	; ld a, [wCurItem]
 	ld a, [wCurrentMenuItem]
-	cp a, 2
-	jr z, .tossItem
 	cp a, 1
-	jp z, .infoItem
+	jr z, .tossItem
+	; cp a, 1
+	; jp z, .infoItem
 	ld a, [wCurItem]
 	cp BICYCLE
 	; jr nz, .notBicycle2
@@ -465,9 +466,9 @@ StartMenu_Item::
 	call TossItem
 .tossZeroItems
 	jp ItemMenuLoop
-.infoItem
-	farcall DisplayItemDescription
-	jp ItemMenuLoop
+; .infoItem
+; 	farcall DisplayItemDescription
+; 	jp ItemMenuLoop
 
 CannotUseItemsHereText:
 	text_far _CannotUseItemsHereText

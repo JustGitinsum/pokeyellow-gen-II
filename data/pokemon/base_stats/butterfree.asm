@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
-	     HYPER_BEAM,   NIGHT_SLASH,         GIGA_DRAIN,   ENERGY_BALL,    PSYCHIC_M,    \
-	     AERIAL_ACE,     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     STEEL_WING,        ICE_FANG,         PSYCHO_CUT,      MOONBLAST,   FLASH
+	tmhm AIR_SLASH,  	TWISTER, 		TOXIC, 		    BODY_SLAM, 		TRAILBLAZE,   \
+         HYPER_BEAM,    SIGNAL_BEAM, 	PSYBEAM, 		GIGA_DRAIN, 	ENERGY_BALL,  \
+		 PSYCHIC_M, 	AERIAL_ACE, 	DARK_PULSE, 	DRAGON_PULSE,   STEEL_WING,   \
+		 SHADOW_BALL, 	MOONBLAST, 	    FLY, 			FLASH 
 	; end
 
 	db BANK(ButterfreePicFront)

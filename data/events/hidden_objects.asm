@@ -29,6 +29,7 @@ HiddenObjectMaps:
 	dbw ROUTE_13,                     Route13HiddenObjects
 	dbw ROUTE_15_GATE_2F,             Route15Gate2FHiddenObjects
 	dbw ROUTE_17,                     Route17HiddenObjects
+	dbw ROUTE_22,                     Route22HiddenObjects
 	dbw ROUTE_23,                     Route23HiddenObjects
 	dbw VICTORY_ROAD_2F,              VictoryRoad2HiddenObjects
 	dbw ROUTE_25,                     Route25HiddenObjects
@@ -157,12 +158,13 @@ SeafoamIslands5HiddenObjects:
 	db -1 ; end
 
 ViridianForestHiddenObjects:
+	hidden_object 26,  1, GREAT_BALL, HiddenItems
 	hidden_object  1, 18, POTION, HiddenItems
 	hidden_object 16, 42, LEAF_STONE, HiddenItems
 	db -1 ; end
 
 MtMoon3HiddenObjects:
-	hidden_object 18, 12, MOON_STONE, HiddenItems
+	hidden_object 18, 12, DAWN_STONE, HiddenItems
 	hidden_object 33,  9, CALCIUM, HiddenItems
 	db -1 ; end
 
@@ -236,6 +238,10 @@ Route17HiddenObjects:
 	hidden_object 17,  72, PP_UP, HiddenItems
 	hidden_object  4,  91, MAX_REVIVE, HiddenItems
 	hidden_object  8, 121, MAX_ELIXER, HiddenItems
+	db -1 ; end
+
+Route22HiddenObjects:
+	hidden_object 31,  1, ESCAPE_ROPE, HiddenItems
 	db -1 ; end
 
 Route23HiddenObjects:

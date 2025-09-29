@@ -13,7 +13,7 @@
 	db TACKLE, POISON_GAS, SMOG, BULLDOZE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm BRICK_BREAK, 	CLOSE_COMBAT,   TOXIC, 		    BODY_SLAM, 		SLUDGE_BOMB,  \
 		 TRAILBLAZE, 	HYPER_BEAM,     SIGNAL_BEAM, 	POISON_JAB, 	ROCK_SLIDE,   \
 		 IRON_HEAD,		ACCELEROCK, 	PLAY_ROUGH, 	SHADOW_BALL, 	STRENGTH

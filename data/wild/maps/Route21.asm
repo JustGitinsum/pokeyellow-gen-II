@@ -1,15 +1,15 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 15, CYCLIZAR
-	db 13, CYCLIZAR
-	db 13, EXEGGUTOR
-	db 11, EXEGGUTOR
-	db 17, EXEGGUTOR_A
-	db 15, EXEGGUTOR_A
-	db 15, KLEAVOR
-	db 17, KLEAVOR
-	db 19, PIDGEOTTO
-	db 15, PIDGEOTTO
+	db 28, LOPUNNY
+	db 35, LOPUNNY
+	db 30, LEAFEON
+	db 36, LEAFEON
+	db 30, EXEGGUTOR_A
+	db 35, EXEGGUTOR_A
+	db 29, POLIWRATH
+	db 35, POLIWRATH
+	db 39, KLEAVOR
+	db 45, KLEAVOR
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate

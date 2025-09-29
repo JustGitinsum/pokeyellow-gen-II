@@ -13,7 +13,7 @@
 	db WRAP, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,       	FIRE_FANG,    BODY_SLAM,  	SLUDGE_BOMB,  \
 	     TRAILBLAZE,   HYPER_BEAM,  	SIGNAL_BEAM,  POISON_JAB,   GIGA_DRAIN,   \
 		 ROCK_SLIDE,   THUNDER_FANG,	EARTHQUAKE,   EARTH_POWER,  DIG,          \

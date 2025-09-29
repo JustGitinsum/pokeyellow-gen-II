@@ -14,7 +14,8 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm
+	tmhm SWORDS_DANCE,  TOXIC, 		BODY_SLAM, 		TRAILBLAZE, 	HYPER_BEAM,   \
+		 SIGNAL_BEAM, 	DIG, 		AERIAL_ACE, 	ACCELEROCK  
 	; end
 
 	db BANK(NymblePicFront)

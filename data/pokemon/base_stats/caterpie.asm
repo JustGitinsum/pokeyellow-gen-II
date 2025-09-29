@@ -13,7 +13,7 @@
 	db TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm
 	; end
 

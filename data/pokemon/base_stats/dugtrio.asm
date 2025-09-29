@@ -14,10 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   \
-	     NIGHT_SLASH,         EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
-	     ICE_BEAM,  ACCELEROCK,         ICE_FANG,         FIRE_PUNCH,   MOONBLAST,   \
-	     CUT
+	tmhm SWORDS_DANCE,  TOXIC, 		    BODY_SLAM, 		SLUDGE_BOMB,    TRAILBLAZE,   \
+	     HYPER_BEAM,    ROCK_SLIDE, 	EARTHQUAKE, 	EARTH_POWER, 	DIG, 		  \
+		 IRON_HEAD, 	ACCELEROCK, 	CUT 
 	; end
 
 	db BANK(DugtrioPicFront)

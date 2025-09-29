@@ -13,7 +13,7 @@
 	db TACKLE, GROWL, LEECH_SEED, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
-	; tm/hm learnset
+	;; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,  	SLUDGE_BOMB,  TRAILBLAZE,   HYPER_BEAM,   \
 	     SIGNAL_BEAM,  POISON_JAB,  GIGA_DRAIN,   ENERGY_BALL,  EARTHQUAKE,   \
 		 EARTH_POWER,  DARK_PULSE,  IRON_HEAD,    ACCELEROCK,   DRAGON_PULSE, \

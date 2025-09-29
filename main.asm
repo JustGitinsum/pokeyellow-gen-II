@@ -491,17 +491,17 @@ INCLUDE "engine/events/hidden_items.asm"
 SECTION "bank1E", ROMX
 
 INCLUDE "engine/battle/animations.asm"
-;INCLUDE "engine/overworld/cut2.asm"
-;INCLUDE "engine/overworld/dust_smoke.asm"
-;INCLUDE "gfx/fishing.asm" ; moved to bank1F
+INCLUDE "engine/overworld/cut2.asm"
+INCLUDE "engine/overworld/dust_smoke.asm"
+; INCLUDE "gfx/fishing.asm" ; moved to bank1F
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
 
 SECTION "bank1F", ROMX
 
-INCLUDE "engine/overworld/cut2.asm"
-INCLUDE "engine/overworld/dust_smoke.asm"
+; INCLUDE "engine/overworld/cut2.asm"
+; INCLUDE "engine/overworld/dust_smoke.asm"
 INCLUDE "gfx/fishing.asm"
 
 SECTION "BG Map Attributes (Debug)", ROMX
@@ -841,10 +841,10 @@ LycanrocPicFront::     INCBIN "gfx/pokemon/front/lycanroc.pic"
 LycanrocPicBack::      INCBIN "gfx/pokemon/back/lycanrocb.pic"
 MimikyuPicFront::     INCBIN "gfx/pokemon/front/mimikyu.pic"
 MimikyuPicBack::      INCBIN "gfx/pokemon/back/mimikyub.pic"
-Sandshrew_APicFront::     INCBIN "gfx/pokemon/front/sandshrew_a.pic"
-Sandshrew_APicBack::      INCBIN "gfx/pokemon/back/sandshrew_ab.pic"
 
 SECTION "bank44", ROMX, BANK[$44]
+Sandshrew_APicFront::     INCBIN "gfx/pokemon/front/sandshrew_a.pic"
+Sandshrew_APicBack::      INCBIN "gfx/pokemon/back/sandshrew_ab.pic"
 Sandslash_APicFront::  INCBIN "gfx/pokemon/front/sandslash_a.pic"
 Sandslash_APicBack::   INCBIN "gfx/pokemon/back/sandslash_ab.pic"
 Vulpix_APicFront::     INCBIN "gfx/pokemon/front/vulpix_a.pic"
@@ -889,10 +889,10 @@ NymblePicFront::      INCBIN "gfx/pokemon/front/nymble.pic"
 NymblePicBack::       INCBIN "gfx/pokemon/back/nymbleb.pic"
 LokixPicFront::       INCBIN "gfx/pokemon/front/lokix.pic"
 LokixPicBack::        INCBIN "gfx/pokemon/back/lokixb.pic"
-CharcadetPicFront::    INCBIN "gfx/pokemon/front/charcadet.pic"
-CharcadetPicBack::     INCBIN "gfx/pokemon/back/charcadetb.pic"
 
 SECTION "bank45", ROMX, BANK[$45]
+CharcadetPicFront::    INCBIN "gfx/pokemon/front/charcadet.pic"
+CharcadetPicBack::     INCBIN "gfx/pokemon/back/charcadetb.pic"
 ArmarougePicFront::    INCBIN "gfx/pokemon/front/armarouge.pic"
 ArmarougePicBack::     INCBIN "gfx/pokemon/back/armarougeb.pic"
 CeruledgePicFront::    INCBIN "gfx/pokemon/front/ceruledge.pic"

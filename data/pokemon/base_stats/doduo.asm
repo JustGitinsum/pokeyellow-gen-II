@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TWISTER,    TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
-	     NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     FLAMETHROWER,   DRAGON_CLAW,   ICE_FANG,         THUNDERPUNCH,   MOONBLAST,   \
-	     FLY
+	tmhm BRICK_BREAK, 	AIR_SLASH,  	SWORDS_DANCE,   TWISTER, 		CLOSE_COMBAT, \
+		 TOXIC, 		BODY_SLAM, 		TRAILBLAZE, 	HYPER_BEAM,     POISON_JAB,   \
+		 NIGHT_SLASH,   ROCK_SLIDE, 	AERIAL_ACE, 	ACCELEROCK, 	STEEL_WING,   \
+		 PLAY_ROUGH, 	DRAGON_CLAW, 	CUT, 			FLY  
 	; end
 
 	db BANK(DoduoPicFront)

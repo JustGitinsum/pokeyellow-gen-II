@@ -14,10 +14,9 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
-	     HYPER_BEAM,   NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     STEEL_WING,        DRAGON_CLAW,   ICE_FANG,         MOONBLAST,   \
-	     FLY
+	tmhm AIR_SLASH,  	SWORDS_DANCE,   TWISTER, 		BODY_SLAM, 		TRAILBLAZE,   \
+	     HYPER_BEAM,    NIGHT_SLASH,    AERIAL_ACE, 	IRON_HEAD, 		ACCELEROCK,   \
+		 STEEL_WING, 	PLAY_ROUGH, 	DRAGON_CLAW, 	CUT, 			FLY 
 	; end
 
 	db BANK(PidgeotPicFront)

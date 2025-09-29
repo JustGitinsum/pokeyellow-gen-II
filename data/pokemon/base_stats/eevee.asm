@@ -14,9 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  NIGHT_SLASH,         \
-	     DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      STEEL_WING,        \
-	     FLAMETHROWER,   ICE_FANG,         MOONBLAST
+	tmhm BRICK_BREAK, 	SWORDS_DANCE,   CLOSE_COMBAT,   TOXIC, 		    BODY_SLAM, 	  \
+	     TRAILBLAZE, 	HYPER_BEAM,     SIGNAL_BEAM, 	POISON_JAB, 	ENERGY_BALL,  \
+		 EARTH_POWER, 	DIG, 			AERIAL_ACE,     DARK_PULSE, 	IRON_HEAD, 	  \
+		 ACCELEROCK, 	PLAY_ROUGH, 	SHADOW_BALL, 	AURA_SPHERE, 	MOONBLAST, 	  \
+		 CUT, 			STRENGTH 
 	; end
 
 	db BANK(EeveePicFront)

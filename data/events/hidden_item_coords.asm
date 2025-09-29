@@ -16,6 +16,7 @@ HiddenItemCoords:
 	hidden_item SEAFOAM_ISLANDS_B2F,           15,  15
 	hidden_item SEAFOAM_ISLANDS_B3F,            9,  16
 	hidden_item SEAFOAM_ISLANDS_B4F,           25,  17
+	hidden_item VIRIDIAN_FOREST,               26,   1
 	hidden_item VIRIDIAN_FOREST,                1,  18
 	hidden_item VIRIDIAN_FOREST,               16,  42
 	hidden_item MT_MOON_B2F,                   18,  12
@@ -42,6 +43,7 @@ HiddenItemCoords:
 	hidden_item ROUTE_17,                      17,  72
 	hidden_item ROUTE_17,                       4,  91
 	hidden_item ROUTE_17,                       8, 121
+	hidden_item ROUTE_22,                      31,   1
 	hidden_item ROUTE_23,                       9,  44
 	hidden_item ROUTE_23,                      19,  70
 	hidden_item ROUTE_23,                       8,  90

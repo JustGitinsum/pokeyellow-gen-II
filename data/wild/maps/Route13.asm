@@ -1,15 +1,15 @@
 Route13WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 25, TURTWIG
-	db 25, CHIKORITA
-	db 28, PIDGEOTTO
-	db 28, EEVEE
-	db 27, EEVEE
-	db 27, CHIKORITA
-	db 29, GROTLE
-	db 29, BAYLEEF
-	db 26, FARFETCHD
-	db 31, FARFETCHD
+	db 25, NINETALES
+	db 25, MARSHTOMP
+	db 28, GOGOAT
+	db 28, FROSMOTH
+	db 27, RAPIDASH_G
+	db 27, RAPIDASH_G
+	db 29, FROSMOTH
+	db 29, GOGOAT
+	db 26, MARSHTOMP
+	db 31, NINETALES
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate

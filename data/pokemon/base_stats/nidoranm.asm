@@ -14,10 +14,9 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
-	     BLIZZARD,     NIGHT_SLASH,         THUNDER_FANG,  THUNDER,      DARK_PULSE,        \
-	     ICE_BEAM,  IRON_HEAD,      FLAMETHROWER,   ICE_FANG,         \
-	     MOONBLAST
+	tmhm TOXIC,      MEGAHORN,      FIRE_FANG,     BODY_SLAM,    SLUDGE_BOMB,  \
+	     BLIZZARD,   NIGHT_SLASH,   THUNDER_FANG,  THUNDER,      DARK_PULSE,   \
+	     ICE_BEAM,   IRON_HEAD,     FLAMETHROWER,  ICE_FANG,     MOONBLAST
 	; end
 
 	db BANK(NidoranMPicFront)

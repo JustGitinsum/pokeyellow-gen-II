@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  BUBBLEBEAM,   TRAILBLAZE,    \
-	     ICE_PUNCH,     BLIZZARD,     NIGHT_SLASH,         AERIAL_ACE,     DARK_PULSE,        \
-	     ICE_BEAM,  IRON_HEAD,      LEAF_BLADE, STEEL_WING,        \
-	     ICE_FANG,         AURA_SPHERE,    THUNDERPUNCH,   MOONBLAST,   SURF
+	tmhm TOXIC, 		MEGAHORN, 		BODY_SLAM, 		SLUDGE_BOMB,    BUBBLEBEAM,   \
+	     BLIZZARD, 		HYPER_BEAM,     SIGNAL_BEAM, 	POISON_JAB, 	WATERFALL, 	  \
+		 ROCK_SLIDE, 	ICE_BEAM, 		IRON_HEAD, 		ACCELEROCK, 	STRENGTH, 	  \
+		 SURF, 			FLASH 
 	; end
 
 	db BANK(ShellderPicFront)

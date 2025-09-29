@@ -14,10 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        MEGAHORN,   FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  \
-	     HYPER_BEAM,   NIGHT_SLASH,         DARK_PULSE,        ICE_BEAM,  IRON_HEAD,      \
-	     FIRE_BLAST,   STEEL_WING,        FLAMETHROWER,   ICE_FANG,         \
-	     MOONBLAST
+	tmhm MEGAHORN, 		BODY_SLAM, 		TRAILBLAZE, 	HYPER_BEAM,     PSYBEAM, 	  \
+		 ENERGY_BALL, 	PSYCHIC_M, 		AERIAL_ACE, 	IRON_HEAD, 		ACCELEROCK,   \
+		 PLAY_ROUGH, 	PSYCHO_CUT, 	MOONBLAST, 	    CUT, 			FLASH 
 	; end
 
 	db BANK(Rapidash_GPicFront)

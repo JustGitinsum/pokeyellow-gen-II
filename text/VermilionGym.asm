@@ -56,10 +56,10 @@ _TM24ExplanationText::
 	text_start
 
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "THUNDERFANG!"
 
-	para "Teach it to an"
-	line "electric #MON!"
+	para "Give it to a #MON"
+	line "with strong jaws!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::

@@ -14,10 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        FIRE_FANG,    BODY_SLAM,    SLUDGE_BOMB,  HYPER_BEAM,   \
-	     NIGHT_SLASH,         EARTHQUAKE,   EARTH_POWER,      DIG,          DARK_PULSE,        \
-	     ICE_BEAM,  ACCELEROCK,         ICE_FANG,         FIRE_PUNCH,   MOONBLAST,   \
-	     CUT
+	tmhm BRICK_BREAK, 	AIR_SLASH,  	SWORDS_DANCE,   CLOSE_COMBAT,   TOXIC, 		  \
+	     MEGAHORN, 		BODY_SLAM, 		SLUDGE_BOMB,    TRAILBLAZE, 	HYPER_BEAM,   \
+		 POISON_JAB, 	NIGHT_SLASH,    ROCK_SLIDE, 	EARTHQUAKE, 	EARTH_POWER,  \
+		 DIG, 			AERIAL_ACE, 	IRON_HEAD, 		ACCELEROCK, 	LEAF_BLADE,   \
+		 DRAGON_CLAW, 	PSYCHO_CUT, 	CUT, 			STRENGTH 
 	; end
 
 	db BANK(ExcadrillPicFront)

@@ -2418,16 +2418,18 @@ ItemUseTMHM:
 	ld hl, BootedUpHMText
 .printBootedUpMachineText
 	call PrintText
-	ld hl, TeachMachineMoveText
-	call PrintText
-	hlcoord 14, 7
-	lb bc, 8, 15
-	ld a, TWO_OPTION_MENU
-	ld [wTextBoxID], a
-	call DisplayTextBoxID ; yes/no menu
-	ld a, [wCurrentMenuItem]
-	and a
+	; ld hl, TeachMachineMoveText
+	; call PrintText
+	; hlcoord 14, 7
+	; lb bc, 8, 15
+	; ld a, TWO_OPTION_MENU
+	; ld [wTextBoxID], a
+	; call DisplayTextBoxID ; yes/no menu
+	; ld a, [wCurrentMenuItem]
+	; and a
 	jr z, .useMachine
+	ld a, ITEM_NAME
+    ld [wNameListType], a; if you decide not to use the machine, change the list type back to item list. FIXES THE TM CRASH BUG
 	ld a, 2
 	ld [wActionResultOrTookBattleTurn], a ; item not used
 	ret

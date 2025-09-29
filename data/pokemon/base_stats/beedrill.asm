@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm AIR_SLASH,    SWORDS_DANCE,  TWISTER,    	TOXIC,        SLUDGE_BOMB,  \
 	     TRAILBLAZE,   HYPER_BEAM,    SIGNAL_BEAM,  POISON_JAB,   NIGHT_SLASH,  \
-	     GIGA_DRAIN,   ACCELEROCK,    LEAF_BLADE,   STEEL_WING,   PLAY_ROUGH,   \
-	     PSYCHO_CUT,   CUT,           FLASH
+	     GIGA_DRAIN,   AERIAL_ACE, 	  ACCELEROCK,    LEAF_BLADE,   STEEL_WING,  \
+		 PLAY_ROUGH,   PSYCHO_CUT,    CUT,           FLY,          FLASH
 	; end
 
 	db BANK(BeedrillPicFront)

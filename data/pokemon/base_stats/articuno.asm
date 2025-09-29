@@ -14,9 +14,9 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,    TWISTER,    	TOXIC,         TRAILBLAZE,   BLIZZARD,    \
-		 HYPER_BEAM,   SIGNAL_BEAM, ENERGY_BALL,   DARK_PULSE,   ICE_BEAM,    \
-		 DRAGON_PULSE, STEEL_WING,   MOONBLAST,    FLY
+	tmhm AIR_SLASH,    TWISTER,    	 TOXIC,        TRAILBLAZE,   BLIZZARD,    \
+		 HYPER_BEAM,   SIGNAL_BEAM,  ENERGY_BALL,  AERIAL_ACE,   DARK_PULSE,  \
+		 ICE_BEAM,     DRAGON_PULSE, STEEL_WING,   MOONBLAST,    FLY 
 	; end
 
 	db BANK(ArticunoPicFront)

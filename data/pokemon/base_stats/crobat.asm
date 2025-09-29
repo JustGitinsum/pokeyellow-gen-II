@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm AIR_SLASH,   TWISTER,    TOXIC,        BODY_SLAM,    SLUDGE_BOMB,  \
-	     HYPER_BEAM,   NIGHT_SLASH,         GIGA_DRAIN,   DARK_PULSE,        ICE_BEAM,  \
-	     STEEL_WING,        ICE_FANG,         MOONBLAST
+	tmhm AIR_SLASH,  	SWORDS_DANCE,   TWISTER, 		TOXIC, 		    FIRE_FANG, 	  \
+		 BODY_SLAM, 	SLUDGE_BOMB,    HYPER_BEAM,     POISON_JAB, 	GIGA_DRAIN,   \
+		 THUNDER_FANG, 	AERIAL_ACE, 	DARK_PULSE, 	ACCELEROCK, 	STEEL_WING,   \
+		 PLAY_ROUGH, 	SHADOW_BALL, 	ICE_FANG, 		MOONBLAST, 	    FLY
 	; end
 
 	db BANK(CrobatPicFront)
